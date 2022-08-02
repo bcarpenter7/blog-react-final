@@ -1,9 +1,9 @@
 # SEIR Course Materials
 Standard SEIR Curriculum Course Materials 
 
-# Course Outline
+## Course Outline
 
-# Software Engineering Immersive
+## Software Engineering Immersive
 
 ## Unit 1 - Front End Development
 
