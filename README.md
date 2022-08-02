@@ -1,4 +1,4 @@
-# Course-Materials
+# SEIR Course Materials
 Standard SEIR Curriculum Course Materials 
 
 # Course Outline
