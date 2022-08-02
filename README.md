@@ -5,6 +5,8 @@ Standard SEIR Curriculum Course Materials
 
 ## Software Engineering Immersive
 
+[Installfest](https://git.generalassemb.ly/SEI-Standard-Curriculum/installfest)
+
 ## Unit 1 - Front End Development
 
 | Lesson | Topic | Lab | Homework | Daily Challenge | Slides |
