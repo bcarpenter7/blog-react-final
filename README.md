@@ -49,6 +49,11 @@ Standard SEIR Curriculum Course Materials
 - Events
 - Servers & Hosting
 
+#### Computer Science
+- Big-O Notation
+- Recursive Functions
+- Basic Sorting Algorithms
+
 #### [Project 1](https://git.generalassemb.ly/SEI-Standard-Curriculum/project-1)
 - Build a Game with HTML, CSS and JavaScript including the following requirements
   - Render in the browser
@@ -60,6 +65,7 @@ Standard SEIR Curriculum Course Materials
   - Show a good commit history with frequent commits (minimum of one commit per project day)
 
 #### Additional Resources
+- [Developer Habits and Tools](https://git.generalassemb.ly/SEI-Standard-Curriculum/developer-habits-and-tools)
 
 ## Unit 2 - Full Stack Development
 
