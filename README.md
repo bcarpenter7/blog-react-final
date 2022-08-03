@@ -1,5 +1,6 @@
 # SEIR Course Materials
 Standard SEIR Curriculum Course Materials 
+[Guidelines for using these materials](https://git.generalassemb.ly/software-engineering-immersive/SEI-Course-Materials/blob/master/README.md)
 
 ## Course Outline
 
@@ -11,8 +12,8 @@ Standard SEIR Curriculum Course Materials
 
 | Lesson | Topic | Lab | Homework | Daily Challenge | Slides |
 | -- | -- | -- | -- | -- | -- |
-| **Lesson 1** | [T1]() | [L1]()  | [HW1]() | [DC1]() | [Slide Deck]() | 
-| **Lesson 2** | [T2]() | [L2]()  | [HW2]() | [DC2]() | [Slide Deck]() |
+| **HTML** | [Lecture](https://git.generalassemb.ly/SEI-Standard-Curriculum/html) | [L1](https://git.generalassemb.ly/SEI-Standard-Curriculum/html-fix-it)  | [HW1]() |  | [Slide Deck]() | 
+| **CSS** | [HTML/CSS](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-to-html-css), [Media Queries & Responsive Design](https://git.generalassemb.ly/SEI-Standard-Curriculum/media-queries) | [Lab: Valerie's Veggie Shop](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-to-html-css#lab-valeries-veggie-shop)  | [Grid Art](https://git.generalassemb.ly/SEI-Standard-Curriculum/css-grid-art), [Choose Your Own HTML/CSS Adventure](https://git.generalassemb.ly/SEI-Standard-Curriculum/choose-your-own-css-adventure) |  | [Slide Deck]() |
 | **Lesson 3** | [T3]() | [L3]()  | [HW3]() | [DC3]() | [Slide Deck]() |
 | **Lesson 4** | [T4]() | [L4]()  | [HW4]() | [DC4]() | [Slide Deck]() |
 | **Lesson 5** | [T5]() | [L5]()  | [HW5]() | [DC5]() | [Slide Deck]() |
