@@ -16,7 +16,7 @@ Standard SEIR Curriculum Course Materials
 | **Terminal/CLI** | [Terminal/CLI](https://git.generalassemb.ly/SEI-Standard-Curriculum/cli-intro) | [Kitchen Organizer](https://git.generalassemb.ly/SEI-Standard-Curriculum/kitchen-organizer)  | [Homework Folder Structure](Unit_1/sei_hw_folder.md) |  | [Slide Deck]() |
 | **Git/GitHub** | [Git/GitHub](https://git.generalassemb.ly/SEI-Standard-Curriculum/git-intro) | [Git Extra Practice](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-git-practice#hungry-for-more)  | <ul><li>[HW](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-git-practice)</li><li>[BONUS: Grumpy Cat HW](https://git.generalassemb.ly/SEIR-teams-materials/git-and-github/blob/master/homework-fake-resume-and-github.md)</li></ul> |  | [Slide Deck]() |
 | **HTML** | [Lecture](https://git.generalassemb.ly/SEI-Standard-Curriculum/html) | [HTML Fixit](https://git.generalassemb.ly/SEI-Standard-Curriculum/html-fix-it)  | [To Oz](Unit_1/to_oz.md) |  | [Slide Deck]() | 
-| **CSS** | <ul><li>[HTML/CSS](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-to-html-css)</li> <li>[Media Queries & Responsive Design](https://git.generalassemb.ly/SEI-Standard-Curriculum/media-queries)</li><li>[CSS Flexbox](https://git.generalassemb.ly/SEI-Standard-Curriculum/css-flexbox)</li></ul> | [Lab: Valerie's Veggie Shop](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-to-html-css#lab-valeries-veggie-shop)  | <ul><li>[Grid Art](https://git.generalassemb.ly/SEI-Standard-Curriculum/css-grid-art)</li><li>[Choose Your Own HTML/CSS Adventure](https://git.generalassemb.ly/SEI-Standard-Curriculum/choose-your-own-css-adventure)</li></ul> |  | [Slide Deck]() |
+| **CSS** | <ul><li>[HTML/CSS](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-to-html-css)</li> <li>[Media Queries & Responsive Design](https://git.generalassemb.ly/SEI-Standard-Curriculum/media-queries)</li><li>[CSS Flexbox](https://git.generalassemb.ly/SEI-Standard-Curriculum/css-flexbox)</li></ul> | [Valerie's Veggie Shop](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-to-html-css#lab-valeries-veggie-shop)  | <ul><li>[Grid Art](https://git.generalassemb.ly/SEI-Standard-Curriculum/css-grid-art)</li><li>[Choose Your Own HTML/CSS Adventure](https://git.generalassemb.ly/SEI-Standard-Curriculum/choose-your-own-css-adventure)</li></ul> |  | [Slide Deck]() |
 | **Intro to JavaScript** | [T5]() | [L5]()  | [HW5]() | [DC5]() | [Slide Deck]() |
 | **Data Types** | [T7]() | [L7]()  | [HW7]() | [DC7]() | [Slide Deck]() |
 | **Conditionals & Loops** | [T6]() | [L6]()  | [HW6]() | [DC6]() | [Slide Deck]() |
@@ -28,17 +28,36 @@ Standard SEIR Curriculum Course Materials
 
 ### Unit 1 Syllabus
 
-#### Topics 1
-- Highlights
+#### Terminal, CLI, Git, & GitHub
+- Use the Terminal and Command Line Interface to work with directories and files on your computer
+- Use Git to create and work with repositories saved in a GitHub account.
+- Version Control
   
-#### Topics 2
-- Highlights
+#### JavaScript Fundamentals
+- Data Types
+- Control Flow
+- Loops and Conditionals
+- Functions
+- Callbacks
   
-#### Topics 3
-- Highlights
+#### Web Fundamentals
+- HTML
+- CSS basic styles and layouts (Grid & Flexbox)
+- Box Model
+- Browser APIs
+- DOM
+- Events
+- Servers & Hosting
 
-#### Project 1
-- Highlights
+#### [Project 1](https://git.generalassemb.ly/SEI-Standard-Curriculum/project-1)
+- Build a Game with HTML, CSS and JavaScript including the following requirements
+  - Render in the browser
+  - Include separate HTML / CSS / JavaScript files
+  - Must use Flexbox at least once
+  - Use Javascript for DOM manipulation
+  - Be deployed online using Github Project pages.
+  - Use semantic, valid markup for HTML and CSS (must pass validation without errors)
+  - Show a good commit history with frequent commits (minimum of one commit per project day)
 
 #### Additional Resources
 
