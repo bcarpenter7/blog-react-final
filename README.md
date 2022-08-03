@@ -17,14 +17,14 @@ Standard SEIR Curriculum Course Materials
 | **Git/GitHub** | [Git/GitHub](https://git.generalassemb.ly/SEI-Standard-Curriculum/git-intro) | [Git Extra Practice](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-git-practice#hungry-for-more)  | <ul><li>[HW](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-git-practice)</li><li>[BONUS: Grumpy Cat HW](https://git.generalassemb.ly/SEIR-teams-materials/git-and-github/blob/master/homework-fake-resume-and-github.md)</li></ul> |  | [Slide Deck]() |
 | **HTML** | [Lecture](https://git.generalassemb.ly/SEI-Standard-Curriculum/html) | [HTML Fixit](https://git.generalassemb.ly/SEI-Standard-Curriculum/html-fix-it)  | [To Oz](Unit_1/to_oz.md) |  | [Slide Deck]() | 
 | **CSS** | <ul><li>[HTML/CSS](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-to-html-css)</li> <li>[Media Queries & Responsive Design](https://git.generalassemb.ly/SEI-Standard-Curriculum/media-queries)</li><li>[CSS Flexbox](https://git.generalassemb.ly/SEI-Standard-Curriculum/css-flexbox)</li></ul> | [Lab: Valerie's Veggie Shop](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-to-html-css#lab-valeries-veggie-shop)  | <ul><li>[Grid Art](https://git.generalassemb.ly/SEI-Standard-Curriculum/css-grid-art)</li><li>[Choose Your Own HTML/CSS Adventure](https://git.generalassemb.ly/SEI-Standard-Curriculum/choose-your-own-css-adventure)</li></ul> |  | [Slide Deck]() |
-| **Lesson 5** | [T5]() | [L5]()  | [HW5]() | [DC5]() | [Slide Deck]() |
-| **Lesson 6** | [T6]() | [L6]()  | [HW6]() | [DC6]() | [Slide Deck]() |
-| **Lesson 7** | [T7]() | [L7]()  | [HW7]() | [DC7]() | [Slide Deck]() |
-| **Lesson 8** | [T8]() | [L8]()  | [HW8]() | [DC8]() | [Slide Deck]() |
-| **Lesson 9** | [T9]() | [L9]()  | [HW9]() | [DC9]() | [Slide Deck]() |
-| **Lesson 10** | [T10]() | [L10]()  | [HW10]() | [DC10]() | [Slide Deck]() |
-| **Lesson 11** | [T11]() | [L11]()  | [HW11]() | [DC11]() | [Slide Deck]() |
-| **Lesson 12** | [T12]() | [L12]()  | [HW12]() | [DC12]() | [Slide Deck]() |
+| **Intro to JavaScript** | [T5]() | [L5]()  | [HW5]() | [DC5]() | [Slide Deck]() |
+| **Data Types** | [T7]() | [L7]()  | [HW7]() | [DC7]() | [Slide Deck]() |
+| **Conditionals & Loops** | [T6]() | [L6]()  | [HW6]() | [DC6]() | [Slide Deck]() |
+| **Functions and Scope** | [T8]() | [L8]()  | [HW8]() | [DC8]() | [Slide Deck]() |
+| **Arrays** | [T9]() | [L9]()  | [HW9]() | [DC9]() | [Slide Deck]() |
+| **DOM** | [T10]() | [L10]()  | [HW10]() | [DC10]() | [Slide Deck]() |
+| **Events** | [T11]() | [L11]()  | [HW11]() | [DC11]() | [Slide Deck]() |
+| **OOP** | [T12]() | [L12]()  | [HW12]() | [DC12]() | [Slide Deck]() |
 
 ### Unit 1 Syllabus
 
