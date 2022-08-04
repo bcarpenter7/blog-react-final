@@ -17,13 +17,14 @@ Standard SEIR Curriculum Course Materials
 | **Git/GitHub** | [Git/GitHub](https://git.generalassemb.ly/SEI-Standard-Curriculum/git-intro) | [Git Extra Practice](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-git-practice#hungry-for-more)  | <ul><li>[HW](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-git-practice)</li><li>[BONUS: Grumpy Cat HW](https://git.generalassemb.ly/SEIR-teams-materials/git-and-github/blob/master/homework-fake-resume-and-github.md)</li></ul> |  | [Slide Deck]() |
 | **HTML** | [Lecture](https://git.generalassemb.ly/SEI-Standard-Curriculum/html) | [HTML Fixit](https://git.generalassemb.ly/SEI-Standard-Curriculum/html-fix-it)  | [To Oz](Unit_1/to_oz.md) |  | [Slide Deck]() | 
 | **CSS** | <ul><li>[HTML/CSS](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-to-html-css)</li> <li>[Media Queries & Responsive Design](https://git.generalassemb.ly/SEI-Standard-Curriculum/media-queries)</li><li>[CSS Flexbox](https://git.generalassemb.ly/SEI-Standard-Curriculum/css-flexbox)</li></ul> | [Valerie's Veggie Shop](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-to-html-css#lab-valeries-veggie-shop)  | <ul><li>[Grid Art](https://git.generalassemb.ly/SEI-Standard-Curriculum/css-grid-art)</li><li>[Choose Your Own HTML/CSS Adventure](https://git.generalassemb.ly/SEI-Standard-Curriculum/choose-your-own-css-adventure)</li></ul> |  | [Slide Deck]() |
-| **Intro to JavaScript** | [JavaScript](https://git.generalassemb.ly/SEI-Standard-Curriculum/js-data-types) | [L5]()  | [Data Types Practice](https://git.generalassemb.ly/SEIR-1115/data-types-practice) | [DC5]() | [Slide Deck]() |
-| **Conditionals & Loops** | [T6]() | [L6]()  | [HW6]() | [DC6]() | [Slide Deck]() |
-| **Functions and Scope** | [T8]() | [L8]()  | [HW8]() | [DC8]() | [Slide Deck]() |
+| **Intro to JavaScript** | [JavaScript](https://git.generalassemb.ly/SEI-Standard-Curriculum/js-data-types) |   | [Data Types Practice](https://git.generalassemb.ly/SEIR-1115/data-types-practice) |  | [Slide Deck]() |
+| **Control Flow** | [Control Flow](https://git.generalassemb.ly/SEI-Standard-Curriculum/js-control-flow) | <ul><li>[Conditionals Practice](https://git.generalassemb.ly/SEI-Standard-Curriculum/js-conditionals-practice)</li><li>[Loops Practice](https://git.generalassemb.ly/SEI-Standard-Curriculum/js-loops-practice)</li></ul>  | [Control Flow Practice](https://git.generalassemb.ly/SEI-Standard-Curriculum/control-flow-practice) |  | [Slide Deck]() |
+| **Functions and Scope** | <ul><li>[Functions & Scope](https://git.generalassemb.ly/SEI-Standard-Curriculum/js-functions-and-scope)</li><li>[Calllback Functions](https://git.generalassemb.ly/SEI-Standard-Curriculum/js-callbacks)</li></ul> | [L8]()  | [HW8]() | [DC8]() | [Slide Deck]() |
 | **Arrays** | [T9]() | [L9]()  | [HW9]() | [DC9]() | [Slide Deck]() |
 | **DOM** | [T10]() | [L10]()  | [HW10]() | [DC10]() | [Slide Deck]() |
 | **Events** | [T11]() | [L11]()  | [HW11]() | [DC11]() | [Slide Deck]() |
 | **OOP** | [T12]() | [L12]()  | [HW12]() | [DC12]() | [Slide Deck]() |
+| **Intro to Sorting Algorithms** | [Intro to Sorting Algorithms](https://git.generalassemb.ly/seir-1115/intro-to-sorting) | <ul><li>[myGA Intro to Sorting module](https://my.generalassemb.ly/activities/818)</li><li>[myGA Basic Sorting Algorithms module](https://my.generalassemb.ly/activities/778)</li></ul>  | [Bubble Sort Algorithm Exercise](https://git.generalassemb.ly/SEIR-1115/intro-to-sorting/blob/master/bubblesort.js) |  | [Slide Deck]() |
 
 ### Unit 1 Syllabus
 
