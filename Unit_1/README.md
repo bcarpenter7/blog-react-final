@@ -1,7 +1,7 @@
 ## Unit 1 - Front End Development
 
 | Lesson | Topic | Lab | Homework |  Slides |
-| -- | -- | -- | -- | -- | -- |
+| -- | -- | -- | -- | -- |
 | **Terminal/CLI** | [Terminal/CLI](https://git.generalassemb.ly/SEI-Standard-Curriculum/cli-intro) | [Kitchen Organizer](https://git.generalassemb.ly/SEI-Standard-Curriculum/kitchen-organizer)  | [Homework Folder Structure](Unit_1/sei_hw_folder.md) | [Slide Deck]() |
 | **Git/GitHub** | [Git/GitHub](https://git.generalassemb.ly/SEI-Standard-Curriculum/git-intro) | [Git Extra Practice](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-git-practice#hungry-for-more)  | <ul><li>[HW](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-git-practice)</li><li>[BONUS: Grumpy Cat HW](https://git.generalassemb.ly/SEIR-teams-materials/git-and-github/blob/master/homework-fake-resume-and-github.md)</li></ul> | [Slide Deck]() |
 | **HTML** | [HTML](https://git.generalassemb.ly/SEI-Standard-Curriculum/html) | [HTML Fixit](https://git.generalassemb.ly/SEI-Standard-Curriculum/html-fix-it)  | [To Oz](Unit_1/to_oz.md) | [Slide Deck]() | 
