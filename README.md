@@ -27,9 +27,9 @@ Standard SEIR Curriculum Course Materials
 | **Debugging** | [Intro to Debugging](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-to-debugging) | [Debugging Mini Lab](https://git.generalassemb.ly/SEI-Standard-Curriculum/js-debugging-errors)  |  | [Slide Deck]() |
 | **APIs and AJAX** | [APIs & AJAX](https://git.generalassemb.ly/SEI-Standard-Curriculum/apis-ajax) | <ul><li>[Random Cat API](https://git.generalassemb.ly/SEI-Standard-Curriculum/random-cat-api)</li><li>[Dougie AJAX Lab](https://git.generalassemb.ly/SEI-Standard-Curriculum/dougie-ajax-lab)</li><li>[Modals](https://git.generalassemb.ly/SEI-Standard-Curriculum/modals-intro)</li></ul>  | [API keys exercise](https://git.generalassemb.ly/SEI-Standard-Curriculum/APIs-Ajax/blob/master/apiKeysExercise.md) | [Slide Deck]() |
 | **Object Oriented Programming (OOP)** | [OOP](https://git.generalassemb.ly/SEI-Standard-Curriculum/javascript-oop) | [Space Battle Lab](https://git.generalassemb.ly/SEI-Standard-Curriculum/space-battle)  | <ul><li>[Web Dinosaur HW](Unit_1/web-dino-lab)</li><li>[Tic Tac Toe](https://git.generalassemb.ly/SEI-Standard-Curriculum/tic-tac-toe)</li></ul> | [Slide Deck]() |
-| **Intro to Algorithms** | <ul><li>[Intro  to Pseudocoding](https://git.generalassemb.ly/SEI-Standard-Curriculum/Intro-to-Pseudocoding)</li><li>[Intro to Sorting Algorithms](https://git.generalassemb.ly/seir-1115/intro-to-sorting)</li></ul> | <ul><li>[myGA Intro to Sorting module](https://my.generalassemb.ly/activities/818)</li><li>[myGA Basic Sorting Algorithms module](https://my.generalassemb.ly/activities/778)</li><li>[JavaScript Code Challenge](https://git.generalassemb.ly/SEI-Standard-Curriculum/js-code-challenge)</li></ul>  | [Bubble Sort Algorithm Exercise](https://git.generalassemb.ly/SEIR-1115/intro-to-sorting/blob/master/bubblesort.js) | [Slide Deck]() |
+| **Intro to Algorithms** | <ul><li>[Intro  to Pseudo-coding](https://git.generalassemb.ly/SEI-Standard-Curriculum/Intro-to-Pseudocoding)</li><li>[Intro to Sorting Algorithms](https://git.generalassemb.ly/seir-1115/intro-to-sorting)</li></ul> | <ul><li>[myGA Intro to Sorting module](https://my.generalassemb.ly/activities/818)</li><li>[myGA Basic Sorting Algorithms module](https://my.generalassemb.ly/activities/778)</li><li>[JavaScript Code Challenge](https://git.generalassemb.ly/SEI-Standard-Curriculum/js-code-challenge)</li></ul>  | [Bubble Sort Algorithm Exercise](https://git.generalassemb.ly/SEIR-1115/intro-to-sorting/blob/master/bubblesort.js) | [Slide Deck]() |
 | **Intro to TDD** | [Intro to TDD](Unit_1/Intro-to-TDD.md) | <ul><li>[JS Unit Testing with Jest](https://git.generalassemb.ly/SEI-Standard-Curriculum/SEIR-Course-Materials/blob/main/Unit_1/JS-Unit-Testing-with-Jest.md)</li><li>[Js Unit Testing with Mocha and Chai](https://git.generalassemb.ly/SEI-Standard-Curriculum/SEIR-Course-Materials/blob/main/Unit_1/JS-Unit-Testing-with-Mocha-and-Chai.md)</li></ul>  |  | [Slide Deck]() |
-
+| **BONUS lessons** | <ul><li>[Closures](https://git.generalassemb.ly/SEI-Standard-Curriculum/closures)</li><li>[Canvas](https://git.generalassemb.ly/SEI-Standard-Curriculum/learn-canvas)</li></ul> | <ul><li>[this](https://git.generalassemb.ly/SEI-Standard-Curriculum/js-this)</li><li>[]()</li></ul>  |  | [Slide Deck]() |
 ### Unit 1 Syllabus
 
 #### Terminal, CLI, Git, & GitHub
@@ -60,7 +60,7 @@ Standard SEIR Curriculum Course Materials
 - Recursive Functions
 - Basic Sorting Algorithms
 
-#### [Project 1](https://git.generalassemb.ly/SEI-Standard-Curriculum/project-1)
+#### [Project 1](https://git.generalassemb.ly/SEI-Standard-Curriculum/project-1)[Best Practices in building Apps](https://git.generalassemb.ly/SEI-Standard-Curriculum/building-a-bigger-project)
 - Build a Game with HTML, CSS and JavaScript including the following requirements
   - Render in the browser
   - Include separate HTML / CSS / JavaScript files
@@ -92,16 +92,16 @@ Standard SEIR Curriculum Course Materials
 
 ### Unit 2 Syllabus
 
-#### Topics 1
+#### Express, Params, & Routing
 - Highlights
   
-#### Topics 2
+#### REST APIs
 - Highlights
   
-#### Topics 3
+#### MongoDb/Mongoose & Schemas
 - Highlights
 
-#### Project 2
+#### CRUD & Authentication
 - Highlights
 #### Additional Resources
 
