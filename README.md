@@ -60,8 +60,8 @@ Standard SEIR Curriculum Course Materials
 - Recursive Functions
 - Basic Sorting Algorithms
 
-#### [Project 1](https://git.generalassemb.ly/SEI-Standard-Curriculum/project-1)
-### [Best Practices in building Apps](https://git.generalassemb.ly/SEI-Standard-Curriculum/building-a-bigger-project)
+### [Project 1](https://git.generalassemb.ly/SEI-Standard-Curriculum/project-1)
+#### [Best Practices in building Apps](https://git.generalassemb.ly/SEI-Standard-Curriculum/building-a-bigger-project)
 - Build a Game with HTML, CSS and JavaScript including the following requirements
   - Render in the browser
   - Include separate HTML / CSS / JavaScript files
