@@ -6,8 +6,8 @@
 
 ## Software Engineering Immersive
 
-[Installfest](https://git.generalassemb.ly/SEI-Standard-Curriculum/installfest)
-[Homework Submission Guidelines](https://git.generalassemb.ly/SEI-Standard-Curriculum/hw-submission)
+[#### Installfest](https://git.generalassemb.ly/SEI-Standard-Curriculum/installfest)
+[#### Homework Submission Guidelines](https://git.generalassemb.ly/SEI-Standard-Curriculum/hw-submission)
 
 ## Unit 1 - Front End Development
 
