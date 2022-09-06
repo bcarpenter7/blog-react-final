@@ -1,13 +1,13 @@
 # SEIR Course Materials
-Standard SEIR Curriculum Course Materials 
+#### Standard SEIR Curriculum Course Materials 
 [Guidelines for using these materials](https://git.generalassemb.ly/software-engineering-immersive/SEI-Course-Materials/blob/master/README.md)
 
 ## Course Outline
 
 ## Software Engineering Immersive
 
-[Installfest](https://git.generalassemb.ly/SEI-Standard-Curriculum/installfest)
-[Homework Submission Guidelines](https://git.generalassemb.ly/SEI-Standard-Curriculum/hw-submission)
+<ul><li>[Installfest](https://git.generalassemb.ly/SEI-Standard-Curriculum/installfest)</li><li>
+[Homework Submission Guidelines](https://git.generalassemb.ly/SEI-Standard-Curriculum/hw-submission)</li></ul>
 
 ## Unit 1 - Front End Development
 
