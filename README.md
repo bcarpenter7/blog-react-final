@@ -1,6 +1,6 @@
 # SEIR Course Materials
 #### Standard SEIR Curriculum Course Materials 
-[Guidelines for using these materials](https://git.generalassemb.ly/software-engineering-immersive/SEI-Course-Materials/blob/master/README.md)
+[Guidelines for using these materials](/guidelines.md)
 
 ## Course Outline
 
@@ -74,6 +74,14 @@
 
 #### Additional Resources
 - [Developer Habits and Tools](https://git.generalassemb.ly/SEI-Standard-Curriculum/developer-habits-and-tools)
+
+### Suggested Schedule
+|  | Day 1 | Day 2 | Day 3 | Day 4 | Day 5 |
+| -- | -- | -- | -- | -- | -- |
+| Week 1 |  |  |  |  |  |
+| Week 2 |  |  |  |  |  |
+| Week 3 |  |  |  |  |  |
+| Week 4 |  |  |  |  |  |
 
 ## Unit 2 - Full Stack Development
 
