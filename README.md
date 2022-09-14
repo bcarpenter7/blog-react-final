@@ -87,25 +87,20 @@
 
 | Lesson | Topic | Lab | Homework |
 | -- | -- | -- | -- |
-| **Lesson 1** | [T1]() | [L1]()  | [HW1]() | 
-| **Lesson 2** | [T2]() | [L2]()  | [HW2]() |
-| **Lesson 3** | [T3]() | [L3]()  | [HW3]() |
-| **Lesson 4** | [T4]() | [L4]()  | [HW4]() |
-| **Lesson 5** | [T5]() | [L5]()  | [HW5]() |
-| **Lesson 6** | [T6]() | [L6]()  | [HW6]() |
-| **Lesson 7** | [T7]() | [L7]()  | [HW7]() |
-| **Lesson 8** | [T8]() | [L8]()  | [HW8]() |
-| **Lesson 9** | [T9]() | [L9]()  | [HW9]() |
-| **Lesson 10** | [T10]() | [L10]()  | [HW10]() |
-| **Lesson 11** | [T11]() | [L11]()  | [HW11]() |
-| **Lesson 12** | [T12]() | [L12]()  | [HW12]() |
+| **Intro to Node & NPM** | [Node & NPM](https://git.generalassemb.ly/SEI-Standard-Curriculum/node-npm-intro) | [Browser v. Server-side JavaScript](https://git.generalassemb.ly/SEI-Standard-Curriculum/browser-server-js)<br>[Node Resume](https://git.generalassemb.ly/SEI-Standard-Curriculum/npm-resume)  | [HW1]() | 
+| **Intro to MongoDB** | [MongoDB & Mongoose](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-to-mongo-and-mongoose)<>[MongoDB & Atlas]() | [Mongoose Vampires Lab](https://git.generalassemb.ly/SEI-Standard-Curriculum/mongoose-vampires-practice)  | [HW2]() |
+| **Intro to Express** | [Intro to Express](https://git.generalassemb.ly/SEI-Standard-Curriculum/express-intro) | [Express API Lab](https://git.generalassemb.ly/SEI-Standard-Curriculum/express-api-lab)  | [Express Books API App](https://git.generalassemb.ly/SEI-Standard-Curriculum/express-books-api) |
+| **Intro to JSON** | [JSON APIs in Express & Postman](https://git.generalassemb.ly/SEI-Standard-Curriculum/express-apis-json) | [Express API Lab](https://git.generalassemb.ly/SEI-Standard-Curriculum/express-api-lab)  | [Express JSON API Homework](https://git.generalassemb.ly/SEI-Standard-Curriculum/tv-browser-json-api) |
+| **Deployment** | [Heroku & Atlas](https://git.generalassemb.ly/SEI-Standard-Curriculum/heroku-atlas-deployment) | [L5]()  | [HW5]() |
+| **Express TDD** | [Testing Node with Moch/Chai](https://git.generalassemb.ly/SEI-Standard-Curriculum/express-tdd) | [Express Testing Lab](https://git.generalassemb.ly/SEI-Standard-Curriculum/express-testing-lab)<br>[Express Testing Lab Starter Repo](https://git.generalassemb.ly/SEI-Standard-Curriculum/express-testing-lab-starter)  | []() |
+| **Bonus** | [Codewars](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-to-codewars)<br>[Git Team Workflows](https://git.generalassemb.ly/SEI-Standard-Curriculum/git-team-workflows)<br>[Code Review](https://git.generalassemb.ly/SEI-Standard-Curriculum/code-review)<br>[GitHub Profile README.md](https://git.generalassemb.ly/SEI-Standard-Curriculum/gh-profiles) | []()  | []() |
 
 ### Unit 2 Syllabus
 
-#### Express, Params, & Routing
+#### Node & Express
 - Highlights
   
-#### REST APIs
+#### REST APIs & JSON
 - Highlights
   
 #### MongoDb/Mongoose & Schemas
@@ -130,7 +125,7 @@
 | **Lesson 9** | [T9]() | [L9]()  | [HW9]() |
 | **Lesson 10** | [T10]() | [L10]()  | [HW10]() |
 | **Lesson 11** | [T11]() | [L11]()  | [HW11]() |
-| **Lesson 12** | [T12]() | [L12]()  | [HW12]() |
+| **BONUS** | [Intro to TypeScript](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-to-typescript) | [L12]()  | [HW12]() |
 
 ### Unit 3 Syllabus
 
