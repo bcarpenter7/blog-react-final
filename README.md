@@ -88,7 +88,7 @@
 | Lesson | Topic | Lab | Homework |
 | -- | -- | -- | -- |
 | **Intro to Node & NPM** | [Node & NPM](https://git.generalassemb.ly/SEI-Standard-Curriculum/node-npm-intro) | [Browser v. Server-side JavaScript](https://git.generalassemb.ly/SEI-Standard-Curriculum/browser-server-js)<br>[Node Resume](https://git.generalassemb.ly/SEI-Standard-Curriculum/npm-resume)  | [HW1]() | 
-| **Intro to MongoDB** | [MongoDB & Mongoose](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-to-mongo-and-mongoose)<>[MongoDB & Atlas]() | [Mongoose Vampires Lab](https://git.generalassemb.ly/SEI-Standard-Curriculum/mongoose-vampires-practice)  | [HW2]() |
+| **Intro to MongoDB** | [MongoDB & Mongoose](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-to-mongo-and-mongoose)<br>[MongoDB & Atlas]() | [Mongoose Vampires Lab](https://git.generalassemb.ly/SEI-Standard-Curriculum/mongoose-vampires-practice)  | [HW2]() |
 | **Intro to Express** | [Intro to Express](https://git.generalassemb.ly/SEI-Standard-Curriculum/express-intro) | [Express API Lab](https://git.generalassemb.ly/SEI-Standard-Curriculum/express-api-lab)  | [Express Books API App](https://git.generalassemb.ly/SEI-Standard-Curriculum/express-books-api) |
 | **Intro to JSON** | [JSON APIs in Express & Postman](https://git.generalassemb.ly/SEI-Standard-Curriculum/express-apis-json) | [Express API Lab](https://git.generalassemb.ly/SEI-Standard-Curriculum/express-api-lab)  | [Express JSON API Homework](https://git.generalassemb.ly/SEI-Standard-Curriculum/tv-browser-json-api) |
 | **Deployment** | [Heroku & Atlas](https://git.generalassemb.ly/SEI-Standard-Curriculum/heroku-atlas-deployment) | [L5]()  | [HW5]() |
