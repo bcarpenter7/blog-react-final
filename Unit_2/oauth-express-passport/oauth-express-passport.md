@@ -230,7 +230,7 @@ You must be logged into a Google account that is not owned by any organization w
 
 You may have to agree to the Google Cloud Platform's Terms of Service first. Here’s what you should see on this page:
 
-![The Google Cloud Platform APIs & Services Dashboard](/Unit_2/oauth-express-passport/screenshots/step_1.1-google-developers-console.png)
+![*The Google Cloud Platform APIs & Services Dashboard*](/Unit_2/oauth-express-passport/screenshots/step_1.1-google-developers-console.png)
 
 The Google Cloud Platform APIs & Services Dashboard
 
