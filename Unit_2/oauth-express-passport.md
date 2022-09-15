@@ -1,4 +1,4 @@
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9a5bc3e4-1dec-411a-88e9-19d597bf88d7/1_TL54n10lC9xjL-HYwHE6sQ.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9a5bc3e4-1dec-411a-88e9-19d597bf88d7/1_TL54n10lC9xjL-HYwHE6sQ.jpeg)
+![https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png](https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png)
 
 # Intro to Authentication
 
