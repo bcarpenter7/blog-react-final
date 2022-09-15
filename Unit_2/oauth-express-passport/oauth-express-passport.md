@@ -240,31 +240,31 @@ While on the APIs & Services dashboard, click **Select a project**.
 
 ![The Google Cloud Platform APIs & Services Dashboard with the Select a project button highlighted.](/Unit_2/oauth-express-passport/screenshots/step_1.2.1-select-a-project.png)
 
-The Google Cloud Platform APIs & Services Dashboard with the Select a project button highlighted.
+*The Google Cloud Platform APIs & Services Dashboard with the Select a project button highlighted.*
 
 When the Select a project pane has opened, click **NEW PROJECT**.
 
 ![The Select a project pane with the NEW PROJECT link highlighted.](/Unit_2/oauth-express-passport/screenshots/step_1.2.2-new-project.png)
 
-The Select a project pane with the NEW PROJECT link highlighted.
+*The Select a project pane with the NEW PROJECT link highlighted.*
 
 On the **New Project** page, update the **Project name** to something you like. Ensure that the project does not belong to an organization (The text in the **Location** field should read **No organization**) then click the **CREATE** button ****to create the project.
 
 ![The New Project page, filled out with a project name, and not assigned to an organization. The CREATE button is highlighted.](/Unit_2/oauth-express-passport/screenshots/step_1.2.3-create-project.png)
 
-The New Project page, filled out with a project name, and not assigned to an organization. The CREATE button is highlighted.
+*The New Project page, filled out with a project name, and not assigned to an organization. The CREATE button is highlighted.*
 
 After clicking the **CREATE** button, you'll be sent back to the **APIs & Services Dashboard** page. It might take a bit to create the project. You’ll see a notification in the nav bar near your user avatar when it’s been done. When the notification appears, click on it, then in the **Create Project** notification click **SELECT PROJECT** in the project that you just created.
 
 ![A new notification, showing us that our project has been created. The new project is highlighted. ](/Unit_2/oauth-express-passport/screenshots/step_1.2.4-select-created-project.png)
 
-A new notification, showing us that our project has been created. The new project is highlighted. 
+*A new notification, showing us that our project has been created. The new project is highlighted.* 
 
 After selecting the project from the **Create Project** notification, the **APIs & Services Dashboard** page should look like this. Note that the name of the project is now displayed next to the **Google Cloud Platform** logo.
 
 ![The APIs & Services Dashboard with the name of the project highlighted in the nav bar.](/Unit_2/oauth-express-passport/screenshots/step_1.2.5-apis-and-services-platform.png)
 
-The APIs & Services Dashboard with the name of the project highlighted in the nav bar.
+*The APIs & Services Dashboard with the name of the project highlighted in the nav bar.*
 
 ### Step 1.3 - Enable the People API
 
@@ -272,19 +272,19 @@ From the **APIs & Services Dashboard** page, type **People** in the **Search pro
 
 ![The Google People API is shown after entering people as the search string in the search bar located in the nav bar.](/Unit_2/oauth-express-passport/screenshots/step_1.3.1-enable-people-api.png)
 
-The Google People API is shown after entering people as the search string in the search bar located in the nav bar.
+*The Google People API is shown after entering people as the search string in the search bar located in the nav bar.*
 
 Ensure that your project name is displayed next to the **Google Cloud Platform** logo. If it is then click **ENABLE**.
 
 ![The Google People API page. The enable button is highlighted](/Unit_2/oauth-express-passport/screenshots/step_1.3.2-enaple.png)
 
-The Google People API page. The enable button is highlighted
+*The Google People API page. The enable button is highlighted*
 
 You'll be taken to the **People API Overview** page. ****Return to the **APIs & Services Dashboard** by using the **API & Services** link. Do not click the **People API** link.
 
 ![The People API Overview page with the APIs & Services link highlighted.](/Unit_2/oauth-express-passport/screenshots/step_1.3.3-people-api-overview.png)
 
-The People API Overview page with the APIs & Services link highlighted.
+*The People API Overview page with the APIs & Services link highlighted.*
 
 ### Step 1.4 - Configure OAuth consent
 
@@ -292,31 +292,31 @@ From the the **APIs & Services Dashboard** page, click the **OAuth consent scree
 
 ![The APIs & Services Dashboard with the OAuth consent screen option highlighted.](/Unit_2/oauth-express-passport/screenshots/step_1.4.1-oauth-consent-screen.png)
 
-The APIs & Services Dashboard with the OAuth consent screen option highlighted.
+*The APIs & Services Dashboard with the OAuth consent screen option highlighted.*
 
 On the **Oauth consent screen** click the **External** option and then click **CREATE**.
 
 ![The OAuth consent screen with the External option and the CREATE button highlighted](/Unit_2/oauth-express-passport/screenshots/step_1.4.2-oauth-consent-screen-external-create.png)
 
-The OAuth consent screen with the External option and the CREATE button highlighted
+*The OAuth consent screen with the External option and the CREATE button highlighted*
 
 You'll arrive on **Step 1 of the Edit app registration** page. Note that the information you enter on this page will be user-facing - make sure you choose an appropriate app. Enter an **App name**, and select a **User support email**. Do not enter anything on any of the other fields or upload an application logo - doing so may trigger Google's OAuth verification process, which will cause your application to not be usable for 3-5 days.  
 
 ![The edit app registration page with the App name and User support email fields highlighted](/Unit_2/oauth-express-passport/screenshots/step_1.4.3-app-info.png)
 
-The edit app registration page with the App name and User support email fields highlighted
+*The edit app registration page with the App name and User support email fields highlighted*
 
 Scroll down to the **Developer contact information** section and enter an email that you want Google to be able to contact you about any changes to this project in the **Email addresses** field. Again, leave the other fields blank. Then click the **SAVE AND CONTINUE** button.
 
 ![The first step on the Edit app registration page with the Email addresses field beneath the Developer contact information header highlighted, along with the save and continue button.](/Unit_2/oauth-express-passport/screenshots/step_1.4.4-developer-info.png)
 
-The first step on the Edit app registration page with the Email addresses field beneath the Developer contact information header highlighted, along with the save and continue button.
+*The first step on the Edit app registration page with the Email addresses field beneath the Developer contact information header highlighted, along with the save and continue button.*
 
 You'll arrive on **Step 2 of the Edit app registration page**. Click on the **ADD OR REMOVE SCOPES** button. 
 
 ![The second step on the Edit app registration page with the add or remove scopes button highlighted](/Unit_2/oauth-express-passport/screenshots/step_1.4.5-add-remove-scopes.png)
 
-The second step on the Edit app registration page with the add or remove scopes button highlighted
+*The second step on the Edit app registration page with the add or remove scopes button highlighted*
 
 We want to have access to the user's email and profile, so copy the following two scopes and paste them in the **Manually add scopes** section on the **Update selected scopes** pane. Then click the **ADD TO TABLE** button.
 
@@ -327,19 +327,19 @@ https://www.googleapis.com/auth/userinfo.profile
 
 ![The Update selected scopes popout toast with the values provided manually added and the add to table button highlighted.](/Unit_2/oauth-express-passport/screenshots/step_1.4.6-add-to-table-manually.png)
 
-The Update selected scopes popout toast with the values provided manually added and the add to table button highlighted.
+*The Update selected scopes popout toast with the values provided manually added and the add to table button highlighted.*
 
 The `.../auth/userinfo.email` and `.../auth/userinfo.profile` scopes should be added and have selected checkboxes next to them. After confirming this, click the **UPDATE** button.
 
 ![The Update selected scopes pane with the new scopes added. The update button is highlighted.](/Unit_2/oauth-express-passport/screenshots/step_1.4.7-update-selected-scopes.png)
 
-The Update selected scopes pane with the new scopes added. The update button is highlighted.
+*The Update selected scopes pane with the new scopes added. The update button is highlighted.*
 
 You'll be taken back to **Step 2 of the Edit app registration** page. The two scopes we just added should be shown in the **Your non-sensitive scopes** table. Confirm that they are, and also that no scopes are listed in the **Your sensitive scopes** or **Your restricted scopes** tables. After you have done so click the **SAVE AND CONTINUE** button.
 
 ![Step 2 of the Edit app registration page with our new scopes added. The save and continue button is highlighted.](/Unit_2/oauth-express-passport/screenshots/step_1.4.8-non-sensitive-scopes.png)
 
-Step 2 of the Edit app registration page with our new scopes added. The save and continue button is highlighted.
+*Step 2 of the Edit app registration page with our new scopes added. The save and continue button is highlighted.*
 
 <aside>
 🧠 These scopes aren't strictly required to be added - we'll have access to them by just associating the People API with our application - but by adding them if Google makes any modifications to these scopes later, you'll be informed so that you're able to make the necessary changes to your applications at that time.
@@ -350,25 +350,25 @@ You'll arrive on **Step 3 of the Edit app registration** page. Click the **SAVE 
 
 ![Step 3 of the Edit app registration page. The save and continue button is highlighted.](/Unit_2/oauth-express-passport/screenshots/step_1.4.9-save-continue.png)
 
-Step 3 of the Edit app registration page. The save and continue button is highlighted.
+*Step 3 of the Edit app registration page. The save and continue button is highlighted.*
 
 Finally, you'll arrive at **Step 4 of the Edit app registration** page. Confirm the information on the page matches your intent, then scroll to the bottom and click the **BACK TO DASHBOARD** button.
 
 ![Step 4 of the Edit app registration page. The back to dashboard button is highlighted.](/Unit_2/oauth-express-passport/screenshots/step_1.4.10-back-to-dashboard.png)
 
-Step 4 of the Edit app registration page. The back to dashboard button is highlighted.
+*Step 4 of the Edit app registration page. The back to dashboard button is highlighted.*
 
 You'll be taken back to the **OAuth consent screen dashboard**. Click the **PUBLISH APP** button. 
 
 ![The OAuth consent screen dashboard. The publish app button is highlighted.](/Unit_2/oauth-express-passport/screenshots/step_1.4.11-publish-app.png)
 
-The OAuth consent screen dashboard. The publish app button is highlighted.
+*The OAuth consent screen dashboard. The publish app button is highlighted.*
 
 The **Push to production?** modal will appear. Ensure that you receive a message stating that you do not need to submit your app for verification. Click the **CONFIRM** link.
 
 ![The Push to production modal, showing that this app does not need to be submitted for verification, with the confirm button highlighted.](/Unit_2/oauth-express-passport/screenshots/step_1.4.12-push-to-production.png)
 
-The Push to production modal, showing that this app does not need to be submitted for verification, with the confirm button highlighted.
+*The Push to production modal, showing that this app does not need to be submitted for verification, with the confirm button highlighted.*
 
 ### Step 1.5 - Create credentials
 
@@ -376,29 +376,29 @@ The **OAuth consent screen dashboard** will re-appear, and display a message tha
 
 ![The OAuth consent screen dashboard, stating that verification of our project is not required and that we are in production. ](/Unit_2/oauth-express-passport/screenshots/step_1.5.1-create-credentials.png)
 
-The OAuth consent screen dashboard, stating that verification of our project is not required and that we are in production. 
+*The OAuth consent screen dashboard, stating that verification of our project is not required and that we are in production.* 
 
 On the **APIs & Services Credentials** page, click the **+ CREATE CREDENTIALS** link and select **OAuth client ID** from the dropdown. 
 
 ![The APIs & Services Credentials page with the + create credentials link on the page and OAuth client ID in the + create credentials dropdown highlighted.](/Unit_2/oauth-express-passport/screenshots/step_1.5.2-oauth-client-id.png)
 
-The APIs & Services Credentials page with the + create credentials link on the page and OAuth client ID in the + create credentials dropdown highlighted.
+*The APIs & Services Credentials page with the + create credentials link on the page and OAuth client ID in the + create credentials dropdown highlighted.*
 
 On the **Create OAuth client ID** page click the **Application type** dropdown and select **Web application**.
 
 ![The Create OAuth client ID page with the Application type dropdown highlighted. ](/Unit_2/oauth-express-passport/screenshots/step_1.5.3-application-type.png)
 
-The Create OAuth client ID page with the Application type dropdown highlighted. 
+*The Create OAuth client ID page with the Application type dropdown highlighted.* 
 
 ![The Application type dropdown expanded on the Create OAuth client ID page. The Web application option is highlighted.](/Unit_2/oauth-express-passport/screenshots/step_1.5.4-web-application-type.png)
 
-The Application type dropdown expanded on the Create OAuth client ID page. The Web application option is highlighted.
+*The Application type dropdown expanded on the Create OAuth client ID page. The Web application option is highlighted.*
 
 After you select **Web application** as the **Application type** there will be additional elements added to the page. Enter a sensible value in the **Name** field, then click the **+ ADD URI** button under the **Authorized redirect URIs** header. ***NOT*** the **Authorized JavaScript origins** header. 
 
 ![The Create OAuth client ID page with the Name field and the + add URI button under the Authorized redirect URIs header highlighted. ](/Unit_2/oauth-express-passport/screenshots/step_1.5.5-authorized-redirect-uri.png)
 
-The Create OAuth client ID page with the Name field and the + add URI button under the Authorized redirect URIs header highlighted. 
+*The Create OAuth client ID page with the Name field and the + add URI button under the Authorized redirect URIs header highlighted.* 
 
 A field will appear prompting you to enter a redirect URI. Type in the following text (you could even copy this text from here, so you don’t make any mistakes!) then press `**Enter**`. This will be the value of `GOOGLE_CALLBACK` in your `.env` file. 
 
@@ -426,7 +426,7 @@ A pop up modal will now be presented informing you that the client was created w
 
 ![The OAuth client created modal containing the Client ID and Client Secret for this application.](/Unit_2/oauth-express-passport/screenshots/step_1.6-oauth-client-created.png)
 
-The OAuth client created modal containing the Client ID and Client Secret for this application.
+*The OAuth client created modal containing the Client ID and Client Secret for this application.*
 
 Let’s add the credentials, along with that callback URI we provided, to the `**.env**` file so that it looks something like this (***do not copy this exactly, it will not work***):
 
@@ -477,7 +477,7 @@ For this lesson, we will be using the **[passport-google-oauth2](https://github.
 
 ## Step 3 - Session Middleware
 
-Before we install Passport and a strategy, we need to install the `[**express-session**](https://github.com/expressjs/session?_ga=1.40272994.1784656250.1446759094)` middleware.
+Before we install Passport and a strategy, we need to install the [**`express-session`**](https://github.com/expressjs/session?_ga=1.40272994.1784656250.1446759094) middleware.
 
 Sessions are a server-side way of remembering a user’s browser session.
 
@@ -493,7 +493,7 @@ Passport will use the session, which is an in-memory data-store by default, to s
 </aside>
 
 <aside>
-‼️ In a large-scale production application you would want to store sessions in a database store, like one listed [**here**](https://www.npmjs.com/package/express-session#compatible-session-stores). There are even MongoDB options!
+‼️ In a large-scale production application you would want to store sessions in a database store, like one listed [**here*](https://www.npmjs.com/package/express-session#compatible-session-stores). There are even MongoDB options!
 
 </aside>
 
