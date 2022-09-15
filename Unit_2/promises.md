@@ -288,7 +288,7 @@ How would you capture the same data using `.then`? Give it a try!
 
 # Activity! 👀
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/121722bf-88a5-4641-aa36-b4011498c52d/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/121722bf-88a5-4641-aa36-b4011498c52d/Untitled.png)
+![Credit: Hubble, NASA, ESA, & D.Q. Wang (U. Mass, Amherst); Spitzer: NASA, JPL, & S. Stolovy (SSC/Caltech)](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F121722bf-88a5-4641-aa36-b4011498c52d%2FUntitled.png?table=block&id=29d948fc-e58c-4919-a231-ad7171aeaa04&spaceId=5c934bf4-e4de-476b-93dd-d0eb69db59ce&width=2000&userId=4b4a9700-5f5d-43fa-b6c4-633a2401b4e5&cache=v2)
 
 Using Async Await with a try catch block or .then and .catch, let us call the [**NASA API](https://api.nasa.gov/).** No need to sign up for a key - we will just use the DEMO KEY.
 
@@ -301,7 +301,7 @@ In documentation examples, the special DEMO_KEY API key is used. This API key ca
 
 ### **Example query**
 
-`[https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY](https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY)`
+[https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY](https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY)
 
 Our goal is to use the query to grab five images from the NASA [**APOD**](https://apod.nasa.gov/apod/astropix.html) API
 
