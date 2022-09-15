@@ -95,7 +95,7 @@
 | **Callbacks** | [Callbacks](/Unit_2/callbacks.md) | []() |  |
 | **Deployment** | [Heroku & Atlas](https://git.generalassemb.ly/SEI-Standard-Curriculum/heroku-atlas-deployment) | [L5]()  | []() |
 | **Express TDD** | [Testing Node with Moch/Chai](https://git.generalassemb.ly/SEI-Standard-Curriculum/express-tdd) | [Express Testing Lab](https://git.generalassemb.ly/SEI-Standard-Curriculum/express-testing-lab)<br>[Express Testing Lab Starter Repo](https://git.generalassemb.ly/SEI-Standard-Curriculum/express-testing-lab-starter)  | []() |
-| **OAuth & Express Passport** | [Google OAuth & Express in Passport](/Unit_2/oauth-express-passport.md) | []() |  |
+| **OAuth & Express Passport** | [Google OAuth & Express in Passport](/Unit_2/oauth-express-passport/oauth-express-passport.md) | []() |  |
 | **Bonus** | [Codewars](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-to-codewars)<br>[Git Team Workflows](https://git.generalassemb.ly/SEI-Standard-Curriculum/git-team-workflows)<br>[Code Review](https://git.generalassemb.ly/SEI-Standard-Curriculum/code-review)<br>[GitHub Profile README.md](https://git.generalassemb.ly/SEI-Standard-Curriculum/gh-profiles) | []()  | []() |
 
 ### Unit 2 Syllabus
