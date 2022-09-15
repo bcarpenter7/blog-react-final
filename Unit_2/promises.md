@@ -288,7 +288,7 @@ How would you capture the same data using `.then`? Give it a try!
 
 # Activity! 👀
 
-![Credit: Hubble, NASA, ESA, & D.Q. Wang (U. Mass, Amherst); Spitzer: NASA, JPL, & S. Stolovy (SSC/Caltech)](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F121722bf-88a5-4641-aa36-b4011498c52d%2FUntitled.png?table=block&id=29d948fc-e58c-4919-a231-ad7171aeaa04&spaceId=5c934bf4-e4de-476b-93dd-d0eb69db59ce&width=2000&userId=4b4a9700-5f5d-43fa-b6c4-633a2401b4e5&cache=v2)
+![[Credit: Hubble, NASA, ESA, & D.Q. Wang](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F121722bf-88a5-4641-aa36-b4011498c52d%2FUntitled.png?table=block&id=29d948fc-e58c-4919-a231-ad7171aeaa04&spaceId=5c934bf4-e4de-476b-93dd-d0eb69db59ce&width=2000&userId=4b4a9700-5f5d-43fa-b6c4-633a2401b4e5&cache=v2)](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F121722bf-88a5-4641-aa36-b4011498c52d%2FUntitled.png?table=block&id=29d948fc-e58c-4919-a231-ad7171aeaa04&spaceId=5c934bf4-e4de-476b-93dd-d0eb69db59ce&width=2000&userId=4b4a9700-5f5d-43fa-b6c4-633a2401b4e5&cache=v2)
 
 Using Async Await with a try catch block or .then and .catch, let us call the [**NASA API](https://api.nasa.gov/).** No need to sign up for a key - we will just use the DEMO KEY.
 
