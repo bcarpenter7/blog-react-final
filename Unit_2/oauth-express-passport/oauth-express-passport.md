@@ -230,7 +230,7 @@ You must be logged into a Google account that is not owned by any organization w
 
 You may have to agree to the Google Cloud Platform's Terms of Service first. Here’s what you should see on this page:
 
-![The Google Cloud Platform APIs & Services Dashboard](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bfa7a691-c9b3-4446-a8d7-36d0a73bd4b6/Screen_Shot_2021-03-17_at_9.20.53_PM.png)
+![The Google Cloud Platform APIs & Services Dashboard](/Unit_2/oauth-express-passport/screenshots/step_1.1-google-developers-console.png)
 
 The Google Cloud Platform APIs & Services Dashboard
 
@@ -238,31 +238,31 @@ The Google Cloud Platform APIs & Services Dashboard
 
 While on the APIs & Services dashboard, click **Select a project**.
 
-![The Google Cloud Platform APIs & Services Dashboard with the Select a project button highlighted.](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f0190d78-ddfe-4578-ab23-fe3171340a83/Screen_Shot_2021-03-17_at_9.20.53_PM_(1).png)
+![The Google Cloud Platform APIs & Services Dashboard with the Select a project button highlighted.](/Unit_2/oauth-express-passport/screenshots/step_1.2.1-select-a-project.png)
 
 The Google Cloud Platform APIs & Services Dashboard with the Select a project button highlighted.
 
 When the Select a project pane has opened, click **NEW PROJECT**.
 
-![The Select a project pane with the NEW PROJECT link highlighted.](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/559107c2-1f02-48e0-8eda-228d2bf26e83/Screen_Shot_2021-03-17_at_9.41.36_PM.png)
+![The Select a project pane with the NEW PROJECT link highlighted.](/Unit_2/oauth-express-passport/screenshots/step_1.2.2-new-project.png)
 
 The Select a project pane with the NEW PROJECT link highlighted.
 
 On the **New Project** page, update the **Project name** to something you like. Ensure that the project does not belong to an organization (The text in the **Location** field should read **No organization**) then click the **CREATE** button ****to create the project.
 
-![The New Project page, filled out with a project name, and not assigned to an organization. The CREATE button is highlighted.](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7a05b715-6da6-4275-b9ef-5d3f7ec2ce9b/Screen_Shot_2021-03-17_at_9.50.02_PM.png)
+![The New Project page, filled out with a project name, and not assigned to an organization. The CREATE button is highlighted.](/Unit_2/oauth-express-passport/screenshots/step_1.2.3-create-project.png)
 
 The New Project page, filled out with a project name, and not assigned to an organization. The CREATE button is highlighted.
 
 After clicking the **CREATE** button, you'll be sent back to the **APIs & Services Dashboard** page. It might take a bit to create the project. You’ll see a notification in the nav bar near your user avatar when it’s been done. When the notification appears, click on it, then in the **Create Project** notification click **SELECT PROJECT** in the project that you just created.
 
-![A new notification, showing us that our project has been created. The new project is highlighted. ](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8eb215a8-519c-4e1b-af68-8afa86c0d995/Screen_Shot_2021-03-18_at_8.48.59_AM.png)
+![A new notification, showing us that our project has been created. The new project is highlighted. ](/Unit_2/oauth-express-passport/screenshots/step_1.2.4-select-created-project.png)
 
 A new notification, showing us that our project has been created. The new project is highlighted. 
 
 After selecting the project from the **Create Project** notification, the **APIs & Services Dashboard** page should look like this. Note that the name of the project is now displayed next to the **Google Cloud Platform** logo.
 
-![The APIs & Services Dashboard with the name of the project highlighted in the nav bar.](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/80171c25-af2f-4cc3-a84c-2fad2d5eff97/Screen_Shot_2021-03-18_at_9.00.05_AM.png)
+![The APIs & Services Dashboard with the name of the project highlighted in the nav bar.](/Unit_2/oauth-express-passport/screenshots/step_1.2.5-apis-and-services-platform.png)
 
 The APIs & Services Dashboard with the name of the project highlighted in the nav bar.
 
@@ -270,19 +270,19 @@ The APIs & Services Dashboard with the name of the project highlighted in the na
 
 From the **APIs & Services Dashboard** page, type **People** in the **Search products and resources** search bar located in the nav bar. When it appears, select the **Google People API** result from the search results. 
 
-![The Google People API is shown after entering people as the search string in the search bar located in the nav bar.](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3bd3ae74-ba6f-41f0-8afd-c99296bdc840/Screen_Shot_2021-03-18_at_9.47.17_AM.png)
+![The Google People API is shown after entering people as the search string in the search bar located in the nav bar.](/Unit_2/oauth-express-passport/screenshots/step_1.3.1-enable-people-api.png)
 
 The Google People API is shown after entering people as the search string in the search bar located in the nav bar.
 
 Ensure that your project name is displayed next to the **Google Cloud Platform** logo. If it is then click **ENABLE**.
 
-![The Google People API page. The enable button is highlighted](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1a7f3bb2-d270-46ba-b861-c270338770de/Screen_Shot_2021-03-18_at_10.24.21_AM.png)
+![The Google People API page. The enable button is highlighted](/Unit_2/oauth-express-passport/screenshots/step_1.3.2-enaple.png)
 
 The Google People API page. The enable button is highlighted
 
 You'll be taken to the **People API Overview** page. ****Return to the **APIs & Services Dashboard** by using the **API & Services** link. Do not click the **People API** link.
 
-![The People API Overview page with the APIs & Services link highlighted.](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/be6436ee-34a2-4b3a-9372-fb6a29a3867d/Screen_Shot_2021-03-18_at_10.59.06_AM.png)
+![The People API Overview page with the APIs & Services link highlighted.](/Unit_2/oauth-express-passport/screenshots/step_1.3.3-people-api-overview.png)
 
 The People API Overview page with the APIs & Services link highlighted.
 
@@ -290,31 +290,31 @@ The People API Overview page with the APIs & Services link highlighted.
 
 From the the **APIs & Services Dashboard** page, click the **OAuth consent screen** option in the side menu.
 
-![The APIs & Services Dashboard with the OAuth consent screen option highlighted.](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3b03c374-37be-4241-8051-a7d426d000a9/Screen_Shot_2021-03-17_at_10.00.49_PM.png)
+![The APIs & Services Dashboard with the OAuth consent screen option highlighted.](/Unit_2/oauth-express-passport/screenshots/step_1.4.1-oauth-consent-screen.png)
 
 The APIs & Services Dashboard with the OAuth consent screen option highlighted.
 
 On the **Oauth consent screen** click the **External** option and then click **CREATE**.
 
-![The OAuth consent screen with the External option and the CREATE button highlighted](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/193c70c6-1da8-47b7-9b72-248defcce569/Screen_Shot_2021-03-18_at_7.01.15_PM.png)
+![The OAuth consent screen with the External option and the CREATE button highlighted](/Unit_2/oauth-express-passport/screenshots/step_1.4.2-oauth-consent-screen-external-create.png)
 
 The OAuth consent screen with the External option and the CREATE button highlighted
 
 You'll arrive on **Step 1 of the Edit app registration** page. Note that the information you enter on this page will be user-facing - make sure you choose an appropriate app. Enter an **App name**, and select a **User support email**. Do not enter anything on any of the other fields or upload an application logo - doing so may trigger Google's OAuth verification process, which will cause your application to not be usable for 3-5 days.  
 
-![The edit app registration page with the App name and User support email fields highlighted](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6e698c18-5cdf-41d8-a161-2922de2a1309/Screen_Shot_2021-03-18_at_7.13.12_PM.png)
+![The edit app registration page with the App name and User support email fields highlighted](/Unit_2/oauth-express-passport/screenshots/step_1.4.3-app-info.png)
 
 The edit app registration page with the App name and User support email fields highlighted
 
 Scroll down to the **Developer contact information** section and enter an email that you want Google to be able to contact you about any changes to this project in the **Email addresses** field. Again, leave the other fields blank. Then click the **SAVE AND CONTINUE** button.
 
-![The first step on the Edit app registration page with the Email addresses field beneath the Developer contact information header highlighted, along with the save and continue button.](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/995a8d79-2671-4082-a3c0-83d267f1dc71/Screen_Shot_2021-03-18_at_9.14.02_PM.png)
+![The first step on the Edit app registration page with the Email addresses field beneath the Developer contact information header highlighted, along with the save and continue button.](/Unit_2/oauth-express-passport/screenshots/step_1.4.4-developer-info.png)
 
 The first step on the Edit app registration page with the Email addresses field beneath the Developer contact information header highlighted, along with the save and continue button.
 
 You'll arrive on **Step 2 of the Edit app registration page**. Click on the **ADD OR REMOVE SCOPES** button. 
 
-![The second step on the Edit app registration page with the add or remove scopes button highlighted](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0b35aa7a-1012-4591-ae69-0babdd3c00f0/Screen_Shot_2021-03-18_at_10.07.49_PM.png)
+![The second step on the Edit app registration page with the add or remove scopes button highlighted](/Unit_2/oauth-express-passport/screenshots/step_1.4.5-add-remove-scopes.png)
 
 The second step on the Edit app registration page with the add or remove scopes button highlighted
 
@@ -325,19 +325,19 @@ https://www.googleapis.com/auth/userinfo.email
 https://www.googleapis.com/auth/userinfo.profile
 ```
 
-![The Update selected scopes popout toast with the values provided manually added and the add to table button highlighted.](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f5ec60c4-800b-4b66-a53c-150c3782c694/Screen_Shot_2021-03-18_at_11.11.07_PM.png)
+![The Update selected scopes popout toast with the values provided manually added and the add to table button highlighted.](/Unit_2/oauth-express-passport/screenshots/step_1.4.6-add-to-table-manually.png)
 
 The Update selected scopes popout toast with the values provided manually added and the add to table button highlighted.
 
 The `.../auth/userinfo.email` and `.../auth/userinfo.profile` scopes should be added and have selected checkboxes next to them. After confirming this, click the **UPDATE** button.
 
-![The Update selected scopes pane with the new scopes added. The update button is highlighted.](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/da67d530-e28d-4109-8189-4cb43355486b/Screen_Shot_2021-03-18_at_11.15.04_PM_(1).png)
+![The Update selected scopes pane with the new scopes added. The update button is highlighted.](/Unit_2/oauth-express-passport/screenshots/step_1.4.7-update-selected-scopes.png)
 
 The Update selected scopes pane with the new scopes added. The update button is highlighted.
 
 You'll be taken back to **Step 2 of the Edit app registration** page. The two scopes we just added should be shown in the **Your non-sensitive scopes** table. Confirm that they are, and also that no scopes are listed in the **Your sensitive scopes** or **Your restricted scopes** tables. After you have done so click the **SAVE AND CONTINUE** button.
 
-![Step 2 of the Edit app registration page with our new scopes added. The save and continue button is highlighted.](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9769648c-db8f-4a40-9b93-33d09df9ecad/Screen_Shot_2021-03-18_at_11.23.20_PM.png)
+![Step 2 of the Edit app registration page with our new scopes added. The save and continue button is highlighted.](/Unit_2/oauth-express-passport/screenshots/step_1.4.8-non-sensitive-scopes.png)
 
 Step 2 of the Edit app registration page with our new scopes added. The save and continue button is highlighted.
 
@@ -348,25 +348,25 @@ Step 2 of the Edit app registration page with our new scopes added. The save and
 
 You'll arrive on **Step 3 of the Edit app registration** page. Click the **SAVE AND CONTINUE** button.
 
-![Step 3 of the Edit app registration page. The save and continue button is highlighted.](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1a343383-3ea1-4c61-bf3e-66ccc616d11c/Screen_Shot_2021-03-18_at_11.31.14_PM.png)
+![Step 3 of the Edit app registration page. The save and continue button is highlighted.](/Unit_2/oauth-express-passport/screenshots/step_1.4.9-save-continue.png)
 
 Step 3 of the Edit app registration page. The save and continue button is highlighted.
 
 Finally, you'll arrive at **Step 4 of the Edit app registration** page. Confirm the information on the page matches your intent, then scroll to the bottom and click the **BACK TO DASHBOARD** button.
 
-![Step 4 of the Edit app registration page. The back to dashboard button is highlighted.](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a1fd299f-3e08-4f4d-9a30-60d364793453/Screen_Shot_2021-03-18_at_11.36.02_PM.png)
+![Step 4 of the Edit app registration page. The back to dashboard button is highlighted.](/Unit_2/oauth-express-passport/screenshots/step_1.4.10-back-to-dashboard.png)
 
 Step 4 of the Edit app registration page. The back to dashboard button is highlighted.
 
 You'll be taken back to the **OAuth consent screen dashboard**. Click the **PUBLISH APP** button. 
 
-![The OAuth consent screen dashboard. The publish app button is highlighted.](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/326dd301-e6bf-44e4-9e14-e24ec9bdc9a2/Screen_Shot_2021-03-18_at_11.43.21_PM.png)
+![The OAuth consent screen dashboard. The publish app button is highlighted.](/Unit_2/oauth-express-passport/screenshots/step_1.4.11-publish-app.png)
 
 The OAuth consent screen dashboard. The publish app button is highlighted.
 
 The **Push to production?** modal will appear. Ensure that you receive a message stating that you do not need to submit your app for verification. Click the **CONFIRM** link.
 
-![The Push to production modal, showing that this app does not need to be submitted for verification, with the confirm button highlighted.](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/44a4a5ef-cd77-4d51-b4a8-8ff81915814b/Screen_Shot_2021-03-18_at_11.46.12_PM.png)
+![The Push to production modal, showing that this app does not need to be submitted for verification, with the confirm button highlighted.](/Unit_2/oauth-express-passport/screenshots/step_1.4.12-push-to-production.png)
 
 The Push to production modal, showing that this app does not need to be submitted for verification, with the confirm button highlighted.
 
@@ -374,29 +374,29 @@ The Push to production modal, showing that this app does not need to be submitte
 
 The **OAuth consent screen dashboard** will re-appear, and display a message that **Verification is not required** under the **Verification Status** header, and a message that the **Publishing status** is **In production**. Confirm both of these statuses display these messages, then click the **Credentials** option in the side menu.
 
-![The OAuth consent screen dashboard, stating that verification of our project is not required and that we are in production. ](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2cf180a0-078a-4744-a680-1e97f56dd192/Screen_Shot_2021-03-18_at_11.52.55_PM.png)
+![The OAuth consent screen dashboard, stating that verification of our project is not required and that we are in production. ](/Unit_2/oauth-express-passport/screenshots/step_1.5.1-create-credentials.png)
 
 The OAuth consent screen dashboard, stating that verification of our project is not required and that we are in production. 
 
 On the **APIs & Services Credentials** page, click the **+ CREATE CREDENTIALS** link and select **OAuth client ID** from the dropdown. 
 
-![The APIs & Services Credentials page with the + create credentials link on the page and OAuth client ID in the + create credentials dropdown highlighted.](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b5000433-3301-4d3b-ab5f-4d01628c06a3/Screen_Shot_2021-03-19_at_12.02.35_AM.png)
+![The APIs & Services Credentials page with the + create credentials link on the page and OAuth client ID in the + create credentials dropdown highlighted.](/Unit_2/oauth-express-passport/screenshots/step_1.5.2-oauth-client-id.png)
 
 The APIs & Services Credentials page with the + create credentials link on the page and OAuth client ID in the + create credentials dropdown highlighted.
 
 On the **Create OAuth client ID** page click the **Application type** dropdown and select **Web application**.
 
-![The Create OAuth client ID ****page with the Application type dropdown highlighted. ](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cb3e147e-a42c-421e-8e18-8b89f9d118be/Screen_Shot_2021-03-19_at_9.07.04_AM.png)
+![The Create OAuth client ID page with the Application type dropdown highlighted. ](/Unit_2/oauth-express-passport/screenshots/step_1.5.3-application-type.png)
 
-The Create OAuth client ID ****page with the Application type dropdown highlighted. 
+The Create OAuth client ID page with the Application type dropdown highlighted. 
 
-![The Application type dropdown expanded on the Create OAuth client ID page. The Web application option is highlighted.](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/287a5277-f94d-422c-8799-b976f3ca734e/Screen_Shot_2021-03-19_at_9.10.23_AM.png)
+![The Application type dropdown expanded on the Create OAuth client ID page. The Web application option is highlighted.](/Unit_2/oauth-express-passport/screenshots/step_1.5.4-web-application-type.png)
 
 The Application type dropdown expanded on the Create OAuth client ID page. The Web application option is highlighted.
 
 After you select **Web application** as the **Application type** there will be additional elements added to the page. Enter a sensible value in the **Name** field, then click the **+ ADD URI** button under the **Authorized redirect URIs** header. ***NOT*** the **Authorized JavaScript origins** header. 
 
-![The Create OAuth client ID page with the Name field and the + add URI button under the Authorized redirect URIs header highlighted. ](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e2fff51f-cd62-4838-939b-3b0e7c1320d0/Screen_Shot_2021-03-19_at_9.21.33_AM.png)
+![The Create OAuth client ID page with the Name field and the + add URI button under the Authorized redirect URIs header highlighted. ](/Unit_2/oauth-express-passport/screenshots/step_1.5.5-authorized-redirect-uri.png)
 
 The Create OAuth client ID page with the Name field and the + add URI button under the Authorized redirect URIs header highlighted. 
 
@@ -406,7 +406,7 @@ A field will appear prompting you to enter a redirect URI. Type in the following
 http://localhost:3000/auth/google/oauth2callback
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/62ed76f5-f7ae-450e-85fa-0a61217004ad/Untitled.png)
+![Untitled](/Unit_2/oauth-express-passport/screenshots/step_1.5.6-env-file.png)
 
 <aside>
 ⚠️ You will have to add an entry in the Authorized redirect URIs once you have deployed your application to Heroku - something like:
@@ -424,7 +424,7 @@ GOOGLE_CALLBACK=http://localhost:3000/auth/google/oauth2callback
 
 A pop up modal will now be presented informing you that the client was created with your app’s **Client ID** and **Client Secret** credentials:
 
-![The OAuth client created modal containing the Client ID and Client Secret for this application.](https://i.imgur.com/gSUFsJe.png)
+![The OAuth client created modal containing the Client ID and Client Secret for this application.](/Unit_2/oauth-express-passport/screenshots/step_1.6-oauth-client-created.png)
 
 The OAuth client created modal containing the Client ID and Client Secret for this application.
 
@@ -935,11 +935,11 @@ Note that the `logout()` method was automatically added to the `req` object by P
 
 We want the nav bar in **`profiles/index.ejs`** to update dynamically depending upon whether there’s an authenticated user or not:
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/40163267-f16d-401f-8c57-2ecc74e0db24/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/40163267-f16d-401f-8c57-2ecc74e0db24/Untitled.png)
+![Step 9a](/Unit_2/oauth-express-passport/screenshots/step_9.1.png)
 
 **vs**
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ae13e1e5-58bb-4afc-938f-6f54c7a4fafd/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ae13e1e5-58bb-4afc-938f-6f54c7a4fafd/Untitled.png)
+![Step 9b](/Unit_2/oauth-express-passport/screenshots/step_9.2.png)
 
 ### Step 9.1 Pass `req.user` to the View
 
@@ -1047,7 +1047,7 @@ Note how the `equals` method is being used to compare the `_id`s - this is neces
 
 Also, the `(user?._id)` prevents an error when there’s no `user` logged in using the **[optional chaining operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)**.
 
-[https://twitter.com/wesbos/status/1345080914276208643?s=20](https://twitter.com/wesbos/status/1345080914276208643?s=20)
+![https://twitter.com/wesbos/status/1345080914276208643?s=20](/Unit_2/oauth-express-passport/screenshots/step_10.png)
 
 ### Step 10.2 Controller Code
 
