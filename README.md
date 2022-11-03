@@ -76,12 +76,12 @@
 - [Developer Habits and Tools](https://git.generalassemb.ly/SEI-Standard-Curriculum/developer-habits-and-tools)
 
 ### Suggested Schedule
-|  | Day 1 | Day 2 | Day 3 | Day 4 | Day 5 |
-| -- | -- | -- | -- | -- | -- |
-| Week 1 |  |  |  |  |  |
-| Week 2 |  |  |  |  |  |
-| Week 3 |  |  |  |  |  |
-| Week 4 |  |  |  |  |  |
+|  | Content to Cover |
+| -- | -- |
+| Week 1 | Git/GitHub, Intro to JavaScript, HTML & CSS, Control Flow, Functions & Scope  |
+| Week 2 | Arrays, DOM, Events, Intro to Algorithms, OOP |
+| Project Week | Project 1 - best practices, any BONUS content   |
+
 
 ## Unit 2 - Full Stack Development
 
