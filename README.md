@@ -14,7 +14,7 @@
 
 | Lesson | Topic | Lab | Homework |
 | -- | -- | -- | -- |
-| **Terminal/CLI** | [Terminal/CLI](https://git.generalassemb.ly/SEI-Standard-Curriculum/cli-intro) | [Kitchen Organizer](https://git.generalassemb.ly/SEI-Standard-Curriculum/kitchen-organizer)  | [Homework Folder Structure](Unit_1/sei_hw_folder.md) |
+| **Development Environment** | [Terminal/CLI](https://git.generalassemb.ly/SEI-Standard-Curriculum/cli-intro) | [Kitchen Organizer](https://git.generalassemb.ly/SEI-Standard-Curriculum/kitchen-organizer)  | [Homework Folder Structure](Unit_1/sei_hw_folder.md) |
 | **Git/GitHub** | [Git/GitHub](https://git.generalassemb.ly/SEI-Standard-Curriculum/git-intro) | [Git Extra Practice](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-git-practice#hungry-for-more)  | [HW](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-git-practice)<br>[BONUS: Grumpy Cat HW](https://git.generalassemb.ly/SEIR-teams-materials/git-and-github/blob/master/homework-fake-resume-and-github.md) |
 | **HTML** | [HTML](https://git.generalassemb.ly/SEI-Standard-Curriculum/html) | [HTML Fixit](https://git.generalassemb.ly/SEI-Standard-Curriculum/html-fix-it)  | [To Oz](Unit_1/to_oz.md) | 
 | **CSS** | [HTML/CSS](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-to-html-css)<br>[Media Queries & Responsive Design](https://git.generalassemb.ly/SEI-Standard-Curriculum/media-queries)  | [Valerie's Veggie Shop](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-to-html-css#lab-valeries-veggie-shop)  | [Grid Art](https://git.generalassemb.ly/SEI-Standard-Curriculum/css-grid-art)<br>[Choose Your Own HTML/CSS Adventure](https://git.generalassemb.ly/SEI-Standard-Curriculum/choose-your-own-css-adventure) |
