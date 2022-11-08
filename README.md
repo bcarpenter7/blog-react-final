@@ -6,16 +6,16 @@
 
 ## Software Engineering Immersive
 
-[Installfest](https://git.generalassemb.ly/SEI-Standard-Curriculum/installfest)
+[Installfest](./Unit_1/1-dev-environment/1.1-installfest-mac.md)
 
 [Homework Submission Guidelines](https://git.generalassemb.ly/SEI-Standard-Curriculum/hw-submission)
 
-## Unit 1 - Front End Development
+## Unit 1 - Fundamentals of Front End Development
 
 | Lesson | Topic | Lab | Homework |
 | -- | -- | -- | -- |
-| **Development Environment** | [Terminal/CLI](https://git.generalassemb.ly/SEI-Standard-Curriculum/cli-intro) | [Kitchen Organizer](https://git.generalassemb.ly/SEI-Standard-Curriculum/kitchen-organizer)  | [Homework Folder Structure](Unit_1/sei_hw_folder.md) |
-| **Git/GitHub** | [Git/GitHub](https://git.generalassemb.ly/SEI-Standard-Curriculum/git-intro) | [Git Extra Practice](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-git-practice#hungry-for-more)  | [HW](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-git-practice)<br>[BONUS: Grumpy Cat HW](https://git.generalassemb.ly/SEIR-teams-materials/git-and-github/blob/master/homework-fake-resume-and-github.md) |
+| **Development Environment** | [Terminal/CLI](https://git.generalassemb.ly/SEI-Standard-Curriculum/cli-intro) | [Kitchen Organizer](https://git.generalassemb.ly/SEI-Standard-Curriculum/kitchen-organizer)  | [Homework Folder Structure](Unit_1/sei_hw_folder.md)<br>[Homework Command Line Practice](./Unit_1/1-dev-environment/1.hw-command-line-practice.md) |
+| **Git/GitHub** | [Git/GitHub](https://git.generalassemb.ly/SEI-Standard-Curriculum/git-intro) | [Git Extra Practice](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-git-practice#hungry-for-more)  | [Git Practice HW](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-git-practice)<br>[BONUS: Grumpy Cat HW](https://git.generalassemb.ly/SEIR-teams-materials/git-and-github/blob/master/homework-fake-resume-and-github.md) |
 | **HTML** | [HTML](https://git.generalassemb.ly/SEI-Standard-Curriculum/html) | [HTML Fixit](https://git.generalassemb.ly/SEI-Standard-Curriculum/html-fix-it)  | [To Oz](Unit_1/to_oz.md) | 
 | **CSS** | [HTML/CSS](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-to-html-css)<br>[Media Queries & Responsive Design](https://git.generalassemb.ly/SEI-Standard-Curriculum/media-queries)  | [Valerie's Veggie Shop](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-to-html-css#lab-valeries-veggie-shop)  | [Grid Art](https://git.generalassemb.ly/SEI-Standard-Curriculum/css-grid-art)<br>[Choose Your Own HTML/CSS Adventure](https://git.generalassemb.ly/SEI-Standard-Curriculum/choose-your-own-css-adventure) |
 | **CSS Flexbox** | [CSS Flexbox](https://git.generalassemb.ly/SEI-Standard-Curriculum/css-flexbox) |  | [HTML/CSS Mockup 1](https://git.generalassemb.ly/SEI-Standard-Curriculum/html-css-mockup)<br>[HTML/CSS Mockup 2](https://git.generalassemb.ly/SEI-Standard-Curriculum/html-css-mockup-part-2) |
