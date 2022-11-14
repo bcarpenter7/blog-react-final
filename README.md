@@ -219,3 +219,19 @@
 | Week 1 | Fundamentals of Python, Relational Databases, SQL |
 | Week 2 | Django Framework, Amazon S3, Authentication   |
 | Project Week | Capstone Project - BONUS content   |
+
+## Computer Science
+| Lesson | Topic  | Exercises | myGA Module |
+| -- | -- | -- | -- |
+| **Big-O Notation** | [CS Big-O Notation]() | []() | []() |
+| **Recursion** | [CS Recursion]() | []() | []() |
+| **Intro to Sorting** | [CS Intro to Sorting]() | []() | []() |
+| **Basic Sorts** | [CS Basic Sorts]() | []() | []() |
+| **Divide & Conquer** | [CS Divide & Conquer]() | []() | []() |
+| **Search Algorithms** | [CS Search Algorithms]() | []() | []() |
+| **Data Structures and Linked Lists** | [Intro to Data Structures]()<br>[Linked Lists]() | []() | []() |
+| **Stacks & Queues** | [Stacks & Queues]() | []() | []() |
+| **Hash Tables** | [Hash Tables]() | []() | []() |
+| **Binary Trees & Tries** | [Binary Trees & Tries]() | []() | []() |
+| **Graphs** | [Graphs]() | []() | []() |
+| **Extra Modules** | [Design Patterns](./computer-science/extra-modules/design-patterns/readme.md)<br>[Distribution Sorts](./computer-science/extra-modules/distribution-sorts/readme.md)<br>[Sets](./computer-science/extra-modules/sets/readme.md) | [Design Patterns Exercise](./computer-science/extra-modules/design-patterns/exercises/readme.md)<br>[Implementing Bucket Sort Exercise](./computer-science/extra-modules/distribution-sorts/exercises/readme.md)<br>[Implementing a Set Exercise](./computer-science/extra-modules/sets/exercises/readme.md) | [Design Patterns: myGA](https://my.generalassemb.ly/activities/134)<br>[Distribution Sorting Algorithms: myGA](https://my.generalassemb.ly/activities/802)<br>[Sets: myGA](https://my.generalassemb.ly/activities/465) |
