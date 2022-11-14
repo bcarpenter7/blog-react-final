@@ -140,7 +140,8 @@
 
 | Lesson | Topic | Lab | Homework |
 | -- | -- | -- | -- |
-| **Intro to React** | [React Components]() | []()  | []() | 
+| **Intro to React & Props** | [React & Components](./Unit_3/1.1-intro-react-and-components.md) | [React Dev Skills Lab Part 1](./Unit_3/1.1.1-react-devskills-lab-part-1.md)  | []() | 
+| **React Props** | [React JSX & Props](./Unit_3/1.2-react-jsx-and-props.md) | []()  | []() |
 | **React State & Hooks** | []() | []()  | []() |
 | **React Forms** | []() | []()  | []() |
 | **React Use Effect & Data Fetching** | []() | []()  | []() |
