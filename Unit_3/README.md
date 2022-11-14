@@ -26,6 +26,6 @@
 #### Topics 3
 - Highlights
 
-#### Project 3
+#### [Project 3]()
 - Highlights
 #### Additional Resources
