@@ -31,11 +31,11 @@
 | **Array Iterator Methods** | [Array Iterator Methods](./Unit_1/7-js-continued/7.4-array-iterator-methods.md) | [Array Iterator Methods Lab](./Unit_1/7-js-continued/7.4.1-array-iterator-methods-lab.md) |  |
 | **this** | [this](./Unit_1/7-js-continued/7.5-js-this-keyword.md) |  |  |
 | **jQuery** | [jQuery](./Unit_1/8-libraries-frameworks/8.1-jquery.md) | [jQuery Lab](./Unit_1/8-libraries-frameworks/8.1.1-jquery-lab.md) | [CSS Card Library](./Unit_1/8-libraries-frameworks/8.2-css-card-library.md) | 
-| **Debugging** | [Intro to Debugging](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-to-debugging) | [Debugging Mini Lab](https://git.generalassemb.ly/SEI-Standard-Curriculum/js-debugging-errors)  |  |
-| **Programming** | [Playing Audio](./Unit_1/9-programming/9.1-playing-audio.md) | [Rock Paper Scissors Code-Along](./Unit_1/9-programming/9.2-rock-paper-scissors-codealong.md) |  |
 | **APIs and AJAX** | [APIs & AJAX](https://git.generalassemb.ly/SEI-Standard-Curriculum/apis-ajax) | [Random Cat API](https://git.generalassemb.ly/SEI-Standard-Curriculum/random-cat-api)<br>[Dougie AJAX Lab](https://git.generalassemb.ly/SEI-Standard-Curriculum/dougie-ajax-lab)<br>[Modals](https://git.generalassemb.ly/SEI-Standard-Curriculum/modals-intro)  | [API keys exercise](https://git.generalassemb.ly/SEI-Standard-Curriculum/APIs-Ajax/blob/master/apiKeysExercise.md) |
 | **Intro to Algorithms** | [Intro  to Pseudo-coding](https://git.generalassemb.ly/SEI-Standard-Curriculum/Intro-to-Pseudocoding)<br>[Intro to Sorting Algorithms](https://git.generalassemb.ly/seir-1115/intro-to-sorting) | [myGA Intro to Sorting module](https://my.generalassemb.ly/activities/818)<br>[myGA Basic Sorting Algorithms module](https://my.generalassemb.ly/activities/778)<br>[JavaScript Code Challenge](https://git.generalassemb.ly/SEI-Standard-Curriculum/js-code-challenge)  | [Bubble Sort Algorithm Exercise](https://git.generalassemb.ly/SEIR-1115/intro-to-sorting/blob/master/bubblesort.js) |
 | **Intro to TDD** | [Intro to TDD](Unit_1/Intro-to-TDD.md) | [JS Unit Testing with Jest](https://git.generalassemb.ly/SEI-Standard-Curriculum/SEIR-Course-Materials/blob/main/Unit_1/JS-Unit-Testing-with-Jest.md)<br>[Js Unit Testing with Mocha and Chai](https://git.generalassemb.ly/SEI-Standard-Curriculum/SEIR-Course-Materials/blob/main/Unit_1/JS-Unit-Testing-with-Mocha-and-Chai.md)  |  |
+| **Debugging** | [Intro to Debugging](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-to-debugging) | [Debugging Mini Lab](https://git.generalassemb.ly/SEI-Standard-Curriculum/js-debugging-errors)  |  |
+| **Programming** | [Playing Audio](./Unit_1/9-programming/9.1-playing-audio.md) | [Rock Paper Scissors Code-Along](./Unit_1/9-programming/9.2-rock-paper-scissors-codealong.md) |  |
 | **BONUS lessons** | [Closures](https://git.generalassemb.ly/SEI-Standard-Curriculum/closures)<br>[Canvas](https://git.generalassemb.ly/SEI-Standard-Curriculum/learn-canvas) |  |  |
 ### Unit 1 Syllabus
 
@@ -46,10 +46,11 @@
   
 #### JavaScript Fundamentals
 - Data Types, Variables, Primitives
-- Objects & Arrays
+- Arrays
 - Control Flow
 - Loops and Conditionals
 - Basic and Advanced Functions
+- Objects
 - Callbacks
 - Testing
   
@@ -63,7 +64,7 @@
 - Servers & Hosting
 
 #### Computer Science
-- Big-O Notation
+- Intro to Computer Science
 - Recursive Functions
 - Basic Sorting Algorithms
 
@@ -84,8 +85,8 @@
 ### Suggested Schedule
 |  | Content to Cover |
 | -- | -- |
-| Week 1 | Git/GitHub, Intro to JavaScript, HTML & CSS, Control Flow, Functions & Scope  |
-| Week 2 | Arrays, DOM, Events, Intro to Algorithms, OOP |
+| Week 1 | Git/GitHub, JavaScript Fundamentals, HTML & CSS, Control Flow, Functions & Scope, Arrays, Objects  |
+| Week 2 | DOM, Events, Callbacks, Classes, Array Iterator Methods, Intro to Algorithms |
 | Project Week | Project 1 - best practices, any BONUS content   |
 
 
