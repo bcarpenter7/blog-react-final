@@ -140,17 +140,15 @@
 
 | Lesson | Topic | Lab | Homework |
 | -- | -- | -- | -- |
-| **React Components** | [React Components]() | [React Dashboard]()  | [HW1]() | 
-| **React State & Data Flow** | []() | []()  | []() |
+| **Intro to React** | [React Components]() | []()  | []() | 
+| **React State & Hooks** | []() | []()  | []() |
 | **React Forms** | []() | []()  | []() |
-| **React Use Effect** | []() | []()  | []() |
+| **React Use Effect & Data Fetching** | []() | []()  | []() |
 | **React Router** | []() | []()  | []() |
-| **React Context** | []() | []()  | []() |
-| **React Hooks** | []() | []()  | []() |
-| **MERN Deployment** | []() | []()  | []() |
-| **Styled Components** | []() | []()  | []() |
+| **Express APIs & React Context** | []() | []()  | []() |
+| **MERN Build & Deployment** | []() | []()  | []() |
 | **Testing in React with Jest** | [Jest](https://git.generalassemb.ly/SEI-Standard-Curriculum/testing-in-react-with-jest-enzyme) | []()  | []() |
-| **BONUS** | [Intro to TypeScript](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-to-typescript) | [L12]()  | [HW12]() |
+| **BONUS** | [Intro to TypeScript](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-to-typescript)<br>[Styled Components]() | []()  | []() |
 
 ### Unit 3 Syllabus
 
