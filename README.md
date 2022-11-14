@@ -68,16 +68,7 @@
 - Recursive Functions
 - Basic Sorting Algorithms
 
-### [Project 1](https://git.generalassemb.ly/SEI-Standard-Curriculum/project-1)
-#### [Best Practices in building Apps](https://git.generalassemb.ly/SEI-Standard-Curriculum/building-a-bigger-project)
-- Build a Game with HTML, CSS and JavaScript including the following requirements
-  - Render in the browser
-  - Include separate HTML / CSS / JavaScript files
-  - Must use Flexbox at least once
-  - Use Javascript for DOM manipulation
-  - Be deployed online using Github Project pages.
-  - Use semantic, valid markup for HTML and CSS (must pass validation without errors)
-  - Show a good commit history with frequent commits (minimum of one commit per project day)
+### [Project 1](./Unit_1/project-1/project-1-requirements.md)
 
 #### Additional Resources
 - [Developer Habits and Tools](https://git.generalassemb.ly/SEI-Standard-Curriculum/developer-habits-and-tools)
@@ -135,6 +126,8 @@
 - ERD Models
 - Deployment
 
+### [Project 2](https://git.generalassemb.ly/SEI-Standard-Curriculum/project-2)
+
 ### Suggested Schedule
 |  | Content to Cover |
 | -- | -- |
@@ -146,17 +139,16 @@
 
 | Lesson | Topic | Lab | Homework |
 | -- | -- | -- | -- |
-| **Lesson 1** | [T1]() | [L1]()  | [HW1]() | 
-| **Lesson 2** | [T2]() | [L2]()  | [HW2]() |
-| **Lesson 3** | [T3]() | [L3]()  | [HW3]() |
-| **Lesson 4** | [T4]() | [L4]()  | [HW4]() |
-| **Lesson 5** | [T5]() | [L5]()  | [HW5]() |
-| **Lesson 6** | [T6]() | [L6]()  | [HW6]() |
-| **Lesson 7** | [T7]() | [L7]()  | [HW7]() |
-| **Lesson 8** | [T8]() | [L8]()  | [HW8]() |
-| **Lesson 9** | [T9]() | [L9]()  | [HW9]() |
-| **Lesson 10** | [T10]() | [L10]()  | [HW10]() |
-| **Lesson 11** | [T11]() | [L11]()  | [HW11]() |
+| **React Components** | [React Components]() | [React Dashboard]()  | [HW1]() | 
+| **React State & Data Flow** | []() | []()  | []() |
+| **React Forms** | []() | []()  | []() |
+| **React Use Effect** | []() | []()  | []() |
+| **React Router** | []() | []()  | []() |
+| **React Context** | []() | []()  | []() |
+| **React Hooks** | []() | []()  | []() |
+| **MERN Deployment** | []() | []()  | []() |
+| **Styled Components** | []() | []()  | []() |
+| **Testing in React with Jest** | [Jest](https://git.generalassemb.ly/SEI-Standard-Curriculum/testing-in-react-with-jest-enzyme) | []()  | []() |
 | **BONUS** | [Intro to TypeScript](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-to-typescript) | [L12]()  | [HW12]() |
 
 ### Unit 3 Syllabus
@@ -184,29 +176,38 @@
 
 | Lesson | Topic | Lab | Homework |
 | -- | -- | -- | -- |
-| **Lesson 1** | [T1]() | [L1]()  | [HW1]() | 
-| **Lesson 2** | [T2]() | [L2]()  | [HW2]() |
-| **Lesson 3** | [T3]() | [L3]()  | [HW3]() |
-| **Lesson 4** | [T4]() | [L4]()  | [HW4]() |
-| **Lesson 5** | [T5]() | [L5]()  | [HW5]() |
-| **Lesson 6** | [T6]() | [L6]()  | [HW6]() |
-| **Lesson 7** | [T7]() | [L7]()  | [HW7]() |
-| **Lesson 8** | [T8]() | [L8]()  | [HW8]() |
-| **Lesson 9** | [T9]() | [L9]()  | [HW9]() |
-| **Lesson 10** | [T10]() | [L10]()  | [HW10]() |
-| **Lesson 11** | [T11]() | [L11]()  | [HW11]() |
-| **Lesson 12** | [T12]() | [L12]()  | [HW12]() |
+| **Intro to Python** | [Intro to Python](./Unit_4/1-python/1.1-intro-python.md)<br>[Python Control Flow](./Unit_4/1-python/1.2-python-control-flow.md) | [Control Flow Lab](./Unit_4/1-python/1.2.1-control-flow-lab.md)  | []() |
+| **Python Containers** | [Python Containers](./Unit_4/1-python/1.3-python-containers.md) | [Containers Lab](./Unit_4/1-python/1.3.1-containers-lab.md) |  |
+| **Python Functions** | [Python Functions](./Unit_4/1-python/1.4-python-functions.md) | [Python Functions Lab](./Unit_4/1-python/1.4.1-python-functions-lab.md) |  |
+| **Python Classes** | [Python Classes](./Unit_4/1-python/1.5-python-classes.md) | [Py Pac Poe Lab](./Unit_4/1-python/1.6-optional-py-pac-poe-lab.md) |  |
+| **SQL Databases** | [Intro to SQL](./Unit_4/2-sql-databases/2.1-intro-sql.md) | [SQL Lab](./Unit_4/2-sql-databases/2.1.1-sql-lab.md) |  |
+| **Relational Data Modeling** | [Relational Data Modeling](./Unit_4/2-sql-databases/2.2-relational-data-modeling.md) | [Relational Data Modeling Lab](./Unit_4/2-sql-databases/2.2.1-optional-data-modeling-lab.md) |  |
+| **Django** | [Intro to Django](./Unit_4/3-django/3.1-intro-django.md)<br>[Django URLs, Views, and Templates](./Unit_4/3-django/3.2-django-urls-views-templates.md) | [Finch Collector Lab Part 1](./Unit_4/3-django/3.2.1-finch-collector-lab-part-1.md) |  |
+| **Django Models** | [Django Models](./Unit_4/3-django/3.3-django-models.md) | [Finch Collector Lab Part 2](./Unit_4/3-django/3.3.1-finch-collector-lab-part-2.md) |  |
+| ** ** | [Django Class-based Views](./Unit_4/3-django/3.4-django-class-based-views.md) | [Finch Collector Lab Part 3](./Unit_4/3-django/3.4.1-finch-collector-lab-part-3.md) |  |
+| **Django 1 to Many Models** | [Django 1:N Models](./Unit_4/3-django/3.5-django-one-to-many-models.md) | [Finch Collector Lab Part 4](./Unit_4/3-django/3.5.1-finch-collector-lab-part-4.md) |  |
+| **Django Many to Many Models** | [Django M:N Models](./Unit_4/3-django/3.6-django-many-to-many-models.md) | [Finch Collector Lab Part 5](./Unit_4/3-django/3.6.1-finch-collector-lab-part-5.md) |  |
+| **Uploading Images to S3 in Django** | [Uploading Images to S3 in Django](./Unit_4/3-django/3.7-uploading-images-s3-django.md) |  |  |
 
 ### Unit 4 Syllabus
 
-#### Topics 1
-- Highlights
+#### Python
+- Python Fundamentals
+- Control Flow
+- Containers
+- Functions
+- Classes
   
-#### Topics 2
-- Highlights
+#### SQL
+- SQL Fundamentals
+- Relational Data Modeling
   
-#### Topics 3
-- Highlights
+#### Django
+- Django Fundamentals
+- URLs, Views & Templates
+- Intro to Models
+- Class-based Views
+- 1:N & M:N Models
 
 #### Capstone Project
 - Highlights

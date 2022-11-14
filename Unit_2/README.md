@@ -43,6 +43,8 @@
 - ERD Models
 - Deployment
 
+### [Project 2](https://git.generalassemb.ly/SEI-Standard-Curriculum/project-2)
+
 ### Suggested Schedule
 |  | Content to Cover |
 | -- | -- |

@@ -56,16 +56,7 @@
 - Recursive Functions
 - Basic Sorting Algorithms
 
-### [Project 1](https://git.generalassemb.ly/SEI-Standard-Curriculum/project-1)
-#### [Best Practices in building Apps](https://git.generalassemb.ly/SEI-Standard-Curriculum/building-a-bigger-project)
-- Build a Game with HTML, CSS and JavaScript including the following requirements
-  - Render in the browser
-  - Include separate HTML / CSS / JavaScript files
-  - Must use Flexbox at least once
-  - Use Javascript for DOM manipulation
-  - Be deployed online using Github Project pages.
-  - Use semantic, valid markup for HTML and CSS (must pass validation without errors)
-  - Show a good commit history with frequent commits (minimum of one commit per project day)
+### [Project 1](./project-1/project-1-requirements.md)
 
 #### Additional Resources
 - [Developer Habits and Tools](https://git.generalassemb.ly/SEI-Standard-Curriculum/developer-habits-and-tools)
