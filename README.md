@@ -219,6 +219,7 @@
 | Week 1 | Fundamentals of Python, Relational Databases, SQL |
 | Week 2 | Django Framework, Amazon S3, Authentication   |
 | Project Week | Capstone Project - BONUS content   |
+<hr>
 
 ## Computer Science
 | Lesson | Topic  | Exercises | myGA Module |
