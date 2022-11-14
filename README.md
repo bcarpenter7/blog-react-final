@@ -79,7 +79,7 @@
 | Week 1 | Git/GitHub, JavaScript Fundamentals, HTML & CSS, Control Flow, Functions & Scope, Arrays, Objects  |
 | Week 2 | DOM, Events, Callbacks, Classes, Array Iterator Methods, Intro to Algorithms |
 | Project Week | Project 1 - best practices, any BONUS content   |
-
+<hr>
 
 ## Unit 2 - Full Stack Development
 
@@ -134,6 +134,7 @@
 | Week 1 | Node & NPM, Express, REST APIs, Mongoose/MongoDB, CRUD   |
 | Week 2 | Promises, Callbacks, Authentication, Express TDD, Deployment |
 | Project Week | Project 2 - Git Team Workflows, any other BONUS content   |
+<hr>
 
 ## Unit 3 - React Fundamentals
 
@@ -168,9 +169,10 @@
 ### Suggested Schedule  
 |  | Content to Cover |
 | -- | -- |
-| Week 1 |  |
-| Week 2 |  |
+| Week 1 | Fundamentals of React, MERN stack infrastructure |
+| Week 2 | MERN continued, Token-based Authentication,  |
 | Project Week | Project 3 - BONUS content   |
+<hr>
 
 ## Unit 4 - Python/Django (2nd Language)
 
@@ -205,16 +207,16 @@
 #### Django
 - Django Fundamentals
 - URLs, Views & Templates
-- Intro to Models
+- Models
 - Class-based Views
 - 1:N & M:N Models
 
-#### Capstone Project
+#### [Capstone Project](./Unit_4/project-4/project-4-requirements.md)
 - Highlights
   
 ### Suggested Schedule  
 |  | Content to Cover |
 | -- | -- |
-| Week 1 |  |
-| Week 2 |  |
+| Week 1 | Fundamentals of Python, Relational Databases, SQL |
+| Week 2 | Django Framework, Amazon S3, Authentication   |
 | Project Week | Capstone Project - BONUS content   |
