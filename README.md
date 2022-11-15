@@ -140,14 +140,17 @@
 
 | Lesson | Topic | Lab | Homework |
 | -- | -- | -- | -- |
-| **Intro to React & Props** | [React & Components](./Unit_3/1-react/1.1-intro-react-and-components.md) | [React Dev Skills Lab Part 1](./Unit_3/1-react/1.1.1-react-devskills-lab-part-1.md)  | []() | 
-| **React Props** | [React JSX & Props](./Unit_3/1-react/1.2-react-jsx-and-props.md) | [React Dev Skills Lab Part 2](./Unit_3/1-react/1.2.1-react-devskills-lab-part-2.md)<br>[React Floor Plan Lab](./Unit_3/1-react/1.2.2-optional-react-floor-plan-lab.md)  | []() |
+| **Intro to React & Props** | [React & Components](./Unit_3/1-react/1.1-intro-react-and-components.md) | [React Dev Skills Lab Part 1](./Unit_3/1-react/1.1.1-react-devskills-lab-part-1.md) | []() | 
+| **React Props** | [React JSX & Props](./Unit_3/1-react/1.2-react-jsx-and-props.md) | [React Dev Skills Lab Part 2](./Unit_3/1-react/1.2.1-react-devskills-lab-part-2.md)<br>[React Floor Plan Lab](./Unit_3/1-react/1.2.2-optional-react-floor-plan-lab.md) | []() |
 | **React State** | [React State](./Unit_3/1-react/1.3-react-state.md) | [React Dev Skills Lab Part 3](./Unit_3/1-react/1.3.1-react-devskills-lab-part-3.md)<br>[React "Students" Lab](./Unit_3/1-react/1.3.2-react-students-lab.md)  | []() |
-| **React Forms** | []() | []()  | []() |
-| **React Use Effect & Data Fetching** | []() | []()  | []() |
-| **React Router** | []() | []()  | []() |
-| **Express APIs & React Context** | []() | []()  | []() |
-| **MERN Build & Deployment** | []() | []()  | []() |
+| **React Forms & Event Handling** | [React Handling Input and Events]() | [React Dev Skills Lab Part 4]()<br>[React To Do Lab]() | []() |
+| **Intro to MERN Stack** | [SPAs & MERN Stack]()<br>[MERN Infrastructure Part 1]() | [React Calendar Lab Part 1]()<br>[React Calendar Lab Part 2]() | [React Tic Tac Toe Hackathon]() |
+| **MERN Infrastructure** | [MERN Infrastructure Part 2]()<br>[MERN Infrastructure Part 3]() | [React Movies Lab Part 1]()<br>[React Movies Lab Part 2]() | []() |
+| **Fetch & Authentication** | [MERN Infrastructure Part 4]()<br>[MERN Infrastructure Part 5]() | [React Movies Lab Part 3]()<br>[React Giphy Fetch Lab]() | []() |
+| **Token-based Auth & AJAX** | [MERN Infrastructure Part 6]()<br>[MERN Infrastructure Part 7]() | [React Appointments Lab]() | []() |
+| **useEffect & useRef** | [useEffect & useRef]() | [GA Stock Exchange Lab]() | []() |
+| **Mongoose & React** | [MERN-Stack Shopping Cart Part 1]()<br>[MERN-Stack Shopping Cart Part 2]() | [MERN-Stack Code-Along]()  | []() |
+| **MERN Build & Deployment** | [Realtime with socket.io]()<br>[Deploy MERN App]() | []()  | []() |
 | **Testing in React with Jest** | [Jest](https://git.generalassemb.ly/SEI-Standard-Curriculum/testing-in-react-with-jest-enzyme) | []()  | []() |
 | **BONUS** | [Intro to TypeScript](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-to-typescript)<br>[Styled Components]() | []()  | []() |
 
@@ -177,8 +180,8 @@
 |  | Content to Cover |
 | -- | -- |
 | Week 1 | Fundamentals of React, MERN stack infrastructure |
-| Week 2 | MERN continued, Token-based Authentication, Jest  |
-| Project Week | Project 3 - BONUS content   |
+| Week 2 | MERN continued, Token-based Authentication, Jest |
+| Project Week | Project 3 - BONUS content |
 <hr>
 
 ## Unit 4 - Python/Django (2nd Language)
