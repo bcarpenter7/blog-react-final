@@ -140,9 +140,9 @@
 
 | Lesson | Topic | Lab | Homework |
 | -- | -- | -- | -- |
-| **Intro to React & Props** | [React & Components](./Unit_3/1.1-intro-react-and-components.md) | [React Dev Skills Lab Part 1](./Unit_3/1.1.1-react-devskills-lab-part-1.md)  | []() | 
-| **React Props** | [React JSX & Props](./Unit_3/1.2-react-jsx-and-props.md) | []()  | []() |
-| **React State & Hooks** | []() | []()  | []() |
+| **Intro to React & Props** | [React & Components](./Unit_3/1-react/1.1-intro-react-and-components.md) | [React Dev Skills Lab Part 1](./Unit_3/1-react/1.1.1-react-devskills-lab-part-1.md)  | []() | 
+| **React Props** | [React JSX & Props](./Unit_3/1-react/1.2-react-jsx-and-props.md) | [React Dev Skills Lab Part 2](./Unit_3/1-react/1.2.1-react-devskills-lab-part-2.md)<br>[React Floor Plan Lab](./Unit_3/1-react/1.2.2-optional-react-floor-plan-lab.md)  | []() |
+| **React State** | [React State](./Unit_3/1-react/1.3-react-state.md) | [React Dev Skills Lab Part 3](./Unit_3/1-react/1.3.1-react-devskills-lab-part-3.md)<br>[React "Students" Lab](./Unit_3/1-react/1.3.2-react-students-lab.md)  | []() |
 | **React Forms** | []() | []()  | []() |
 | **React Use Effect & Data Fetching** | []() | []()  | []() |
 | **React Router** | []() | []()  | []() |
@@ -153,23 +153,31 @@
 
 ### Unit 3 Syllabus
 
-#### Topics 1
-- Highlights
+#### Fundamentals of React
+- Props
+- JSX
+- State
+- Hooks
+- Forms
   
-#### Topics 2
-- Highlights
+#### MERN Stack Infrastructure
+- React UseEffect
+- Data Fetching
+- React Router
+- Express APIs
+- React Context
   
-#### Topics 3
-- Highlights
+#### Authentication & Deployment
+- Token-Based Authentication
+- Testing with Jest
 
-#### Project 3
-- Highlights
+#### [Project 3](./Unit_3/project-3/project-3-requirements.md)
 
 ### Suggested Schedule  
 |  | Content to Cover |
 | -- | -- |
 | Week 1 | Fundamentals of React, MERN stack infrastructure |
-| Week 2 | MERN continued, Token-based Authentication,  |
+| Week 2 | MERN continued, Token-based Authentication, Jest  |
 | Project Week | Project 3 - BONUS content   |
 <hr>
 
