@@ -31,19 +31,17 @@
 #### Django
 - Django Fundamentals
 - URLs, Views & Templates
-- Intro to Models
+- Models
 - Class-based Views
 - 1:N & M:N Models
 
-#### [Capstone Project](./project-4/project-4-requirements.md)
-- Be a complete product.
-- Implement thoughtful user stories
-- Be deployed online
-- Use something we didn't teach in class
+#### [Capstone Project](./Unit_4/project-4/project-4-requirements.md)
+- Highlights
   
 ### Suggested Schedule  
 |  | Content to Cover |
 | -- | -- |
-| Week 1 |  |
-| Week 2 |  |
+| Week 1 | Fundamentals of Python, Relational Databases, SQL |
+| Week 2 | Django Framework, Amazon S3, Authentication   |
 | Project Week | Capstone Project - BONUS content   |
+<hr>
