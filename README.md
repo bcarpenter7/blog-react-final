@@ -12,6 +12,7 @@
 
 ## Unit 1 - Fundamentals of Front End Development
 
+### Content
 | Lesson | Topic | Lab | Homework |
 | -- | -- | -- | -- |
 | **Development Environment** | [Terminal/CLI](https://git.generalassemb.ly/SEI-Standard-Curriculum/cli-intro) | [Kitchen Organizer](https://git.generalassemb.ly/SEI-Standard-Curriculum/kitchen-organizer)  | [Homework Folder Structure](Unit_1/sei_hw_folder.md)<br>[Homework Command Line Practice](./Unit_1/1-dev-environment/1.hw-command-line-practice.md) |
@@ -20,7 +21,7 @@
 | **CSS** | [Intro to CSS](./Unit_1/3-html-css/3.2-intro-to-css.md) | [Valerie's Veggie Shop](./Unit_1/valeries-veggie-shop-css-lab/README.md) | [Choose Your Own HTML/CSS Adventure](https://git.generalassemb.ly/SEI-Standard-Curriculum/choose-your-own-css-adventure) |
 | **CSS Flexbox** | [CSS Flexbox](./Unit_1/6-css-layout/6.1-css-flexbox-grid.md)<br>[Responsive Design](./Unit_1/6-css-layout/6.2-responsive-design.md) | [CSS Flexbox-Grid Lab](./Unit_1/6-css-layout/6.1.1-flexbox-grid-lab.md) | [Grid Art](https://git.generalassemb.ly/SEI-Standard-Curriculum/css-grid-art)<br>[HTML/CSS Mockup](https://git.generalassemb.ly/SEI-Standard-Curriculum/html-css-mockup) |
 | **Intro to JavaScript** | [Intro to JavaScript](./Unit_1/2-js-fundamentals/2.1-js-intro-datatypes.md) |   | [Data Types Practice](https://git.generalassemb.ly/SEI-Standard-Curriculum/data-types-practice) |
-| **Control Flow** | [Control Flow](./Unit_1/2-js-fundamentals/2.2-js-control-flow.md) | [Conditionals Practice](https://git.generalassemb.ly/SEI-Standard-Curriculum/js-conditionals-practice)<br>[Loops Practice](https://git.generalassemb.ly/SEI-Standard-Curriculum/js-loops-practice)  | [Control Flow Practice](https://git.generalassemb.ly/SEI-Standard-Curriculum/control-flow-practice) |
+| **Control Flow** | [Control Flow](/Unit_1/2-js-fundamentals/2.2-js-control-flow.md) | [Conditionals Practice](https://git.generalassemb.ly/SEI-Standard-Curriculum/js-conditionals-practice)<br>[Loops Practice](https://git.generalassemb.ly/SEI-Standard-Curriculum/js-loops-practice)  | [Control Flow Practice](https://git.generalassemb.ly/SEI-Standard-Curriculum/control-flow-practice) |
 | **Arrays** | [JS Array Methods](./Unit_1/2-js-fundamentals/2.3-js-arrays.md) | [Arrays Lab](./Unit_1/2-js-fundamentals/2.3.1-js-arrays-lab.md)  | [Recipe Helper](Unit_1/recipe-helper.md) |
 | **Functions and Scope** | [Functions](./Unit_1/2-js-fundamentals/2.4-js-functions.md)<br>[Scope](./Unit_1/2-js-fundamentals/2.5-js-scope.md) | [Functions & Scope Lab](./Unit_1/2-js-fundamentals/2.5.1-js-functions-lab.md)  | [Functions Homework](Unit_1/functions-homework.md) |
 | **Objects** | [Template Literals](./Unit_1/2-js-fundamentals/2.6-js-template-literals.md)<br>[Objects](./Unit_1/2-js-fundamentals/2.7-js-objects.md) | [Objects Lab](./Unit_1/2-js-fundamentals/2.7.1-js-objects-lab.md)  | [Objects Homework](https://git.generalassemb.ly/SEI-Standard-Curriculum/js-array-methods-homework) |
@@ -72,16 +73,30 @@
 #### Additional Resources
 - [Developer Habits and Tools](https://git.generalassemb.ly/SEI-Standard-Curriculum/developer-habits-and-tools)
 
-### Suggested Schedule
-|  | Content to Cover |
-| -- | -- |
-| Week 1 | Git/GitHub, JavaScript Fundamentals, HTML & CSS, Control Flow, Functions & Scope, Arrays, Objects  |
-| Week 2 | DOM, Events, Callbacks, Classes, Array Iterator Methods, Intro to Algorithms |
-| Project Week | Project 1 - best practices, any BONUS content   |
+### Potential Unit 1 Schedule
+| Week 1 | Day 1 | Day 2 | Day 3 | Day 4 | Day 5 |
+| -- | -- | -- | -- | -- | -- |
+| Lecture(s) | [Installfest](./Unit_1/1-dev-environment/1.1-installfest-mac.md)<br>[Intro to JavaScript](./Unit_1/2-js-fundamentals/2.1-js-intro-datatypes.md)<br>[Control Flow](./Unit_1/2-js-fundamentals/2.2-js-control-flow.md) | []() | []() | []() | []() |
+| Lab | []() | []() | []() | []() | []() |
+| Homework | []() | []() | []() | []() | []() |
+| CS Code Challenge | []() | []() | []() | []() | []() |
+| Week 2 | Day 6 | Day 7 | Day 8 | Day 9 | Day 10 |
+| -- | -- | -- | -- | -- | -- |
+| Lecture | []() | []() | []() | []() | []() |
+| Lab | []() | []() | []() | []() | []() |
+| Homework | []() | []() | []() | []() | []() |
+| CS Code Challenge | []() | []() | []() | []() | []() |
+| Project Week | Day 11 | Day 12 | Day 13 | Day 14 | Day 15 |
+| -- | -- | -- | -- | -- | -- |
+| Daily Stand-up | ✅ | ✅ | ✅ | ✅ | Presentation Day |
+| Lunch & Learn | []()] | []()] | []()] | []()] | []() |
+| Support | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
+| Daily Code Challenge | []() | []() | []() | []() | []() |
 <hr>
 
 ## Unit 2 - Full Stack Development
 
+### Content
 | Lesson | Topic | Lab | Homework |
 | -- | -- | -- | -- |
 | **Intro to Node & NPM** | [Intro to Full Stack Development](./Unit_2/1-intro-full-stack/1.1-intro-fullstack-http.md)<br>[Intro to Node](./Unit_2/1-intro-full-stack/1.2-intro-to-node.md) | [Server-side Debugging Setup](./Unit_2/1-intro-full-stack/1.3-server-side-debugging-setup.md) | [Node Resume](https://git.generalassemb.ly/SEI-Standard-Curriculum/npm-resume) | 
@@ -127,16 +142,30 @@
 
 ### [Project 2](./Unit_2/project-2/project-2.md)
 
-### Suggested Schedule
-|  | Content to Cover |
-| -- | -- |
-| Week 1 | Node & NPM, Express, REST APIs, Mongoose/MongoDB, CRUD   |
-| Week 2 | Promises, Callbacks, Authentication, Express TDD, Deployment |
-| Project Week | Project 2 - Git Team Workflows, any other BONUS content   |
+### Potential Unit 2 Schedule
+| Week 4 | Day 16 | Day 17 | Day 18 | Day 19 | Day 20 |
+| -- | -- | -- | -- | -- | -- |
+| Lecture | []() | []() | []() | []() | []() |
+| Lab | []() | []() | []() | []() | []() |
+| Homework | []() | []() | []() | []() | []() |
+| CS Code Challenge | []() | []() | []() | []() | []() |
+| Week 5 | Day 21 | Day 22 | Day 23 | Day 24 | Day 25 |
+| -- | -- | -- | -- | -- | -- |
+| Lecture | []() | []() | []() | []() | []() |
+| Lab | []() | []() | []() | []() | []() |
+| Homework | []() | []() | []() | []() | []() |
+| CS Code Challenge | []() | []() | []() | []() | []() |
+| Project Week | Day 26 | Day 27 | Day 28 | Day 29 | Day 30 |
+| -- | -- | -- | -- | -- | -- |
+| Stand-up | ✅ | ✅ | ✅ | ✅ | Presentation Day |
+| Lunch & Learn | []()] | []()] | []()] | []()] | []() |
+| Support | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
+| CS Code Challenge | []() | []() | []() | []() | []() |
 <hr>
 
 ## Unit 3 - React Fundamentals
 
+### Content
 | Lesson | Topic | Lab | Homework |
 | -- | -- | -- | -- |
 | **Intro to React & Props** | [React & Components](./Unit_3/1-react/1.1-intro-react-and-components.md) | [React Dev Skills Lab Part 1](./Unit_3/1-react/1.1.1-react-devskills-lab-part-1.md) | []() | 
@@ -175,16 +204,30 @@
 
 #### [Project 3](./Unit_3/project-3/project-3-requirements.md)
 
-### Suggested Schedule  
-|  | Content to Cover |
-| -- | -- |
-| Week 1 | Fundamentals of React, MERN stack infrastructure |
-| Week 2 | MERN continued, Token-based Authentication, Jest |
-| Project Week | Project 3 - BONUS content |
+### Potential Unit 3 Schedule
+| Week 7 | Day 31 | Day 32 | Day 33 | Day 34 | Day 35 |
+| -- | -- | -- | -- | -- | -- |
+| Lecture | []() | []() | []() | []() | []() |
+| Lab | []() | []() | []() | []() | []() |
+| Homework | []() | []() | []() | []() | []() |
+| CS Code Challenge | []() | []() | []() | []() | []() |
+| Week 8 | Day 36 | Day 37 | Day 38 | Day 39 | Day 40 |
+| -- | -- | -- | -- | -- | -- |
+| Lecture | []() | []() | []() | []() | []() |
+| Lab | []() | []() | []() | []() | []() |
+| Homework | []() | []() | []() | []() | []() |
+| CS Code Challenge | []() | []() | []() | []() | []() |
+| Project Week | Day 41 | Day 42 | Day 43 | Day 44 | Day 45 |
+| -- | -- | -- | -- | -- | -- |
+| Stand-up | ✅ | ✅ | ✅ | ✅ | Presentation Day |
+| Lunch & Learn | []()] | []()] | []()] | []()] | []() |
+| Support | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
+| CS Code Challenge | []() | []() | []() | []() | []() |
 <hr>
 
 ## Unit 4 - Python/Django (2nd Language)
 
+### Content
 | Lesson | Topic | Lab | Homework |
 | -- | -- | -- | -- |
 | **Intro to Python** | [Intro to Python](./Unit_4/1-python/1.1-intro-python.md)<br>[Python Control Flow](./Unit_4/1-python/1.2-python-control-flow.md) | [Control Flow Lab](./Unit_4/1-python/1.2.1-control-flow-lab.md)  | []() |
@@ -223,12 +266,25 @@
 #### [Capstone Project](./Unit_4/project-4/project-4-requirements.md)
 - Highlights
   
-### Suggested Schedule  
-|  | Content to Cover |
-| -- | -- |
-| Week 1 | Fundamentals of Python, Relational Databases, SQL |
-| Week 2 | Django Framework, Amazon S3, Authentication   |
-| Project Week | Capstone Project - BONUS content   |
+### Potential Unit 4 Schedule
+| Week 10 | Day 46 | Day 47 | Day 48 | Day 49 | Day 50 |
+| -- | -- | -- | -- | -- | -- |
+| Lecture | []() | []() | []() | []() | []() |
+| Lab | []() | []() | []() | []() | []() |
+| Homework | []() | []() | []() | []() | []() |
+| CS Code Challenge | []() | []() | []() | []() | []() |
+| Week 11 | Day 51 | Day 55 | Day 53 | Day 54 | Day 55 |
+| -- | -- | -- | -- | -- | -- |
+| Lecture | []() | []() | []() | []() | []() |
+| Lab | []() | []() | []() | []() | []() |
+| Homework | []() | []() | []() | []() | []() |
+| CS Code Challenge | []() | []() | []() | []() | []() |
+| Capstone Week | Day 56 | Day 57 | Day 58 | Day 59 | Day 60 |
+| -- | -- | -- | -- | -- | -- |
+| Stand-up | ✅ | ✅ | ✅ | ✅ | Presentation Day |
+| Lunch & Learn | []()] | []()] | []()] | []()] | []() |
+| Support | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
+| CS Code Challenge | []() | []() | []() | []() | []() |
 <hr>
 
 ## Computer Science
