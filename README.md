@@ -80,12 +80,16 @@
 | Lab | []() | []() | []() | []() | []() |
 | Homework | []() | []() | []() | []() | []() |
 | CS Code Challenge | []() | []() | []() | []() | []() |
+
+
 | Week 2 | Day 6 | Day 7 | Day 8 | Day 9 | Day 10 |
 | -- | -- | -- | -- | -- | -- |
 | Lecture | []() | []() | []() | []() | []() |
 | Lab | []() | []() | []() | []() | []() |
 | Homework | []() | []() | []() | []() | []() |
 | CS Code Challenge | []() | []() | []() | []() | []() |
+
+
 | Project Week | Day 11 | Day 12 | Day 13 | Day 14 | Day 15 |
 | -- | -- | -- | -- | -- | -- |
 | Daily Stand-up | ✅ | ✅ | ✅ | ✅ | Presentation Day |
