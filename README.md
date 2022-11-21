@@ -78,15 +78,12 @@
 | Homework | [Homework Command Line Practice](/Unit_1/1-dev-environment/1.hw-command-line-practice.md) | [Functions Homework](/Unit_1/functions-homework.md)<br>[Arrays Lab](/Unit_1/2-js-fundamentals/2.3.1-js-arrays-lab.md) | [Objects Lab](/Unit_1/2-js-fundamentals/2.7.1-js-objects-lab.md) | []() | []() |
 | Daily Coding Challenge | [addOne](https://replit.com/@jim_clark/01-addOne#challenge.js) | [addTwoNumbers](https://replit.com/@jim_clark/02-addTwoNumbers#challenge.js) | [sumNumbers](https://replit.com/@jim_clark/03-sumNumbers#challenge.js) | [addList](https://replit.com/@jim_clark/04-addList#challenge.js) | [computeRemainder](https://replit.com/@jim_clark/05-computeRemainder#challenge.js) |
 
-
 | Week 2 | Day 6 | Day 7 | Day 8 | Day 9 | Day 10 |
 | -- | -- | -- | -- | -- | -- |
 | Lecture(s) | []() | []() | []() | []() | []() |
 | Lab | []() | []() | []() | []() | []() |
 | Homework | []() | []() | []() | []() | []() |
-| CS Code Challenge | [range](https://replit.com/@jim_clark/06-range#challenge.js) | [reverseUpcaseString](https://replit.com/@jim_clark/07-reverseUpcaseString#challenge.js) | [removeEnds](https://replit.com/@jim_clark/08-removeEnds#challenge.js) | [charCount](https://replit.com/@jim_clark/09-charCount#challenge.js)) | [formatWithPadding](https://replit.com/@jim_clark/10-formatWithPadding#challenge.js) |
-
-
+| Daily Coding Challenge | [range](https://replit.com/@jim_clark/06-range#challenge.js) | [reverseUpcaseString](https://replit.com/@jim_clark/07-reverseUpcaseString#challenge.js) | [removeEnds](https://replit.com/@jim_clark/08-removeEnds#challenge.js) | [charCount](https://replit.com/@jim_clark/09-charCount#challenge.js) | [formatWithPadding](https://replit.com/@jim_clark/10-formatWithPadding#challenge.js) |
 | Project Week | Day 11 | Day 12 | Day 13 | Day 14 | Day 15 |
 | -- | -- | -- | -- | -- | -- |
 | Daily Stand-up | ✅ | ✅ | ✅ | ✅ | Presentation Day |
@@ -148,19 +145,18 @@
 | Lecture(s) | []() | []() | []() | []() | []() |
 | Lab | []() | []() | []() | []() | []() |
 | Homework | []() | []() | []() | []() | []() |
-| CS Code Challenge | []() | []() | []() | []() | []() |
+| Daily Coding Challenge | [isPalindrome](https://replit.com/@jim_clark/11-isPalindrome#challenge.js) | [hammingDistance](https://replit.com/@jim_clark/12-hammingDistance#challenge.js) | [mumble](https://replit.com/@jim_clark/13-mumble#challenge.js) | [fromPairs](https://replit.com/@jim_clark/14-fromPairs#challenge.js) | [mergeObjects](https://replit.com/@jim_clark/15-mergeObjects#challenge.js) |
 | Week 5 | Day 21 | Day 22 | Day 23 | Day 24 | Day 25 |
 | -- | -- | -- | -- | -- | -- |
 | Lecture(s) | []() | []() | []() | []() | []() |
 | Lab | []() | []() | []() | []() | []() |
 | Homework | []() | []() | []() | []() | []() |
-| CS Code Challenge | []() | []() | []() | []() | []() |
+| Daily Coding Challenge | [findHighestPriced](https://replit.com/@jim_clark/16-findHighestPriced#challenge.js) | [mapArray](https://replit.com/@jim_clark/17-mapArray#challenge.js) | [reduceArray](https://replit.com/@jim_clark/18-reduceArray#challenge.js) | [flatten](https://replit.com/@jim_clark/19-flatten#challenge.js) | [isPrime](https://replit.com/@jim_clark/20-isPrime#challenge.js) |
 | Project Week | Day 26 | Day 27 | Day 28 | Day 29 | Day 30 |
 | -- | -- | -- | -- | -- | -- |
 | Stand-up | ✅ | ✅ | ✅ | ✅ | Presentation Day |
 | Lunch & Learn | []()] | []()] | []()] | []()] | []() |
 | Support | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
-| CS Code Challenge | [isPalindrome](https://replit.com/@jim_clark/11-isPalindrome#challenge.js) | [hammingDistance](https://replit.com/@jim_clark/12-hammingDistance#challenge.js) | [mumble](https://replit.com/@jim_clark/13-mumble#challenge.js) | [fromPairs](https://replit.com/@jim_clark/14-fromPairs#challenge.js) | [mergeObjects](https://replit.com/@jim_clark/15-mergeObjects#challenge.js) |
 <hr>
 
 ## Unit 3 - React Fundamentals
@@ -210,19 +206,18 @@
 | Lecture(s) | []() | []() | []() | []() | []() |
 | Lab | []() | []() | []() | []() | []() |
 | Homework | []() | []() | []() | []() | []() |
-| CS Code Challenge | []() | []() | []() | []() | []() |
+| Daily Coding Challenge | [primeFactors](https://replit.com/@jim_clark/21-primeFactors#challenge.js) | [intersection](https://replit.com/@jim_clark/22-intersection#challenge.js) | [balancedBrackets](https://replit.com/@jim_clark/23-balancedBrackets#challenge.js) | [isWinningTicket](https://replit.com/@jim_clark/24-isWinningTicket#challenge.js) | [getNumForIP](https://replit.com/@jim_clark/25-getNumForIP#challenge.js) |
 | Week 8 | Day 36 | Day 37 | Day 38 | Day 39 | Day 40 |
 | -- | -- | -- | -- | -- | -- |
 | Lecture(s) | []() | []() | []() | []() | []() |
 | Lab | []() | []() | []() | []() | []() |
 | Homework | []() | []() | []() | []() | []() |
-| CS Code Challenge | []() | []() | []() | []() | []() |
+| Daily Coding Challenge | [toCamelCase](https://replit.com/@jim_clark/26-toCamelCase#challenge.js) | [countTheBits](https://replit.com/@jim_clark/27-countTheBits#challenge.js) | [gridTrip](https://replit.com/@jim_clark/28-gridTrip#challenge.js) | [addChecker](https://replit.com/@jim_clark/29-addChecker#challenge.js) | [totalTaskTime](https://replit.com/@jim_clark/30-totalTaskTime#challenge.js) |
 | Project Week | Day 41 | Day 42 | Day 43 | Day 44 | Day 45 |
 | -- | -- | -- | -- | -- | -- |
 | Stand-up | ✅ | ✅ | ✅ | ✅ | Presentation Day |
 | Lunch & Learn | []()] | []()] | []()] | []()] | []() |
 | Support | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
-| CS Code Challenge | []() | []() | []() | []() | []() |
 <hr>
 
 ## Unit 4 - Python/Django (2nd Language)
@@ -272,19 +267,18 @@
 | Lecture(s) | []() | []() | []() | []() | []() |
 | Lab | []() | []() | []() | []() | []() |
 | Homework | []() | []() | []() | []() | []() |
-| CS Code Challenge | []() | []() | []() | []() | []() |
+| Daily Coding Challenge | HackerRank or LeetCode | HackerRank or LeetCode | HackerRank or LeetCode | HackerRank or LeetCode | HackerRank or LeetCode |
 | Week 11 | Day 51 | Day 55 | Day 53 | Day 54 | Day 55 |
 | -- | -- | -- | -- | -- | -- |
 | Lecture(s) | []() | []() | []() | []() | []() |
 | Lab | []() | []() | []() | []() | []() |
 | Homework | []() | []() | []() | []() | []() |
-| CS Code Challenge | []() | []() | []() | []() | []() |
+| Daily Coding Challenge | HackerRank or LeetCode | HackerRank or LeetCode | HackerRank or LeetCode | HackerRank or LeetCode | HackerRank or LeetCode |
 | Capstone Week | Day 56 | Day 57 | Day 58 | Day 59 | Day 60 |
 | -- | -- | -- | -- | -- | -- |
 | Stand-up | ✅ | ✅ | ✅ | ✅ | Presentation Day |
 | Lunch & Learn | []()] | []()] | []()] | []()] | []() |
 | Support | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
-| CS Code Challenge | []() | []() | []() | []() | []() |
 <hr>
 
 ## Computer Science
