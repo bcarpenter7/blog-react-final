@@ -20,7 +20,7 @@
 | 0 | [sayHello](https://replit.com/@jim_clark/00-sayHello#challenge.js) |
 | 1 | [addOne](https://replit.com/@jim_clark/01-addOne#challenge.js) |
 | 2 | [addTwoNumbers](https://replit.com/@jim_clark/02-addTwoNumbers#challenge.js) |
-| 3 | [sumNumbers](https://replit.com/@jim_clark/03-sumNumbers#challenge.js)) |
+| 3 | [sumNumbers](https://replit.com/@jim_clark/03-sumNumbers#challenge.js) |
 | 4 | [addList](https://replit.com/@jim_clark/04-addList#challenge.js) |
 | 5 | [computeRemainder](https://replit.com/@jim_clark/05-computeRemainder#challenge.js) |
 | 6 | [range](https://replit.com/@jim_clark/06-range#challenge.js) |
