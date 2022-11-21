@@ -75,8 +75,8 @@
 | -- | -- | -- | -- | -- | -- |
 | Lecture(s) | [Installfest](./Unit_1/1-dev-environment/1.1-installfest-mac.md)<br>[Intro to JavaScript](./Unit_1/2-js-fundamentals/2.1-js-intro-datatypes.md)<br>[Control Flow](./Unit_1/2-js-fundamentals/2.2-js-control-flow.md) | [JS Array Methods](/Unit_1/2-js-fundamentals/2.3-js-arrays.md)<br>[Functions](/Unit_1/2-js-fundamentals/2.4-js-functions.md)<br>[Scope](/Unit_1/2-js-fundamentals/2.5-js-scope.md) | [Objects](/Unit_1/2-js-fundamentals/2.7-js-objects.md)<br>[Template Literals](/Unit_1/2-js-fundamentals/2.6-js-template-literals.md)<br>[Intro to HTML](/Unit_1/3-html-css/3.1-intro-to-html.md)<br>[Intro to CSS](/Unit_1/3-html-css/3.2-intro-to-css.md) | [Intro to the DOM](/Unit_1/4-dom/4.1-dom-intro.md)<br>[DOM Events](/Unit_1/4-dom/4.2-dom-events.md) | [Guide to Building a Browser Game](/Unit_1/5-programming/5.1-guide-to-building-a-browser-game.md)<br>[Connect Four Code-Along](/Unit_1/5-programming/5.2-connect-four-code-along.md) |
 | Lab | [Control Flow Practice](https://git.generalassemb.ly/SEI-Standard-Curriculum/control-flow-practice) | [Arrays Lab](/Unit_1/2-js-fundamentals/2.3.1-js-arrays-lab.md)<br>[Functions & Scope Lab](/Unit_1/2-js-fundamentals/2.5.1-js-functions-lab.md) | [Objects Lab](/Unit_1/2-js-fundamentals/2.7.1-js-objects-lab.md)<br>[CSS Diner](https://flukeout.github.io/) | [DOM Menu Lab Part 1](/Unit_1/4-dom/4.1.1-dom-menu-lab-part-1.md)<br>[DOM Menu Lab Part 2](/Unit_1/todo-list_dom_lab.md) | [Open Lab]() |
-| Homework | [Homework Command Line Practice](/Unit_1/1-dev-environment/1.hw-command-line-practice.md) | [Functions Homework](/Unit_1/functions-homework.md)<br>Arrays Lab | []() | []() | []() |
-| Daily Coding Challenge | [sayHello](https://replit.com/@jim_clark/00-sayHello#challenge.js) | [addOne](https://replit.com/@jim_clark/01-addOne#challenge.js) | [addTwoNumbers](https://replit.com/@jim_clark/02-addTwoNumbers#challenge.js) | [sumNumbers](https://replit.com/@jim_clark/03-sumNumbers#challenge.js) | [addList](https://replit.com/@jim_clark/04-addList#challenge.js) |
+| Homework | [Homework Command Line Practice](/Unit_1/1-dev-environment/1.hw-command-line-practice.md) | [Functions Homework](/Unit_1/functions-homework.md)<br>[Arrays Lab](/Unit_1/2-js-fundamentals/2.3.1-js-arrays-lab.md) | [Objects Lab](/Unit_1/2-js-fundamentals/2.7.1-js-objects-lab.md) | []() | []() |
+| Daily Coding Challenge | [addOne](https://replit.com/@jim_clark/01-addOne#challenge.js) | [addTwoNumbers](https://replit.com/@jim_clark/02-addTwoNumbers#challenge.js) | [sumNumbers](https://replit.com/@jim_clark/03-sumNumbers#challenge.js) | [addList](https://replit.com/@jim_clark/04-addList#challenge.js) | [computeRemainder](https://replit.com/@jim_clark/05-computeRemainder#challenge.js) |
 
 
 | Week 2 | Day 6 | Day 7 | Day 8 | Day 9 | Day 10 |
@@ -84,7 +84,7 @@
 | Lecture(s) | []() | []() | []() | []() | []() |
 | Lab | []() | []() | []() | []() | []() |
 | Homework | []() | []() | []() | []() | []() |
-| CS Code Challenge | [computeRemainder](https://replit.com/@jim_clark/05-computeRemainder#challenge.js) | [range](https://replit.com/@jim_clark/06-range#challenge.js) | [reverseUpcaseString](https://replit.com/@jim_clark/07-reverseUpcaseString#challenge.js) | [removeEnds](https://replit.com/@jim_clark/08-removeEnds#challenge.js) | [charCount](https://replit.com/@jim_clark/09-charCount#challenge.js)) |
+| CS Code Challenge | [range](https://replit.com/@jim_clark/06-range#challenge.js) | [reverseUpcaseString](https://replit.com/@jim_clark/07-reverseUpcaseString#challenge.js) | [removeEnds](https://replit.com/@jim_clark/08-removeEnds#challenge.js) | [charCount](https://replit.com/@jim_clark/09-charCount#challenge.js)) | [formatWithPadding](https://replit.com/@jim_clark/10-formatWithPadding#challenge.js) |
 
 
 | Project Week | Day 11 | Day 12 | Day 13 | Day 14 | Day 15 |
@@ -92,7 +92,6 @@
 | Daily Stand-up | ✅ | ✅ | ✅ | ✅ | Presentation Day |
 | Lunch & Learn | []() | []() | []() | []() | []() |
 | Support | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
-| Daily Code Challenge | [formatWithPadding](https://replit.com/@jim_clark/10-formatWithPadding#challenge.js) | []() | []() | []() | []() |
 <hr>
 
 ## Unit 2 - Full Stack Development
@@ -161,7 +160,7 @@
 | Stand-up | ✅ | ✅ | ✅ | ✅ | Presentation Day |
 | Lunch & Learn | []()] | []()] | []()] | []()] | []() |
 | Support | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
-| CS Code Challenge | []() | []() | []() | []() | []() |
+| CS Code Challenge | [isPalindrome](https://replit.com/@jim_clark/11-isPalindrome#challenge.js) | [hammingDistance](https://replit.com/@jim_clark/12-hammingDistance#challenge.js) | [mumble](https://replit.com/@jim_clark/13-mumble#challenge.js) | [fromPairs](https://replit.com/@jim_clark/14-fromPairs#challenge.js) | [mergeObjects](https://replit.com/@jim_clark/15-mergeObjects#challenge.js) |
 <hr>
 
 ## Unit 3 - React Fundamentals
