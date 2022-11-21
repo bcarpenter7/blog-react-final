@@ -16,6 +16,7 @@
 
 ## Daily Coding Challenges
 | Day | Challenge |
+| -- | -- |
 | 0 | [sayHello](https://replit.com/@jim_clark/00-sayHello#challenge.js) |
 | 1 | [addOne](https://replit.com/@jim_clark/01-addOne#challenge.js) |
 | 2 | [addTwoNumbers](https://replit.com/@jim_clark/02-addTwoNumbers#challenge.js) |
