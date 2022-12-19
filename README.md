@@ -181,7 +181,7 @@
 | **Token-based Auth & AJAX** | [MERN Infrastructure Part 6](/Unit_3/2-mern-infrastructure/2.7-mern-infrastructure-part-6/)<br>---<br>[MERN Infrastructure Part 7](/Unit_3/2-mern-infrastructure/2.8-mern-infrastructure-part-7/) | [React Appointments Lab](/Unit_3/2-mern-infrastructure/2.8.1-react-appointments-lab.md) | []() |
 | **useEffect & useRef** | [useEffect & useRef](/Unit_3/3-mern-shopping-cart/3.1-react-effect-and-ref-hooks/) | [GA Stock Exchange Lab](/Unit_3/3-mern-shopping-cart/3.1.1-ga-stock-market-lab/) | []() |
 | **Mongoose & React** | [MERN-Stack Shopping Cart Part 1](/Unit_3/3-mern-shopping-cart/3.2.1-mern-shopping-cart-part-1/)<br>---<br>[MERN-Stack Shopping Cart Part 2](/Unit_3/3-mern-shopping-cart/3.2.2-mern-shopping-cart-part-2/) | [MERN-Stack Code-Along](/Unit_3/3-mern-shopping-cart/3.3-mern-stack-class-codealong/)  | []() |
-| **MERN Build & Deployment** | [Realtime with socket.io](/Unit_3/4-realtime-socket-io/4.1-realtime-with-socket-io)<br>---<br>[Closures](/Unit_3/4-realtime-socket-io/4.1.1-closures.md) | [Deploy MERN App](/Unit_3/4-realtime-socket-io/4.3-deploy-mern-stack.md)  | []() |
+| **MERN Build & Deployment** | []() | [Deploy MERN App](/Unit_3/4-realtime-socket-io/4.3-deploy-mern-stack.md)  | []() |
 | **Testing in React with Jest** | [Jest](https://git.generalassemb.ly/SEI-Standard-Curriculum/testing-in-react-with-jest-enzyme) | []()  | []() |
 | **BONUS** | [Intro to TypeScript](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-to-typescript)<br>---<br>[React Bootstrap](/Unit_3/react-bootstrap.md) | []()  | []() |
 
