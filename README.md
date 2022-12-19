@@ -15,7 +15,7 @@
 ### Content
 | Lesson | Topic | Lab | Homework |
 | -- | -- | -- | -- |
-| **Development Environment** | [Terminal/CLI](https://git.generalassemb.ly/SEI-Standard-Curriculum/cli-intro) | [Kitchen Organizer](https://git.generalassemb.ly/SEI-Standard-Curriculum/kitchen-organizer)  | [Homework Folder Structure](/Unit_1/sei_hw_folder.md)<br>---<br>[Homework Command Line Practice](/Unit_1/1-dev-environment/1.hw-command-line-practice.md) |
+| **Development Environment** | [Installfest](/Unit_1/1-dev-environment/1.1-installfest-mac.md) | [Kitchen Organizer](https://git.generalassemb.ly/SEI-Standard-Curriculum/kitchen-organizer)  | [Homework Command Line Practice](/Unit_1/1-dev-environment/1.hw-command-line-practice.md) |
 | **Git/GitHub** | [Git/GitHub](https://git.generalassemb.ly/SEI-Standard-Curriculum/git-intro) | [Git Extra Practice](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-git-practice#hungry-for-more)  | [Git Practice HW](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-git-practice)<br>---<br>[BONUS: Grumpy Cat HW](https://git.generalassemb.ly/SEIR-teams-materials/git-and-github/blob/master/homework-fake-resume-and-github.md) |
 | **HTML** | [Intro to HTML](/Unit_1/3-html-css/3.1-intro-to-html.md) | [HTML Fixit](https://git.generalassemb.ly/SEI-Standard-Curriculum/html-fix-it)  | [To Oz](/Unit_1/to_oz.md) | 
 | **CSS** | [Intro to CSS](/Unit_1/3-html-css/3.2-intro-to-css.md) | [Valerie's Veggie Shop](/Unit_1/valeries-veggie-shop-css-lab/README.md) | [Choose Your Own HTML/CSS Adventure](https://git.generalassemb.ly/SEI-Standard-Curriculum/choose-your-own-css-adventure) |

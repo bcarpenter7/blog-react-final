@@ -576,17 +576,43 @@ Check out [these React docs](https://reactjs.org/docs/hooks-effect.html#effects-
 
 ### ❓ `useEffect` Review Questions
 
-1. **True or False:  In general, the `useEffect` hook is used to run code after a component renders.**
+<details>
+<summary>
+(1) True or False:  In general, the <code>useEffect</code> hook is used to run code after a component renders.
+</summary>
+<hr>
 
-2. **When will the following effect run?**
+**True**
 
-    ```js
-    useEffect(function() {
-      console.log('Effect ran');
-    }, []);
-    ```
+<hr>
+</details>
 
-3. **True or False:  The `useEffect` hook can be used to run code after a certain state variable changes.**
+```js
+useEffect(function() {
+  console.log('Effect ran');
+}, []);
+```
+<details>
+<summary>
+(2) When will the above effect run?
+</summary>
+<hr>
+
+**Only once - after the first render**
+
+<hr>
+</details>
+
+<details>
+<summary>
+(3) True or False:  The <code>useEffect</code> hook can be used to run code after a certain state variable changes.
+</summary>
+<hr>
+
+**True** - by including the state variable in the dependency array.
+
+<hr>
+</details>
 
 ## 7. Computing the Categories and Persisting Them With `useRef`
 
