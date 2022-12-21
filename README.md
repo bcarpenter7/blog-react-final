@@ -183,7 +183,6 @@
 | **Mongoose & React** | [MERN-Stack Shopping Cart Part 1](/Unit_3/3-mern-shopping-cart/3.2.1-mern-shopping-cart-part-1/)<br>---<br>[MERN-Stack Shopping Cart Part 2](/Unit_3/3-mern-shopping-cart/3.2.2-mern-shopping-cart-part-2/) | [MERN-Stack Code-Along](/Unit_3/3-mern-shopping-cart/3.3-mern-stack-class-codealong/)  | []() |
 | **MERN Build & Deployment** | []() | [Deploy MERN App](/Unit_3/4-realtime-socket-io/4.3-deploy-mern-stack.md)  | []() |
 | **Testing in React with Jest** | [Jest](/Unit_3/5-react-testing-jest-enzyme/README.md) | []()  | []() |
-| **BONUS** | [Intro to TypeScript](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-to-typescript)<br>---<br>[React Bootstrap](/Unit_3/react-bootstrap.md) | []()  | []() |
 
 ### Unit 3 Syllabus
 
