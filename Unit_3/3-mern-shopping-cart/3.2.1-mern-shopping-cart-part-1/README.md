@@ -128,6 +128,8 @@ Looking at `lineItemSchema`, again, there appears to be some "missing" propertie
 
 These "computed" properties can best be implemented using **virtual properties**...
 
+**note**: It is important to understand what you are asking mongoose to do when you create a virtual field. Every time you fetch data using a scheme with a virtual field, mongoose is going to perform additional actions that are abstracted from the engineer to properly generate virtual fields as requested, this could mean performing additional synchronous actions; mongoose virtual fields must be synchronous, you cannot perform asynchronous actions inside of them. If you make complex synchronous behaviors in your virtual fields in a high volume system, you could unintentionally be adding substantial load to each request. It is best practice to keep your virtual fields as simple as possible and try and do any iteration type behaviors outside of the virtual field when possible. It is also encouraged that you explore mongoose features like lean when performing queries as to avoid unintentionally generating virtual fields you may not need as well as avoiding pulling mongoose models when you may not require them. See documentation on [mongoose lean](https://mongoosejs.com/docs/tutorials/lean.html).  
+
 ## 5. Define the Virtual Properties for `orderSchema` and `lineItemSchema`
 
 When Mongoose was introduced, we briefly discussed one of its most useful features - **virtual properties**, or **virtuals** for short.

@@ -82,6 +82,9 @@ The naming conventions of the folders and files for class components is no diffe
 
 Class components in React typically inherit from the [`Component`](https://reactjs.org/docs/react-component.html) class defined in the React library, let's import it:
 
+**note**: With the new feature improvements provided by React hooks([See React State module for React hooks review here](../../1-react/1.3-react-state.md))in React 16.8, the React team now recommends engineers to use functional components and React hooks instead of class components. See React team's comments on moving from class components to functional components here [React classes to hooks](https://reactjs.org/docs/hooks-faq.html#from-classes-to-hooks). It is important to still understand class components and to be able to use these, as many projects will still use the older class component patterns. You will see a mixture of class and functional components using hooks in this course.
+
+
 ```jsx
 // SignUpForm.jsx
 
