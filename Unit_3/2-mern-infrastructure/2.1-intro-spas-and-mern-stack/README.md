@@ -12,15 +12,16 @@
 
 ## Road Map
 
-- Intro to SPAs
-- Intro to the MERN-Stack
-- This Unit's Reference App: **SEI CAFE**
-- Building a MERN-Stack's Infrastructure
-- Let's Begin Building **mern-infrastructure**
-- Configure React for Full-stack Development
-- Further Study
+1. Intro to SPAs
+2. Intro to the MERN-Stack
+3. This Unit's Reference App: **SEI CAFE**
+4. Building a MERN-Stack's Infrastructure
+5. Setting Up the **mern-infrastructure** Project
+6. Configure React for Full-stack Development
+7. Essential Questions
+8. Further Study
 
-## Intro to SPAs
+## 1. Intro to SPAs
 
 ### Review - What is a Single-Page App?
 
@@ -44,7 +45,7 @@ As you've seen, the `fetch` API, as well as utilities such as Axios & jQuery's A
 
 With AJAX, the server responds to an HTTP request with an HTTP response that usually contains a JSON payload in the response body.
 
-Because the request was sent via code, and the response handled via code, the browser has no reason to reload the page!
+Because the request was sent via code, and the response handled via code, the browser won't reload the page!
 
 ### Concept 2: Client-Side Routing
 
@@ -54,9 +55,13 @@ In a SPA, we still need a way to switch to different "pages" of functionality (s
 
 **Client-side routing** is what enables users of a SPA to navigate to different "pages" without triggering a full-page refresh. 
 
-The users will still be clicking navigation "links" that cause the browser's address bar to change.  However, the client-side router intercepts the changes to the path by tapping into the browser's [History API](https://developer.mozilla.org/en-US/docs/Web/API/History_API). Intercepting the change to the path in the address bar prevents a request from ever being sent to the server. Instead, the SPA will react locally and this is why it's called client-side routing.
+The users will still be clicking navigation "links" that cause the browser's address bar to change.
 
-> Note that we will continue to define server-side routes, however, the vast majority of those routes will be API-type routes that are accessed via AJAX calls, perform CRUD and return data as JSON needed by the frontend.
+However, the client-side router intercepts the changes to the path by tapping into the browser's [History API](https://developer.mozilla.org/en-US/docs/Web/API/History_API). 
+
+By using the History API, the client-side router can manipulate the path in the address bar without triggering an HTTP request.
+
+> 👀 We will continue to define server-side routes, however, the vast majority of those routes will be API-type routes that are accessed via AJAX calls, perform CRUD and return data as JSON to the browser.
 
 Feel free to checkout the Further Study section to learn more about the History API and Hash URIs.
 
@@ -68,29 +73,67 @@ This is a SPA, so you don't want the button to cause a full-page refresh!
 
 In SPAs, you would send an AJAX request containing the data for the new comment to the server.
 
-The server would update the database and send back a response (probably containing the updated list of comments).
+The server would update the database respond with JSON data - probably containing the current comments in an array.
 
 However, to make the comment show up in the UI, it needs to be updated using JavaScript - a process we call **client-side rendering**.
 
-<details><summary>Guess who the undisputed client-side rendering champion is...</summary>
-<p><strong>The React Library - of course!</strong></p>
+<details>
+<summary>
+Guess who the undisputed client-side rendering champion is...
+</summary>
+<hr>
+
+The **React** Library - of course!
+
+<hr>
 </details>
 
-### ❓ Review Questions - SPAs
+### ❓ Review Questions - SPAs (1 min)
 
-1. **What's the most significant difference between a traditional multi-page web app and a single-page app?**
+<details>
+<summary>
+(1) What's the most significant difference between a traditional multi-page web app and a single-page app?
+</summary>
+<hr>
 
-2. **What three development concepts enable the creation of comprehensive single-page applications?**
+**A SPA avoids full-page reloads.**
 
-## Intro to the MERN-Stack
+A SPA loads the `index.html` once and then has its DOM modified via client-side rendering. 
+
+<hr>
+</details>
+
+<details>
+<summary>
+(2) What three development concepts enable the creation of comprehensive single-page applications?
+</summary>
+<hr>
+
+- AJAX Communications between client and server
+- Client-Side Routing
+- Client-Side Rendering
+
+<hr>
+</details>
+
+## 2. Intro to the MERN-Stack
 
 A technology stack, also called a solutions stack, is a group of development tools/services used to build an application.
 
-For example, the LAMP-Stack is a mature technology stack that uses:  Linux, Apache (web server), MySQL and PHP (web development programming language).
+For example, the LAMP-Stack is a mature technology stack that uses:
+- Linux
+- Apache (web server)
+- MySQL and
+- PHP (web development programming language)
 
-In the last unit, our stack consisted of Python, Django & PostgreSQL - sorry, no meaningful acronym in this case.
+In the last unit, our stack consisted of:
+- Python
+- Django and 
+- PostgreSQL
 
-There are a few tech stacks that use MongoDB, Express & Node as their backend solutions. Then one of the following front-end solutions is added to the stack:
+There are a few tech stacks that use MongoDB, Express & Node as their backend solutions.
+
+Then, one of the following front-end technologies is added to go full-stack:
 
 - [React](https://reactjs.org/) which results in the MERN-Stack
 - [Angular](https://angular.io/) which results in the MEAN-Stack
@@ -108,13 +151,13 @@ The flow is as follows:
 
 1. When the user browses to the app's URL, the Express server always delivers the static **public/index.html** page.
 
-    > Note that there are no EJS templates on the server - just the static index.html.  In fact, there's no reason to install the EJS template engine.
+    > 👀 There will be no EJS templates on the server - just the static index.html.  In fact, there's no reason to install the EJS template engine!
 
-2. When the browser loads **index.html**, it will request the scripts that contain the React app - this is shown as the blue CLIENT/React app.
+2. When the browser loads **index.html**, it will request the JS that is the React app (outlined in blue).
 
-3. The code in the React app's **index.js** module runs, which causes the React app to render for the first time. During this initial rendering, the client-side routing library renders components based upon the path of the URL.
+3. The code in the React app's **index.js** module runs, which causes the React app to render for the first time. During this initial rendering, the client-side routing library renders components based upon the URL in the address bar.
 
-4. After the **index.html** has been loaded, all subsequent HTTP communications between the client and server will be via AJAX in order to avoid the page from being reloaded.
+4. After the React app has been loaded, all subsequent HTTP communications between the client and server will be via AJAX in order to avoid the page from being reloaded.
 
 5. Certain components may want to CRUD data on the server. However, we won't litter components with the code responsible for CRUD. Instead, as a best practice, that code will be organized into **service/API** modules.
 
@@ -122,21 +165,49 @@ The flow is as follows:
 
 7. Other than the single "catch all" route just mentioned, all other routes on the server will be defined to respond to AJAX requests with JSON. By convention, the endpoints of these routes with be prefaced with `/api`, e.g., `/api/cats`, `/api/login`, etc.
 
+Now that we know a bit about the MERN-Stack, let's take a look at the reference app we'll build together this unit...
+
+## 3. This Unit's Reference App: **SEI CAFE**
+
+As you know, it's important to practice the individual skills we learn for a given technology by bringing them together to build a real-world working application.
+
+This unit's reference app is a MERN-Stack online food ordering app called [SEI CAFE](https://sei-cafe.herokuapp.com/).
+
+Be sure to sign-up:
+
+<img src="https://i.imgur.com/ShSz0xE.png">
+
+and place an orders!
+
+<img src="https://i.imgur.com/ZSsDUqk.png">
+
+## 4. Building a MERN-Stack's Infrastructure
+
+We'll begin by building out the infrastructure (boilerplate) that most real-world MERN-Stack apps starts with, including client-side routing and authentication.
+
+After the infrastructure code is complete, we'll save the project to a separate repo that can be cloned to launch future MERN-Stack projects, including your capstone project at the end of this unit!
+
 ### How to Structure a MERN-Stack Project
 
 Up until this point, we've taken for granted that full-stack apps, like your Express and Django projects, were single, integrated projects.
 
-However, developing a MERN-stack project involves complexities such as tooling, React's integrated development server, etc.
+However, developing a MERN-stack project involves complexities such as tooling such as [webpack](https://webpack.js.org/), React's development server, etc.
 
-Additionally, there are concerns in both **development and production** environments that have to be addressed.
+Additionally, there are concerns during both **development and production** that have to be addressed...
 
-#### During Development...
+#### During Development
 
 A React project uses a development server that compiles and serves the React app to the browser at `localhost:3000`.
 
 <details>
-<summary>❓ There's a conflict between React's development server and the Express applications we've built previously - what is it?</summary>
-<p><strong>They both run on port 3000 by default.</strong></p>
+<summary>
+❓ There's a conflict between React's development server and the Express applications we've built previously - what is it?
+</summary>
+<hr>
+
+**They both run on port `3000` by default** and only a single process can run on a given port.
+
+<hr>
 </details>
 
 Luckily, the React team recognized this conflict and has a solution which we'll see in a bit.
@@ -145,13 +216,15 @@ Luckily, the React team recognized this conflict and has a solution which we'll 
 
 As we develop our React app locally, we're writing source code that React's dev server builds and runs automatically.  However, this is not production ready code because it has extra debugging logic, etc.
 
-In a moment will see how to **build** the React app locally, however, this locally built code is git ignored thus it's important to ensure that whatever hosting service you deploy to is configured to **build** the React app in the cloud.
+In a moment will see how to **build** the React app locally.
 
-Luckily for us, beginning in 2019, Heroku started to automatically build React apps when they are deployed.
+However, this locally built code is typically git ignored thus it's important to ensure that whatever hosting service you deploy to is configured to **build** the React app in the cloud each time the code is deployed.
+
+Luckily for us, since 2019, Heroku automatically builds the React apps each time they are deployed.
 
 In addition to ensuring that the hosting service builds the React app, we will also need to code the Express app to serve the built production code.
 
-#### Possible MERN-Stack Project Structures
+### Possible MERN-Stack Project Structures
 
 There are two general architectures we could pursue:
 
@@ -160,7 +233,7 @@ There are two general architectures we could pursue:
 
 | Architecture | Pros | Cons |
 | --- | --- | --- |
-| Separate Projects | <ul><li>Better for when the backend services multiple frontend projects (web, native mobile, desktop).</li></ul> | <ul><li>Must manage two projects and git repos.</li><li>Must deploy to two separate projects.</li><li>The React project will require code and/or configuration to access the correct backend during development (localhost) and production (could be anywhere).</li><li>Must implement CORS.</li></ul> |
+| Separate Projects | <ul><li>Better for when the backend services multiple frontend projects (web, native mobile, desktop).</li></ul> | <ul><li>Must manage two projects and git repos.</li><li>Must deploy those two projects separately.</li><li>The React project will require code and/or configuration to access the correct backend during development (localhost) and production (could be anywhere).</li><li>Must implement CORS.</li></ul> |
 | Single Project | <ul><li>A single integrated project.</li><li>None of the above Cons.</li></ul> | <ul><li>Not the best project structure to re-use the same backend project to service multiple frontend projects, e.g., Web/Mobile/Desktop</li></ul> |
 
 The single, integrated project approach looks to be a no-brainer. But, what does the structure of a single project look like?
@@ -172,52 +245,34 @@ Again, two options:
 
 The second option is "cleaner" and less error prone, so we'll opt for that approach.
 
-Now that we've discussed how to structure a MERN-Stack app, let's take a look at the reference app we'll build together this unit...
+Let's start building!
 
-## This Unit's Reference App: **SEI CAFE**
-
-As you know, it's important to practice the individual skills we learn for a given technology by bringing them together to build a real-world working application.
-
-This unit's reference app is a MERN-Stack online food ordering app called [SEI CAFE](https://sei-cafe.herokuapp.com/).
-
-Be sure to sign-up:
-
-<img src="https://i.imgur.com/ShSz0xE.png">
-
-and place a couple of orders!
-
-<img src="https://i.imgur.com/ZSsDUqk.png">
-
-## Building a MERN-Stack's Infrastructure
-
-We'll begin by building out the infrastructure (boilerplate) that every real-world MERN-Stack app starts with, including client-side routing and authentication.
-
-After the infrastructure code is complete, we'll save the project to a separate repo that can be cloned to launch future MERN-Stack projects, including your capstone project at the end of this unit!
-
-## Let's Begin Building **mern-infrastructure**
+## 5. Setting Up the `mern-infrastructure` Project
 
 Here's the plan:
 
-1. Generate the React app
-2. Build the React app's production code
-3. Code the skeleton Express app
-4. Define the "catch all" route in the Express backend
-5. Test the Express server
+- Generate the React app
+- Build the React app's production code
+- Code the skeleton Express app
+- Define the "catch all" route in the Express backend
+- Test the Express server
 
 Let's do this!
 
-### 1. Generate the React App
+### Generate the React App
 
-The **best** way to create a React project is by using the `create-react-app` script provided by the React team:
+The best way to create a React project is by using the `create-react-app` script provided by the React team:
 
 ```
 cd ~/code
 npx create-react-app mern-infrastructure
 ```
 
-> Note: A new folder will be created named **mern-infrastructure**. If you would like to generate a project in the future within an existing folder, you can use `.` in place of the project name.
+> 👀 A new folder will be created named **mern-infrastructure**. If you would like to generate a project in the future within an existing folder, you can use `.` in place of the project name.
 
-Creating a new React app takes some time because `create-react-app` also installs the Node modules - and there's a ton of them!
+Creating a new React app takes some time because `create-react-app` automatically installs the Node modules - and there's a ton of them!
+
+> 👀 It's best to ignore all severity vulnerabilities.  There's been much written about how create-react-app is simply tooling and that we should ignore npm's overreactions.
 
 Let's briefly review the outputted message:
 
@@ -250,12 +305,30 @@ Happy hacking!
 
 Now we can:
 
-1. `cd mern-infrastructure`
-2. Open the project in VS Code: `$ code .`
-3. Open an integrated terminal in VS Code:  `control + backtick`
-4. Spin up React's built-in development server: `npm start`, which automatically opens the app in a browser tab at `localhost:3000`:
+```
+cd mern-infrastructure
+```
 
-    <img src="https://i.imgur.com/4ouH8bS.png" height="400">
+Open the project in VS Code:
+```
+code .
+```
+Open an integrated terminal in VS Code:
+```
+control + backtick
+```
+CRA has already initialized a repo, so let's connect to the code-along repo that you can sync with it as needed:
+```
+git remote add origin https://git.generalassemb.ly/sei-blended-learning/mern-infrastructure.git
+git fetch --all
+```
+Spin up React's built-in development server:
+```
+npm start
+```
+which automatically opens the app in a browser tab at `localhost:3000`:
+
+<img src="https://i.imgur.com/4ouH8bS.png" height="400">
 
 
 The React development server automatically builds and reloads the app in the browser whenever changes are saved.
@@ -266,9 +339,11 @@ The React project's source code lives within the **src** folder:
 
 <img src="https://i.imgur.com/d9T3Vqw.png" height="400">
 
-### 2. Building the React App's Production Code
+### Build the React App's Production Code
 
-We will soon be coding the Express server to serve the production **index.html** page. Thus, we need to build the React app's code locally into production code at least once so that the Express server does not raise an error.
+We will soon be coding the Express server to serve the production React app.
+
+Thus, we need to build the React app's code locally into production code at least once so that the Express server does not raise an error.
 
 The `create-react-app` CLI includes tooling and a **build** script in **package.json** that, when run, compiles the the code in the **src** and **public** folders of the React project into production code - placing it into a folder named **build**.
 
@@ -278,13 +353,13 @@ Let's run the build script:
 npm run build
 ```
 
-> Note: npm requires us to use the `run` command for scripts other than `start` and `test`.
+> 👀 npm requires us to use the `run` command for scripts other than `start` and `test`.
  
-After building, examining our project's structure reveals a new **build** folder containing production ready static assets including **index.html**, **static/css** & **static/js** folders, etc.  If this React app was a frontend only app, the assets in the build folder would be ready to be deployed to any static hosting service.
+After building, examining our project's structure reveals a new **build** folder containing production ready static assets including **index.html**, **static/css** & **static/js** folders, etc.  If this React app was a frontend only app, the assets in the build folder would be ready to deploy to any static hosting service.
 
 This **build** folder of production-ready goodness is ready to be served up by an Express backend...
 
-### 3. Code the Skeleton Express App
+### Code the Skeleton Express App
 
 Now with the React app up and running, we can start to code the Express backend.
 
@@ -305,7 +380,7 @@ For now, we're only going to install a minimal number of modules for the Express
 npm i express morgan serve-favicon
 ```
 
-> Again, we don't need a view engine because our server will be either serving static assets (index.html, CSS, JS, images, etc.) or responding to AJAX requests with JSON. There will be no EJS templates!
+Again, we don't need a view engine because our server will be either serving static assets (index.html, CSS, JS, images, etc.) or responding to AJAX requests with JSON. There will be no EJS templates!
 
 Later, we'll install additional modules, e.g., `mongoose`, `dotenv`, etc.
 
@@ -317,7 +392,7 @@ Let's code our Express server:
 
 2. `touch server.js`
 
-3. At the top of **server.js**, let's do all the familiar stuff: `require` the modules; create the Express app; and mount the `morgan` logging middleware and `express.json()` middleware that processes JSON data sent in the AJAX request and adds it to the `req.body`:
+3. At the top of **server.js**, let's do all the familiar stuff::
 
 	```js
 	const express = require('express');
@@ -331,7 +406,16 @@ Let's code our Express server:
 	app.use(express.json());
 	```
 
-	<details><summary>❓ Why don't we need to mount the <code>express.urlencoded()</code> middleware also?</summary><p><strong>Because <code>express.urlencoded</code> middleware is used to process data submitted by a form - and we don't submit forms in a SPA.</strong></p></details>
+    <details>
+    <summary>
+    ❓ Why don't we need to mount the <code>express.urlencoded()</code> middleware also?
+    </summary>
+    <hr>
+
+    **Because `express.urlencoded` middleware is used to process data submitted by a form - and we don't submit forms in a SPA.**
+
+    <hr>
+    </details>
 
 4. Mount and configure the `serve-favicon` & `static` middleware so that they serve from the **build** (production) folder:
 
@@ -356,7 +440,7 @@ Let's code our Express server:
 	});
 	```
 
-### 4. Define the "Catch All" Route
+### Define the "Catch All" Route
 
 A single "catch all" route is required to serve the **index.html** when any non-AJAX "API" request is received by the Express app:
 
@@ -372,29 +456,32 @@ app.get('/*', function(req, res) {
 });
 ```
 
-> Note: Since this route is a "catch all" that matches every `GET` request, be sure to mount API or other routes before it!
+> 👀 Since this route is a "catch all" that matches every `GET` request, be sure to mount API or other routes before it!
 
 Now the "catch all" route will serve the **index.html** whenever:
 
 - A user types a path into the address bar and presses enter.
 - The user refreshes the browser.
-- An "external" link in an email, included on another web page, etc. to the MERN-Stack app is clicked.
+- A person clicks a link to the app provided via email, slacked, included on another web page, etc.
 
-For example, if we slack the following link to a friend: `https://sei-cafe.herokuapp.com/orders/new`. The friend clicks on it, initiating an HTTP request to our server.
+For example, let's say you provide a friend with a link to your app's dashboard functionality like the following:
+```
+https://amazingapp.com/dashboard
+```
 
-However, the `/orders/new` part of the URL is supposed to be for the client router - not the server!  But there it is, and the server has to deal with it...
+When clicked, the server will receive `GET /dashboard` request, but won't that be a problem because the `/dashboard` path is meant to be a client-side route?
 
-The server deals with it by, thanks to the "catch all" route, sending back  **index.html** - which is what we want.
+Nope, no problem at all because the "catch-all" route will send the **index.html** page to the browser.
 
-After **index.html** loads in the browser, the React app's client-side routing will render components based upon the `/orders/new` path in the address bar.
+Then, after **index.html** loads in the browser, the React app's client-side routing will render components based upon the `/dashboard` path in the address bar - and all is well!
 
-### 5. Test the Express Server
+### Test the Express Server
 
 We should now be able to test the Express server.
 
-However, please note that we can no longer just type `nodemon` because just typing `nodemon` relies on the `start` script in **package.json** to know what to run and that script is being used to start the React dev server instead.
+However, we can no longer just type `nodemon` because just typing `nodemon` will run the command in the `start` script in **package.json** and that script is being used to start the React development server instead.
 
-Therefore, in the MERN-Stack development environment, it's important to start the Express server by typing:
+Therefore, in our MERN-Stack development environment, it's important to start the Express server by typing:
 
 ```
 nodemon server
@@ -402,53 +489,58 @@ nodemon server
 
 As expected, the Express server will run on port 3001 instead of 3000 (which is where the React dev server runs).
 
-Browsing to `localhost:3001` will display our React app!
+Browsing to `localhost:3001` will display the built production React app!
 
-### ❓ Review Questions - MERN-Stack Development
+<details>
+<summary>
+❓ What command must be run to update the React app's production code?
+</summary>
+<hr>
 
-1. **Is the app we're currently viewing at `localhost:3001` the "production" version of the React app or the version within the `src` folder?**
+**`npm run build`**
 
-2. **What command must be run to update the React app's production code?**
+<hr>
+</details>
 
-## Configure React for MERN-stack Development
+## 6. Configure React for MERN-Stack Development
 
-Note how we're viewing the React app without the React development server running - as we just discussed, this is because we are viewing the built production code, not the code as it exists in the **src** folder.
+Note how we're viewing the React app without the React development server running, again, this is because we are viewing the production code that's in the **build** folder, not the code as it exists in the **src** folder.
 
-> **IMPORTANT**: During development, you don't want to browse to `localhost:3001`! Instead, you want the browser to load the React app from React's dev server on `localhost:3000`. You should only browse to `localhost:3001` to check out how the production code will run when deployed, however, don't forget to build before doing so.
-
-So, when you are hacking out code and nothing seems to be updating in the browser - be sure to verify that you are browsing `localhost:3000`!
+So, when you are developing and nothing seems to be updating in the browser - be sure to verify that you are browsing at `localhost:3000`!
 
 ### Running Both Express & React During Development
 
-To develop a MERN-Stack app, you'll need two **separate** terminal sessions for running:
+To develop a MERN-Stack app, you'll need **two separate** Terminal sessions for running:
 
-1. The Express backend
+1. The Express backend (which is better to start first)
+    <details>
+    <summary>
+    ❓ If we don't already have the Express server running, we start it with what command?
+    </summary>
+    <hr>
+
+    ```
+    nodemon server
+    ```
+
+    <hr>
+    </details>
 
 2. React's development server
 
-<details><summary>❓ If we don't already have the Express server running, we start it with what command?</summary>
-<p>
+    <details><summary>❓ What's the command to start React's dev server in the second Terminal?</summary>
+    <p>
 
-```
-nodemon server
-```
+    ```
+    npm start
+    ```
 
-</p>
-</details>
+    </p>
+    </details>
 
-<details><summary>❓ Now let's open a second terminal session and start React's dev server using what command?</summary>
-<p>
+Now, browse to `localhost:3000`, **not** `3001`!
 
-```
-npm start
-```
-
-</p>
-</details>
-
-Now, browse to `localhost:3000` - not `3001`!
-
-So far, so good, but there's an problem lurking...
+So far, so good, just one more configuration issue...
 
 ### Ensuring that the React Dev Server Sends AJAX Calls to the Express Server
 
@@ -458,19 +550,31 @@ Let's think ahead to when we begin to make AJAX requests from the React app to o
 return fetch('/api/orders/history').then(res => res.json());
 ```
 
-<details><summary>❓ Which host/server will that fetch request be sent to?</summary>
-<p><strong>The same host as shown in the address bar: <code>localhost:3000</code></strong>
-</p></details>
+<details>
+<summary>
+❓ Which host/server will that fetch request be sent to?
+</summary>
+<hr>
 
-<details><summary>❓ Where do we actually need the fetch requests be sent to during development?</summary>
-<p><strong>Our Express server that's listening for AJAX requests at <code>localhost:3001</code> !</strong>
-</p></details>
+**The same host as shown in the address bar:<br>`localhost:3000`**
 
-BTW, this is only a problem **during development** - the deployed app will be just fine thanks to our chosen MERN-Stack structure that uses a single project for the frontend and backend.
+<hr>
+</details>
+
+<details>
+<summary>
+❓ Where do we need the fetch requests be sent to during development?
+</summary>
+<hr>
+
+**The Express server that's listening for AJAX requests at:<br>`localhost:3001` !**
+
+<hr>
+</details>
 
 Luckily, the React team has created an easy fix for this dilemma. The React development server allows us to configure a "proxy" which specifies the host to forward API/AJAX calls to.
 
-The fix is to add a `"proxy"` key in the **TOP-LEVEL** of the **package.json**:
+The fix is to add a `"proxy"` property in the  **package.json** (be sure that it's a "top-level" property):
 
 ```
   "browserslist": {
@@ -489,23 +593,72 @@ The fix is to add a `"proxy"` key in the **TOP-LEVEL** of the **package.json**:
 }
 ```
 
-> Note: The React dev server will NOT automatically restart when changes are made to the package.json file.
+> 👀 The React dev server will NOT automatically restart when changes are made to the package.json file.
 
-Now **during development**, the React SPA can make AJAX calls, such as `fetch('/api/todos')`, and the request will be "proxied" (forwarded) to `localhost:3001` instead of `localhost:3000`.
+Now the React development server will forward all AJAX calls, such as `fetch('/api/todos')`, to `localhost:3001` instead of `localhost:3000`.
 
-#### Welcome to the MERN-stack!
+BTW, this is only an issue **during development** - the deployed app will be just fine thanks to the way we structured the app as a single project.
 
-## ❓ Essential Questions
+#### Welcome to the MERN-Stack!
 
-1. **What folder holds a React app's production-ready code?**
+<details>
+<summary>
+👀 Do you need to sync your code?
+</summary>
+<hr>
 
-2. **What's the responsibility of the "catch all" route defined in the Express app?** 
+**`git reset --hard origin/sync-1-finish-intro`**
 
-3. **True or False: API routes will need to be defined in the Express app so that the React app can CRUD data, etc. on the server.**
+<hr>
+</details>
 
-4. **True or False: The React app should use a "service/api" module to communicate with the backend's API routes via AJAX.**
+## 7. ❓ Essential Questions (2 mins)
 
-## Further Study
+<details>
+<summary>
+(1) What folder holds a React app's production-ready code?
+</summary>
+<hr>
+
+**The `build` folder**
+
+<hr>
+</details>
+
+<details>
+<summary>
+(2) What's the responsibility of the "catch all" route defined in the Express app?
+</summary>
+<hr>
+
+Send back the **index.html** page for all non-API/AJAX requests.
+
+<hr>
+</details>
+
+<details>
+<summary>
+(3) True or False: API routes will need to be defined in the Express app so that the React app can CRUD data, etc. on the server.
+</summary>
+<hr>
+
+**True**
+
+<hr>
+</details>
+
+<details>
+<summary>
+(4) True or False: The React app should use a "service/api" module to communicate with the backend's API routes via AJAX.
+</summary>
+<hr>
+
+**True**.  We don't want to "litter" the React components with a bunch of AJAX code.
+
+<hr>
+</details>
+
+## 8. Further Study
 
 ### HTML5's History API
 

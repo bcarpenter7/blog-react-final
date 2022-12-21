@@ -13,12 +13,59 @@
 
 ## Road Map
 
-- The Plan - Part 2
-- Infrastructure - Part 2 of 7
-- The Lab
-- Further Study
+1. Setup
+2. The Plan - Part 2
+3. Set Up `user` State
+4. Add Skeleton Page-Level Components
+5. Conditionally Render Based On the `user` State
+6. Intro to Client-Side Routing Using React Router
+7. Implement Client-Side Routing
+8. Implement a Basic Navigation Bar
+9. Further Study
 
-## The Plan - Part 2
+## 1. Setup
+
+This lesson continues to build-out the `mern-infrastructure` project right where the _MERN-Stack Infrastructure - Part 1_ lesson left off.
+
+Move into your **~/code** folder:
+```
+cd ~/code
+```
+Open the project in VS Code:
+```
+code .
+```
+
+### Start the Express Backend
+
+Open an integrated Terminal in VS code (`control + backtick`).
+
+Start the Express server:
+```
+nodemon server
+```
+
+### Start the React Development Server
+
+Open a second integrated Terminal in VS code (`control + backtick`).
+
+Start the React Development server:
+```
+npm start
+```
+
+<details>
+<summary>
+👀 Do you need to sync your code?
+</summary>
+<hr>
+
+**`git reset --hard origin/sync-2-part-2-starter`**
+
+<hr>
+</details>
+
+## 2. The Plan - Part 2
 
 In Part 2 we will implement client-side routing as we continue to learn how to build a MERN-Stack app by following a realistic workflow.
 
@@ -30,7 +77,7 @@ In Part 2 we will implement client-side routing as we continue to learn how to b
 5. Implement client-side routing
 6. Implement a typical navigation bar
 
-## 1. Set Up `user` State
+## 3. Set Up `user` State
 
 Before we jump into the routing, let's set up some state that we can use to dynamically render different components depending upon two factors:
 
@@ -47,7 +94,7 @@ Note that `<App>` is always rendered but only one of the other page-level compon
 
 A good place to start is to define the `user` state.
 
-#### 💪 Practice Exercise - Define the `user` State in **App.jsx** (2 minutes)
+### 👉 You Do - Define the `user` State in **App.jsx** (2 mins)
 
 1. Use the `useState` hook to define a state variable named `user`.
 2. Initialize `user` to `null`. 
@@ -55,19 +102,22 @@ A good place to start is to define the `user` state.
 
 > Hint: Don't forget to add the necessary import.
 
-## 2. Add Skeleton Page-Level Components
+## 4. Add Skeleton Page-Level Components
 
 Now that we have the `user` state, let's continue setting up routing by stubbing up those three page-level components above.
 
-<details><summary>❓ In which folder will we define these new page-level components?</summary>
-<p>
+<details>
+<summary>
+❓ In which folder will we define these new page-level components?
+</summary>
+<hr>
 
 **src/pages**
 
-</p>
-</details> 
+<hr>
+</details>
 
-#### 💪 Practice Exercise - Stub up SEI CAFE's page-level components (5 minutes)
+### 👉 You Do - Stub up SEI CAFE's page-level components (5 mins)
 
 1. Create the `<AuthPage>`, `<NewOrderPage>` and `<OrderHistoryPage>` components.
 2. Be sure to follow best practices (each in their own folder, etc.) and naming conventions. 
@@ -75,7 +125,7 @@ Now that we have the `user` state, let's continue setting up routing by stubbing
 
 > Hint: Be productive by defining one component, then copy/paste its folder and rename everything.
 
-## 3. Conditionally Render Based On the `user` State
+## 5. Conditionally Render Based On the `user` State
 
 We've already seen how to conditionally render components by using:
 
@@ -84,7 +134,7 @@ We've already seen how to conditionally render components by using:
 
 Examining our routing diagram above, we can see that we are conditionally rendering based upon whether the state of `user` is `null` (user not logged in) or not `null` (user logged in).
 
-Since we want to render either `<AuthPage>` or one of the other two (`<NewOrderPage>` or `<OrderHistoryPage>`), we'll opt for a _______ expression.
+Since we want to render either `<AuthPage>` or one of the other two (`<NewOrderPage>` or `<OrderHistoryPage>`), we'll opt for a ternary expression.
 
 Until we start using React Router, we'll just render `<NewOrderPage>` if there's a user logged in.
 
@@ -112,23 +162,23 @@ import NewOrderPage from '../NewOrderPage/NewOrderPage';
 import OrderHistoryPage from '../OrderHistoryPage/OrderHistoryPage';
 ```
 
-> Tip: `command + D` comes in handy for using multiple cursors to edit.
+> 👀 `command/ctrl + D` comes in handy for using multiple cursors to edit.
 
-After the imports we're rendering the `<AuthPage>` as expected.
+The `<AuthPage>` should now be rendering as expected.
 
 <img src="https://i.imgur.com/QvEh2m6.png">
 
 Updating the hook's State to any truthy value will result in `<NewOrderPage>` rendering instead!
 
-Now let's learn about how we can use React Router to perform client-side routing...
+Now let's learn about how to use React Router to perform client-side routing...
 
-## 4. Intro to Client-Side Routing Using React Router
+## 6. Intro to Client-Side Routing Using React Router
 
 The React library does not include routing functionality.
 
 [React Router](https://reactrouter.com/) is the de facto client-side routing library for both React and [React Native](https://reactnative.dev/).
 
-> React Router has recently been updated from version 5.x to 6.x which included breaking changes.  Be aware that the code in most of the tutorials, etc. out there that include React Router may not work any more. 
+> 👀 React Router has recently been updated from version 5.x to 6.x which included breaking changes.  Be aware that the code in most of the tutorials, etc. out there that include React Router may not work any more. 
 
 ### Install React Router
 
@@ -138,7 +188,7 @@ Since it's a third-party library, React Router must be installed:
 npm i react-router-dom
 ```
 
-> `react-router-dom` is the web-based router used with React apps.  `react-router-native` is the library for React Native.
+> 👀 `react-router-dom` is the web-based router used with React apps.  `react-router-native` is the library for React Native.
 
 ### How it Works - React Router Is Component-Based!
 
@@ -178,13 +228,13 @@ root.render(
 );
 ```
 
-Using React Developer Tools we can see that the `<BrowserRouter>` component renders a few other components then our `<App>` component:
+Using React Developer Tools we can see that the `<BrowserRouter>` component renders a few other components in addition to our `<App>` component:
 
 <img src="https://i.imgur.com/Je9AZYy.png">
 
-> Note: Those components named ending with `.Provider` are using React's [Context API](https://reactjs.org/docs/context.html) to provide info to  components down in the component hierarchy without having to pass that info as props. 
+> 👀 Those components named ending with `.Provider` are using React's [Context API](https://reactjs.org/docs/context.html) to provide info to  components down in the component hierarchy without having to pass that info as props. 
 
-## 5. Implement Client-Side Routing
+## 7. Implement Client-Side Routing
 
 Because React Router is component-based, it can be used in **any** component to conditionally render other components.
 
@@ -192,9 +242,9 @@ However, most React apps only need to perform routing in the `<App>` component -
 
 ### The `<Routes>` Component
 
-Any component that needs to define client-side routes will first need to render a `<Routes>` component.
+Any component that wants to define client-side routes will first need to render a `<Routes>` component.
 
-Because `<App>` is where we will define all of our routes, let's import the `Routes` component there:
+Because `<App>` is where we will define all client-side routes, let's import the `Routes` component there:
 
 ```jsx
 import { useState } from 'react';
@@ -265,7 +315,7 @@ Additionally, the `element` prop is interesting in that it accepts an actual com
 element={<NewOrderPage />}
 ```
 
-vs. the previous way of providing the component itself:
+instead of the previous way of providing the component itself:
 
 ```jsx
 component={NewOrderPage}
@@ -273,7 +323,7 @@ component={NewOrderPage}
 
 The advantage of the new approach is that it's easier to pass props to the component being rendered.
 
-#### Temporarily Update `user` State for Testing Purposes 
+### Temporarily Update `user` State for Testing Purposes 
 
 To avoid having to continually update the `user` state using React Developer Tools, let's temporarily initialize `user` to an empty object instead of `null`:
 
@@ -285,17 +335,17 @@ Now, thanks to the `<Route>` component we just added, changing the path of the U
 
 <img src="https://i.imgur.com/JxQVTFx.png">
 
-#### 💪 Practice Exercise - Add Another `<Route>` (2 minutes)
+### 👉 You Do - Add Another `<Route>` (2 mins)
 
 1. Add a new `<Route>` used to render `<OrderHistoryPage />` when the path of the URL is `/orders`
 
 2. Test by changing the path of the URL back and forth between `/orders` and `/orders/new`.
 
-## 6. Implement a Typical Navigation Bar
+## 8. Implement a Basic Navigation Bar
 
 Although SEI CAFE does not utilize a typical navigation bar, we'll code one as part of the infrastructure since many MERN-Stack apps will utilize one.
 
-#### 💪 Practice Exercise - Stub up a `<NavBar>` component (3 minutes)
+### 👉 You Do - Stub up a `<NavBar>` component (3 mins)
 
 1. Create a `<NavBar>` component within the `components` folder.
 2. `<NavBar>` should render a `<nav>` React Element with the text "NavBar" as its only content for now.
@@ -303,12 +353,15 @@ Although SEI CAFE does not utilize a typical navigation bar, we'll code one as p
 
 <hr>
 
-<details><summary>❓ Assuming we want <code>&LT;NavBar></code> to always display when there's a logged in user and before the page-level component, where would we add it to the JSX?</summary>
-<p>
+<details>
+<summary>
+❓ We want <code>&LT;NavBar></code> to always display when there's a logged in user and before the page-level component, where would we add it to the JSX?
+</summary>
+<hr>
 
 **Right before the `<Routes>`, requiring a React Fragment to wrap `<NavBar>` and `<Routes>`.**
 
-</p>
+<hr>
 </details>
 
 <br>
@@ -333,36 +386,45 @@ return (
 );
 ```
 
-> Note the necessity to add a React.Fragment (`<>`) to wrap the `<NavBar>` and `<Routes>` components.
+Yes, it's necessary to add a React.Fragment (`<>`) to wrap the `<NavBar>` and `<Routes>` components.
 
 Resulting in this for now:
 
 <img src="https://i.imgur.com/ThY0xki.png">
 
-<details><summary>❓ Assuming we want <code>&LT;NavBar></code> to render at all times regardless of whether there's a logged in user or not, where would we add it to the JSX?</summary>
-<p>
+<details>
+<summary>
+❓ Assuming we want <code>&LT;NavBar></code> to render at all times regardless of whether there's a logged in user or not, where would we add it to the JSX?
+</summary>
+<hr>
 
 **Between `<main>` and the ternary expression.**
 
-</p>
-</details> 
+<hr>
+</details>
 
 ### The `<Link>` Component
 
-<details><summary>❓ What HTML element did we use to change the URL in our previous web apps?</summary>
-<p>
+<details>
+<summary>
+❓ What HTML element did we use to change the URL in our previous web apps?
+</summary>
+<hr>
 
 **The `<a>` hyperlink element.**
 
-</p>
+<hr>
 </details> 
 
-<details><summary>❓ What would happen if we used traditional HTML hyperlinks in a SPA?</summary>
-<p>
+<details>
+<summary>
+❓ What happens if we use traditional HTML hyperlinks in a SPA?
+</summary>
+<hr>
 
 **It would cause a page reload when performing the navigation.**
 
-</p>
+<hr>
 </details> 
 
 Luckily, React Router provides a [`<Link>`](https://reactrouter.com/docs/en/v6/api#link) component that renders hyperlinks that when clicked, change the URL client-side only without triggering an HTTP request.
@@ -387,19 +449,30 @@ export default function NavBar() {
 Clicking any of the links performs client-side routing where React Router will:
 
 - Update the path in the address bar without causing the page to reload
-- Automatically trigger a render
+- Automatically trigger a re-render
 
 <img src="https://i.imgur.com/R5aElPF.png">
 
-> IMPORTANT:  Inspecting the elements on the page will reveal that indeed an `<a>` element is being emitted to the DOM when we use a `<Link>` component.  However, although they look like ordinary `<a>` elements, React intercepts their click event thus preventing an HTTP request from being sent. However, if you accidentally use an `<a>` tag, React will not intercept the click event and a page reload will occur 😞
+Inspecting the elements on the page will reveal that indeed an `<a>` element is being emitted to the DOM when we use a `<Link>` component.  However, although they look like ordinary `<a>` elements, React intercepts their click event thus preventing an HTTP request from being sent.
 
-Although we've learned most there is to know about client-side routing, we will learn more in future lessons, including how to change client-side routes programmatically (via code).
+> 👀 If you accidentally use an `<a>` tag, React will not intercept the click event and a page reload will occur 😞
+
+Although we've learned most there is to know about client-side routing, we'll learn more in future lessons, including how to change client-side routes programmatically (via code).
 
 #### Congrats on implementing client-side routing!
 
-On to the lab!
+<details>
+<summary>
+👀 Do you need to sync your code?
+</summary>
+<hr>
 
-## Further Study
+**`git reset --hard origin/sync-2-part-2-finish`**
+
+<hr>
+</details>
+
+## 9. Further Study
 
 ### Route Params - Client-Side
 
