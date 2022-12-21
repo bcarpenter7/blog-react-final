@@ -175,6 +175,7 @@ So far so good! Your app should now have an automatically rotating carousel that
 
 #### Home page carousel:
 
+#TODO: BROKEN LINK NEED IMGUR URI
 ![Carousel](assets/carousel.png)
 
 In `index.css`, you can delete the properties associated with the `code` selector but keep the rest. You can delete `App.css` as we won't even be using it. Bootstrap is that awesome. 😏
@@ -272,6 +273,7 @@ export default App;
 
 #### Navbar + Home page carousel:
 
+#TODO: BROKEN LINK NEED IMGUR URI
 ![Navbar](assets/nav.png)
 
 That's pretty amazing for how little CSS we've written! Who would have thought Bootstrap could be so powerful.
@@ -493,6 +495,7 @@ Our app is shaping up pretty nicely now. Try resizing your browser and notice ho
 
 #### Gallery component:
 
+#TODO: BROKEN LINK NEED IMGUR URI
 ![Gallery view](assets/gallery.png)
 
 #### See [commit](https://git.generalassemb.ly/esin87/react-bootstrap-demo/commit/4e541da496d5714645bcc2e2eecac72616df7ad0).
@@ -774,6 +777,7 @@ Now we have an extensive gallery that populates images from our API call! The us
 
 #### Dynamic gallery:
 
+#TODO: BROKEN LINK NEED IMGUR URI
 ![dynamic gallery results](assets/dynamicgallery.png)
 
 #### See [commit](https://git.generalassemb.ly/esin87/react-bootstrap-demo/commit/5c63c8dd7e3de03d19cdfa78d2e44d66e9060224).
@@ -945,6 +949,7 @@ Sweet. Now click on the Search link in the nav bar and try a search query, such 
 
 #### Search component and results:
 
+#TODO: BROKEN LINK NEED IMGUR URI
 ![Search results](assets/search.png)
 
 #### See [commit](https://git.generalassemb.ly/esin87/react-bootstrap-demo/commit/5d29149b6fb824c52464592d2b28c278ab097af2).
