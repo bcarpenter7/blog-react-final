@@ -3,40 +3,39 @@
 [Guidelines for using these materials](/guidelines.md)
 
 ## Course Outline
+* [Unit 1](#unit-1) - Fundamentals of Front End Development
+
+* [Unit 2](#unit-2) - Full-Stack Development
+
+* [Unit 3](#unit-3) - React Fundamentals
+
+* [Unit 4](#unit-4) - Python/Django
 
 ## Software Engineering Immersive
 
-[Installfest](/Unit_1/1-dev-environment/1.1-installfest-mac.md)
-
-[Homework Submission Guidelines](https://git.generalassemb.ly/SEI-Standard-Curriculum/hw-submission)
-
-## Unit 1 - Fundamentals of Front End Development
+## Unit 1 <br> Fundamentals of Front-End Development
 
 ### Content
 | Lesson | Topic | Lab | Homework |
 | -- | -- | -- | -- |
-| **Development Environment** | [Installfest](/Unit_1/1-dev-environment/1.1-installfest-mac.md) | [Kitchen Organizer](https://git.generalassemb.ly/SEI-Standard-Curriculum/kitchen-organizer)  | [Homework Command Line Practice](/Unit_1/1-dev-environment/1.hw-command-line-practice.md) |
-| **Git/GitHub** | [Git/GitHub](https://git.generalassemb.ly/SEI-Standard-Curriculum/git-intro) | [Git Extra Practice](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-git-practice#hungry-for-more)  | [Git Practice HW](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-git-practice)<br>---<br>[BONUS: Grumpy Cat HW](https://git.generalassemb.ly/SEIR-teams-materials/git-and-github/blob/master/homework-fake-resume-and-github.md) |
-| **HTML** | [Intro to HTML](/Unit_1/3-html-css/3.1-intro-to-html.md) | [HTML Fixit](https://git.generalassemb.ly/SEI-Standard-Curriculum/html-fix-it)  | [To Oz](/Unit_1/to_oz.md) | 
-| **CSS** | [Intro to CSS](/Unit_1/3-html-css/3.2-intro-to-css.md) | [Valerie's Veggie Shop](/Unit_1/valeries-veggie-shop-css-lab/README.md) | [Choose Your Own HTML/CSS Adventure](https://git.generalassemb.ly/SEI-Standard-Curriculum/choose-your-own-css-adventure) |
-| **CSS Flexbox** | [CSS Flexbox](/Unit_1/6-css-layout/6.1-css-flexbox-grid.md)<br>---<br>[Responsive Design](/Unit_1/6-css-layout/6.2-responsive-design.md) | [CSS Flexbox-Grid Lab](/Unit_1/6-css-layout/6.1.1-flexbox-grid-lab.md) | [Grid Art](https://git.generalassemb.ly/SEI-Standard-Curriculum/css-grid-art)<br>---<br>[HTML/CSS Mockup](https://git.generalassemb.ly/SEI-Standard-Curriculum/html-css-mockup) |
-| **Intro to JavaScript** | [Intro to JavaScript](/Unit_1/2-js-fundamentals/2.1-js-intro-datatypes.md) |   | [Data Types Practice](https://git.generalassemb.ly/SEI-Standard-Curriculum/data-types-practice) |
-| **Control Flow** | [Control Flow](/Unit_1/2-js-fundamentals/2.2-js-control-flow.md) | [Conditionals Practice](https://git.generalassemb.ly/SEI-Standard-Curriculum/js-conditionals-practice)<br>---<br>[Loops Practice](https://git.generalassemb.ly/SEI-Standard-Curriculum/js-loops-practice)  | [Control Flow Practice](https://git.generalassemb.ly/SEI-Standard-Curriculum/control-flow-practice) |
-| **Arrays** | [JS Array Methods](/Unit_1/2-js-fundamentals/2.3-js-arrays.md) | [Arrays Lab](/Unit_1/2-js-fundamentals/2.3.1-js-arrays-lab.md)  | [Recipe Helper](/Unit_1/recipe-helper.md) |
-| **Functions and Scope** | [Functions](/Unit_1/2-js-fundamentals/2.4-js-functions.md)<br>---<br>[Scope](/Unit_1/2-js-fundamentals/2.5-js-scope.md) | [Functions & Scope Lab](/Unit_1/2-js-fundamentals/2.5.1-js-functions-lab.md)  | [Functions Homework](/Unit_1/functions-homework.md) |
-| **Objects** | [Template Literals](/Unit_1/2-js-fundamentals/2.6-js-template-literals.md)<br>---<br>[Objects](/Unit_1/2-js-fundamentals/2.7-js-objects.md) | [Objects Lab](/Unit_1/2-js-fundamentals/2.7.1-js-objects-lab.md)  | [Objects Homework](https://git.generalassemb.ly/SEI-Standard-Curriculum/js-array-methods-homework) |
-| **DOM** | [Intro to the DOM](/Unit_1/4-dom/4.1-dom-intro.md) | [DOM Menu Lab Part 1](/Unit_1/4-dom/4.1.1-dom-menu-lab-part-1.md)<br>---<br>[DOM Manipulation w/ Forms](https://git.generalassemb.ly/SEI-Standard-Curriculum/todo-list-form-vanilla-js)<br>---<br>[Game of Thrones DOM Lab](/Unit_1/GoT-DOM-Lab)  | [PixArt Lite HW](https://git.generalassemb.ly/SEI-Standard-Curriculum/js-pixart-lite)<br>---<br>[Data Types HW](/Unit_1/js-dom-homework.md)<br>---<br>[GA Bank ATM App](/Unit_1/ga-bank-atm-app.md) |
-| **DOM Events** | [DOM Events](/Unit_1/4-dom/4.2-dom-events.md) | [DOM Menu Lab Part 2](/Unit_1/todo-list_dom_lab.md)<br>---<br>[Guide to Building a Browser Game](/Unit_1/5-programming/5.1-guide-to-building-a-browser-game.md)<br>---<br>[Connect Four Code-Along](/Unit_1/5-programming/5.2-connect-four-code-along.md)  | [Tic Tac Toe Weekend](/Unit_1/5-programming/5.3-tic-tac-toe-weekend.md) |
+| **Development Environment** | [Installfest](/Unit_1/1-dev-environment/1.1-installfest-mac.md) | []()  | [Homework Command Line Practice](/Unit_1/1-dev-environment/1.hw-command-line-practice.md) |
+| **Intro to JavaScript** | [Intro to JavaScript](/Unit_1/2-js-fundamentals/2.1-js-intro-datatypes.md) | []() | []() |
+| **Control Flow** | [Control Flow](/Unit_1/2-js-fundamentals/2.2-js-control-flow.md) | []()  | []() |
+| **Arrays** | [JS Array Methods](/Unit_1/2-js-fundamentals/2.3-js-arrays.md) | [Arrays Lab](/Unit_1/2-js-fundamentals/2.3.1-js-arrays-lab.md)  | []() |
+| **Functions and Scope** | [Functions](/Unit_1/2-js-fundamentals/2.4-js-functions.md)<br>---<br>[Scope](/Unit_1/2-js-fundamentals/2.5-js-scope.md) | [Functions & Scope Lab](/Unit_1/2-js-fundamentals/2.5.1-js-functions-lab.md)  | []() |
+| **Objects** | [Objects](/Unit_1/2-js-fundamentals/2.7-js-objects.md)<br>---<br>[Template Literals](/Unit_1/2-js-fundamentals/2.6-js-template-literals.md) | [Objects Lab](/Unit_1/2-js-fundamentals/2.7.1-js-objects-lab.md)  | []() |
+| **HTML** | [Intro to HTML](/Unit_1/3-html-css/3.1-intro-to-html.md) | []() | []() | 
+| **CSS** | [Intro to CSS](/Unit_1/3-html-css/3.2-intro-to-css.md) | []() | []() |
+| **DOM** | [Intro to the DOM](/Unit_1/4-dom/4.1-dom-intro.md)<br>---<br>[DOM Events](/Unit_1/4-dom/4.2-dom-events.md) | [DOM Menu Lab Part 1](/Unit_1/4-dom/4.1.1-dom-menu-lab-part-1.md)<br>---<br>[DOM Menu Lab Part 2](/Unit_1/todo-list_dom_lab.md) | []() |
+| **Browser Game Guide** | [Guide to Building a Browser Game](/Unit_1/5-programming/5.1-guide-to-building-a-browser-game.md) | [Connect Four Code-Along](/Unit_1/5-programming/5.2-connect-four-code-along.md)  | [Tic Tac Toe Homework](/Unit_1/5-programming/5.3-tic-tac-toe-weekend.md) |
+| **CSS Flexbox** | [CSS Flexbox](/Unit_1/6-css-layout/6.1-css-flexbox-grid.md)<br>---<br>[Responsive Design](/Unit_1/6-css-layout/6.2-responsive-design.md) | [CSS Flexbox-Grid Lab](/Unit_1/6-css-layout/6.1.1-flexbox-grid-lab.md) | [Flexbox Froggy](https://flexboxfroggy.com/)<br>---<br>[Grid Garden](https://cssgridgarden.com/)<br>---<br>[Flexbox Zombies](https://mastery.games/flexboxzombies/) |
 | **JS Arrow Functions and Callbacks** | [JS Arrow Functions](/Unit_1/7-js-continued/7.1-js-arrow-functions.md)<br>---<br>[Callback Functions](/Unit_1/7-js-continued/7.2-js-callback-functions.md) | [Callbacks Lab](/Unit_1/7-js-continued/7.2.1-js-callbacks-lab.md) |  |
 | **JS Classes** | [Classes](/Unit_1/7-js-continued/7.3-js-classes.md) | [Classes Lab](/Unit_1/7-js-continued/7.3.1.hw.optional-js-classes-lab.md) |  |
 | **Array Iterator Methods** | [Array Iterator Methods](/Unit_1/7-js-continued/7.4-array-iterator-methods.md) | [Array Iterator Methods Lab](/Unit_1/7-js-continued/7.4.1-array-iterator-methods-lab.md) |  |
 | **this** | [this](/Unit_1/7-js-continued/7.5-js-this-keyword.md) |  |  |
-| **jQuery** | [jQuery](/Unit_1/8-libraries-frameworks/8.1-jquery.md) | [jQuery Lab](/Unit_1/8-libraries-frameworks/8.1.1-jquery-lab.md) | [CSS Card Library](/Unit_1/8-libraries-frameworks/8.2-css-card-library.md) | 
-| **APIs and AJAX** | [APIs & AJAX](https://git.generalassemb.ly/SEI-Standard-Curriculum/apis-ajax) | [Random Cat API](https://git.generalassemb.ly/SEI-Standard-Curriculum/random-cat-api)<br>---<br>[Dougie AJAX Lab](https://git.generalassemb.ly/SEI-Standard-Curriculum/dougie-ajax-lab)<br>---<br>[Modals](https://git.generalassemb.ly/SEI-Standard-Curriculum/modals-intro)  | [API keys exercise](https://git.generalassemb.ly/SEI-Standard-Curriculum/APIs-Ajax/blob/master/apiKeysExercise.md) |
+| **jQuery** | [jQuery](/Unit_1/8-libraries-frameworks/8.1-jquery.md) | [jQuery Lab](/Unit_1/8-libraries-frameworks/8.1.1-jquery-lab.md) | []() | 
 | **Intro to TDD** | [Intro to TDD](/Unit_1/Intro-to-TDD.md) | [JS Unit Testing with Jest](https://git.generalassemb.ly/SEI-Standard-Curriculum/SEIR-Course-Materials/blob/main/Unit_1/JS-Unit-Testing-with-Jest.md)<br>---<br>[Js Unit Testing with Mocha and Chai](https://git.generalassemb.ly/SEI-Standard-Curriculum/SEIR-Course-Materials/blob/main/Unit_1/JS-Unit-Testing-with-Mocha-and-Chai.md)  |  |
-| **Debugging** | [Intro to Debugging](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-to-debugging) | [Debugging Mini Lab](https://git.generalassemb.ly/SEI-Standard-Curriculum/js-debugging-errors)  |  |
-| **Programming** | [Playing Audio](/Unit_1/9-programming/9.1-playing-audio.md) | [Rock Paper Scissors Code-Along](/Unit_1/9-programming/9.2-rock-paper-scissors-codealong.md) |  |
-| **BONUS lessons** | [Closures](https://git.generalassemb.ly/SEI-Standard-Curriculum/closures)<br>---<br>[Canvas](https://git.generalassemb.ly/SEI-Standard-Curriculum/learn-canvas) |  |  |
+| **BONUS lessons** | [Playing Audio in the Browser](/Unit_1/9-programming/9.1-playing-audio.md)<br>---<br>[Canvas](https://git.generalassemb.ly/SEI-Standard-Curriculum/learn-canvas) | [Rock Paper Scissors Code-Along](/Unit_1/9-programming/9.2-rock-paper-scissors-codealong.md) |  |
 ### Unit 1 Syllabus
 
 #### Terminal, CLI, Git, & GitHub
@@ -74,7 +73,7 @@
 | Week 1 | Day 1 | Day 2 | Day 3 | Day 4 | Day 5 |
 | -- | -- | -- | -- | -- | -- |
 | Lecture(s) | [Installfest](./Unit_1/1-dev-environment/1.1-installfest-mac.md)<br>---<br>[Intro to JavaScript](./Unit_1/2-js-fundamentals/2.1-js-intro-datatypes.md)<br>---<br>[Control Flow](./Unit_1/2-js-fundamentals/2.2-js-control-flow.md) | [JS Array Methods](/Unit_1/2-js-fundamentals/2.3-js-arrays.md)<br>---<br>[Functions](/Unit_1/2-js-fundamentals/2.4-js-functions.md)<br>---<br>[Scope](/Unit_1/2-js-fundamentals/2.5-js-scope.md) | [Objects](/Unit_1/2-js-fundamentals/2.7-js-objects.md)<br>---<br>[Template Literals](/Unit_1/2-js-fundamentals/2.6-js-template-literals.md)<br>---<br>[Intro to HTML](/Unit_1/3-html-css/3.1-intro-to-html.md)<br>---<br>[Intro to CSS](/Unit_1/3-html-css/3.2-intro-to-css.md) | [Intro to the DOM](/Unit_1/4-dom/4.1-dom-intro.md)<br>---<br>[DOM Events](/Unit_1/4-dom/4.2-dom-events.md) | [Guide to Building a Browser Game](/Unit_1/5-programming/5.1-guide-to-building-a-browser-game.md)<br>---<br>[Connect Four Code-Along](/Unit_1/5-programming/5.2-connect-four-code-along.md) |
-| Lab | [Control Flow Practice](https://git.generalassemb.ly/SEI-Standard-Curriculum/control-flow-practice) | [Arrays Lab](/Unit_1/2-js-fundamentals/2.3.1-js-arrays-lab.md)<br>---<br>[Functions & Scope Lab](/Unit_1/2-js-fundamentals/2.5.1-js-functions-lab.md) | [Objects Lab](/Unit_1/2-js-fundamentals/2.7.1-js-objects-lab.md)<br>---<br>[CSS Diner](https://flukeout.github.io/) | [DOM Menu Lab Part 1](/Unit_1/4-dom/4.1.1-dom-menu-lab-part-1.md)<br>---<br>[DOM Menu Lab Part 2](/Unit_1/todo-list_dom_lab.md) | [Open Lab]() |
+| Lab | []() | [Arrays Lab](/Unit_1/2-js-fundamentals/2.3.1-js-arrays-lab.md)<br>---<br>[Functions & Scope Lab](/Unit_1/2-js-fundamentals/2.5.1-js-functions-lab.md) | [Objects Lab](/Unit_1/2-js-fundamentals/2.7.1-js-objects-lab.md)<br>---<br>[CSS Diner](https://flukeout.github.io/) | [DOM Menu Lab Part 1](/Unit_1/4-dom/4.1.1-dom-menu-lab-part-1.md)<br>---<br>[DOM Menu Lab Part 2](/Unit_1/todo-list_dom_lab.md) | [Open Lab]() |
 | Homework | [Homework Command Line Practice](/Unit_1/1-dev-environment/1.hw-command-line-practice.md) | [Functions Homework](/Unit_1/functions-homework.md)<br>---<br>[Arrays Lab](/Unit_1/2-js-fundamentals/2.3.1-js-arrays-lab.md) | [Objects Lab](/Unit_1/2-js-fundamentals/2.7.1-js-objects-lab.md) | []() | []() |
 | Daily Coding Challenge | [addOne](https://replit.com/@jim_clark/01-addOne#challenge.js) | [addTwoNumbers](https://replit.com/@jim_clark/02-addTwoNumbers#challenge.js) | [sumNumbers](https://replit.com/@jim_clark/03-sumNumbers#challenge.js) | [addList](https://replit.com/@jim_clark/04-addList#challenge.js) | [computeRemainder](https://replit.com/@jim_clark/05-computeRemainder#challenge.js) |
 
@@ -94,7 +93,7 @@
 | Support | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
 <hr>
 
-## Unit 2 - Full Stack Development
+## Unit 2 <br> Full-Stack Development
 
 ### Content
 | Lesson | Topic | Lab | Homework |
@@ -166,7 +165,7 @@
 | Support | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
 <hr>
 
-## Unit 3 - React Fundamentals
+## Unit 3 <br> React Fundamentals
 
 ### Content
 | Lesson | Topic | Lab | Homework |
@@ -229,7 +228,7 @@
 | Support | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
 <hr>
 
-## Unit 4 - Python/Django (2nd Language)
+## Unit 4 <br> Python-Django
 
 ### Content
 | Lesson | Topic | Lab | Homework |
