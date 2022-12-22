@@ -5,20 +5,24 @@
 ## Course Outline
 * [Unit 1](#unit-1--fundamentals-of-front-end-development) - Fundamentals of Front End Development
 
-* [Unit 2](#unit-2) - Full-Stack Development
+* [Unit 2](#unit-2--full-stack-development) - Full-Stack Development
 
-* [Unit 3](#unit-3) - React Fundamentals
+* [Unit 3](#unit-3--react-fundamentals) - React Fundamentals
 
-* [Unit 4](#unit-4) - Python/Django
+* [Unit 4](#unit-4--python-django) - Python/Django
+* [Computer Science](#computer-science-1)
+* [Daily Coding Challenges](#daily-coding-challenges)
 
 ## Software Engineering Immersive
 
 ## Unit 1 <br> Fundamentals of Front-End Development
 
 ### Content
+- [Potential Unit 1 Schedule](#potential-unit-1-schedule) found below this content.
+  
 | Lesson | Topic | Lab | Homework |
 | -- | -- | -- | -- |
-| **Development Environment** | [Installfest](/Unit_1/1-dev-environment/1.1-installfest-mac.md) | []()  | [Homework Command Line Practice](/Unit_1/1-dev-environment/1.hw-command-line-practice.md) |
+| **Development Environment** | [Introduction to CLI](/Unit_1/1-dev-environment/1.1-cli-intro-main/readme.md) | [Installfest](/Unit_1/1-dev-environment/1.1-installfest-mac.md) | [Homework Command Line Practice](/Unit_1/1-dev-environment/1.hw-command-line-practice.md) |
 | **Intro to JavaScript** | [Intro to JavaScript](/Unit_1/2-js-fundamentals/2.1-js-intro-datatypes.md) | []() | []() |
 | **Control Flow** | [Control Flow](/Unit_1/2-js-fundamentals/2.2-js-control-flow.md) | []()  | []() |
 | **Arrays** | [JS Array Methods](/Unit_1/2-js-fundamentals/2.3-js-arrays.md) | [Arrays Lab](/Unit_1/2-js-fundamentals/2.3.1-js-arrays-lab.md)  | []() |
@@ -72,17 +76,17 @@
 ### Potential Unit 1 Schedule
 | Week 1 | Day 1 | Day 2 | Day 3 | Day 4 | Day 5 |
 | -- | -- | -- | -- | -- | -- |
-| Lecture(s) | [Installfest](./Unit_1/1-dev-environment/1.1-installfest-mac.md)<br>---<br>[Intro to JavaScript](./Unit_1/2-js-fundamentals/2.1-js-intro-datatypes.md)<br>---<br>[Control Flow](./Unit_1/2-js-fundamentals/2.2-js-control-flow.md) | [JS Array Methods](/Unit_1/2-js-fundamentals/2.3-js-arrays.md)<br>---<br>[Functions](/Unit_1/2-js-fundamentals/2.4-js-functions.md)<br>---<br>[Scope](/Unit_1/2-js-fundamentals/2.5-js-scope.md) | [Objects](/Unit_1/2-js-fundamentals/2.7-js-objects.md)<br>---<br>[Template Literals](/Unit_1/2-js-fundamentals/2.6-js-template-literals.md)<br>---<br>[Intro to HTML](/Unit_1/3-html-css/3.1-intro-to-html.md)<br>---<br>[Intro to CSS](/Unit_1/3-html-css/3.2-intro-to-css.md) | [Intro to the DOM](/Unit_1/4-dom/4.1-dom-intro.md)<br>---<br>[DOM Events](/Unit_1/4-dom/4.2-dom-events.md) | [Guide to Building a Browser Game](/Unit_1/5-programming/5.1-guide-to-building-a-browser-game.md)<br>---<br>[Connect Four Code-Along](/Unit_1/5-programming/5.2-connect-four-code-along.md) |
-| Lab | []() | [Arrays Lab](/Unit_1/2-js-fundamentals/2.3.1-js-arrays-lab.md)<br>---<br>[Functions & Scope Lab](/Unit_1/2-js-fundamentals/2.5.1-js-functions-lab.md) | [Objects Lab](/Unit_1/2-js-fundamentals/2.7.1-js-objects-lab.md)<br>---<br>[CSS Diner](https://flukeout.github.io/) | [DOM Menu Lab Part 1](/Unit_1/4-dom/4.1.1-dom-menu-lab-part-1.md)<br>---<br>[DOM Menu Lab Part 2](/Unit_1/todo-list_dom_lab.md) | [Open Lab]() |
-| Homework | [Homework Command Line Practice](/Unit_1/1-dev-environment/1.hw-command-line-practice.md) | [Functions Homework](/Unit_1/functions-homework.md)<br>---<br>[Arrays Lab](/Unit_1/2-js-fundamentals/2.3.1-js-arrays-lab.md) | [Objects Lab](/Unit_1/2-js-fundamentals/2.7.1-js-objects-lab.md) | []() | []() |
+| Lecture(s) | [Introduction to CLI](/Unit_1/1-dev-environment/1.1-cli-intro-main/readme.md)<br>---<br>[Intro to JavaScript](./Unit_1/2-js-fundamentals/2.1-js-intro-datatypes.md)<br>---<br>[Control Flow](./Unit_1/2-js-fundamentals/2.2-js-control-flow.md) | [JS Array Methods](/Unit_1/2-js-fundamentals/2.3-js-arrays.md)<br>---<br>[Functions](/Unit_1/2-js-fundamentals/2.4-js-functions.md)<br>---<br>[Scope](/Unit_1/2-js-fundamentals/2.5-js-scope.md) | [Objects](/Unit_1/2-js-fundamentals/2.7-js-objects.md)<br>---<br>[Template Literals](/Unit_1/2-js-fundamentals/2.6-js-template-literals.md)<br>---<br>[Intro to HTML](/Unit_1/3-html-css/3.1-intro-to-html.md)<br>---<br>[Intro to CSS](/Unit_1/3-html-css/3.2-intro-to-css.md) | [Intro to the DOM](/Unit_1/4-dom/4.1-dom-intro.md)<br>---<br>[DOM Events](/Unit_1/4-dom/4.2-dom-events.md) | [Guide to Building a Browser Game](/Unit_1/5-programming/5.1-guide-to-building-a-browser-game.md) |
+| Lab | [Installfest](./Unit_1/1-dev-environment/1.1-installfest-mac.md) | [Arrays Lab](/Unit_1/2-js-fundamentals/2.3.1-js-arrays-lab.md)<br>---<br>[Functions & Scope Lab](/Unit_1/2-js-fundamentals/2.5.1-js-functions-lab.md) | [Objects Lab](/Unit_1/2-js-fundamentals/2.7.1-js-objects-lab.md)<br>---<br>[CSS Diner](https://flukeout.github.io/) | [DOM Menu Lab Part 1](/Unit_1/4-dom/4.1.1-dom-menu-lab-part-1.md)<br>---<br>[DOM Menu Lab Part 2](/Unit_1/todo-list_dom_lab.md) | [Connect Four Code-Along](/Unit_1/5-programming/5.2-connect-four-code-along.md) |
+| Homework | [Homework Command Line Practice](/Unit_1/1-dev-environment/1.hw-command-line-practice.md) | [Arrays Lab](/Unit_1/2-js-fundamentals/2.3.1-js-arrays-lab.md) | [Objects Lab](/Unit_1/2-js-fundamentals/2.7.1-js-objects-lab.md) | []() | [Tic Tac Toe Homework](/Unit_1/5-programming/5.3-tic-tac-toe-weekend.md) |
 | Daily Coding Challenge | [addOne](https://replit.com/@jim_clark/01-addOne#challenge.js) | [addTwoNumbers](https://replit.com/@jim_clark/02-addTwoNumbers#challenge.js) | [sumNumbers](https://replit.com/@jim_clark/03-sumNumbers#challenge.js) | [addList](https://replit.com/@jim_clark/04-addList#challenge.js) | [computeRemainder](https://replit.com/@jim_clark/05-computeRemainder#challenge.js) |
 
 
 | Week 2 | Day 6 | Day 7 | Day 8 | Day 9 | Day 10 |
 | -- | -- | -- | -- | -- | -- |
-| Lecture(s) | []() | []() | []() | []() | []() |
-| Lab | []() | []() | []() | []() | []() |
-| Homework | []() | []() | []() | []() | []() |
+| Lecture(s) | [CSS Flexbox/Grid](/Unit_1/6-css-layout/6.1-css-flexbox-grid.md)<br>---<br>[Responsive Design](/Unit_1/6-css-layout/6.2-responsive-design.md) | [Arrow Functions](/Unit_1/7-js-continued/7.1-js-arrow-functions.md)<br>---<br>[Callback Functions](/Unit_1/7-js-continued/7.2-js-callback-functions.md)<br>---<br>[JS Classes](/Unit_1/7-js-continued/7.3-js-classes.md) | [Array Iterator Methods](/Unit_1/7-js-continued/7.4-array-iterator-methods.md)<br>---<br>[this](/Unit_1/7-js-continued/7.5-js-this-keyword.md) | [Intro to TDD](/Unit_1/10-testing/Intro-to-TDD.md) | [Project 1](/Unit_1/project-1/project-1-requirements.md) |
+| Lab | [CSS Flexbox/Grid Lab](/Unit_1/6-css-layout/6.1.1-flexbox-grid-lab.md) | [Callbacks Lab](/Unit_1/7-js-continued/7.2.1-js-callbacks-lab.md) | [Array Iterator Methods Lab](/Unit_1/7-js-continued/7.4.1-array-iterator-methods-lab.md) | [Testing with Jest](/Unit_1/10-testing/JS-Unit-Testing-with-Jest.md)<br>---<br>[Testing with Mocha & Chai](/Unit_1/10-testing/JS-Unit-Testing-with-Mocha-and-Chai.md) | [Build Another Game Guide](/Unit_1/9-programming/9.2-rock-paper-scissors-codealong.md) |
+| Homework | [Flexbox Froggy](https://flexboxfroggy.com/)<br>---<br>[Flexbox Zombies](https://mastery.games/flexboxzombies/)<br>---<br>[Grid Garden](https://cssgridgarden.com/) | [JS Classes Lab](/Unit_1/7-js-continued/7.3.1.hw.optional-js-classes-lab.md) | []() | []() | []() |
 | Daily Coding Challenge | [range](https://replit.com/@jim_clark/06-range#challenge.js) | [reverseUpcaseString](https://replit.com/@jim_clark/07-reverseUpcaseString#challenge.js) | [removeEnds](https://replit.com/@jim_clark/08-removeEnds#challenge.js) | [charCount](https://replit.com/@jim_clark/09-charCount#challenge.js) | [formatWithPadding](https://replit.com/@jim_clark/10-formatWithPadding#challenge.js) |
 
 
@@ -96,6 +100,8 @@
 ## Unit 2 <br> Full-Stack Development
 
 ### Content
+- [Potential Unit 2 Schedule](#potential-unit-2-schedule) found below this content.
+
 | Lesson | Topic | Lab | Homework |
 | -- | -- | -- | -- |
 | **Intro to Node & NPM** | [Intro to Full Stack Development](./Unit_2/1-intro-full-stack/1.1-intro-fullstack-http.md)<br>---<br>[Intro to Node](./Unit_2/1-intro-full-stack/1.2-intro-to-node.md) | [Server-side Debugging Setup](./Unit_2/1-intro-full-stack/1.3-server-side-debugging-setup.md) | [Node Resume](https://git.generalassemb.ly/SEI-Standard-Curriculum/npm-resume) | 
@@ -168,6 +174,8 @@
 ## Unit 3 <br> React Fundamentals
 
 ### Content
+- [Potential Unit 3 Schedule](#potential-unit-3-schedule) found below this content.
+
 | Lesson | Topic | Lab | Homework |
 | -- | -- | -- | -- |
 | **Intro to React & Props** | [React & Components](/Unit_3/1-react/1.1-intro-react-and-components.md) | [React Dev Skills Lab Part 1](./Unit_3/1-react/1.1.1-react-devskills-lab-part-1.md) | []() | 
@@ -231,6 +239,8 @@
 ## Unit 4 <br> Python-Django
 
 ### Content
+- [Potential Unit 4 Schedule](#potential-unit-4-schedule) found below this content.
+
 | Lesson | Topic | Lab | Homework |
 | -- | -- | -- | -- |
 | **Intro to Python** | [Intro to Python](./Unit_4/1-python/1.1-intro-python.md)<br>---<br>[Python Control Flow](./Unit_4/1-python/1.2-python-control-flow.md) | [Control Flow Lab](./Unit_4/1-python/1.2.1-control-flow-lab.md)  | []() |
@@ -308,39 +318,26 @@
 | **Binary Trees & Tries** | [Binary Trees & Tries](./computer-science/10-binary-trees-and-tries/README.md) | [Implementing a Binary Tree](./computer-science/10-binary-trees-and-tries/exercises/test/binaryTree.js)<br>---<br>[Implementing an AVL Tree](./computer-science/10-binary-trees-and-tries/exercises/AVLTree.js) | [Binary Trees & Tries: myGA](https://my.generalassemb.ly/activities/8)<br>---<br>[Balancing a Binary Trees: myGA](https://my.generalassemb.ly/activities/263) |
 | **Graphs** | [Graphs](./computer-science/11-graphs/readme.md) | [Implementing a Graph](./computer-science/11-graphs/exercises/Graph.js) | [Graphs: myGA](https://my.generalassemb.ly/activities/403) |
 | **Extra Modules** | [Design Patterns](./computer-science/extra-modules/design-patterns/readme.md)<br>---<br>[Distribution Sorts](./computer-science/extra-modules/distribution-sorts/readme.md)<br>---<br>[Sets](./computer-science/extra-modules/sets/readme.md) | [Design Patterns](./computer-science/extra-modules/design-patterns/exercises/readme.md)<br>---<br>[Implementing Bucket Sort](./computer-science/extra-modules/distribution-sorts/exercises/BucketSort.js)<br>---<br>[Implementing a Set](./computer-science/extra-modules/sets/exercises/Set.js) | [Design Patterns: myGA](https://my.generalassemb.ly/activities/134)<br>---<br>[Distribution Sorting Algorithms: myGA](https://my.generalassemb.ly/activities/802)<br>---<br>[Sets: myGA](https://my.generalassemb.ly/activities/465) |
+<hr>
 
-###Daily Coding Challenges
 ## Daily Coding Challenges
-| Day | Challenge |
-| -- | -- |
-| 0 | [sayHello](https://replit.com/@jim_clark/00-sayHello#challenge.js) |
-| 1 | [addOne](https://replit.com/@jim_clark/01-addOne#challenge.js) |
-| 2 | [addTwoNumbers](https://replit.com/@jim_clark/02-addTwoNumbers#challenge.js) |
-| 3 | [sumNumbers](https://replit.com/@jim_clark/03-sumNumbers#challenge.js) |
-| 4 | [addList](https://replit.com/@jim_clark/04-addList#challenge.js) |
-| 5 | [computeRemainder](https://replit.com/@jim_clark/05-computeRemainder#challenge.js) |
-| 6 | [range](https://replit.com/@jim_clark/06-range#challenge.js) |
-| 7 | [reverseUpcaseString](https://replit.com/@jim_clark/07-reverseUpcaseString#challenge.js) |
-| 8 | [removeEnds](https://replit.com/@jim_clark/08-removeEnds#challenge.js) |
-| 9 | [charCount](https://replit.com/@jim_clark/09-charCount#challenge.js) |
-| 10 | [formatWithPadding](https://replit.com/@jim_clark/10-formatWithPadding#challenge.js) |
-| 11 | [isPalindrome](https://replit.com/@jim_clark/11-isPalindrome#challenge.js) |
-| 12 | [hammingDistance](https://replit.com/@jim_clark/12-hammingDistance#challenge.js) |
-| 13 | [mumble](https://replit.com/@jim_clark/13-mumble#challenge.js) |
-| 14 | [fromPairs](https://replit.com/@jim_clark/14-fromPairs#challenge.js) |
-| 15 | [mergeObjects](https://replit.com/@jim_clark/15-mergeObjects#challenge.js) |
-| 16 | [findHighestPriced](https://replit.com/@jim_clark/16-findHighestPriced#challenge.js) |
-| 17 | [mapArray](https://replit.com/@jim_clark/17-mapArray#challenge.js) |
-| 18 | [reduceArray](https://replit.com/@jim_clark/18-reduceArray#challenge.js) |
-| 19 | [flatten](https://replit.com/@jim_clark/19-flatten#challenge.js) |
-| 20 | [isPrime](https://replit.com/@jim_clark/20-isPrime#challenge.js) |
-| 21 | [primeFactors](https://replit.com/@jim_clark/21-primeFactors#challenge.js) |
-| 22 | [intersection](https://replit.com/@jim_clark/22-intersection#challenge.js) |
-| 23 | [balancedBrackets](https://replit.com/@jim_clark/23-balancedBrackets#challenge.js) |
-| 24 | [isWinningTicket](https://replit.com/@jim_clark/24-isWinningTicket#challenge.js) |
-| 25 | [getNumForIP](https://replit.com/@jim_clark/25-getNumForIP#challenge.js) |
-| 26 | [toCamelCase](https://replit.com/@jim_clark/26-toCamelCase#challenge.js) |
-| 27 | [countTheBits](https://replit.com/@jim_clark/27-countTheBits#challenge.js) |
-| 28 | [gridTrip](https://replit.com/@jim_clark/28-gridTrip#challenge.js) |
-| 29 | [addChecker](https://replit.com/@jim_clark/29-addChecker#challenge.js) |
-| 30 | [totalTaskTime](https://replit.com/@jim_clark/30-totalTaskTime#challenge.js) |
+- The potential schedule of these challenges can be found in each unit's individual potential schedules. 
+
+| Day | Challenge | Day | Challenge |
+| -- | -- | -- | -- |
+| 0 | [sayHello](https://replit.com/@jim_clark/00-sayHello#challenge.js) |  |  |
+| 1 | [addOne](https://replit.com/@jim_clark/01-addOne#challenge.js) | 16 | [findHighestPriced](https://replit.com/@jim_clark/16-findHighestPriced#challenge.js) |  
+| 2 | [addTwoNumbers](https://replit.com/@jim_clark/02-addTwoNumbers#challenge.js) | 17 | [mapArray](https://replit.com/@jim_clark/17-mapArray#challenge.js) |
+| 3 | [sumNumbers](https://replit.com/@jim_clark/03-sumNumbers#challenge.js) | 18 | [reduceArray](https://replit.com/@jim_clark/18-reduceArray#challenge.js) |
+| 4 | [addList](https://replit.com/@jim_clark/04-addList#challenge.js) | 19 | [flatten](https://replit.com/@jim_clark/19-flatten#challenge.js) |
+| 5 | [computeRemainder](https://replit.com/@jim_clark/05-computeRemainder#challenge.js) | 20 | [isPrime](https://replit.com/@jim_clark/20-isPrime#challenge.js) |
+| 6 | [range](https://replit.com/@jim_clark/06-range#challenge.js) | 21 | [primeFactors](https://replit.com/@jim_clark/21-primeFactors#challenge.js) |
+| 7 | [reverseUpcaseString](https://replit.com/@jim_clark/07-reverseUpcaseString#challenge.js) | 22 | [intersection](https://replit.com/@jim_clark/22-intersection#challenge.js) |
+| 8 | [removeEnds](https://replit.com/@jim_clark/08-removeEnds#challenge.js) | 23 | [balancedBrackets](https://replit.com/@jim_clark/23-balancedBrackets#challenge.js) |
+| 9 | [charCount](https://replit.com/@jim_clark/09-charCount#challenge.js) | 24 | [isWinningTicket](https://replit.com/@jim_clark/24-isWinningTicket#challenge.js) |
+| 10 | [formatWithPadding](https://replit.com/@jim_clark/10-formatWithPadding#challenge.js) | 25 | [getNumForIP](https://replit.com/@jim_clark/25-getNumForIP#challenge.js) |
+| 11 | [isPalindrome](https://replit.com/@jim_clark/11-isPalindrome#challenge.js) | 26 | [toCamelCase](https://replit.com/@jim_clark/26-toCamelCase#challenge.js) |
+| 12 | [hammingDistance](https://replit.com/@jim_clark/12-hammingDistance#challenge.js) | 27 | [countTheBits](https://replit.com/@jim_clark/27-countTheBits#challenge.js) |
+| 13 | [mumble](https://replit.com/@jim_clark/13-mumble#challenge.js) | 28 | [gridTrip](https://replit.com/@jim_clark/28-gridTrip#challenge.js) |
+| 14 | [fromPairs](https://replit.com/@jim_clark/14-fromPairs#challenge.js) | 29 | [addChecker](https://replit.com/@jim_clark/29-addChecker#challenge.js) |
+|15 | [mergeObjects](https://replit.com/@jim_clark/15-mergeObjects#challenge.js) | 30 | [totalTaskTime](https://replit.com/@jim_clark/30-totalTaskTime#challenge.js) |
