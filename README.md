@@ -78,7 +78,8 @@
 | -- | -- | -- | -- | -- | -- |
 | Lecture(s) | [Introduction to CLI](/Unit_1/1-dev-environment/1.1-cli-intro-main/readme.md)<br>---<br>[Intro to JavaScript](./Unit_1/2-js-fundamentals/2.1-js-intro-datatypes.md)<br>---<br>[Control Flow](./Unit_1/2-js-fundamentals/2.2-js-control-flow.md) | [JS Array Methods](/Unit_1/2-js-fundamentals/2.3-js-arrays.md)<br>---<br>[Functions](/Unit_1/2-js-fundamentals/2.4-js-functions.md)<br>---<br>[Scope](/Unit_1/2-js-fundamentals/2.5-js-scope.md) | [Objects](/Unit_1/2-js-fundamentals/2.7-js-objects.md)<br>---<br>[Template Literals](/Unit_1/2-js-fundamentals/2.6-js-template-literals.md)<br>---<br>[Intro to HTML](/Unit_1/3-html-css/3.1-intro-to-html.md)<br>---<br>[Intro to CSS](/Unit_1/3-html-css/3.2-intro-to-css.md) | [Intro to the DOM](/Unit_1/4-dom/4.1-dom-intro.md)<br>---<br>[DOM Events](/Unit_1/4-dom/4.2-dom-events.md) | [Guide to Building a Browser Game](/Unit_1/5-programming/5.1-guide-to-building-a-browser-game.md) |
 | Lab | [Installfest](./Unit_1/1-dev-environment/1.1-installfest-mac.md) | [Arrays Lab](/Unit_1/2-js-fundamentals/2.3.1-js-arrays-lab.md)<br>---<br>[Functions & Scope Lab](/Unit_1/2-js-fundamentals/2.5.1-js-functions-lab.md) | [Objects Lab](/Unit_1/2-js-fundamentals/2.7.1-js-objects-lab.md)<br>---<br>[CSS Diner](https://flukeout.github.io/) | [DOM Menu Lab Part 1](/Unit_1/4-dom/4.1.1-dom-menu-lab-part-1.md)<br>---<br>[DOM Menu Lab Part 2](/Unit_1/todo-list_dom_lab.md) | [Connect Four Code-Along](/Unit_1/5-programming/5.2-connect-four-code-along.md) |
-| Homework | [Homework Command Line Practice](/Unit_1/1-dev-environment/1.hw-command-line-practice.md) | [Arrays Lab](/Unit_1/2-js-fundamentals/2.3.1-js-arrays-lab.md) | [Objects Lab](/Unit_1/2-js-fundamentals/2.7.1-js-objects-lab.md) | []() | [Tic Tac Toe Homework](/Unit_1/5-programming/5.3-tic-tac-toe-weekend.md) |
+| Homework | [Homework Command Line Practice](/Unit_1/1-dev-environment/1.hw-command-line-practice.md) | [Arrays Lab](/Unit_1/2-js-fundamentals/2.3.1-js-arrays-lab.md) | [Objects Lab](/Unit_1/2-js-fundamentals/2.7.1-js-objects-lab.md) | Lab Completion | [Tic Tac Toe Homework](/Unit_1/5-programming/5.3-tic-tac-toe-weekend.md) |
+| Computer Science |  |  |  |  |  |
 | Daily Coding Challenge | [addOne](https://replit.com/@jim_clark/01-addOne#challenge.js) | [addTwoNumbers](https://replit.com/@jim_clark/02-addTwoNumbers#challenge.js) | [sumNumbers](https://replit.com/@jim_clark/03-sumNumbers#challenge.js) | [addList](https://replit.com/@jim_clark/04-addList#challenge.js) | [computeRemainder](https://replit.com/@jim_clark/05-computeRemainder#challenge.js) |
 
 
@@ -86,7 +87,8 @@
 | -- | -- | -- | -- | -- | -- |
 | Lecture(s) | [CSS Flexbox/Grid](/Unit_1/6-css-layout/6.1-css-flexbox-grid.md)<br>---<br>[Responsive Design](/Unit_1/6-css-layout/6.2-responsive-design.md) | [Arrow Functions](/Unit_1/7-js-continued/7.1-js-arrow-functions.md)<br>---<br>[Callback Functions](/Unit_1/7-js-continued/7.2-js-callback-functions.md)<br>---<br>[JS Classes](/Unit_1/7-js-continued/7.3-js-classes.md) | [Array Iterator Methods](/Unit_1/7-js-continued/7.4-array-iterator-methods.md)<br>---<br>[this](/Unit_1/7-js-continued/7.5-js-this-keyword.md) | [Intro to TDD](/Unit_1/10-testing/Intro-to-TDD.md) | [Project 1](/Unit_1/project-1/project-1-requirements.md) |
 | Lab | [CSS Flexbox/Grid Lab](/Unit_1/6-css-layout/6.1.1-flexbox-grid-lab.md) | [Callbacks Lab](/Unit_1/7-js-continued/7.2.1-js-callbacks-lab.md) | [Array Iterator Methods Lab](/Unit_1/7-js-continued/7.4.1-array-iterator-methods-lab.md) | [Testing with Jest](/Unit_1/10-testing/JS-Unit-Testing-with-Jest.md)<br>---<br>[Testing with Mocha & Chai](/Unit_1/10-testing/JS-Unit-Testing-with-Mocha-and-Chai.md) | [Build Another Game Guide](/Unit_1/9-programming/9.2-rock-paper-scissors-codealong.md) |
-| Homework | [Flexbox Froggy](https://flexboxfroggy.com/)<br>---<br>[Flexbox Zombies](https://mastery.games/flexboxzombies/)<br>---<br>[Grid Garden](https://cssgridgarden.com/) | [JS Classes Lab](/Unit_1/7-js-continued/7.3.1.hw.optional-js-classes-lab.md) | []() | []() | []() |
+| Homework | [Flexbox Froggy](https://flexboxfroggy.com/)<br>---<br>[Flexbox Zombies](https://mastery.games/flexboxzombies/)<br>---<br>[Grid Garden](https://cssgridgarden.com/) | [JS Classes Lab](/Unit_1/7-js-continued/7.3.1.hw.optional-js-classes-lab.md) | Lab Completion | Lab Completion | Lab Completion |
+| Computer Science |  |  |  |  |  |
 | Daily Coding Challenge | [range](https://replit.com/@jim_clark/06-range#challenge.js) | [reverseUpcaseString](https://replit.com/@jim_clark/07-reverseUpcaseString#challenge.js) | [removeEnds](https://replit.com/@jim_clark/08-removeEnds#challenge.js) | [charCount](https://replit.com/@jim_clark/09-charCount#challenge.js) | [formatWithPadding](https://replit.com/@jim_clark/10-formatWithPadding#challenge.js) |
 
 
@@ -104,19 +106,18 @@
 
 | Lesson | Topic | Lab | Homework |
 | -- | -- | -- | -- |
-| **Intro to Node & NPM** | [Intro to Full Stack Development](./Unit_2/1-intro-full-stack/1.1-intro-fullstack-http.md)<br>---<br>[Intro to Node](./Unit_2/1-intro-full-stack/1.2-intro-to-node.md) | [Server-side Debugging Setup](./Unit_2/1-intro-full-stack/1.3-server-side-debugging-setup.md) | [Node Resume](https://git.generalassemb.ly/SEI-Standard-Curriculum/npm-resume) | 
+| **Intro to Node & NPM** | [Intro to Full Stack Development](./Unit_2/1-intro-full-stack/1.1-intro-fullstack-http.md)<br>---<br>[Intro to Node](./Unit_2/1-intro-full-stack/1.2-intro-to-node.md) | [Server-side Debugging Setup](./Unit_2/1-intro-full-stack/1.3-server-side-debugging-setup.md) |  | 
 | **Intro to Express** | [Intro to Express](./Unit_2/2-express-framework/2.1-intro-express.md) | [Express Lab](./Unit_2/2-express-framework/2.1.1-intro-express-lab.md)  | []() |
-| **Express Routers & Controllers** | [Express Routers & Controllers](./Unit_2/2-express-framework/2.2-express-routers-controllers.md) | [Dev Skills Lab Part 1](./Unit_2/2-express-framework/2.2.1-dev-skills-lab-part-1.md)  | [Express Books API App](https://git.generalassemb.ly/SEI-Standard-Curriculum/express-books-api) |
-| **Express Framework** | [EJS Partial Templates](./Unit_2/2-express-framework/2.3-ejs-partial-templates.md)<br>---<br>[Express Middleware](./Unit_2/2-express-framework/2.4-express-middleware.md) | [Express Update To Do](./Unit_2/2-express-framework/2.5-express-update-to-do.md)<br>---<br>[Dev Skills Lab Part 2](./Unit_2/2-express-framework/2.5.1-dev-skills-lab-part-2.md)  | [Express Books API App](https://git.generalassemb.ly/SEI-Standard-Curriculum/express-books-api) |
-| **Intro to MongoDB & Mongoose** | [Atlas Hosted MongoDB](./Unit_2/3-mongodb-mongoose/3.1-atlas-hosted-mongodb.md)<br>---<br>[Intro to MongoDB](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-to-mongo-and-mongoose)<br>---<br>[Intro to Mongoose](./Unit_2/3-mongodb-mongoose/3.3-mongoose-intro.md) | [Mongoose Flights Lab Part 1](./Unit_2/3-mongodb-mongoose/3.3.1-mongoose-flights-lab-part-1.md) | [Mongoose Vampires](https://git.generalassemb.ly/SEI-Standard-Curriculum/mongoose-vampires-practice) |
+| **Express Routers & Controllers** | [Express Routers & Controllers](./Unit_2/2-express-framework/2.2-express-routers-controllers.md) | [Dev Skills Lab Part 1](./Unit_2/2-express-framework/2.2.1-dev-skills-lab-part-1.md)  |  |
+| **Express Framework** | [EJS Partial Templates](./Unit_2/2-express-framework/2.3-ejs-partial-templates.md)<br>---<br>[Express Middleware](./Unit_2/2-express-framework/2.4-express-middleware.md) | [Express Update To Do](./Unit_2/2-express-framework/2.5-express-update-to-do.md)<br>---<br>[Dev Skills Lab Part 2](./Unit_2/2-express-framework/2.5.1-dev-skills-lab-part-2.md)  |  |
+| **Intro to MongoDB & Mongoose** | [Atlas Hosted MongoDB](./Unit_2/3-mongodb-mongoose/3.1-atlas-hosted-mongodb.md)<br>---<br>[Intro to MongoDB](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-to-mongo-and-mongoose)<br>---<br>[Intro to Mongoose](./Unit_2/3-mongodb-mongoose/3.3-mongoose-intro.md) | [Mongoose Flights Lab Part 1](./Unit_2/3-mongodb-mongoose/3.3.1-mongoose-flights-lab-part-1.md) |  |
 | **Mongoose Embedding Related Data** | [Embedding Related Data](./Unit_2/3-mongodb-mongoose/3.4-mongoose-embedding-related-data.md) | [Mongoose Flight Labs Part 2](./Unit_2/3-mongodb-mongoose/3.4.1-mongoose-flights-lab-part-2.md) | [Single Model "Create" Practice](./Unit_2/3-mongodb-mongoose/3.4.2-optional-mongoose-single-model-create-practice.md) |
 | **Mongoose Referencing Related Data** | [Referencing Related Data](./Unit_2/3-mongodb-mongoose/3.5-mongoose-referencing-related-data.md) | [Mongoose Flight Labs Part 3](./Unit_2/3-mongodb-mongoose/3.5.1-mongoose-flights-lab-part-3.md) | []() |
 | **Regular Expressions & Promises** | [Regular Expressions](./Unit_2/4-regex-promises-apis/4.1-regular-expressions.md)<br>---<br>[Promises](./Unit_2/4-regex-promises-apis/4.2-js-promises.md) | [Promises Mongoose Lab](./Unit_2/4-regex-promises-apis/4.2.1-js-promises-mongoose-lab.md)  | []() |
-| **APIs** | [Consuming 3rd Party APIs](./Unit_2/4-regex-promises-apis/4.3-consuming-3rd-party-apis.md) | [Consuming APIs Lab](./Unit_2/4-regex-promises-apis/4.4-optional-consuming-apis-lab.md)  | [Express JSON API Homework](https://git.generalassemb.ly/SEI-Standard-Curriculum/tv-browser-json-api) |
-| **OAuth & Express Passport** | [Google OAuth & Authorization](./Unit_2/5-authentication/5.1-oauth-authentication.md)<br>---<br>[Express Passport](./Unit_2/oauth-express-passport/oauth-express-passport.md) | []() |  |
+| **APIs** | [Consuming 3rd Party APIs](./Unit_2/4-regex-promises-apis/4.3-consuming-3rd-party-apis.md) | [Consuming APIs Lab](./Unit_2/4-regex-promises-apis/4.4-optional-consuming-apis-lab.md)  |  |
+| **OAuth & Express Passport** | [Google OAuth & Authorization](./Unit_2/5-authentication/5.1-oauth-authentication.md) | []() |  |
 | **Deployment** | [Heroku & Atlas](https://git.generalassemb.ly/SEI-Standard-Curriculum/heroku-atlas-deployment) | []()  | []() |
-| **Express TDD** | [Testing Node with Mocha/Chai](https://git.generalassemb.ly/SEI-Standard-Curriculum/express-tdd) | [Express Testing Lab](https://git.generalassemb.ly/SEI-Standard-Curriculum/express-testing-lab)<br>---<br>[Express Testing Lab Starter Repo](https://git.generalassemb.ly/SEI-Standard-Curriculum/express-testing-lab-starter)  | []() |
-| **BONUS** | [Codewars](https://git.generalassemb.ly/SEI-Standard-Curriculum/intro-to-codewars)<br>---<br>[Git Team Workflows](https://git.generalassemb.ly/SEI-Standard-Curriculum/git-team-workflows)<br>---<br>[Code Review](https://git.generalassemb.ly/SEI-Standard-Curriculum/code-review)<br>---<br>[GitHub Profile README.md](https://git.generalassemb.ly/SEI-Standard-Curriculum/gh-profiles) | []()  | []() |
+| **Express TDD** | [Testing Node with Mocha/Chai](/Unit_2/6-testing-node/6.1-express-tdd-master/) | [Express Testing Lab](/Unit_2/6-testing-node/6.1.1-express-testing-lab/)  | []() |
 
 ### Unit 2 Syllabus
 
@@ -150,17 +151,19 @@
 ### Potential Unit 2 Schedule
 | Week 4 | Day 16 | Day 17 | Day 18 | Day 19 | Day 20 |
 | -- | -- | -- | -- | -- | -- |
-| Lecture(s) | []() | []() | []() | []() | []() |
-| Lab | []() | []() | []() | []() | []() |
-| Homework | []() | []() | []() | []() | []() |
+| Lecture(s) | [Intro to Full Stack Development](/Unit_2/1-intro-full-stack/1.1-intro-fullstack-http.md)<br>---<br>[Intro to Node](/Unit_2/1-intro-full-stack/1.2-intro-to-node.md)<br>---<br>[Intro to Express](/Unit_2/2-express-framework/2.1-intro-express.md) | [Express Routers & Controllers](/Unit_2/2-express-framework/2.2-express-routers-controllers.md) | [EJS Partial Templates](/Unit_2/2-express-framework/2.3-ejs-partial-templates.md)<br>---<br>[Express Middleware](/Unit_2/2-express-framework/2.4-express-middleware.md) | [Regular Expressions](/Unit_2/4-regex-promises-apis/4.1-regular-expressions.md)<br>---<br>[Atlas Hosted MongoDB](/Unit_2/3-mongodb-mongoose/3.1-atlas-hosted-mongodb.md)<br>---<br>[Intro to MongoDB](/Unit_2/3-mongodb-mongoose/3.2-mongodb-intro.md) | [Intro to Mongoose](/Unit_2/3-mongodb-mongoose/3.3-mongoose-intro.md) |
+| Lab | [Server-Side Debugging Setup](/Unit_2/1-intro-full-stack/1.3-server-side-debugging-setup.md)<br>---<br>[Express Lab](/Unit_2/2-express-framework/2.1.1-intro-express-lab.md) | [Dev Skills Lab Part 1](/Unit_2/2-express-framework/2.2.1-dev-skills-lab-part-1.md) | [Express Update To Do](Unit_2/2-express-framework/2.5-express-update-to-do.md)<br>---<br>[Dev Skills Lab Part 2](/Unit_2/2-express-framework/2.5.1-dev-skills-lab-part-2.md) | Complete Dev Skills Lab | [Mongoose Flights Lab Part 1](/Unit_2/3-mongodb-mongoose/3.3.1-mongoose-flights-lab-part-1.md) |
+| Homework | Lab Completion | Lab Completion | Lab Completion | Lab Completion | Lab Completion |
+| Computer Science |  |  |  |  |  |
 | Daily Coding Challenge | [isPalindrome](https://replit.com/@jim_clark/11-isPalindrome#challenge.js) | [hammingDistance](https://replit.com/@jim_clark/12-hammingDistance#challenge.js) | [mumble](https://replit.com/@jim_clark/13-mumble#challenge.js) | [fromPairs](https://replit.com/@jim_clark/14-fromPairs#challenge.js) | [mergeObjects](https://replit.com/@jim_clark/15-mergeObjects#challenge.js) |
 
 
 | Week 5 | Day 21 | Day 22 | Day 23 | Day 24 | Day 25 |
 | -- | -- | -- | -- | -- | -- |
-| Lecture(s) | []() | []() | []() | []() | []() |
-| Lab | []() | []() | []() | []() | []() |
-| Homework | []() | []() | []() | []() | []() |
+| Lecture(s) | [Embedding Related Data](/Unit_2/3-mongodb-mongoose/3.4-mongoose-embedding-related-data.md) | [Referencing Related Data](/Unit_2/3-mongodb-mongoose/3.5-mongoose-referencing-related-data.md) | [JS Promises](/Unit_2/4-regex-promises-apis/4.2-js-promises.md)<br>---<br>[Consuming 3rd-Party APIs](/Unit_2/4-regex-promises-apis/4.3-consuming-3rd-party-apis.md) | [Google OAuth & Authorization](/Unit_2/5-authentication/5.1-oauth-authentication.md) | [Testing Node with Mocha/Chai](/Unit_2/6-testing-node/6.1-express-tdd-master/)<br>---<br>[Heroku & Atlas](https://git.generalassemb.ly/SEI-Standard-Curriculum/heroku-atlas-deployment) |
+| Lab | [Mongoose Flight Labs Part 2](/Unit_2/3-mongodb-mongoose/3.4.1-mongoose-flights-lab-part-2.md)<br>---<br>[Single Model "Create" Practice](/Unit_2/3-mongodb-mongoose/3.4.2-optional-mongoose-single-model-create-practice.md) | [Mongoose Flight Labs Part 3](/Unit_2/3-mongodb-mongoose/3.5.1-mongoose-flights-lab-part-3.md) | [Promises Mongoose Lab](/Unit_2/4-regex-promises-apis/4.2.1-js-promises-mongoose-lab.md)<br>---<br>[Consuming APIs Lab](/Unit_2/4-regex-promises-apis/4.4-optional-consuming-apis-lab.md) | [OAuth Walk-Through (from lecture above)](https://git.generalassemb.ly/SEI-Standard-Curriculum/SEIR-Course-Materials/blob/main/Unit_2/5-authentication/5.1-oauth-authentication.md#6-todays-oauth-game-plan) | [Express Testing Lab](/Unit_2/6-testing-node/6.1.1-express-testing-lab/)<br>---<br>[Project 2](/Unit_2/project-2/project-2.md)|  |
+| Homework | Lab Completion | Lab Completion | Lab Completion | Lab Completion | Project 2 |
+| Computer Science |  |  |  |  |  |
 | Daily Coding Challenge | [findHighestPriced](https://replit.com/@jim_clark/16-findHighestPriced#challenge.js) | [mapArray](https://replit.com/@jim_clark/17-mapArray#challenge.js) | [reduceArray](https://replit.com/@jim_clark/18-reduceArray#challenge.js) | [flatten](https://replit.com/@jim_clark/19-flatten#challenge.js) | [isPrime](https://replit.com/@jim_clark/20-isPrime#challenge.js) |
 
 
@@ -285,6 +288,7 @@
 | Lecture(s) | []() | []() | []() | []() | []() |
 | Lab | []() | []() | []() | []() | []() |
 | Homework | []() | []() | []() | []() | []() |
+| Computer Science |  |  |  |  |  |
 | Daily Coding Challenge | HackerRank or LeetCode | HackerRank or LeetCode | HackerRank or LeetCode | HackerRank or LeetCode | HackerRank or LeetCode |
 
 
@@ -293,6 +297,7 @@
 | Lecture(s) | []() | []() | []() | []() | []() |
 | Lab | []() | []() | []() | []() | []() |
 | Homework | []() | []() | []() | []() | []() |
+| Computer Science |  |  |  |  |  |
 | Daily Coding Challenge | HackerRank or LeetCode | HackerRank or LeetCode | HackerRank or LeetCode | HackerRank or LeetCode | HackerRank or LeetCode |
 
 
