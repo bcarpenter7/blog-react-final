@@ -79,7 +79,6 @@
 | Lecture(s) | [Introduction to CLI](/Unit_1/1-dev-environment/1.1-cli-intro-main/readme.md)<br>---<br>[Intro to JavaScript](./Unit_1/2-js-fundamentals/2.1-js-intro-datatypes.md)<br>---<br>[Control Flow](./Unit_1/2-js-fundamentals/2.2-js-control-flow.md) | [JS Array Methods](/Unit_1/2-js-fundamentals/2.3-js-arrays.md)<br>---<br>[Functions](/Unit_1/2-js-fundamentals/2.4-js-functions.md)<br>---<br>[Scope](/Unit_1/2-js-fundamentals/2.5-js-scope.md) | [Objects](/Unit_1/2-js-fundamentals/2.7-js-objects.md)<br>---<br>[Template Literals](/Unit_1/2-js-fundamentals/2.6-js-template-literals.md)<br>---<br>[Intro to HTML](/Unit_1/3-html-css/3.1-intro-to-html.md)<br>---<br>[Intro to CSS](/Unit_1/3-html-css/3.2-intro-to-css.md) | [Intro to the DOM](/Unit_1/4-dom/4.1-dom-intro.md)<br>---<br>[DOM Events](/Unit_1/4-dom/4.2-dom-events.md) | [Guide to Building a Browser Game](/Unit_1/5-programming/5.1-guide-to-building-a-browser-game.md) |
 | Lab | [Installfest](./Unit_1/1-dev-environment/1.1-installfest-mac.md) | [Arrays Lab](/Unit_1/2-js-fundamentals/2.3.1-js-arrays-lab.md)<br>---<br>[Functions & Scope Lab](/Unit_1/2-js-fundamentals/2.5.1-js-functions-lab.md) | [Objects Lab](/Unit_1/2-js-fundamentals/2.7.1-js-objects-lab.md)<br>---<br>[CSS Diner](https://flukeout.github.io/) | [DOM Menu Lab Part 1](/Unit_1/4-dom/4.1.1-dom-menu-lab-part-1.md)<br>---<br>[DOM Menu Lab Part 2](/Unit_1/todo-list_dom_lab.md) | [Connect Four Code-Along](/Unit_1/5-programming/5.2-connect-four-code-along.md) |
 | Homework | [Homework Command Line Practice](/Unit_1/1-dev-environment/1.hw-command-line-practice.md) | [Arrays Lab](/Unit_1/2-js-fundamentals/2.3.1-js-arrays-lab.md) | [Objects Lab](/Unit_1/2-js-fundamentals/2.7.1-js-objects-lab.md) | Lab Completion | [Tic Tac Toe Homework](/Unit_1/5-programming/5.3-tic-tac-toe-weekend.md) |
-| Computer Science |  |  |  |  |  |
 | Daily Coding Challenge | [addOne](https://replit.com/@jim_clark/01-addOne#challenge.js) | [addTwoNumbers](https://replit.com/@jim_clark/02-addTwoNumbers#challenge.js) | [sumNumbers](https://replit.com/@jim_clark/03-sumNumbers#challenge.js) | [addList](https://replit.com/@jim_clark/04-addList#challenge.js) | [computeRemainder](https://replit.com/@jim_clark/05-computeRemainder#challenge.js) |
 
 
@@ -88,14 +87,12 @@
 | Lecture(s) | [CSS Flexbox/Grid](/Unit_1/6-css-layout/6.1-css-flexbox-grid.md)<br>---<br>[Responsive Design](/Unit_1/6-css-layout/6.2-responsive-design.md) | [Arrow Functions](/Unit_1/7-js-continued/7.1-js-arrow-functions.md)<br>---<br>[Callback Functions](/Unit_1/7-js-continued/7.2-js-callback-functions.md)<br>---<br>[JS Classes](/Unit_1/7-js-continued/7.3-js-classes.md) | [Array Iterator Methods](/Unit_1/7-js-continued/7.4-array-iterator-methods.md)<br>---<br>[this](/Unit_1/7-js-continued/7.5-js-this-keyword.md) | [Intro to TDD](/Unit_1/10-testing/Intro-to-TDD.md) | [Project 1](/Unit_1/project-1/project-1-requirements.md) |
 | Lab | [CSS Flexbox/Grid Lab](/Unit_1/6-css-layout/6.1.1-flexbox-grid-lab.md) | [Callbacks Lab](/Unit_1/7-js-continued/7.2.1-js-callbacks-lab.md) | [Array Iterator Methods Lab](/Unit_1/7-js-continued/7.4.1-array-iterator-methods-lab.md) | [Testing with Jest](/Unit_1/10-testing/JS-Unit-Testing-with-Jest.md)<br>---<br>[Testing with Mocha & Chai](/Unit_1/10-testing/JS-Unit-Testing-with-Mocha-and-Chai.md) | [Build Another Game Guide](/Unit_1/9-programming/9.2-rock-paper-scissors-codealong.md) |
 | Homework | [Flexbox Froggy](https://flexboxfroggy.com/)<br>---<br>[Flexbox Zombies](https://mastery.games/flexboxzombies/)<br>---<br>[Grid Garden](https://cssgridgarden.com/) | [JS Classes Lab](/Unit_1/7-js-continued/7.3.1.hw.optional-js-classes-lab.md) | Lab Completion | Lab Completion | Lab Completion |
-| Computer Science |  |  |  |  |  |
 | Daily Coding Challenge | [range](https://replit.com/@jim_clark/06-range#challenge.js) | [reverseUpcaseString](https://replit.com/@jim_clark/07-reverseUpcaseString#challenge.js) | [removeEnds](https://replit.com/@jim_clark/08-removeEnds#challenge.js) | [charCount](https://replit.com/@jim_clark/09-charCount#challenge.js) | [formatWithPadding](https://replit.com/@jim_clark/10-formatWithPadding#challenge.js) |
 
 
 | Project Week | Day 11 | Day 12 | Day 13 | Day 14 | Day 15 |
 | -- | -- | -- | -- | -- | -- |
 | Daily Stand-up | ✅ | ✅ | ✅ | ✅ | Presentation Day |
-| Lunch & Learn | []() | []() | []() | []() | []() |
 | Support | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
 <hr>
 
@@ -154,7 +151,7 @@
 | Lecture(s) | [Intro to Full Stack Development](/Unit_2/1-intro-full-stack/1.1-intro-fullstack-http.md)<br>---<br>[Intro to Node](/Unit_2/1-intro-full-stack/1.2-intro-to-node.md)<br>---<br>[Intro to Express](/Unit_2/2-express-framework/2.1-intro-express.md) | [Express Routers & Controllers](/Unit_2/2-express-framework/2.2-express-routers-controllers.md) | [EJS Partial Templates](/Unit_2/2-express-framework/2.3-ejs-partial-templates.md)<br>---<br>[Express Middleware](/Unit_2/2-express-framework/2.4-express-middleware.md) | [Regular Expressions](/Unit_2/4-regex-promises-apis/4.1-regular-expressions.md)<br>---<br>[Atlas Hosted MongoDB](/Unit_2/3-mongodb-mongoose/3.1-atlas-hosted-mongodb.md)<br>---<br>[Intro to MongoDB](/Unit_2/3-mongodb-mongoose/3.2-mongodb-intro.md) | [Intro to Mongoose](/Unit_2/3-mongodb-mongoose/3.3-mongoose-intro.md) |
 | Lab | [Server-Side Debugging Setup](/Unit_2/1-intro-full-stack/1.3-server-side-debugging-setup.md)<br>---<br>[Express Lab](/Unit_2/2-express-framework/2.1.1-intro-express-lab.md) | [Dev Skills Lab Part 1](/Unit_2/2-express-framework/2.2.1-dev-skills-lab-part-1.md) | [Express Update To Do](Unit_2/2-express-framework/2.5-express-update-to-do.md)<br>---<br>[Dev Skills Lab Part 2](/Unit_2/2-express-framework/2.5.1-dev-skills-lab-part-2.md) | Complete Dev Skills Lab | [Mongoose Flights Lab Part 1](/Unit_2/3-mongodb-mongoose/3.3.1-mongoose-flights-lab-part-1.md) |
 | Homework | Lab Completion | Lab Completion | Lab Completion | Lab Completion | Lab Completion |
-| Computer Science |  |  |  |  |  |
+| Computer Science |  | [CS Big-O Notation](/computer-science/01-cs-big-o-notation/) |  | [Recursion](/computer-science/02-cs-recursion/) |  |
 | Daily Coding Challenge | [isPalindrome](https://replit.com/@jim_clark/11-isPalindrome#challenge.js) | [hammingDistance](https://replit.com/@jim_clark/12-hammingDistance#challenge.js) | [mumble](https://replit.com/@jim_clark/13-mumble#challenge.js) | [fromPairs](https://replit.com/@jim_clark/14-fromPairs#challenge.js) | [mergeObjects](https://replit.com/@jim_clark/15-mergeObjects#challenge.js) |
 
 
@@ -163,14 +160,13 @@
 | Lecture(s) | [Embedding Related Data](/Unit_2/3-mongodb-mongoose/3.4-mongoose-embedding-related-data.md) | [Referencing Related Data](/Unit_2/3-mongodb-mongoose/3.5-mongoose-referencing-related-data.md) | [JS Promises](/Unit_2/4-regex-promises-apis/4.2-js-promises.md)<br>---<br>[Consuming 3rd-Party APIs](/Unit_2/4-regex-promises-apis/4.3-consuming-3rd-party-apis.md) | [Google OAuth & Authorization](/Unit_2/5-authentication/5.1-oauth-authentication.md) | [Testing Node with Mocha/Chai](/Unit_2/6-testing-node/6.1-express-tdd-master/)<br>---<br>[Heroku & Atlas](https://git.generalassemb.ly/SEI-Standard-Curriculum/heroku-atlas-deployment) |
 | Lab | [Mongoose Flight Labs Part 2](/Unit_2/3-mongodb-mongoose/3.4.1-mongoose-flights-lab-part-2.md)<br>---<br>[Single Model "Create" Practice](/Unit_2/3-mongodb-mongoose/3.4.2-optional-mongoose-single-model-create-practice.md) | [Mongoose Flight Labs Part 3](/Unit_2/3-mongodb-mongoose/3.5.1-mongoose-flights-lab-part-3.md) | [Promises Mongoose Lab](/Unit_2/4-regex-promises-apis/4.2.1-js-promises-mongoose-lab.md)<br>---<br>[Consuming APIs Lab](/Unit_2/4-regex-promises-apis/4.4-optional-consuming-apis-lab.md) | [OAuth Walk-Through (from lecture above)](https://git.generalassemb.ly/SEI-Standard-Curriculum/SEIR-Course-Materials/blob/main/Unit_2/5-authentication/5.1-oauth-authentication.md#6-todays-oauth-game-plan) | [Express Testing Lab](/Unit_2/6-testing-node/6.1.1-express-testing-lab/)<br>---<br>[Project 2](/Unit_2/project-2/project-2.md)|  |
 | Homework | Lab Completion | Lab Completion | Lab Completion | Lab Completion | Project 2 |
-| Computer Science |  |  |  |  |  |
+| Computer Science |  | [Intro to Sorts](/computer-science/03-cs-intro-to-sorting/) |  | [Basic Sorts](/computer-science/04-cs-basic-sorts/) |  |
 | Daily Coding Challenge | [findHighestPriced](https://replit.com/@jim_clark/16-findHighestPriced#challenge.js) | [mapArray](https://replit.com/@jim_clark/17-mapArray#challenge.js) | [reduceArray](https://replit.com/@jim_clark/18-reduceArray#challenge.js) | [flatten](https://replit.com/@jim_clark/19-flatten#challenge.js) | [isPrime](https://replit.com/@jim_clark/20-isPrime#challenge.js) |
 
 
 | Project Week | Day 26 | Day 27 | Day 28 | Day 29 | Day 30 |
 | -- | -- | -- | -- | -- | -- |
 | Stand-up | ✅ | ✅ | ✅ | ✅ | Presentation Day |
-| Lunch & Learn | []()] | []()] | []()] | []()] | []() |
 | Support | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
 <hr>
 
@@ -221,7 +217,8 @@
 | -- | -- | -- | -- | -- | -- |
 | Lecture(s) | [Intro to React & Components]()<br>---<br>[React JSX & Props]() | [React State]() | [React Handling Input & Events]() | [Intro to SPAs & MERN-Stack]()<br>---<br>[MERN Infrastructure Part 1]() | [MERN Infrastructure Part 2]()<br>---<br>[MERN Infrastructure Part 3]() |
 | Lab | [React Dev Skills Lab Part 1]()<br>---<br>[React Dev Skills Lab Part 2]() | [React Dev Skills Lab Part 3]() | [React Dev Skills Lab Part 4]() | [React Calendar Lab Part 1]()<br>---<br>[React Calendar Lab Part 2]() | [React Movies Lab Part 1]()<br>---<br>[React Movies Lab Part 2]() |
-| Homework | []() | []() | []() | []() | []() |
+| Homework | Lab Completion | Lab Completion | Lab Completion | Lab Completion | Lab Completion |
+| Computer Science | [Divide & Conquer Sorting](/computer-science/05-cs-divide-and-conquer-sorts/) |  | [Search Algorithms](/computer-science/06-cs-search-algorithms/) |  | [Intro to Data Structures](/computer-science/07a-intro-data-structures/) |
 | Daily Coding Challenge | [primeFactors](https://replit.com/@jim_clark/21-primeFactors#challenge.js) | [intersection](https://replit.com/@jim_clark/22-intersection#challenge.js) | [balancedBrackets](https://replit.com/@jim_clark/23-balancedBrackets#challenge.js) | [isWinningTicket](https://replit.com/@jim_clark/24-isWinningTicket#challenge.js) | [getNumForIP](https://replit.com/@jim_clark/25-getNumForIP#challenge.js) |
 
 
@@ -229,13 +226,15 @@
 | -- | -- | -- | -- | -- | -- |
 | Lecture(s) | [MERN Infrastructure Part 4]()<br>---<br>[MERN Infrastructure Part 5]() | [MERN Infrastructure Part 6]()<br>---<br>[MERN Infrastructure Part 7]() | [useEffect & useRef]() | [MERN-Stack Shopping Cart Part 1]()<br>---<br>[MERN-Stack Shopping Cart Part 2]() | [socket.io]()<br>---<br>[**Optional** Testing React with Jest]() |
 | Lab | [React Movies Lab Part 3]() | [MERN Infrastructure Login Lab (after part 6)](/Unit_3/2-mern-infrastructure/2.7.1-mern-infrastructure-login-lab.md) | [MERN-Stack Quick Notes Lab]() | [GA Stock Market Lab]() | [MERN-Stack Class Code-Along]() |
-| Homework | []() | []() | []() | []() | []() |
+| Homework | Lab Completion | Lab Completion | Lab Completion | Lab Completion | Lab Completion |
+| Computer Science | [Linked Lists](/computer-science/07b-linked-lists/) |  | [Stacks & Queues](/computer-science/08-stacks-and-queues/) |  | [Hash Tables](/computer-science/09-hash-tables/) |
 | Daily Coding Challenge | [toCamelCase](https://replit.com/@jim_clark/26-toCamelCase#challenge.js) | [countTheBits](https://replit.com/@jim_clark/27-countTheBits#challenge.js) | [gridTrip](https://replit.com/@jim_clark/28-gridTrip#challenge.js) | [addChecker](https://replit.com/@jim_clark/29-addChecker#challenge.js) | [totalTaskTime](https://replit.com/@jim_clark/30-totalTaskTime#challenge.js) |
 
 
 | Project Week | Day 41 | Day 42 | Day 43 | Day 44 | Day 45 |
 | -- | -- | -- | -- | -- | -- |
 | Stand-up | ✅ | ✅ | ✅ | ✅ | Presentation Day |
+| Computer Science |  |  |  |  |  |
 | Support | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
 <hr>
 
@@ -257,7 +256,7 @@
 | **Django Class-based Views** | [Django Class-based Views](./Unit_4/3-django/3.4-django-class-based-views.md) | [Finch Collector Lab Part 3](./Unit_4/3-django/3.4.1-finch-collector-lab-part-3.md) |  |
 | **Django 1 to Many Models** | [Django 1:N Models](./Unit_4/3-django/3.5-django-one-to-many-models.md) | [Finch Collector Lab Part 4](./Unit_4/3-django/3.5.1-finch-collector-lab-part-4.md) |  |
 | **Django Many to Many Models** | [Django M:N Models](./Unit_4/3-django/3.6-django-many-to-many-models.md) | [Finch Collector Lab Part 5](./Unit_4/3-django/3.6.1-finch-collector-lab-part-5.md) |  |
-| **Uploading Images to S3 in Django** | [Uploading Images to S3 in Django](./Unit_4/3-django/3.7-uploading-images-s3-django.md) |  |  |
+| **Uploading Images to S3 in Django** | [Uploading Images to S3 in Django](./Unit_4/3-django/3.7-uploading-images-s3-django.md) | [Django Authentication](/Unit_4/3-django/3.8-django-authentication.md) |  |
 
 ### Unit 4 Syllabus
 
@@ -285,26 +284,25 @@
 ### Potential Unit 4 Schedule
 | Week 10 | Day 46 | Day 47 | Day 48 | Day 49 | Day 50 |
 | -- | -- | -- | -- | -- | -- |
-| Lecture(s) | []() | []() | []() | []() | []() |
-| Lab | []() | []() | []() | []() | []() |
-| Homework | []() | []() | []() | []() | []() |
-| Computer Science |  |  |  |  |  |
+| Lecture(s) | [Intro to Python](/Unit_4/1-python/1.1-intro-python.md)<br>---<br>[Control Flow in Python](/Unit_4/1-python/1.2-python-control-flow.md) | [Python Containers](/Unit_4/1-python/1.3-python-containers.md) | [Python Functions](/Unit_4/1-python/1.4-python-functions.md)<br>---<br>[Python Classes](/Unit_4/1-python/1.5-python-classes.md) | [Intro to Relational DBs & SQL](/Unit_4/2-sql-databases/2.1-intro-sql.md)<br>---<br>[Relational Data Modeling](/Unit_4/2-sql-databases/2.2-relational-data-modeling.md) | [Intro to Django](/Unit_4/3-django/3.1-intro-django.md) |
+| Lab | [Control Flow Python Lab](/Unit_4/1-python/1.2-python-control-flow.md) | [Python Containers Lab](/Unit_4/1-python/1.3.1-containers-lab.md) | [Python Functions Lab](/Unit_4/1-python/1.4.1-python-functions-lab.md)<br>---<br>[**Optional** Py-Pac-Poe Lab](/Unit_4/1-python/1.6-optional-py-pac-poe-lab.md) | [Carmen Sandiego Lab](/Unit_4/2-sql-databases/2.1.1-sql-lab.md)<br>---<br>[**Optional** Data Modeling Lab](/Unit_4/2-sql-databases/2.2.1-optional-data-modeling-lab.md) | [Django Tutorial](https://docs.djangoproject.com/en/4.1/intro/tutorial01/) |
+| Homework | Lab Completion | Lab Completion | Lab Completion | Lab Completion | Lab Completion |
+| Computer Science |  | [Binary Trees](/computer-science/10-binary-trees-and-tries/) |  | [Graphs](/computer-science/11-graphs/) |  |
 | Daily Coding Challenge | HackerRank or LeetCode | HackerRank or LeetCode | HackerRank or LeetCode | HackerRank or LeetCode | HackerRank or LeetCode |
 
 
 | Week 11 | Day 51 | Day 55 | Day 53 | Day 54 | Day 55 |
 | -- | -- | -- | -- | -- | -- |
-| Lecture(s) | []() | []() | []() | []() | []() |
-| Lab | []() | []() | []() | []() | []() |
-| Homework | []() | []() | []() | []() | []() |
-| Computer Science |  |  |  |  |  |
+| Lecture(s) | [Django URLs, Views, and Templates](/Unit_4/3-django/3.2-django-urls-views-templates.md) | [Django Models](/Unit_4/3-django/3.3-django-models.md) | [Django Class-Based Views]()<br>---<br>[Django 1:N Models](/Unit_4/3-django/3.5-django-one-to-many-models.md) | [Django M:N Models](/Unit_4/3-django/3.6-django-many-to-many-models.md) | [Uploading Images to S3 in Django](/Unit_4/3-django/3.7-uploading-images-s3-django.md)<br>---<br>[Django Authentication](/Unit_4/3-django/3.8-django-authentication.md) |
+| Lab | [Finch Collector Lab Part 1](/Unit_4/3-django/3.2.1-finch-collector-lab-part-1.md) | [Finch Collector Lab Part 2](/Unit_4/3-django/3.3.1-finch-collector-lab-part-2.md) | [Finch Collector Lab Part 3](/Unit_4/3-django/3.4.1-finch-collector-lab-part-3.md) | [Finch Collector Lab Part 4](/3.Unit_4/3-django/3.5.1-finch-collector-lab-part-4.md) | [Finch Collector Lab Part 5](/Unit_4/3-django/3.6.1-finch-collector-lab-part-5.md) |
+| Homework | Lab Completion | Lab Completion | Lab Completion | Lab Completion | Lab Completion |
+| Computer Science - **Optional** | [Design Patterns](/computer-science/extra-modules/design-patterns/) | []() | [Distribution Sorts](/computer-science/extra-modules/distribution-sorts/) | []() | [Sets](/computer-science/extra-modules/sets/) |
 | Daily Coding Challenge | HackerRank or LeetCode | HackerRank or LeetCode | HackerRank or LeetCode | HackerRank or LeetCode | HackerRank or LeetCode |
 
 
 | Capstone Week | Day 56 | Day 57 | Day 58 | Day 59 | Day 60 |
 | -- | -- | -- | -- | -- | -- |
-| Stand-up | ✅ | ✅ | ✅ | ✅ | Presentation Day |
-| Lunch & Learn | []()] | []()] | []()] | []()] | []() |
+| Stand-up | ✅ | ✅ | ✅ | ✅ | Presentation Day <br> Graduation |
 | Support | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
 <hr>
 
