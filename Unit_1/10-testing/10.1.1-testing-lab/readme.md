@@ -91,6 +91,16 @@ In this test, we make calls to three functions that are part of the Jest library
   - The toBe() function takes one argument:
     - The value that we expect should be returned by the code inside our expect() function
 
+Methods like 'toBe', 'not', and others like 'toBeTruthy' are what we call matchers in the jest library. There are many built in jest matchers and alternative third party libraries that provide additional matchers if you choose to use them. You should familiarize  yourself with some of the options you have for writing assertions in jest by reviewing the jest documentation on [using just matchers](https://jestjs.io/docs/using-matchers).
+
+#### (optional) Jest and ESM and cjs modules
+
+This is a brief aside for future note. Jest doesn't support something called ESM out of the box. ESM means ECMA-script modules. This is a special module syntax used in many javascript frameworks. We typically use a syntax called common javascript modules or CJS. You may run into situations where jest fails to import code you wish to test because that code was built inside of a module format that jest isn't aware of. There are multiple ways to correct for this. The most common correction would involve utilizing an interpreter like babel and included some of the jest bable libraries such as [@babel/plugin-transform-modules-commonjs](https://www.npmjs.com/package/@babel/plugin-transform-modules-commonjs) and [babel-jest](https://www.npmjs.com/package/babel-jest). You may run into this if you are writing tests for frameworks that use ESM such as react or if a project your working in chooses to use ESM and jest tests. 
+
+Read up on the jest's teams current state of supporitng ESM modules [here](https://jestjs.io/docs/ecmascript-modules).
+
+Read up more on ESM vs cjs modules as well as some other alternative modules paradigms [here](https://dev.to/iggredible/what-the-heck-are-cjs-amd-umd-and-esm-ikm)
+
 ### Running tests and evaluating the results
 
 Once Jest is installed (either globally on your machine, or as a project dependency), you can run your tests by calling `jest` in your terminal. By default, the `jest` command will search your project for any files with the suffix `.test.js`, and run them.
@@ -155,7 +165,7 @@ A sneaky edge case exists for this function, which exists when `b` = 0. Since di
 
 So far, we have written tests for functions that are already complete. But it is important to note that this is not necessary. We could write tests for a function before we implement the function, as long as we know what the expected behavior of that function should be.
 
-Writing our tests before we write our code is called **_test-driven development_**, and this is a commonly used strategy in many areas of software development.
+Writing our tests before we write our code is called **_test-driven development_**, and this is a commonly used strategy in many areas of software development. **_Test-driven development_** is typically referred to by the acronym 'TDD' and has many benefits beyond producing a robust test suite. This methodology encourages engineers to be proactive with their design and think deeply about how they will solve problems before beginning to write code, as you cannot write proper tests without first understanding the axioms of the solution your project requires. TDD will also expose areas in projects that are difficult to test and will allow engineers to get ahead of difficult test scenarios before hand, this encourages engineers to write code that adheres more closely to best practices.
 
 Let’s look at an example:
 
