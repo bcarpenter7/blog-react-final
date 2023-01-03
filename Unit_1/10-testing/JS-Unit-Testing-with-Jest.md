@@ -88,3 +88,11 @@ To get a check on what percentage of your code has test coverage, jest comes wit
   },
 ```
 - Now you can see your test coverage with `npm run coverage`
+
+# Jest and node.js ESM vs cjs modules
+
+Something you'll run into when writing unit tests with jest is that jest doesn't support ESM out of the box. ESM means ecma script modules, these are also referred to as ES6 modules. This module pattern is supported in newer versions of node but not out of the box in jest. Jest is built to deal with common javascript modules(cjs). If you want jest to support ESM, you'll have to configure your jest test project to utilize an interpreter with ESM enabled, typically this is babel. 
+
+Read up on the jest's teams current state of supporitng ESM modules [here](https://jestjs.io/docs/ecmascript-modules).
+
+Read up more on ESM vs cjs modules as well as some other alternative modules paradigms [here](https://dev.to/iggredible/what-the-heck-are-cjs-amd-umd-and-esm-ikm)

@@ -26,7 +26,7 @@ Other terms you may hear for tests around this level are "System", "Behaviour" a
 This is where your complete program will start to be tested to find the end result.
 
 ### BONUS: Acceptance / End-to-End / Manual Tests
-The highest level of testing, usually done manually.
+The highest level of testing, usually done manually. It is an ever growing trend in software engineering to have specialized engineers who build out sophisticated end user automation tests. These are programs written to imitate an end user's behavior to test a large variety of manual tests in an automated fashion. Typically the engineers that work on end user automation tests are called quality engineers(QE).
 
 ***
 
@@ -37,7 +37,14 @@ Consider the ice-cream cone antipattern next to this lovely ~~volcano~~ pyramid.
 ***
 
 # TDD
-Test Driven Development is an approach where we write failing tests first and then work to get them passing. This means that you will be writing tests very early in your development process if using TDD. Testing does automatically equal TDD.
+
+Test Driven Development, typically referred to by the acronym, TDD, is describing a methodology in software engineering that has engineers write their unit tests before writing the code those tests are meant to verify. This process involves an engineer first writing a series of tests that cover all scenarios that could arise inside of the context of the user story they are developing for. The engineer will then go and write the code that will fulfill the test requirements.
+
+The benefits of this process are numerous, firstly, you will always have near complete test coverage of your code. This means that you will greatly reduce bugs and more easily be able to tell when new additions to your project break code in other parts of that project. Secondly, this approach forces you to write code in a proactive way as well as write code that is easy to unit test. A common error software engineers make is that they write code that isn't easy to unit test, which results is weaker test suites and more bugs making their way into production. TDD ensures that software engineers are writing clean code with a healthy separation of concerns, as you will quickly notice that badly written code is considerably more difficult to unit test. By enforcing a test first approach to writing code you will find that your projects have cleaner code bases with a greater consideration for best practices.
+
+The benefits of TDD are two fold, firstly you gain a robust and helpful test suite with ample code coverage, as well, you have a process that enforces better coding practices, which in turn also results in better code quality. 
+
+
 
 ***
 
