@@ -17,7 +17,7 @@ To use these materials, fork the master in to your own GHE profile. Then, edit a
 
 ## Contribution Guidelines
 
-This repo is maintained by our SEI instructor community, and managed by [the SEI Product Advisory Board](https://generalassembly.atlassian.net/wiki/spaces/ID/pages/400785721/SEI+Product+Advisory+Board). It only becomes better thanks to contributions from users like you!
+This repo is maintained by and managed by [GA Engineering/Tech Pod Learning and Product Team](https://generalassembly.atlassian.net/wiki/spaces/learningteam/overview). However, your feedback is part of what makes this better, so feel free to offer suggestions and fixes as necessary. It only becomes better thanks to contributions from users like you!
 
 If you see any typos, errors, or bugfixes in the myGA platform content, please submit a detailed request through [this link](https://generalassembly.atlassian.net/servicedesk/customer/portal/16).
 
@@ -31,7 +31,7 @@ There are many ways to contribute to making these materials better, including:
 * All contributors must abide by the [General Assembly Code of Conduct](https://drive.google.com/file/d/0B-kyGN2IJQspMVRFRXFPTWZxN1U/view?usp=sharing) at all times.
 
 ### How to Contribute
-To contribute a suggestion, please create a Pull Request (to this repository: `SEI-Standard-Curriculum`)and assign it to the **tech discipline LED**, found [here](https://generalassembly.atlassian.net/wiki/spaces/learningteam/overview).
+To contribute a suggestion, please create a Pull Request (to this repository: `SEI-Course-Materials`)and assign it to the **tech discipline LED**, found [here](https://generalassembly.atlassian.net/wiki/spaces/learningteam/overview).
 
 > IMPORTANT NOTE: Please do not use comments or issues in this repo to submit support requests. We do not monitor those. If you would like help or advice on something related to teaching this subject matter, post your question on Slack in #courses-sei.
 
