@@ -19,7 +19,7 @@ To use these materials, fork the master in to your own GHE profile. Then, edit a
 
 This repo is maintained by our SEI instructor community, and managed by [the SEI Product Advisory Board](https://generalassembly.atlassian.net/wiki/spaces/ID/pages/400785721/SEI+Product+Advisory+Board). It only becomes better thanks to contributions from users like you!
 
-If you see any typos, errors, or bugfixes in the myGA platform content, please submit a detailed request through [this link]().
+If you see any typos, errors, or bugfixes in the myGA platform content, please submit a detailed request through [this link](https://generalassembly.atlassian.net/servicedesk/customer/portal/16).
 
 There are many ways to contribute to making these materials better, including:
 * Proposing edits or changes to these starter kit course materials
@@ -27,11 +27,11 @@ There are many ways to contribute to making these materials better, including:
 
 ### Ground Rules
 * In order to access and contribute to this project, you must be an active, current General Assembly employee or contractor in good standing. When you leave GA, you will lose access to this project.
-* The course materials are “open source” in that we collaborate on them as a team of GA instructors. However, they are not to be used for any purpose other than to teach GA students. It is your responsibility to protect this intellectual property and keep it confidential.
+* The course materials are “open source” in that we collaborate on them as a team of GA instructors in collaboration with GAs Learning Team (part of Product). However, they are not to be used for any purpose other than to teach GA students. It is your responsibility to protect this intellectual property and keep it confidential.
 * All contributors must abide by the [General Assembly Code of Conduct](https://drive.google.com/file/d/0B-kyGN2IJQspMVRFRXFPTWZxN1U/view?usp=sharing) at all times.
 
 ### How to Contribute
-To contribute a suggestion, please create a Pull Request (to this repository: `SEI-Standard-Curriculum`, not `ed-product-library`)and assign it to the current PAB chair, found [here](https://generalassembly.atlassian.net/wiki/spaces/CONSPRO/pages/400785721/Software+Engineering+SEI+Product+Advisory+Board).
+To contribute a suggestion, please create a Pull Request (to this repository: `SEI-Standard-Curriculum`)and assign it to the **tech discipline LED**, found [here](https://generalassembly.atlassian.net/wiki/spaces/learningteam/overview).
 
 > IMPORTANT NOTE: Please do not use comments or issues in this repo to submit support requests. We do not monitor those. If you would like help or advice on something related to teaching this subject matter, post your question on Slack in #courses-sei.
 
@@ -39,15 +39,10 @@ If you need help with something unrelated to teaching this particular subject ma
 
 ### Contribution Review Process
 
-The Product Advisory Board reviews contributions weekly.
+The Learning Team reviews contributions weekly.
 
-For bugs, typos, broken links, or lessons and lab contributions, the Board will likely approve your PR immediately.
+For bugs, typos, broken links, or lessons and lab contributions, the Team LED will likely approve your PR immediately.
 
-For more complex suggestions, the Board may reach out for more information or wait for the next Board meeting to discuss.
+For more complex suggestions, A team member may reach out for more information, and a more lengthy review process may ensue.
 
 We regret that we cannot incorporate contributions that do not align with the official syllabus available on General Assembly’s website. Contributions that would extend the course beyond this official scope will be considered but cannot be incorporated without approval from the General Assembly Legal and Regulatory team. For this reason, larger scale suggestions and change requests generally require a longer runway in order to consider and act on.
-
-## Contact
-
-* [Slack](http://generalassembly.slack.com): @sei-pab
-* Email: [sei-pab@generalassemb.ly](mailto:sei-pab@generalassemb.ly)
