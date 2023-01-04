@@ -27,7 +27,7 @@
 | **Control Flow** | [Control Flow](/Unit_1/02-js-fundamentals/2.2-js-control-flow.md) | []()  | []() |
 | **Arrays** | [JS Array Methods](/Unit_1/02-js-fundamentals/2.3-js-arrays.md) | [Arrays Lab](/Unit_1/02-js-fundamentals/2.3.1-js-arrays-lab.md)  | []() |
 | **Functions and Scope** | [Functions](/Unit_1/02-js-fundamentals/2.4-js-functions.md)<br>---<br>[Scope](/Unit_1/02-js-fundamentals/2.5-js-scope.md) | [Functions & Scope Lab](/Unit_1/02-js-fundamentals/2.5.1-js-functions-lab.md)  | []() |
-| **Objects** | [Objects](Unit_1/2-js-fundamentals/2.7-js-objects.md)<br>---<br>[Template Literals](/Unit_1/02-js-fundamentals/2.6-js-template-literals.md) | [Objects Lab](/Unit_1/02-js-fundamentals/2.7.1-js-objects-lab.md)  | []() |
+| **Objects** | [Objects](Unit_1/02-js-fundamentals/2.7-js-objects.md)<br>---<br>[Template Literals](/Unit_1/02-js-fundamentals/2.6-js-template-literals.md) | [Objects Lab](/Unit_1/02-js-fundamentals/2.7.1-js-objects-lab.md)  | []() |
 | **HTML** | [Intro to HTML](/Unit_1/03-html-css/3.1-intro-to-html.md) | []() | []() | 
 | **CSS** | [Intro to CSS](/Unit_1/03-html-css/3.2-intro-to-css.md) | []() | []() |
 | **DOM** | [Intro to the DOM](/Unit_1/04-dom/4.1-dom-intro.md)<br>---<br>[DOM Events](/Unit_1/04-dom/4.2-dom-events.md) | [DOM Menu Lab Part 1](Unit_1/04-dom/4.1.1-dom-menu-lab-part-1.md)<br>---<br>[DOM Menu Lab Part 2](Unit_1/04-dom/4.2.1-dom-menu-lab-part-2.md) | []() |
