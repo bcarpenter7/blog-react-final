@@ -25,7 +25,7 @@
 | **Development Environment** | [Introduction to CLI](/Unit_1/01-dev-environment/1.1-cli-intro-main/) | [Installfest](/Unit_1/01-dev-environment/1.1.1-installfest-mac.md) | [Homework Command Line Practice](/Unit_1/01-dev-environment/1.2-hw-command-line-practice.md) |
 | **Intro to JavaScript** | [Intro to JavaScript](/Unit_1/02-js-fundamentals/2.1-js-intro-datatypes.md) | []() | []() |
 | **Control Flow** | [Control Flow](/Unit_1/02-js-fundamentals/2.2-js-control-flow.md) | []()  | []() |
-| **Arrays** | [JS Array Methods](Unit_1/2-js-fundamentals/2.3-js-arrays.md) | [Arrays Lab](Unit_1/2-js-fundamentals/2.3.1-js-arrays-lab.md)  | []() |
+| **Arrays** | [JS Array Methods](/Unit_1/02-js-fundamentals/2.3-js-arrays.md) | [Arrays Lab](/Unit_1/02-js-fundamentals/2.3.1-js-arrays-lab.md)  | []() |
 | **Functions and Scope** | [Functions](Unit_1/2-js-fundamentals/2.4-js-functions.md)<br>---<br>[Scope](Unit_1/2-js-fundamentals/2.5-js-scope.md) | [Functions & Scope Lab](Unit_1/2-js-fundamentals/2.5.1-js-functions-lab.md)  | []() |
 | **Objects** | [Objects](Unit_1/2-js-fundamentals/2.7-js-objects.md)<br>---<br>[Template Literals](Unit_1/2-js-fundamentals/2.6-js-template-literals.md) | [Objects Lab](Unit_1/2-js-fundamentals/2.7.1-js-objects-lab.md)  | []() |
 | **HTML** | [Intro to HTML](Unit_1/3-html-css/3.1-intro-to-html.md) | []() | []() | 
