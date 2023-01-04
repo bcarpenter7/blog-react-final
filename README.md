@@ -38,7 +38,7 @@
 | **Array Iterator Methods** | [Array Iterator Methods](/Unit_1/7-js-continued/7.4-array-iterator-methods.md) | [Array Iterator Methods Lab](/Unit_1/7-js-continued/7.4.1-array-iterator-methods-lab.md) |  |
 | **this** | [this](/Unit_1/7-js-continued/7.5-js-this-keyword.md) |  |  |
 | **jQuery** | [jQuery](/Unit_1/8-libraries-frameworks/8.1-jquery.md) | [jQuery Lab](/Unit_1/8-libraries-frameworks/8.1.1-jquery-lab.md) | []() | 
-| **Intro to Testing** | [Intro to Testing](/Unit_1/10-testing/10.1-testing-lecture/) | [JS Unit Testing with Jest](/Unit_1/10-testing/10.1.1-testing-lab/)  |  |
+| **Intro to Testing** | [Intro to Testing](/Unit_1/10-testing/10.1-testing-lecture/) | [Intro to Testing Lab](/Unit_1/10-testing/10.1.1-testing-lab/)  |  |
 | **BONUS lessons** | [Playing Audio in the Browser](/Unit_1/9-programming/9.1-playing-audio.md)<br>---<br>[Canvas](https://git.generalassemb.ly/SEI-Standard-Curriculum/learn-canvas) | [Rock Paper Scissors Code-Along](/Unit_1/9-programming/9.2-rock-paper-scissors-codealong.md) |  |
 ### Unit 1 Syllabus
 
