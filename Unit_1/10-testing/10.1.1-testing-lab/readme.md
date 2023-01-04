@@ -91,7 +91,7 @@ In this test, we make calls to three functions that are part of the Jest library
   - The toBe() function takes one argument:
     - The value that we expect should be returned by the code inside our expect() function
 
-Methods like 'toBe', 'not', and others like 'toBeTruthy' are what we call matchers in the jest library. There are many built in jest matchers and alternative third party libraries that provide additional matchers if you choose to use them. You should familiarize  yourself with some of the options you have for writing assertions in jest by reviewing the jest documentation on [using just matchers](https://jestjs.io/docs/using-matchers).
+Methods like 'toBe', 'not', and others like 'toBeTruthy' are what we call matchers in the jest library. There are many built in jest matchers and alternative third party libraries that provide additional matchers if you choose to use them. You should familiarize  yourself with some of the options you have for writing assertions in jest by reviewing the jest documentation on [using jest matchers](https://jestjs.io/docs/using-matchers).
 
 #### (optional) Jest and ESM and cjs modules
 
