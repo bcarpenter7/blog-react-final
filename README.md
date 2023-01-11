@@ -342,4 +342,4 @@
 <hr>
 
 ### Acknowledgments
-Special thanks to Jim Clark for providing the majority of the curriculum, and thank you to Joel Gear and Ben Gordon for your lesson development and quality checking of every lesson, lab, and homework. 
+Special thanks to [Jim Clark](https://git.generalassemb.ly/jim-clark-ga) for providing the majority of the curriculum, and thank you to [Joel Gear](https://git.generalassemb.ly/joeltg) and [Ben Gordon](https://git.generalassemb.ly/benjaminwgordon) for your lesson development and quality checking of every lesson, lab, and homework. 

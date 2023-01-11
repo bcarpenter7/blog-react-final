@@ -31,7 +31,7 @@ There are many ways to contribute to making these materials better, including:
 * All contributors must abide by the [General Assembly Code of Conduct](https://drive.google.com/file/d/0B-kyGN2IJQspMVRFRXFPTWZxN1U/view?usp=sharing) at all times.
 
 ### How to Contribute
-To contribute a suggestion, please create a Pull Request (to this repository: `SEIR-Course-Materials`)and assign it to the **tech discipline LED**, found [here](https://generalassembly.atlassian.net/wiki/spaces/learningteam/overview).
+To contribute a suggestion or update, please create a Pull Request (to this repository: `SEIR-Course-Materials`)and assign it to the **tech discipline LED**, found [here](https://generalassembly.atlassian.net/wiki/spaces/learningteam/overview). The current tech discipline LED is [Dan Smith](https://git.generalassemb.ly/SpideyFanDan)
 
 > IMPORTANT NOTE: Please do not use comments or issues in this repo to submit support requests. We do not monitor those. If you would like help or advice on something related to teaching this subject matter, post your question on Slack in #courses-sei.
 
@@ -41,7 +41,7 @@ If you need help with something unrelated to teaching this particular subject ma
 
 The Learning Team reviews contributions weekly.
 
-For bugs, typos, broken links, or lessons and lab contributions, the Team LED will likely approve your PR immediately.
+For bugs, typos, broken links, or lessons and lab contributions (particularly for updates in technology), the Team LED will likely approve your PR immediately.
 
 For more complex suggestions, A team member may reach out for more information, and a more lengthy review process may ensue.
 
