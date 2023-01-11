@@ -1,14 +1,11 @@
 {
-  "name": "sei_testing_lab",
+  "name": "sei_testing_lecture",
   "version": "1.0.0",
-  "description": "",
+  "description": "_- Edsger Dijkstra_",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "jest": "^29.3.1"
-  }
+  "license": "ISC"
 }

@@ -338,3 +338,8 @@
 | 8 | [removeEnds](https://replit.com/@jim_clark/08-removeEnds#challenge.js) | 18 | [reduceArray](https://replit.com/@jim_clark/18-reduceArray#challenge.js) | 28 | [gridTrip](https://replit.com/@jim_clark/28-gridTrip#challenge.js) |
 | 9 | [charCount](https://replit.com/@jim_clark/09-charCount#challenge.js) | 19 | [flatten](https://replit.com/@jim_clark/19-flatten#challenge.js) | 29 | [addChecker](https://replit.com/@jim_clark/29-addChecker#challenge.js) |
 | 10 | [formatWithPadding](https://replit.com/@jim_clark/10-formatWithPadding#challenge.js) | 20 | [isPrime](https://replit.com/@jim_clark/20-isPrime#challenge.js) | 30 | [totalTaskTime](https://replit.com/@jim_clark/30-totalTaskTime#challenge.js) |
+
+<hr>
+
+### Acknowledgments
+Special thanks to Jim Clark for providing the majority of the curriculum, and thank you to Joel Gear and Ben Gordon for your lesson development and quality checking of every lesson, lab, and homework. 
