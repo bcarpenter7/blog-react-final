@@ -54,7 +54,7 @@
 - Recursive Functions
 - Basic Sorting Algorithms
 
-### [Project 1](./Unit_1/project-1/project-1-requirements.md)
+### [Project 1](/Unit_1/project-1/project-1-requirements.md)
 
 ### Potential Unit 1 Schedule
 | Week 1 | Day 1 | Day 2 | Day 3 | Day 4 | Day 5 |

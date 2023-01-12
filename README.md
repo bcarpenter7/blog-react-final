@@ -71,7 +71,7 @@
 - Recursive Functions
 - Basic Sorting Algorithms
 
-### [Project 1](./Unit_1/project-1/project-1-requirements.md)
+### [Project 1](/Unit_1/project-1/project-1-requirements.md)
 
 ### Potential Unit 1 Schedule
 | Week 1 | Day 1 | Day 2 | Day 3 | Day 4 | Day 5 |
@@ -143,7 +143,7 @@
 - ERD Models
 - Deployment
 
-### [Project 2](./Unit_2/project-2/project-2.md)
+### [Project 2](/Unit_2/project-2/project-2.md)
 
 ### Potential Unit 2 Schedule
 | Week 4 | Day 16 | Day 17 | Day 18 | Day 19 | Day 20 |
@@ -210,7 +210,7 @@
 - Token-Based Authentication
 - Testing with Jest
 
-#### [Project 3](./Unit_3/project-3/project-3-requirements.md)
+#### [Project 3](/Unit_3/project-3/project-3-requirements.md)
 
 ### Potential Unit 3 Schedule
 | Week 7 | Day 31 | Day 32 | Day 33 | Day 34 | Day 35 |
@@ -278,7 +278,7 @@
 - Class-based Views
 - 1:N & M:N Models
 
-#### [Capstone Project](./Unit_4/project-4/project-4-requirements.md)
+#### [Capstone Project](/Unit_4/project-4/project-4-requirements.md)
 - Highlights
   
 ### Potential Unit 4 Schedule

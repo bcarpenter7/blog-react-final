@@ -1,6 +1,8 @@
-## Unit 3 - React Fundamentals
+## Unit 3 <br> React Fundamentals
 
 ### Content
+- [Potential Unit 3 Schedule](#potential-unit-3-schedule) found below this content.
+
 | Lesson | Topic | Lab | Homework |
 | -- | -- | -- | -- |
 | **Intro to React & Props** | [React & Components](/Unit_3/1-react/1.1-intro-react-and-components.md) | [React Dev Skills Lab Part 1](./Unit_3/1-react/1.1.1-react-devskills-lab-part-1.md) | []() | 
@@ -36,14 +38,15 @@
 - Token-Based Authentication
 - Testing with Jest
 
-#### [Project 3](./Unit_3/project-3/project-3-requirements.md)
+#### [Project 3](/Unit_3/project-3/project-3-requirements.md)
 
 ### Potential Unit 3 Schedule
 | Week 7 | Day 31 | Day 32 | Day 33 | Day 34 | Day 35 |
 | -- | -- | -- | -- | -- | -- |
 | Lecture(s) | [Intro to React & Components]()<br>---<br>[React JSX & Props]() | [React State]() | [React Handling Input & Events]() | [Intro to SPAs & MERN-Stack]()<br>---<br>[MERN Infrastructure Part 1]() | [MERN Infrastructure Part 2]()<br>---<br>[MERN Infrastructure Part 3]() |
 | Lab | [React Dev Skills Lab Part 1]()<br>---<br>[React Dev Skills Lab Part 2]() | [React Dev Skills Lab Part 3]() | [React Dev Skills Lab Part 4]() | [React Calendar Lab Part 1]()<br>---<br>[React Calendar Lab Part 2]() | [React Movies Lab Part 1]()<br>---<br>[React Movies Lab Part 2]() |
-| Homework | []() | []() | []() | []() | []() |
+| Homework | Lab Completion | Lab Completion | Lab Completion | Lab Completion | Lab Completion |
+| Computer Science | [Divide & Conquer Sorting](/computer-science/05-cs-divide-and-conquer-sorts/) |  | [Search Algorithms](/computer-science/06-cs-search-algorithms/) |  | [Intro to Data Structures](/computer-science/07a-intro-data-structures/) |
 | Daily Coding Challenge | [primeFactors](https://replit.com/@jim_clark/21-primeFactors#challenge.js) | [intersection](https://replit.com/@jim_clark/22-intersection#challenge.js) | [balancedBrackets](https://replit.com/@jim_clark/23-balancedBrackets#challenge.js) | [isWinningTicket](https://replit.com/@jim_clark/24-isWinningTicket#challenge.js) | [getNumForIP](https://replit.com/@jim_clark/25-getNumForIP#challenge.js) |
 
 
@@ -51,12 +54,14 @@
 | -- | -- | -- | -- | -- | -- |
 | Lecture(s) | [MERN Infrastructure Part 4]()<br>---<br>[MERN Infrastructure Part 5]() | [MERN Infrastructure Part 6]()<br>---<br>[MERN Infrastructure Part 7]() | [useEffect & useRef]() | [MERN-Stack Shopping Cart Part 1]()<br>---<br>[MERN-Stack Shopping Cart Part 2]() | [socket.io]()<br>---<br>[**Optional** Testing React with Jest]() |
 | Lab | [React Movies Lab Part 3]() | [MERN Infrastructure Login Lab (after part 6)](/Unit_3/2-mern-infrastructure/2.7.1-mern-infrastructure-login-lab.md) | [MERN-Stack Quick Notes Lab]() | [GA Stock Market Lab]() | [MERN-Stack Class Code-Along]() |
-| Homework | []() | []() | []() | []() | []() |
+| Homework | Lab Completion | Lab Completion | Lab Completion | Lab Completion | Lab Completion |
+| Computer Science | [Linked Lists](/computer-science/07b-linked-lists/) |  | [Stacks & Queues](/computer-science/08-stacks-and-queues/) |  | [Hash Tables](/computer-science/09-hash-tables/) |
 | Daily Coding Challenge | [toCamelCase](https://replit.com/@jim_clark/26-toCamelCase#challenge.js) | [countTheBits](https://replit.com/@jim_clark/27-countTheBits#challenge.js) | [gridTrip](https://replit.com/@jim_clark/28-gridTrip#challenge.js) | [addChecker](https://replit.com/@jim_clark/29-addChecker#challenge.js) | [totalTaskTime](https://replit.com/@jim_clark/30-totalTaskTime#challenge.js) |
 
 
 | Project Week | Day 41 | Day 42 | Day 43 | Day 44 | Day 45 |
 | -- | -- | -- | -- | -- | -- |
 | Stand-up | ✅ | ✅ | ✅ | ✅ | Presentation Day |
+| Computer Science |  |  |  |  |  |
 | Support | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
 <hr>
