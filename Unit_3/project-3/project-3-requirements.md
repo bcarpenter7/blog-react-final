@@ -55,7 +55,7 @@ Working in a team is going to require more upfront planning to ensure the team i
     
     ☐ An **ERD** showing the attributes of each entity and the relationships between them. Refer to the Data Modeling lesson for assistance.
 
-### Project Presentations - [Date]:
+### Project Presentations - __________:
 
 **Your entire team must participate in the presentation of the project.**
 
