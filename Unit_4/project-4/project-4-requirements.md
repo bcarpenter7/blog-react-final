@@ -150,3 +150,8 @@ Include the following sections within the **`README.md`**:
 - **Write well-formatted JS & CSS.** Properly formatting your code makes it more readable. Improperly formatted code infers sloppiness.
 
 - **Comment your code where it makes sense to do so**. Most code is self-documenting (don't comment the obvious), however, use comments to explain complicated code.
+## Project Feedback + Evaluation
+
+- Your instructors will be using the [Project 4 Code Review](/Unit_4/project-4/project-4-code-review.pdf) form to determine whether or not the project passes all of the minimum requirements.
+
+---

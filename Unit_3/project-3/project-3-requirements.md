@@ -55,7 +55,7 @@ Working in a team is going to require more upfront planning to ensure the team i
     
     ☐ An **ERD** showing the attributes of each entity and the relationships between them. Refer to the Data Modeling lesson for assistance.
 
-### Project Presentations - Friday, 02/18/2022:
+### Project Presentations - [Date]:
 
 **Your entire team must participate in the presentation of the project.**
 
@@ -77,11 +77,10 @@ You will have approximately 15 minutes to present your project following these g
 	
 3. **Show/discuss your code:**
 
-	☐ Show the "main" Django model.
-	
-	☐ Show the code for the main model's view.
-	
-	☐ Show your favorite Django template.
+	☐ The "main" Mongoose model
+	☐ Your "favorite" Express controller method
+	☐ Your "favorite" React component
+	☐ The client-side routing
 
 4. **Share the experience:**
 
@@ -177,15 +176,14 @@ You will have approximately 15 minutes to present your project following these g
 
     Other than the **GitHub Manager**, you *don't have to formally fulfill any of the other roles!* They are only listed to provide ideas/guidance.
 
-3. After starting the project, creating/connecting to the database and creating the `main_app` and its `urls.py`, implement authentication and a dynamic nav bar.
 
-4. For help with implementing a feature, review the relevant lesson(s), read the docs, then Google only if necessary.
+3. For help with implementing a feature, review the relevant lesson(s), read the docs, then Google only if necessary.
 
-5.  **Be consistent with your code style.** You have multiple developers in your team writing code, but you only have one app per team. Make sure it looks like a unified effort in regards to formatting, etc.  For example, consistent vertical whitespace between functions.
+4.  **Be consistent with your code style.** You have multiple developers in your team writing code, but you only have one app per team. Make sure it looks like a unified effort in regards to formatting, etc.  For example, consistent vertical whitespace between functions.
 
-6. Do your best to have only one dev working on a certain file between commits.  This will avoid merge conflicts. This is another reason to use Mob Programming!
+5. Do your best to have only one dev working on a certain file between commits.  This will avoid merge conflicts. This is another reason to use Mob Programming!
 
-7. **Commit early, commit often.**
+6. **Commit early, commit often.**
 
 ## Best Practices
 
@@ -209,27 +207,9 @@ You will have approximately 15 minutes to present your project following these g
 
 ## Project Feedback + Evaluation
 
-- Your instructors will be using the [Project 3 Code Review](./project-3-code-review.pdf) form to determine whether or not the project passes all of the minimum requirements. (Please ignore the Pitch Deck requirement).
+- Your instructors will be using the [Project 3 Code Review](/Unit_3/project-3/project-3-code-review.pdf) form to determine whether or not the project passes all of the minimum requirements. (Please ignore the Pitch Deck requirement).
 - If your instructors determine that your project would pass with minor fixes, you will be required to address the minor deficiencies by 9 am the following day of class. Please be sure to inform your local instructor when the fixes are complete. FYI, "minor fixes" are minor items that can be fixed very quickly, like code formatting, correcting the README, etc.
 - If your instructors determine that the project does not meet the minimum requirements you may request to address the deficiencies identified and resubmit the project. However, be aware that **there is only a single opportunity to resubmit a project or project assessment during the course**.
 - If there is a specific section of code that you would like an instructor to provide additional feedback, please ask!
 
 ---
-
-## Project 3 Assessment
-
-There will be a Project 3 Assessment.
-
-Passing the project assessment is a requirement of the project itself.
-
-The goal of Project 3's assessment will be to gauge your ability to develop a minimal React application that:
-
-- Renders user-defined components
-- Updates state in response to some basic user interaction
-- Dynamically styles components based upon state
-
-The assessment will not require using a database or routing.
-
-You will work on the assessment individually, however, the assessment is "open book", so you will have access to all notes, code, lessons, google, etc.
-
-It is anticipated that it will take 45 - 90 minutes to complete.  However, if necessary, you have up to 3 hours.

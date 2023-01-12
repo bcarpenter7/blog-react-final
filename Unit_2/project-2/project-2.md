@@ -183,19 +183,3 @@ Another piece of advice:  If you choose to develop an app that has the concept o
 - If there is a specific section of code that you would like an instructor to provide additional feedback, please ask!
 
 ---
-
-## Project 2 Assessment
-
-Passing the project 2 assessment is a requirement of the project itself.
-
-The goal of the project assessment is to gauge your ability to develop a **minimal** full-stack web application using the Express framework, including your ability to:
-
-- Define routes
-- Write controller actions to create and display data
-- Write basic EJS templates
-
-You will work on the assessment individually, however, the assessment is "open book", so you will have access to all notes, code, lessons, google, etc.
-
-It is anticipated that it will take 30 - 60 minutes to complete. However, you will have up to 3 hours to complete the assessment.
-
----
