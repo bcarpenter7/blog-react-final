@@ -41,23 +41,23 @@
 [Flexbox Froggy](https://flexboxfroggy.com/)<br>
 [Grid Garden](https://cssgridgarden.com/)<br>
 [Flexbox Zombies](https://mastery.games/flexboxzombies/)<br>
-[JS Arrow Functions](./Unit_1/07-js-continued/7.1-js-arrow-functions.md)<br>
-[Callback Functions Full](./Unit_1/07-js-continued/7.2-js-callback-functions-full.md)<br>
-[Callback Functions Part 1](./Unit_1/07-js-continued/7.2-js-callback-functions-1.md)<br>
-[Callback Functions Part 2](./Unit_1/07-js-continued/7.2-js-callback-functions-2.md)<br>
-[Callback Functions Part 3](./Unit_1/07-js-continued/7.2-js-callback-functions-3.md)<br>
-[Callbacks Lab](./Unit_1/07-js-continued/7.2.1-js-callbacks-lab.md)<br>
-[Classes Full](./Unit_1/07-js-continued/7.3-js-classes.md)<br>
-[Classes Part 1](./Unit_1/07-js-continued/7.3-js-classes-1.md)<br>
-[Classes Part 2](./Unit_1/07-js-continued/7.3-js-classes-2.md)<br>
-[Classes Part 3](./Unit_1/07-js-continued/7.3-js-classes-3.md)<br>
-[Classes Lab](./Unit_1/07-js-continued/7.3.1.hw.optional-js-classes-lab.md)<br>
-[Array Iterator Methods](./Unit_1/07-js-continued/7.4-array-iterator-methods.md)<br>
-[Array Iterator Methods Lab](./Unit_1/07-js-continued/7.4.1-array-iterator-methods-lab.md)<br>
-[this](./Unit_1/07-js-continued/7.5-js-this-keyword.md)<br>
-[jQuery](./Unit_1/08-libraries-frameworks/8.1-jquery.md)<br>
-[jQuery Lab](./Unit_1/08-libraries-frameworks/8.1.1-jquery-lab.md)<br>
-[Intro to Testing](./Unit_1/10-testing/10.1-testing-lecture/)<br>
-[Intro to Testing Lab](./Unit_1/10-testing/10.1.1-testing-lab/)<br> 
-[Playing Audio in the Browser](./Unit_1/09-programming/9.1-playing-audio.md)<br>
-[Rock Paper Scissors Code-Along](./Unit_1/09-programming/9.2-rock-paper-scissors-codealong.md)<br>
+[JS Arrow Functions](./07-js-continued/7.1-js-arrow-functions.md)<br>
+[Callback Functions Full](./07-js-continued/7.2-js-callback-functions-full.md)<br>
+[Callback Functions Part 1](./07-js-continued/7.2-js-callback-functions-1.md)<br>
+[Callback Functions Part 2](./07-js-continued/7.2-js-callback-functions-2.md)<br>
+[Callback Functions Part 3](./07-js-continued/7.2-js-callback-functions-3.md)<br>
+[Callbacks Lab](./07-js-continued/7.2.1-js-callbacks-lab.md)<br>
+[Classes Full](./07-js-continued/7.3-js-classes.md)<br>
+[Classes Part 1](./07-js-continued/7.3-js-classes-1.md)<br>
+[Classes Part 2](./07-js-continued/7.3-js-classes-2.md)<br>
+[Classes Part 3](./07-js-continued/7.3-js-classes-3.md)<br>
+[Classes Lab](./07-js-continued/7.3.1.hw.optional-js-classes-lab.md)<br>
+[Array Iterator Methods](./07-js-continued/7.4-array-iterator-methods.md)<br>
+[Array Iterator Methods Lab](./07-js-continued/7.4.1-array-iterator-methods-lab.md)<br>
+[this](./07-js-continued/7.5-js-this-keyword.md)<br>
+[jQuery](./08-libraries-frameworks/8.1-jquery.md)<br>
+[jQuery Lab](./08-libraries-frameworks/8.1.1-jquery-lab.md)<br>
+[Intro to Testing](./10-testing/10.1-testing-lecture/)<br>
+[Intro to Testing Lab](./10-testing/10.1.1-testing-lab/)<br> 
+[Playing Audio in the Browser](./09-programming/9.1-playing-audio.md)<br>
+[Rock Paper Scissors Code-Along](./09-programming/9.2-rock-paper-scissors-codealong.md)<br>
