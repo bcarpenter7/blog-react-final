@@ -19,6 +19,7 @@
 
 ### Content
 - [Potential Unit 1 Schedule](#potential-unit-1-schedule) found below this content.
+- [Individual Unit 1 Lessons](/Unit_1/)
   
 | Lesson | Topic | Lab | Homework |
 | -- | -- | -- | -- |
