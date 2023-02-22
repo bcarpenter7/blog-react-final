@@ -23,15 +23,15 @@
   
 | Lesson | Topic | Lab | Homework |
 | -- | -- | -- | -- |
-| **Development Environment** | [Introduction to CLI](./Unit_1/01-dev-environment/1.1-cli-intro-main/readme.md) | [Installfest](/Unit_1/01-dev-environment/1.1.1-installfest-mac.md) | [Homework Command Line Practice](/Unit_1/01-dev-environment/1.2-hw-command-line-practice.md) |
-| **Intro to JavaScript** | [Intro to JavaScript](/Unit_1/02-js-fundamentals/2.1-js-intro-datatypes.md) |  |  |
-| **Control Flow** | [Control Flow](/Unit_1/02-js-fundamentals/2.2-js-control-flow.md) |   |  |
-| **Arrays** | [JS Array Methods](/Unit_1/02-js-fundamentals/2.3-js-arrays-full.md) | [Arrays Lab](/Unit_1/02-js-fundamentals/2.3.1-js-arrays-lab.md)  |  |
-| **Functions and Scope** | [Functions](/Unit_1/02-js-fundamentals/2.4-js-functions-full.md)<br>---<br>[Scope](/Unit_1/02-js-fundamentals/2.5-js-scope.md) | [Functions & Scope Lab](/Unit_1/02-js-fundamentals/2.5.1-js-functions-lab.md)  |  |
-| **Objects** | [Objects](/Unit_1/02-js-fundamentals/2.7-js-objects.md)<br>---<br>[Template Literals](/Unit_1/02-js-fundamentals/2.6-js-template-literals.md) | [Objects Lab](/Unit_1/02-js-fundamentals/2.7.1-js-objects-lab.md)  |  |
-| **HTML** | [Intro to HTML](/Unit_1/03-html-css/3.1-intro-to-html.md) |  |  | 
-| **CSS** | [Intro to CSS](/Unit_1/03-html-css/3.2-intro-to-css.md) |  |  |
-| **DOM** | [Intro to the DOM](/Unit_1/04-dom/4.1-dom-intro.md)<br>---<br>[DOM Events](/Unit_1/04-dom/4.2-dom-events.md) | [DOM Menu Lab Part 1](/Unit_1/04-dom/4.1.1-dom-menu-lab-part-1.md)<br>---<br>[DOM Menu Lab Part 2](/Unit_1/04-dom/4.2.1-dom-menu-lab-part-2.md) |  |
+| **Development Environment** | [Introduction to CLI](/Unit_1/01-dev-environment/1.1-cli-intro-main/) | [Installfest](/Unit_1/01-dev-environment/1.1.1-installfest-mac.md) | [Homework Command Line Practice](/Unit_1/01-dev-environment/1.2-hw-command-line-practice.md) |
+| **Intro to JavaScript** | [Intro to JavaScript](/Unit_1/02-js-fundamentals/2.1-js-intro-datatypes.md) | []() | []() |
+| **Control Flow** | [Control Flow](/Unit_1/02-js-fundamentals/2.2-js-control-flow.md) | []()  | []() |
+| **Arrays** | [JS Array Methods](/Unit_1/02-js-fundamentals/2.3-js-arrays-full.md) | [Arrays Lab](/Unit_1/02-js-fundamentals/2.3.1-js-arrays-lab.md)  | []() |
+| **Functions and Scope** | [Functions](/Unit_1/02-js-fundamentals/2.4-js-functions-full.md)<br>---<br>[Scope](/Unit_1/02-js-fundamentals/2.5-js-scope.md) | [Functions & Scope Lab](/Unit_1/02-js-fundamentals/2.5.1-js-functions-lab.md)  | []() |
+| **Objects** | [Objects](/Unit_1/02-js-fundamentals/2.7-js-objects.md)<br>---<br>[Template Literals](/Unit_1/02-js-fundamentals/2.6-js-template-literals.md) | [Objects Lab](/Unit_1/02-js-fundamentals/2.7.1-js-objects-lab.md)  | []() |
+| **HTML** | [Intro to HTML](/Unit_1/03-html-css/3.1-intro-to-html.md) | []() | []() | 
+| **CSS** | [Intro to CSS](/Unit_1/03-html-css/3.2-intro-to-css.md) | []() | []() |
+| **DOM** | [Intro to the DOM](/Unit_1/04-dom/4.1-dom-intro.md)<br>---<br>[DOM Events](/Unit_1/04-dom/4.2-dom-events.md) | [DOM Menu Lab Part 1](/Unit_1/04-dom/4.1.1-dom-menu-lab-part-1.md)<br>---<br>[DOM Menu Lab Part 2](/Unit_1/04-dom/4.2.1-dom-menu-lab-part-2.md) | []() |
 | **Browser Game Guide** | [Guide to Building a Browser Game](/Unit_1/05-programming/5.1-guide-to-building-a-browser-game.md) | [Connect Four Code-Along](/Unit_1/05-programming/5.2-connect-four-code-along-full.md)  | [Tic Tac Toe Homework](/Unit_1/05-programming/5.3-tic-tac-toe-weekend.md) |
 | **CSS Flexbox** | [CSS Flexbox](/Unit_1/06-css-layout/6.1-css-flexbox-grid.md)<br>---<br>[Responsive Design](/Unit_1/06-css-layout/6.2-responsive-design.md) | [CSS Flexbox-Grid Lab](/Unit_1/06-css-layout/6.1.1-flexbox-grid-lab.md) | [Flexbox Froggy](https://flexboxfroggy.com/)<br>---<br>[Grid Garden](https://cssgridgarden.com/)<br>---<br>[Flexbox Zombies](https://mastery.games/flexboxzombies/) |
 | **JS Arrow Functions and Callbacks** | [JS Arrow Functions](/Unit_1/07-js-continued/7.1-js-arrow-functions.md)<br>---<br>[Callback Functions](/Unit_1/07-js-continued/7.2-js-callback-functions-full.md) | [Callbacks Lab](/Unit_1/07-js-continued/7.2.1-js-callbacks-lab.md) |  |
@@ -77,8 +77,8 @@
 ### Potential Unit 1 Schedule
 | Week 1 | Day 1 | Day 2 | Day 3 | Day 4 | Day 5 |
 | -- | -- | -- | -- | -- | -- |
-| Lecture(s) | [Introduction to CLI](/Unit_1/01-dev-environment/1.1-cli-intro-main/readme.md)<br>---<br>[Intro to JavaScript](./Unit_1/02-js-fundamentals/2.1-js-intro-datatypes.md)<br>---<br>[Control Flow](./Unit_1/02-js-fundamentals/2.2-js-control-flow.md) | [JS Array Methods](/Unit_1/02-js-fundamentals/2.3-js-arrays.md)<br>---<br>[Functions](/Unit_1/02-js-fundamentals/2.4-js-functions.md)<br>---<br>[Scope](/Unit_1/02-js-fundamentals/2.5-js-scope.md) | [Objects](/Unit_1/02-js-fundamentals/2.7-js-objects.md)<br>---<br>[Template Literals](/Unit_1/02-js-fundamentals/2.6-js-template-literals.md)<br>---<br>[Intro to HTML](/Unit_1/03-html-css/3.1-intro-to-html.md)<br>---<br>[Intro to CSS](/Unit_1/03-html-css/3.2-intro-to-css.md) | [Intro to the DOM](/Unit_1/04-dom/4.1-dom-intro.md)<br>---<br>[DOM Events](/Unit_1/04-dom/4.2-dom-events.md) | [Guide to Building a Browser Game](/Unit_1/05-programming/5.1-guide-to-building-a-browser-game.md) |
-| Lab | [Installfest](./Unit_1/01-dev-environment/1.1-installfest-mac.md) | [Arrays Lab](/Unit_1/02-js-fundamentals/2.3.1-js-arrays-lab.md)<br>---<br>[Functions & Scope Lab](/Unit_1/02-js-fundamentals/2.5.1-js-functions-lab.md) | [Objects Lab](/Unit_1/02-js-fundamentals/2.7.1-js-objects-lab.md)<br>---<br>[CSS Diner](https://flukeout.github.io/) | [DOM Menu Lab Part 1](/Unit_1/04-dom/4.1.1-dom-menu-lab-part-1.md)<br>---<br>[DOM Menu Lab Part 2](/Unit_1/todo-list_dom_lab.md) | [Connect Four Code-Along](/Unit_1/05-programming/5.2-connect-four-code-along.md) |
+| Lecture(s) | [Introduction to CLI](/Unit_1/01-dev-environment/1.1-cli-intro-main/readme.md)<br>---<br>[Intro to JavaScript](./Unit_1/02-js-fundamentals/2.1-js-intro-datatypes.md)<br>---<br>[Control Flow](./Unit_1/02-js-fundamentals/2.2-js-control-flow.md) | [JS Array Methods](/Unit_1/02-js-fundamentals/2.3-js-arrays-full.md)<br>---<br>[Functions](/Unit_1/02-js-fundamentals/2.4-js-functions-full.md)<br>---<br>[Scope](/Unit_1/02-js-fundamentals/2.5-js-scope.md) | [Objects](/Unit_1/02-js-fundamentals/2.7-js-objects.md)<br>---<br>[Template Literals](/Unit_1/02-js-fundamentals/2.6-js-template-literals.md)<br>---<br>[Intro to HTML](/Unit_1/03-html-css/3.1-intro-to-html.md)<br>---<br>[Intro to CSS](/Unit_1/03-html-css/3.2-intro-to-css.md) | [Intro to the DOM](/Unit_1/04-dom/4.1-dom-intro.md)<br>---<br>[DOM Events](/Unit_1/04-dom/4.2-dom-events.md) | [Guide to Building a Browser Game](/Unit_1/05-programming/5.1-guide-to-building-a-browser-game.md) |
+| Lab | [Installfest](./Unit_1/01-dev-environment/1.1-installfest-mac.md) | [Arrays Lab](/Unit_1/02-js-fundamentals/2.3.1-js-arrays-lab.md)<br>---<br>[Functions & Scope Lab](/Unit_1/02-js-fundamentals/2.5.1-js-functions-lab.md) | [Objects Lab](/Unit_1/02-js-fundamentals/2.7.1-js-objects-lab.md)<br>---<br>[CSS Diner](https://flukeout.github.io/) | [DOM Menu Lab Part 1](/Unit_1/04-dom/4.1.1-dom-menu-lab-part-1.md)<br>---<br>[DOM Menu Lab Part 2](/Unit_1/todo-list_dom_lab.md) | [Connect Four Code-Along](/Unit_1/05-programming/5.2-connect-four-code-along-full.md) |
 | Homework | [Homework Command Line Practice](/Unit_1/01-dev-environment/1.hw-command-line-practice.md) | [Arrays Lab](/Unit_1/02-js-fundamentals/2.3.1-js-arrays-lab.md) | [Objects Lab](/Unit_1/02-js-fundamentals/2.7.1-js-objects-lab.md) | Lab Completion | [Tic Tac Toe Homework](/Unit_1/05-programming/5.3-tic-tac-toe-weekend.md) |
 | Daily Coding Challenge | [addOne](https://replit.com/@jim_clark/01-addOne#challenge.js) | [addTwoNumbers](https://replit.com/@jim_clark/02-addTwoNumbers#challenge.js) | [sumNumbers](https://replit.com/@jim_clark/03-sumNumbers#challenge.js) | [addList](https://replit.com/@jim_clark/04-addList#challenge.js) | [computeRemainder](https://replit.com/@jim_clark/05-computeRemainder#challenge.js) |
 
@@ -105,16 +105,16 @@
 
 | Lesson | Topic | Lab | Homework |
 | -- | -- | -- | -- |
-| **Intro to Node & NPM** | [Intro to Full Stack Development](./Unit_2/1-intro-full-stack/1.1-intro-fullstack-http.md)<br>---<br>[Intro to Node](./Unit_2/1-intro-full-stack/1.2-intro-to-node.md) | [Server-side Debugging Setup](./Unit_2/1-intro-full-stack/1.3-server-side-debugging-setup.md) |  | 
+| **Intro to Node & NPM** | [Intro to Full Stack Development](./Unit_2/1-intro-full-stack/1.1-intro-fullstack-http.md)<br>---<br>[Intro to Node](./Unit_2/1-intro-full-stack/1.2-intro-to-node-full.md) | [Server-side Debugging Setup](./Unit_2/1-intro-full-stack/1.3-server-side-debugging-setup.md) |  | 
 | **Intro to Express** | [Intro to Express](./Unit_2/2-express-framework/2.1-intro-express.md) | [Express Lab](./Unit_2/2-express-framework/2.1.1-intro-express-lab.md)  | []() |
-| **Express Routers & Controllers** | [Express Routers & Controllers](./Unit_2/2-express-framework/2.2-express-routers-controllers.md) | [Dev Skills Lab Part 1](./Unit_2/2-express-framework/2.2.1-dev-skills-lab-part-1.md)  |  |
-| **Express Framework** | [EJS Partial Templates](./Unit_2/2-express-framework/2.3-ejs-partial-templates.md)<br>---<br>[Express Middleware](./Unit_2/2-express-framework/2.4-express-middleware.md) | [Express Update To Do](./Unit_2/2-express-framework/2.5-express-update-to-do.md)<br>---<br>[Dev Skills Lab Part 2](./Unit_2/2-express-framework/2.5.1-dev-skills-lab-part-2.md)  |  |
-| **Intro to MongoDB & Mongoose** | [Atlas Hosted MongoDB](./Unit_2/3-mongodb-mongoose/3.1-atlas-hosted-mongodb.md)<br>---<br>[Intro to MongoDB](/Unit_2/3-mongodb-mongoose/3.2-mongodb-intro.md)<br>---<br>[Intro to Mongoose](./Unit_2/3-mongodb-mongoose/3.3-mongoose-intro.md) | [Mongoose Flights Lab Part 1](./Unit_2/3-mongodb-mongoose/3.3.1-mongoose-flights-lab-part-1.md) |  |
-| **Mongoose Embedding Related Data** | [Embedding Related Data](./Unit_2/3-mongodb-mongoose/3.4-mongoose-embedding-related-data.md) | [Mongoose Flight Labs Part 2](./Unit_2/3-mongodb-mongoose/3.4.1-mongoose-flights-lab-part-2.md) | [Single Model "Create" Practice](./Unit_2/3-mongodb-mongoose/3.4.2-optional-mongoose-single-model-create-practice.md) |
-| **Mongoose Referencing Related Data** | [Referencing Related Data](./Unit_2/3-mongodb-mongoose/3.5-mongoose-referencing-related-data.md) | [Mongoose Flight Labs Part 3](./Unit_2/3-mongodb-mongoose/3.5.1-mongoose-flights-lab-part-3.md) | []() |
+| **Express Routers & Controllers** | [Express Routers & Controllers](./Unit_2/2-express-framework/2.2-express-routers-controllers-full.md) | [Dev Skills Lab Part 1](./Unit_2/2-express-framework/2.2.1-dev-skills-lab-part-1.md)  |  |
+| **Express Framework** | [EJS Partial Templates](./Unit_2/2-express-framework/2.3-ejs-partial-templates.md)<br>---<br>[Express Middleware](./Unit_2/2-express-framework/2.4-express-middleware-full.md) | [Express Update To Do](./Unit_2/2-express-framework/2.5-express-update-to-do.md)<br>---<br>[Dev Skills Lab Part 2](./Unit_2/2-express-framework/2.5.1-dev-skills-lab-part-2.md)  |  |
+| **Intro to MongoDB & Mongoose** | [Atlas Hosted MongoDB](./Unit_2/3-mongodb-mongoose/3.1-atlas-hosted-mongodb.md)<br>---<br>[Intro to MongoDB](/Unit_2/3-mongodb-mongoose/3.2-mongodb-intro.md)<br>---<br>[Intro to Mongoose](./Unit_2/3-mongodb-mongoose/3.3-mongoose-intro-full.md) | [Mongoose Flights Lab Part 1](./Unit_2/3-mongodb-mongoose/3.3.1-mongoose-flights-lab-part-1.md) |  |
+| **Mongoose Embedding Related Data** | [Embedding Related Data](./Unit_2/3-mongodb-mongoose/3.4-mongoose-embedding-related-data-full.md) | [Mongoose Flight Labs Part 2](./Unit_2/3-mongodb-mongoose/3.4.1-mongoose-flights-lab-part-2.md) | [Single Model "Create" Practice](./Unit_2/3-mongodb-mongoose/3.4.2-optional-mongoose-single-model-create-practice.md) |
+| **Mongoose Referencing Related Data** | [Referencing Related Data](./Unit_2/3-mongodb-mongoose/3.5-mongoose-referencing-related-data-full.md) | [Mongoose Flight Labs Part 3](./Unit_2/3-mongodb-mongoose/3.5.1-mongoose-flights-lab-part-3.md) | []() |
 | **Regular Expressions & Promises** | [Regular Expressions](./Unit_2/4-regex-promises-apis/4.1-regular-expressions.md)<br>---<br>[Promises](./Unit_2/4-regex-promises-apis/4.2-js-promises.md) | [Promises Mongoose Lab](./Unit_2/4-regex-promises-apis/4.2.1-js-promises-mongoose-lab.md)  | []() |
-| **APIs** | [Consuming 3rd Party APIs](./Unit_2/4-regex-promises-apis/4.3-consuming-3rd-party-apis.md) | [Consuming APIs Lab](./Unit_2/4-regex-promises-apis/4.4-optional-consuming-apis-lab.md)  |  |
-| **OAuth & Express Passport** | [Google OAuth & Authorization](./Unit_2/5-authentication/5.1-oauth-authentication.md) | []() |  |
+| **APIs** | [Consuming 3rd Party APIs](./Unit_2/4-regex-promises-apis/4.3-consuming-3rd-party-apis-full.md) | [Consuming APIs Lab](./Unit_2/4-regex-promises-apis/4.4-optional-consuming-apis-lab.md)  |  |
+| **OAuth & Express Passport** | [Google OAuth & Authorization](./Unit_2/5-authentication/5.1-oauth-authentication-full.md) | []() |  |
 | **Deployment** | [Heroku & Atlas](/Unit_2/6-heroku-atlas-deployment/) | []()  | []() |
 | **Express TDD** | [Testing Node with Mocha/Chai](/Unit_2/7-testing-node/7.1-express-tdd-master/) | [Express Testing Lab](/Unit_2/7-testing-node/7.1.1-express-testing-lab/)  | []() |
 
@@ -176,21 +176,22 @@
 
 ### Content
 - [Potential Unit 3 Schedule](#potential-unit-3-schedule) found below this content.
+- [Individual Unit 3 Lessons](/Unit_3/)
 
 | Lesson | Topic | Lab | Homework |
 | -- | -- | -- | -- |
-| **Intro to React & Props** | [React & Components](/Unit_3/1-react/1.1-intro-react-and-components.md) | [React Dev Skills Lab Part 1](./Unit_3/1-react/1.1.1-react-devskills-lab-part-1.md) | []() | 
+| **Intro to React & Props** | [React & Components](/Unit_3/1-react/1.1-intro-react-and-components-full.md) | [React Dev Skills Lab Part 1](./Unit_3/1-react/1.1.1-react-devskills-lab-part-1.md) | []() | 
 | **React Props** | [React JSX & Props](/Unit_3/1-react/1.2-react-jsx-and-props.md) | [React Dev Skills Lab Part 2](/Unit_3/1-react/1.2.1-react-devskills-lab-part-2.md)<br>---<br>[React Floor Plan Lab](/Unit_3/1-react/1.2.2-optional-react-floor-plan-lab.md) | []() |
 | **React State** | [React State](/Unit_3/1-react/1.3-react-state.md) | [React Dev Skills Lab Part 3](/Unit_3/1-react/1.3.1-react-devskills-lab-part-3.md)<br>---<br>[React "Students" Lab](/Unit_3/1-react/1.3.2-react-students-lab.md)  | []() |
-| **React Forms & Event Handling** | [React Handling Input and Events](/Unit_3/1-react/1.4-react-handling-input-and-events.md) | [React Dev Skills Lab Part 4](/Unit_3/1-react/1.4.1-react-devskills-lab-part-4.md)<br>---<br>[React To Do Lab](/Unit_3/1-react/1.4.2-react-to-do-lab.md) | []() |
+| **React Forms & Event Handling** | [React Handling Input and Events](/Unit_3/1-react/1.4-react-handling-input-and-events-full.md) | [React Dev Skills Lab Part 4](/Unit_3/1-react/1.4.1-react-devskills-lab-part-4.md)<br>---<br>[React To Do Lab](/Unit_3/1-react/1.4.2-react-to-do-lab.md) | []() |
 | **Intro to MERN Stack** | [SPAs & MERN Stack](/Unit_3/2-mern-infrastructure/2.1-intro-spas-and-mern-stack/README.md)<br>---<br>[MERN Infrastructure Part 1](/Unit_3/2-mern-infrastructure/2.2-mern-infrastructure-part-1/README.md) | [React Calendar Lab Part 1](./Unit_3/1-react/1.5.1-optional-react-calendar-lab-part-1.md)<br>---<br>[React Calendar Lab Part 2](./Unit_3/1-react/1.5.2-optional-react-calendar-lab-part-2.md) | [React Tic Tac Toe Hackathon](/Unit_3/2-mern-infrastructure/2.2.1-react-ttt-hackathon.md) |
-| **React Router** | [MERN Infrastructure Part 2](/Unit_3/2-mern-infrastructure/2.3-mern-infrastructure-part-2/README.md)<br>---<br>[MERN Infrastructure Part 3](/Unit_3/2-mern-infrastructure/2.4-mern-infrastructure-part-3/) | [React Movies Lab Part 1](/Unit_3/2-mern-infrastructure/2.3.1-react-movies-lab-part-1.md)<br>---<br>[React Movies Lab Part 2](/Unit_3/2-mern-infrastructure/2.4.1-react-movies-lab-part-2.md) | []() |
+| **React Router** | [MERN Infrastructure Part 2](/Unit_3/2-mern-infrastructure/2.3-mern-infrastructure-part-2/README.md)<br>---<br>[MERN Infrastructure Part 3](/Unit_3/2-mern-infrastructure/2.4-mern-infrastructure-part-3/) | [React Movies Lab Part 1](/Unit_3/2-mern-infrastructure/2.3.1-react-movies-lab-part-1.md)<br>---<br>[React Movies Lab Part 2](/Unit_3/2-mern-infrastructure/2.4.1-react-movies-lab-part-2.md) |  |
 | **React Fetch** | [MERN Infrastructure Part 4](/Unit_3/2-mern-infrastructure/2.5-mern-infrastructure-part-4/)<br>---<br>[MERN Infrastructure Part 5](/Unit_3/2-mern-infrastructure/2.6-mern-infrastructure-part-5/) | [React Movies Lab Part 3](/Unit_3/2-mern-infrastructure/2.6.1-react-movies-lab-part-3.md) | [React Giphy Fetch Lab](/Unit_3/2-mern-infrastructure/2.6.2-optional-react-giphy-fetch-lab.md) |
-| **Token-based Auth & AJAX** | [MERN Infrastructure Part 6](/Unit_3/2-mern-infrastructure/2.7-mern-infrastructure-part-6/)<br>---<br>[MERN Infrastructure Part 7](/Unit_3/2-mern-infrastructure/2.8-mern-infrastructure-part-7/) | [MERN-Stack Quick Notes Lab Lab](/Unit_3/2-mern-infrastructure/2.8.1-mern-quick-notes-lab.md)<br>---<br>[MERN Infrastructure Login Lab](/Unit_3/2-mern-infrastructure/2.7.1-mern-infrastructure-login-lab.md) | []() |
-| **useEffect & useRef** | [useEffect & useRef](/Unit_3/3-mern-shopping-cart/3.1-react-effect-and-ref-hooks/) | [GA Stock Exchange Lab](/Unit_3/3-mern-shopping-cart/3.1.1-ga-stock-market-lab/) | []() |
-| **Mongoose & React** | [MERN-Stack Shopping Cart Part 1](/Unit_3/3-mern-shopping-cart/3.2.1-mern-shopping-cart-part-1/)<br>---<br>[MERN-Stack Shopping Cart Part 2](/Unit_3/3-mern-shopping-cart/3.2.2-mern-shopping-cart-part-2/) | [MERN-Stack Code-Along](/Unit_3/3-mern-shopping-cart/3.3-mern-stack-class-codealong/)  | []() |
-| **MERN Build & Deployment** | []() | [Deploy MERN App](/Unit_3/4-realtime-socket-io/4.3-deploy-mern-stack.md)  | []() |
-| **Testing in React with Jest** | [Jest](/Unit_3/5-react-testing-jest-enzyme/README.md) | []()  | []() |
+| **Token-based Auth & AJAX** | [MERN Infrastructure Part 6](/Unit_3/2-mern-infrastructure/2.7-mern-infrastructure-part-6/)<br>---<br>[MERN Infrastructure Part 7](/Unit_3/2-mern-infrastructure/2.8-mern-infrastructure-part-7/) | [MERN-Stack Quick Notes Lab Lab](/Unit_3/2-mern-infrastructure/2.8.1-mern-quick-notes-lab.md)<br>---<br>[MERN Infrastructure Login Lab](/Unit_3/2-mern-infrastructure/2.7.1-mern-infrastructure-login-lab.md) |  |
+| **useEffect & useRef** | [useEffect & useRef](/Unit_3/3-mern-shopping-cart/3.1-react-effect-and-ref-hooks/) | [GA Stock Exchange Lab](/Unit_3/3-mern-shopping-cart/3.1.1-ga-stock-market-lab/) |  |
+| **Mongoose & React** | [MERN-Stack Shopping Cart Part 1](/Unit_3/3-mern-shopping-cart/3.2.1-mern-shopping-cart-part-1/)<br>---<br>[MERN-Stack Shopping Cart Part 2](/Unit_3/3-mern-shopping-cart/3.2.2-mern-shopping-cart-part-2/) | [MERN-Stack Code-Along](/Unit_3/3-mern-shopping-cart/3.3-mern-stack-class-codealong/)  |  |
+| **MERN Build & Deployment** |  | [Deploy MERN App](/Unit_3/4-realtime-socket-io/4.3-deploy-mern-stack.md)  |  |
+| **Testing in React with Jest** | [Jest](/Unit_3/5-react-testing-jest-enzyme/README.md) |   |  |
 
 ### Unit 3 Syllabus
 
@@ -313,13 +314,13 @@
 
 ### Content
 - [Potential Unit 4 Schedule](#potential-unit-4-schedule) found below this content.
-- [Individual Unit 4 Lessons](/Unit_4/)
+- [Individual Unit 4 Lessons](/Unit_4/README.md)
 
 | Lesson | Topic | Lab | Homework |
 | -- | -- | -- | -- |
 | **Intro to Python** | [Intro to Python](./Unit_4/1-python/1.1-intro-python.md)<br>---<br>[Python Control Flow](./Unit_4/1-python/1.2-python-control-flow.md) | [Control Flow Lab](./Unit_4/1-python/1.2.1-control-flow-lab.md)  | []() |
-| **Python Containers** | [Python Containers](./Unit_4/1-python/1.3-python-containers.md) | [Containers Lab](./Unit_4/1-python/1.3.1-containers-lab.md) |  |
-| **Python Functions** | [Python Functions](./Unit_4/1-python/1.4-python-functions.md) | [Python Functions Lab](./Unit_4/1-python/1.4.1-python-functions-lab.md) |  |
+| **Python Containers** | [Python Containers](./Unit_4/1-python/1.3-python-containers-full.md) | [Containers Lab](./Unit_4/1-python/1.3.1-containers-lab.md) |  |
+| **Python Functions** | [Python Functions](./Unit_4/1-python/1.4-python-functions.md-full) | [Python Functions Lab](./Unit_4/1-python/1.4.1-python-functions-lab.md) |  |
 | **Python Classes** | [Python Classes](./Unit_4/1-python/1.5-python-classes.md) | [Py Pac Poe Lab](./Unit_4/1-python/1.6-optional-py-pac-poe-lab.md) |  |
 | **SQL Databases** | [Intro to SQL](./Unit_4/2-sql-databases/2.1-intro-sql.md) | [SQL Lab](./Unit_4/2-sql-databases/2.1.1-sql-lab.md) |  |
 | **Relational Data Modeling** | [Relational Data Modeling](./Unit_4/2-sql-databases/2.2-relational-data-modeling.md) | [Relational Data Modeling Lab](./Unit_4/2-sql-databases/2.2.1-optional-data-modeling-lab.md) |  |
@@ -368,7 +369,7 @@
 | Lecture(s) | [Django URLs, Views, and Templates](/Unit_4/3-django/3.2-django-urls-views-templates.md) | [Django Models](/Unit_4/3-django/3.3-django-models.md) | [Django Class-Based Views](/Unit_4/3-django/3.4-django-class-based-views.md)<br>---<br>[Django 1:N Models](/Unit_4/3-django/3.5-django-one-to-many-models.md) | [Django M:N Models](/Unit_4/3-django/3.6-django-many-to-many-models.md) | [Uploading Images to S3 in Django](/Unit_4/3-django/3.7-uploading-images-s3-django.md)<br>---<br>[Django Authentication](/Unit_4/3-django/3.8-django-authentication.md) |
 | Lab | [Finch Collector Lab Part 1](/Unit_4/3-django/3.2.1-finch-collector-lab-part-1.md) | [Finch Collector Lab Part 2](/Unit_4/3-django/3.3.1-finch-collector-lab-part-2.md) | [Finch Collector Lab Part 3](/Unit_4/3-django/3.4.1-finch-collector-lab-part-3.md) | [Finch Collector Lab Part 4](/Unit_4/3-django/3.5.1-finch-collector-lab-part-4.md) | [Finch Collector Lab Part 5](/Unit_4/3-django/3.6.1-finch-collector-lab-part-5.md) |
 | Homework | Lab Completion | Lab Completion | Lab Completion | Lab Completion | Lab Completion |
-| Computer Science - **Optional** | [Design Patterns](/computer-science/extra-modules/design-patterns/) | []() | [Distribution Sorts](/computer-science/extra-modules/distribution-sorts/) | []() | [Sets](/computer-science/extra-modules/sets/) |
+| Computer Science - **Optional** | [Design Patterns](/computer-science/extra-modules/design-patterns/) |  | [Distribution Sorts](/computer-science/extra-modules/distribution-sorts/) |  | [Sets](/computer-science/extra-modules/sets/) |
 | Daily Coding Challenge | HackerRank or LeetCode | HackerRank or LeetCode | HackerRank or LeetCode | HackerRank or LeetCode | HackerRank or LeetCode |
 
 
