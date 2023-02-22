@@ -176,7 +176,6 @@
 
 ### Content
 - [Potential Unit 3 Schedule](#potential-unit-3-schedule) found below this content.
-- [Individual Unit 3 Lessons](/Unit_3/README.md)
 
 | Lesson | Topic | Lab | Homework |
 | -- | -- | -- | -- |
@@ -314,6 +313,7 @@
 
 ### Content
 - [Potential Unit 4 Schedule](#potential-unit-4-schedule) found below this content.
+- [Individual Unit 4 Lessons](/Unit_4/)
 
 | Lesson | Topic | Lab | Homework |
 | -- | -- | -- | -- |
