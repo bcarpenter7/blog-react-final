@@ -23,7 +23,7 @@
   
 | Lesson | Topic | Lab | Homework |
 | -- | -- | -- | -- |
-| **Development Environment** | [Introduction to CLI](/Unit_1/01-dev-environment/1.1-cli-intro-main/) | [Installfest](/Unit_1/01-dev-environment/1.1.1-installfest-mac.md) | [Homework Command Line Practice](/Unit_1/01-dev-environment/1.2-hw-command-line-practice.md) |
+| **Development Environment** | [Introduction to CLI](./Unit_1/01-dev-environment/1.1-cli-intro-main/readme.md) | [Installfest](/Unit_1/01-dev-environment/1.1.1-installfest-mac.md) | [Homework Command Line Practice](/Unit_1/01-dev-environment/1.2-hw-command-line-practice.md) |
 | **Intro to JavaScript** | [Intro to JavaScript](/Unit_1/02-js-fundamentals/2.1-js-intro-datatypes.md) |  |  |
 | **Control Flow** | [Control Flow](/Unit_1/02-js-fundamentals/2.2-js-control-flow.md) |   |  |
 | **Arrays** | [JS Array Methods](/Unit_1/02-js-fundamentals/2.3-js-arrays-full.md) | [Arrays Lab](/Unit_1/02-js-fundamentals/2.3.1-js-arrays-lab.md)  |  |
