@@ -11,7 +11,7 @@
 [JS Array Methods Part 2](./02-js-fundamentals/2.3-js-arrays-2.md)<br>
 [JS Array Methods Part 3](./02-js-fundamentals/2.3-js-arrays-3.md)<br>
 [Arrays Lab](./02-js-fundamentals/2.3.1-js-arrays-lab.md)<br> 
-[Functions Full](./02-js-fundamentals/2.4-js-functions.md)<br>
+[Functions Full](./02-js-fundamentals/2.4-js-functions-full.md)<br>
 [Functions Part 1](./02-js-fundamentals/2.4-js-functions-1.md)<br>
 [Functions Part 2](./02-js-fundamentals/2.4-js-functions-2.md)<br>
 [Functions Part 3](./02-js-fundamentals/2.4-js-functions-3.md)<br>
@@ -47,7 +47,7 @@
 [Callback Functions Part 2](./07-js-continued/7.2-js-callback-functions-2.md)<br>
 [Callback Functions Part 3](./07-js-continued/7.2-js-callback-functions-3.md)<br>
 [Callbacks Lab](./07-js-continued/7.2.1-js-callbacks-lab.md)<br>
-[Classes Full](./07-js-continued/7.3-js-classes.md)<br>
+[Classes Full](./07-js-continued/7.3-js-classes-full.md)<br>
 [Classes Part 1](./07-js-continued/7.3-js-classes-1.md)<br>
 [Classes Part 2](./07-js-continued/7.3-js-classes-2.md)<br>
 [Classes Part 3](./07-js-continued/7.3-js-classes-3.md)<br>
