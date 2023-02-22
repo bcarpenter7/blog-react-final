@@ -41,4 +41,4 @@
 [Django M:N Models Part 2](./Unit_4/3-django/3.6-django-many-to-many-models-2.md)<br>
 [Finch Collector Lab Part 5](./Unit_4/3-django/3.6.1-finch-collector-lab-part-5.md)<br>
 [Uploading Images to S3 in Django](./Unit_4/3-django/3.7-uploading-images-s3-django.md)<br>
-[Django Authentication](/Unit_4/3-django/3.8-django-authentication.md)<br>
+[Django Authentication](./Unit_4/3-django/3.8-django-authentication.md)<br>

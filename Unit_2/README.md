@@ -58,8 +58,8 @@
 [Google OAuth & Authorization Part 3](./Unit_2/5-authentication/5.1-oauth-authentication-3.md)<br>
 [Google OAuth & Authorization Part 4](./Unit_2/5-authentication/5.1-oauth-authentication-4.md)<br>
 [Google OAuth & Authorization Part 5](./Unit_2/5-authentication/5.1-oauth-authentication-5.md)<br>
-[Heroku & Atlas](/Unit_2/6-heroku-atlas-deployment/)<br>
-[Testing Node with Mocha/Chai](/Unit_2/7-testing-node/7.1-express-tdd-master/)<br>
-[Express Testing Lab](/Unit_2/7-testing-node/7.1.1-express-testing-lab/)<br> 
+[Heroku & Atlas](./Unit_2/6-heroku-atlas-deployment/)<br>
+[Testing Node with Mocha/Chai](./Unit_2/7-testing-node/7.1-express-tdd-master/)<br>
+[Express Testing Lab](./Unit_2/7-testing-node/7.1.1-express-testing-lab/)<br> 
 
 
