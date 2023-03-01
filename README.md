@@ -9,7 +9,7 @@
 
 * [Unit 3](#unit-3--python-django) - Python/Django
 
-* [Unit 4](#unit-4--python-django) - Python/Django
+* [Unit 4](#unit-4--react-fundamentals) - React Fundamentals
 * [Computer Science](#computer-science-1)
 * [Daily Coding Challenges](#daily-coding-challenges)
 
