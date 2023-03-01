@@ -1,44 +1,45 @@
-## Unit 4 <br> Python-Django
+## Unit 4 <br> React Fundamentals
 
 ### Content
 
-[Intro to Python](./1-python/1.1-intro-python.md)<br>
-[Python Control Flow](./1-python/1.2-python-control-flow.md)<br>
-[Control Flow Lab](./1-python/1.2.1-control-flow-lab.md)<br> 
-[Python Containers Full](./1-python/1.3-python-containers-full.md)<br>
-[Python Containers Part 1](./1-python/1.3-python-containers-1.md)<br>
-[Python Containers Part 2](./1-python/1.3-python-containers-2.md)<br>
-[Python Containers Part 3](./1-python/1.3-python-containers-3.md)<br>
-[Python Containers Part 4](./1-python/1.3-python-containers-4.md)<br>
-[Python Containers Part 5](./1-python/1.3-python-containers-5.md)<br>
-[Containers Lab](./1-python/1.3.1-containers-lab.md)<br>
-[Python Functions](./1-python/1.4-python-functions.md)<br>
-[Python Functions Lab](./1-python/1.4.1-python-functions-lab.md)<br>
-[Python Classes Full](./1-python/1.5-python-classes-full.md)<br>
-[Python Classes Part 1](./1-python/1.5-python-classes-1.md)<br>
-[Python Classes Part 2](./1-python/1.5-python-classes-2.md)<br>
-[Python Classes Part 3](./1-python/1.5-python-classes-3.md)<br>
-[Py Pac Poe Lab](./1-python/1.6-optional-py-pac-poe-lab.md)<br>
-[Intro to SQL](./2-sql-databases/2.1-intro-sql.md)<br>
-[SQL Lab](./2-sql-databases/2.1.1-sql-lab.md)<br>
-[Relational Data Modeling](./2-sql-databases/2.2-relational-data-modeling.md)<br>
-[Relational Data Modeling Lab](./2-sql-databases/2.2.1-optional-data-modeling-lab.md)<br>
-[Intro to Django](./3-django/3.1-intro-django.md)<br>
-[Django URLs, Views, and Templates Full](./3-django/3.2-django-urls-views-templates-full.md)<br>
-[Django URLs, Views, and Templates Part 1](./3-django/3.2-django-urls-views-templates-1.md)<br>
-[Django URLs, Views, and Templates Part 2](./3-django/3.2-django-urls-views-templates-2.md)<br>
-[Finch Collector Lab Part 1](./3-django/3.2.1-finch-collector-lab-part-1.md)<br>
-[Django Models](./3-django/3.3-django-models.md)<br>
-[Finch Collector Lab Part 2](./3-django/3.3.1-finch-collector-lab-part-2.md)<br>
-[Django Class-based Views](./3-django/3.4-django-class-based-views.md)<br>
-[Finch Collector Lab Part 3](./3-django/3.4.1-finch-collector-lab-part-3.md)<br>
-[Django 1:N Models Full](./3-django/3.5-django-one-to-many-models-full.md)<br>
-[Django 1:N Models Part 1](./3-django/3.5-django-one-to-many-models-1.md)<br>
-[Django 1:N Models Part 2](./3-django/3.5-django-one-to-many-models-2.md)<br>
-[Finch Collector Lab Part 4](./3-django/3.5.1-finch-collector-lab-part-4.md)<br>
-[Django M:N Models Full](./3-django/3.6-django-many-to-many-models-full.md)<br>
-[Django M:N Models Part 1](./3-django/3.6-django-many-to-many-models-1.md)<br>
-[Django M:N Models Part 2](./3-django/3.6-django-many-to-many-models-2.md)<br>
-[Finch Collector Lab Part 5](./3-django/3.6.1-finch-collector-lab-part-5.md)<br>
-[Uploading Images to S3 in Django](./3-django/3.7-uploading-images-s3-django.md)<br>
-[Django Authentication](./3-django/3.8-django-authentication.md)<br>
+**Intro to React & Props**
+[React & Components Full](./1-react/1.1-intro-react-and-components-full.md)<br>
+[React & Components Part 1](./1-react/1.1-intro-react-and-components-1.md)<br>
+[React & Components Part 2](./1-react/1.1-intro-react-and-components-2.md)<br>
+[React & Components Part 3](./1-react/1.1-intro-react-and-components-3.md)<br>
+[React Dev Skills Lab Part 1](./1-react/1.1.1-react-devskills-lab-part-1.md)<br>
+[React JSX & Props](./1-react/1.2-react-jsx-and-props.md)<br>
+[React Dev Skills Lab Part 2](./1-react/1.2.1-react-devskills-lab-part-2.md)<br>
+[React Floor Plan Lab](./1-react/1.2.2-optional-react-floor-plan-lab.md)<br>
+[React State](./1-react/1.3-react-state.md)<br>
+[React Dev Skills Lab Part 3](./1-react/1.3.1-react-devskills-lab-part-3.md)<br>
+[React "Students" Lab](./1-react/1.3.2-react-students-lab.md)<br> 
+[React Handling Input and Events Full](./1-react/1.4-react-handling-input-and-events-full.md)<br>
+[React Handling Input and Events Part 1](./1-react/1.4-react-handling-input-and-events-1.md)<br>
+[React Handling Input and Events Part 2](./1-react/1.4-react-handling-input-and-events-2.md)<br>
+[React Dev Skills Lab Part 4](./1-react/1.4.1-react-devskills-lab-part-4.md)<br>
+[React To Do Lab](./1-react/1.4.2-react-to-do-lab.md)<br>
+[SPAs & MERN Stack](./2-mern-infrastructure/2.1-intro-spas-and-mern-stack/README.md)<br>
+[MERN Infrastructure Part 1](./2-mern-infrastructure/2.2-mern-infrastructure-part-1/README.md)<br>
+[React Calendar Lab Part 1](./1-react/1.5.1-optional-react-calendar-lab-part-1.md)<br>
+[React Calendar Lab Part 2](./1-react/1.5.2-optional-react-calendar-lab-part-2.md)<br>
+[React Tic Tac Toe Hackathon](./2-mern-infrastructure/2.2.1-react-ttt-hackathon.md)<br>
+[MERN Infrastructure Part 2](./2-mern-infrastructure/2.3-mern-infrastructure-part-2/README.md)<br>
+[MERN Infrastructure Part 3](./2-mern-infrastructure/2.4-mern-infrastructure-part-3/)<br>
+[React Movies Lab Part 1](./2-mern-infrastructure/2.3.1-react-movies-lab-part-1.md)<br>
+[React Movies Lab Part 2](./2-mern-infrastructure/2.4.1-react-movies-lab-part-2.md)<br>
+[MERN Infrastructure Part 4](./2-mern-infrastructure/2.5-mern-infrastructure-part-4/)<br>
+[MERN Infrastructure Part 5](./2-mern-infrastructure/2.6-mern-infrastructure-part-5/)<br>
+[React Movies Lab Part 3](./2-mern-infrastructure/2.6.1-react-movies-lab-part-3.md)<br>
+[React Giphy Fetch Lab](./2-mern-infrastructure/2.6.2-optional-react-giphy-fetch-lab.md)<br>
+[MERN Infrastructure Part 6](./2-mern-infrastructure/2.7-mern-infrastructure-part-6/)<br>
+[MERN Infrastructure Part 7](./2-mern-infrastructure/2.8-mern-infrastructure-part-7/)<br>
+[MERN-Stack Quick Notes Lab Lab](./2-mern-infrastructure/2.8.1-mern-quick-notes-lab.md)<br>
+[MERN Infrastructure Login Lab](./2-mern-infrastructure/2.7.1-mern-infrastructure-login-lab.md)<br>
+[useEffect & useRef](./3-mern-shopping-cart/3.1-react-effect-and-ref-hooks/)<br>
+[GA Stock Exchange Lab](./3-mern-shopping-cart/3.1.1-ga-stock-market-lab/)<br>
+[MERN-Stack Shopping Cart Part 1](./3-mern-shopping-cart/3.2.1-mern-shopping-cart-part-1/)<br>
+[MERN-Stack Shopping Cart Part 2](./3-mern-shopping-cart/3.2.2-mern-shopping-cart-part-2/)<br>
+[MERN-Stack Code-Along](./3-mern-shopping-cart/3.3-mern-stack-class-codealong/)<br> 
+[Deploy MERN App](./4-realtime-socket-io/4.3-deploy-mern-stack.md)<br> 
+[Jest](./5-react-testing-jest-enzyme/README.md)<br>
