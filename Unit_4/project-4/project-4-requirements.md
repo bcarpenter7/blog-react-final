@@ -14,7 +14,7 @@
 
 ## Project Requirements
 
-### Planning Requirements - Due _________
+### Planning Requirements - Due ________
 
 As you've discovered, a project consists of more than just code.
 
@@ -64,7 +64,7 @@ Following your presentation, there may be a brief Q & A period and optional inst
 
 ☐ The project's source code must be hosted on a personal **GitHub repository**.
 
-☐ The repo is to contain **frequent commits** dated from the beginning of the project through its completion. **Do not** "start over" by replacing the repository with a different one.
+☐ The repo is to contain **frequent commits** (**at least** 1 per day) dated from the beginning of the project through its completion. **Do not** "start over" by replacing the repository with a different one.
 
 ### README Requirements
 
@@ -115,7 +115,7 @@ Include the following sections within the **`README.md`**:
 - Implementation of a highly dynamic UI or data visualization.
 - Other, instructor approved, complexity/features.
 
-## Self-sufficiency / Project Assistance
+## Self-Sufficiency / Project Assistance
 
 - At this stage of SEI, being able to find the the answers to development issues is of paramount importance. 
 
@@ -141,7 +141,7 @@ Include the following sections within the **`README.md`**:
 
 ## Best Practices
 
-- Make AJAX calls from "API" modules, not components. Export application/business logic from "service" modules.
+- **Make AJAX calls** from "API" modules, not components. Export application/business logic from "service" modules.
 
 - **Be consistent** with your code style.
 
@@ -150,8 +150,5 @@ Include the following sections within the **`README.md`**:
 - **Write well-formatted JS & CSS.** Properly formatting your code makes it more readable. Improperly formatted code infers sloppiness.
 
 - **Comment your code where it makes sense to do so**. Most code is self-documenting (don't comment the obvious), however, use comments to explain complicated code.
-## Project Feedback + Evaluation
 
-- Your instructors will be using the [Project 4 Code Review](/Unit_4/project-4/project-4-code-review.pdf) form to determine whether or not the project passes all of the minimum requirements.
 
----

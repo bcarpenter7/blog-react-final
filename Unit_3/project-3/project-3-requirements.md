@@ -1,7 +1,6 @@
-<img src="https://i.imgur.com/NQXEQci.png">
-<img = src="https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png"> 
+<img src="https://i.imgur.com/QgojyYY.png" width="400">
 
-# Project #3<br>Build a Full-stack MERN App as a Team
+# Project 3<br>Build a Full-stack Django App as a Team
 
 ### Overview
 
@@ -9,7 +8,7 @@ You’ve already worked in small groups to accomplish various labs and exercises
 
 You and your teammates together will architect, design, and collaboratively build a full-stack web app.
 
-With this project you'll be building an exciting full-stack app that uses the **MERN-stack**.
+With this project you'll be building an exciting full-stack app that uses the **Python**-based **Django Web Framework**.
 
 **This project will push you both technically and collaboratively!**
 
@@ -25,22 +24,27 @@ During this project, **your instructors are going to be evaluating your ability 
 
 ### In fact, **your ability to work in a team during this project is more important than the project itself!**
 
+---
+
 ## Planning & Presentation Requirements
 
 ### Planning:
 
 Working in a team is going to require more upfront planning to ensure the team is "on the same page"...
 
-#### Pitch Deck - Presented By Your Team on __________
+#### Pitch Deck - Presented By ________
 
-☐ **Pitch your project** to the class with a [pitch deck](https://pitchdeck.improvepresentation.com/what-is-a-pitch-deck) that includes:
+<img src="https://i.imgur.com/NvA1B6Q.png">
+
+☐ **Pitch your project** to the class with a [pitch deck](https://web.archive.org/web/20220201093530/https://pitchdeck.improvepresentation.com/what-is-a-pitch-deck) that includes:
 
 - The application name.
 - Your team members and their roles.
 - The problem you are going to solve with your app.
+- In the 12 "slide" list shown in the above link, consider "slides" 7 thru 12 as **optional**
 - Check out previous decks: [Tripio](https://docs.google.com/presentation/d/1gvOypLc4VjKqJzdAW68iwh28uGDSH4Sp1KnA5grDo2g/edit#slide=id.p), [Pantry](https://docs.google.com/presentation/d/1WvHoN5MNaRembgcoog5p0GtivVCOZSzvfPyeevzy08g/edit), [ArtWorld](https://docs.google.com/presentation/d/1yGy2Mh3n6IhPxFu4XKnnMtPPi4OGFPpf-Z_TMYw6wQY/edit#slide=id.g7ba109823e_2_7)
 
-#### Trello Board - Due __________
+#### Trello Board Planning - Links Due ________
 
 - A **[Trello](https://trello.com/) board** with:
     
@@ -55,7 +59,7 @@ Working in a team is going to require more upfront planning to ensure the team i
     
     ☐ An **ERD** showing the attributes of each entity and the relationships between them. Refer to the Data Modeling lesson for assistance.
 
-### Project Presentations - __________:
+### Project Presentations - Due ________
 
 **Your entire team must participate in the presentation of the project.**
 
@@ -77,10 +81,11 @@ You will have approximately 15 minutes to present your project following these g
 	
 3. **Show/discuss your code:**
 
-	☐ The "main" Mongoose model
-	☐ Your "favorite" Express controller method
-	☐ Your "favorite" React component
-	☐ The client-side routing
+	☐ Show the "main" Django model.
+	
+	☐ Show the code for the main model's view.
+	
+	☐ Show your favorite Django template.
 
 4. **Share the experience:**
 
@@ -105,44 +110,44 @@ You will have approximately 15 minutes to present your project following these g
 5. After the MVP's features look great and if time permits, the user story from the top of the Ice Box list may be implemented.  Ensure that each Ice Box user story's feature is polished before moving on to another user story in the Ice Box.
 
 ---
-  
+
 ## Technical Requirements
 
-☐ A **working** full-stack, single-page application hosted on Heroku.
+### Your App Must:
 
-☐ Incorporate the technologies of the **MERN-stack**:
+☐ Be a full-stack **Django** application.
 
-- MongoDB/Mongoose
-- Express
-- React
-- Node
+☐ Connect to and perform data operations on a **PostgreSQL** database (the default SQLLite3 database is not acceptable).
 
-☐ **Have a well-styled interactive front-end**.
+☐ If consuming an API (OPTIONAL), have at least **one data entity** (Model) in addition to the built-in User model. The related entity can be either a **one-to-many (1:M) or a many-to-many (M:M)** relationship.  
 
-☐ Communicates with the **Express** backend via AJAX.
+☐ If not consuming an API, have at least **two data entities** (Models) in addition to the built-in User model. It is preferable to have at least **one one-to-many (1:M) and one many-to-many (M:M)** relationship between entities/models.  
 
-☐ Implement token-based **authentication**.  Including the ability of a user to sign-up, log in & log out.
+☐ Have **full-CRUD data operations** across any combination of the app's models (excluding the User model). For example, creating/reading/updating posts and creating/deleting comments qualifies as full-CRUD data operations. 
 
-☐ Implement **authorization** by restricting CUD data functionality to authenticated users. Also, navigation should respond to the login status of the user.
+☐ **Authenticate users using Django's built-in authentication**.
 
-☐ **Have a well-scoped feature-set**. Full-CRUD data operations are not required if one or more other features are included, for example:
-	
-- Consume data from a third-party API.
-- Implement additional functionality if the user is an admin.
-- Implementation of a highly dynamic UI or data visualization.
-- Other, instructor approved, complexity/features.
+☐ **Implement authorization by restricting access to the Creation, Updating & Deletion of data resources** using the `login_required` decorator in the case of view functions; or, in the case of class-based views, inheriting from the `LoginRequiredMixin` class.
+
+☐ Be **deployed online** using **Heroku**. Presentations must use the deployed application.
+
+#### The app may optionally:
+
+☐ Upload images to AWS S3
+
+☐ Consume an API (installation of the [Requests package](https://docs.python-requests.org/en/latest/user/quickstart/) will be necessary)
 
 ### Other Requirements:
 
 ☐ Your team must **manage team contributions and collaboration** using Git/GitHub team work-flow.  Here are some references:
 
 - [Team Workflow Video](https://www.youtube.com/watch?v=oFYyTZwMyAg)
-- [Cheat Sheet in Class Repo](../../resources/git_workflow_team_cheatsheet.md)
+- [Cheat Sheet in Class Repo](https://git.generalassemb.ly/SEI-Standard-Curriculum/seir-09-26-22)
 - [Understanding the GitHub Flow](https://guides.github.com/introduction/flow/)
 
 ☐ All team members need to have significant contributions to the project via git commits.
 
-##### A ``README.md`` file with these sections:
+##### A ``README.md`` file with these sections (here's a [basic template](https://gist.github.com/SpideyFanDan/7bb81919616abb4a0f6c5d787ee84a1c)):
 
   ☐ **App Title:** Contains a description of what the app does and optional background info.
   
@@ -176,26 +181,17 @@ You will have approximately 15 minutes to present your project following these g
 
     Other than the **GitHub Manager**, you *don't have to formally fulfill any of the other roles!* They are only listed to provide ideas/guidance.
 
+3. After starting the project, creating/connecting to the database and creating the `main_app` and its `urls.py`, implement authentication and a dynamic nav bar.
 
-3. For help with implementing a feature, review the relevant lesson(s), read the docs, then Google only if necessary.
+4. For help with implementing a feature, review the relevant lesson(s), read the docs, then Google only if necessary.
 
-4.  **Be consistent with your code style.** You have multiple developers in your team writing code, but you only have one app per team. Make sure it looks like a unified effort in regards to formatting, etc.  For example, consistent vertical whitespace between functions.
+5.  **Be consistent with your code style.** You have multiple developers in your team writing code, but you only have one app per team. Make sure it looks like a unified effort in regards to formatting, etc.  For example, consistent vertical whitespace between functions.
 
-5. Do your best to have only one dev working on a certain file between commits.  This will avoid merge conflicts. This is another reason to use Mob Programming!
+6. Do your best to have only one dev working on a certain file between commits.  This will avoid merge conflicts. This is another reason to use Mob Programming!
 
-6. **Commit early, commit often.**
+7. **Commit early, commit often.**
 
-## Best Practices
-
-- Make AJAX calls from "API" modules, not components. Export application/business logic from "service" modules.
-
-- **Be consistent** with your code style.
-
-- **Clearly name variables and functions** - remember, variables are usually named as **nouns** and functions as **verbs**.
-
-- **Write well-formatted JS & CSS.** Properly formatting your code makes it more readable. Improperly formatted code infers sloppiness.
-
-- **Comment your code where it makes sense to do so**. Most code is self-documenting (don't comment the obvious), however, use comments to explain complicated code.
+---
 
 ## Obtaining Assistance from an Instructor
 
@@ -207,9 +203,12 @@ You will have approximately 15 minutes to present your project following these g
 
 ## Project Feedback + Evaluation
 
-- Your instructors will be using the [Project 3 Code Review](/Unit_3/project-3/project-3-code-review.pdf) form to determine whether or not the project passes all of the minimum requirements. (Please ignore the Pitch Deck requirement).
+- Your instructors will be using the [Project 3 Code Review](./project-3-code-review.pdf) form to determine whether or not the project passes all of the minimum requirements. (Please ignore the Pitch Deck requirement).
 - If your instructors determine that your project would pass with minor fixes, you will be required to address the minor deficiencies by 9 am the following day of class. Please be sure to inform your local instructor when the fixes are complete. FYI, "minor fixes" are minor items that can be fixed very quickly, like code formatting, correcting the README, etc.
 - If your instructors determine that the project does not meet the minimum requirements you may request to address the deficiencies identified and resubmit the project. However, be aware that **there is only a single opportunity to resubmit a project or project assessment during the course**.
 - If there is a specific section of code that you would like an instructor to provide additional feedback, please ask!
 
----
+--- 
+
+
+
