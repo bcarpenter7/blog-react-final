@@ -15,9 +15,9 @@
 [Python Functions](./1-python/1.4-python-functions.md)<br>
 [Python Functions Lab](./1-python/1.4.1-python-functions-lab.md)<br>
 [Python Classes Full](./1-python/1.5-python-classes-full.md)<br>
-[Python Classes Part 1](./1-python/1.5-python-classes.md-1)<br>
-[Python Classes Part 2](./1-python/1.5-python-classes.md-2)<br>
-[Python Classes Part 3](./1-python/1.5-python-classes.md-3)<br>
+[Python Classes Part 1](./1-python/1.5-python-classes-1.md)<br>
+[Python Classes Part 2](./1-python/1.5-python-classes-2.md)<br>
+[Python Classes Part 3](./1-python/1.5-python-classes-3.md)<br>
 [Py Pac Poe Lab](./1-python/1.6-optional-py-pac-poe-lab.md)<br>
 [Intro to SQL](./2-sql-databases/2.1-intro-sql.md)<br>
 [SQL Lab](./2-sql-databases/2.1.1-sql-lab.md)<br>
