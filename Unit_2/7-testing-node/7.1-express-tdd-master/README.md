@@ -63,7 +63,7 @@ To be able to make HTTP requests inside tests, we will use [Supertest](https://g
 ### Setting up the app
 
 Clone down the starter code from [this
-repository](./7.1.1-express-testing-lab).
+repository](../7-testing-node/7.1.1-express-testing-lab).
 Take a moment to familiarize yourself with the Express app and get everything
 set up. 
 
