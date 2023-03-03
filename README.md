@@ -217,7 +217,7 @@
 - Highlights
   
 ### Potential Unit 3 Schedule
-| Week 7 | Day 46 | Day 47 | Day 48 | Day 49 | Day 50 |
+| Week 7 | Day 31 | Day 32 | Day 33 | Day 34 | Day 35 |
 | -- | -- | -- | -- | -- | -- |
 | Lecture(s) | [Intro to Python](/Unit_3/1-python/1.1-intro-python.md)<br>---<br>[Control Flow in Python](/Unit_3/1-python/1.2-python-control-flow.md) | [Python Containers](/Unit_3/1-python/1.3-python-containers-full.md) | [Python Functions](/Unit_3/1-python/1.4-python-functions-full.md)<br>---<br>[Python Classes](/Unit_3/1-python/1.5-python-classes.md) | [Intro to Relational DBs & SQL](/Unit_3/2-sql-databases/2.1-intro-sql.md)<br>---<br>[Relational Data Modeling](/Unit_3/2-sql-databases/2.2-relational-data-modeling.md) | [Intro to Django](/Unit_3/3-django/3.1-intro-django.md) |
 | Lab | [Control Flow Python Lab](/Unit_3/1-python/1.2-python-control-flow.md) | [Python Containers Lab](/Unit_3/1-python/1.3.1-containers-lab.md) | [Python Functions Lab](/Unit_3/1-python/1.4.1-python-functions-lab.md)<br>---<br>[**Optional** Py-Pac-Poe Lab](/Unit_3/1-python/1.6-optional-py-pac-poe-lab.md) | [Carmen Sandiego Lab](/Unit_3/2-sql-databases/2.1.1-sql-lab.md)<br>---<br>[**Optional** Data Modeling Lab](/Unit_3/2-sql-databases/2.2.1-optional-data-modeling-lab.md) | [Django Tutorial](https://docs.djangoproject.com/en/4.1/intro/tutorial01/) |
@@ -285,7 +285,7 @@
 #### [Capstone Project](/Unit_4/project-4/project-4-requirements.md)
 
 ### Potential Unit 4 Schedule
-| Week 10 | Day 31 | Day 32 | Day 33 | Day 34 | Day 35 |
+| Week 10 | Day 46 | Day 47 | Day 48 | Day 49 | Day 50 |
 | -- | -- | -- | -- | -- | -- |
 | Lecture(s) | [Intro to React & Components](/Unit_4/1-react/1.1-intro-react-and-components-full.md)<br>---<br>[React JSX & Props](/Unit_4/1-react/1.2-react-jsx-and-props.md) | [React State](/Unit_4/1-react/1.3-react-state.md) | [React Handling Input & Events](/Unit_4/1-react/1.4-react-handling-input-and-events-full.md) | [Intro to SPAs & MERN-Stack](/Unit_4/2-mern-infrastructure/2.1-intro-spas-and-mern-stack/)<br>---<br>[MERN Infrastructure Part 1](/Unit_4/2-mern-infrastructure/2.2-mern-infrastructure-part-1/) | [MERN Infrastructure Part 2](/Unit_4/2-mern-infrastructure/2.3-mern-infrastructure-part-2/)<br>---<br>[MERN Infrastructure Part 3](/Unit_4/2-mern-infrastructure/2.4-mern-infrastructure-part-3/) |
 | Lab | [React Dev Skills Lab Part 1](/Unit_4/1-react/1.1.1-react-devskills-lab-part-1.md)<br>---<br>[React Dev Skills Lab Part 2](/Unit_4/1-react/1.2.1-react-devskills-lab-part-2.md) | [React Dev Skills Lab Part 3](/Unit_4/1-react/1.3.1-react-devskills-lab-part-3.md) | [React Dev Skills Lab Part 4](/Unit_4/1-react/1.4.1-react-devskills-lab-part-4.md) | [React Calendar Lab Part 1]()<br>---<br>[React Calendar Lab Part 2](/Unit_4/1-react/1.5.1-optional-react-calendar-lab-part-1.md) | [React Movies Lab Part 1]()<br>---<br>[React Movies Lab Part 2](/Unit_4/1-react/1.5.2-optional-react-calendar-lab-part-2.md) |
