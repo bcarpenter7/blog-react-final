@@ -1,67 +1,45 @@
-## Unit 4 <br> Python-Django
+## Unit 4 <br> React Fundamentals
 
 ### Content
-- [Potential Unit 4 Schedule](#potential-unit-4-schedule) found below this content.
 
-| Lesson | Topic | Lab | Homework |
-| -- | -- | -- | -- |
-| **Intro to Python** | [Intro to Python](./Unit_4/1-python/1.1-intro-python.md)<br>---<br>[Python Control Flow](./Unit_4/1-python/1.2-python-control-flow.md) | [Control Flow Lab](./Unit_4/1-python/1.2.1-control-flow-lab.md)  | []() |
-| **Python Containers** | [Python Containers](./Unit_4/1-python/1.3-python-containers.md) | [Containers Lab](./Unit_4/1-python/1.3.1-containers-lab.md) |  |
-| **Python Functions** | [Python Functions](./Unit_4/1-python/1.4-python-functions.md) | [Python Functions Lab](./Unit_4/1-python/1.4.1-python-functions-lab.md) |  |
-| **Python Classes** | [Python Classes](./Unit_4/1-python/1.5-python-classes.md) | [Py Pac Poe Lab](./Unit_4/1-python/1.6-optional-py-pac-poe-lab.md) |  |
-| **SQL Databases** | [Intro to SQL](./Unit_4/2-sql-databases/2.1-intro-sql.md) | [SQL Lab](./Unit_4/2-sql-databases/2.1.1-sql-lab.md) |  |
-| **Relational Data Modeling** | [Relational Data Modeling](./Unit_4/2-sql-databases/2.2-relational-data-modeling.md) | [Relational Data Modeling Lab](./Unit_4/2-sql-databases/2.2.1-optional-data-modeling-lab.md) |  |
-| **Django** | [Intro to Django](./Unit_4/3-django/3.1-intro-django.md)<br>---<br>[Django URLs, Views, and Templates](./Unit_4/3-django/3.2-django-urls-views-templates.md) | [Finch Collector Lab Part 1](./Unit_4/3-django/3.2.1-finch-collector-lab-part-1.md) |  |
-| **Django Models** | [Django Models](./Unit_4/3-django/3.3-django-models.md) | [Finch Collector Lab Part 2](./Unit_4/3-django/3.3.1-finch-collector-lab-part-2.md) |  |
-| **Django Class-based Views** | [Django Class-based Views](./Unit_4/3-django/3.4-django-class-based-views.md) | [Finch Collector Lab Part 3](./Unit_4/3-django/3.4.1-finch-collector-lab-part-3.md) |  |
-| **Django 1 to Many Models** | [Django 1:N Models](./Unit_4/3-django/3.5-django-one-to-many-models.md) | [Finch Collector Lab Part 4](./Unit_4/3-django/3.5.1-finch-collector-lab-part-4.md) |  |
-| **Django Many to Many Models** | [Django M:N Models](./Unit_4/3-django/3.6-django-many-to-many-models.md) | [Finch Collector Lab Part 5](./Unit_4/3-django/3.6.1-finch-collector-lab-part-5.md) |  |
-| **Uploading Images to S3 in Django** | [Uploading Images to S3 in Django](./Unit_4/3-django/3.7-uploading-images-s3-django.md) | [Django Authentication](/Unit_4/3-django/3.8-django-authentication.md) |  |
-
-### Unit 4 Syllabus
-
-#### Python
-- Python Fundamentals
-- Control Flow
-- Containers
-- Functions
-- Classes
-  
-#### SQL
-- SQL Fundamentals
-- Relational Data Modeling
-  
-#### Django
-- Django Fundamentals
-- URLs, Views & Templates
-- Models
-- Class-based Views
-- 1:N & M:N Models
-
-#### [Capstone Project](/Unit_4/project-4/project-4-requirements.md)
-- Highlights
-  
-### Potential Unit 4 Schedule
-| Week 10 | Day 46 | Day 47 | Day 48 | Day 49 | Day 50 |
-| -- | -- | -- | -- | -- | -- |
-| Lecture(s) | [Intro to Python](/Unit_4/1-python/1.1-intro-python.md)<br>---<br>[Control Flow in Python](/Unit_4/1-python/1.2-python-control-flow.md) | [Python Containers](/Unit_4/1-python/1.3-python-containers.md) | [Python Functions](/Unit_4/1-python/1.4-python-functions.md)<br>---<br>[Python Classes](/Unit_4/1-python/1.5-python-classes.md) | [Intro to Relational DBs & SQL](/Unit_4/2-sql-databases/2.1-intro-sql.md)<br>---<br>[Relational Data Modeling](/Unit_4/2-sql-databases/2.2-relational-data-modeling.md) | [Intro to Django](/Unit_4/3-django/3.1-intro-django.md) |
-| Lab | [Control Flow Python Lab](/Unit_4/1-python/1.2-python-control-flow.md) | [Python Containers Lab](/Unit_4/1-python/1.3.1-containers-lab.md) | [Python Functions Lab](/Unit_4/1-python/1.4.1-python-functions-lab.md)<br>---<br>[**Optional** Py-Pac-Poe Lab](/Unit_4/1-python/1.6-optional-py-pac-poe-lab.md) | [Carmen Sandiego Lab](/Unit_4/2-sql-databases/2.1.1-sql-lab.md)<br>---<br>[**Optional** Data Modeling Lab](/Unit_4/2-sql-databases/2.2.1-optional-data-modeling-lab.md) | [Django Tutorial](https://docs.djangoproject.com/en/4.1/intro/tutorial01/) |
-| Homework | Lab Completion | Lab Completion | Lab Completion | Lab Completion | Lab Completion |
-| Computer Science |  | [Binary Trees](/computer-science/10-binary-trees-and-tries/) |  | [Graphs](/computer-science/11-graphs/) |  |
-| Daily Coding Challenge | HackerRank or LeetCode | HackerRank or LeetCode | HackerRank or LeetCode | HackerRank or LeetCode | HackerRank or LeetCode |
-
-
-| Week 11 | Day 51 | Day 55 | Day 53 | Day 54 | Day 55 |
-| -- | -- | -- | -- | -- | -- |
-| Lecture(s) | [Django URLs, Views, and Templates](/Unit_4/3-django/3.2-django-urls-views-templates.md) | [Django Models](/Unit_4/3-django/3.3-django-models.md) | [Django Class-Based Views](/Unit_4/3-django/3.4-django-class-based-views.md)<br>---<br>[Django 1:N Models](/Unit_4/3-django/3.5-django-one-to-many-models.md) | [Django M:N Models](/Unit_4/3-django/3.6-django-many-to-many-models.md) | [Uploading Images to S3 in Django](/Unit_4/3-django/3.7-uploading-images-s3-django.md)<br>---<br>[Django Authentication](/Unit_4/3-django/3.8-django-authentication.md) |
-| Lab | [Finch Collector Lab Part 1](/Unit_4/3-django/3.2.1-finch-collector-lab-part-1.md) | [Finch Collector Lab Part 2](/Unit_4/3-django/3.3.1-finch-collector-lab-part-2.md) | [Finch Collector Lab Part 3](/Unit_4/3-django/3.4.1-finch-collector-lab-part-3.md) | [Finch Collector Lab Part 4](/Unit_4/3-django/3.5.1-finch-collector-lab-part-4.md) | [Finch Collector Lab Part 5](/Unit_4/3-django/3.6.1-finch-collector-lab-part-5.md) |
-| Homework | Lab Completion | Lab Completion | Lab Completion | Lab Completion | Lab Completion |
-| Computer Science - **Optional** | [Design Patterns](/computer-science/extra-modules/design-patterns/) | []() | [Distribution Sorts](/computer-science/extra-modules/distribution-sorts/) | []() | [Sets](/computer-science/extra-modules/sets/) |
-| Daily Coding Challenge | HackerRank or LeetCode | HackerRank or LeetCode | HackerRank or LeetCode | HackerRank or LeetCode | HackerRank or LeetCode |
-
-
-| Capstone Week | Day 56 | Day 57 | Day 58 | Day 59 | Day 60 |
-| -- | -- | -- | -- | -- | -- |
-| Stand-up | ✅ | ✅ | ✅ | ✅ | Presentation Day <br> Graduation |
-| Support | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
-<hr>
+**Intro to React & Props**
+[React & Components Full](./1-react/1.1-intro-react-and-components-full.md)<br>
+[React & Components Part 1](./1-react/1.1-intro-react-and-components-1.md)<br>
+[React & Components Part 2](./1-react/1.1-intro-react-and-components-2.md)<br>
+[React & Components Part 3](./1-react/1.1-intro-react-and-components-3.md)<br>
+[React Dev Skills Lab Part 1](./1-react/1.1.1-react-devskills-lab-part-1.md)<br>
+[React JSX & Props](./1-react/1.2-react-jsx-and-props.md)<br>
+[React Dev Skills Lab Part 2](./1-react/1.2.1-react-devskills-lab-part-2.md)<br>
+[React Floor Plan Lab](./1-react/1.2.2-optional-react-floor-plan-lab.md)<br>
+[React State](./1-react/1.3-react-state.md)<br>
+[React Dev Skills Lab Part 3](./1-react/1.3.1-react-devskills-lab-part-3.md)<br>
+[React "Students" Lab](./1-react/1.3.2-react-students-lab.md)<br> 
+[React Handling Input and Events Full](./1-react/1.4-react-handling-input-and-events-full.md)<br>
+[React Handling Input and Events Part 1](./1-react/1.4-react-handling-input-and-events-1.md)<br>
+[React Handling Input and Events Part 2](./1-react/1.4-react-handling-input-and-events-2.md)<br>
+[React Dev Skills Lab Part 4](./1-react/1.4.1-react-devskills-lab-part-4.md)<br>
+[React To Do Lab](./1-react/1.4.2-react-to-do-lab.md)<br>
+[SPAs & MERN Stack](./2-mern-infrastructure/2.1-intro-spas-and-mern-stack/README.md)<br>
+[MERN Infrastructure Part 1](./2-mern-infrastructure/2.2-mern-infrastructure-part-1/README.md)<br>
+[React Calendar Lab Part 1](./1-react/1.5.1-optional-react-calendar-lab-part-1.md)<br>
+[React Calendar Lab Part 2](./1-react/1.5.2-optional-react-calendar-lab-part-2.md)<br>
+[React Tic Tac Toe Hackathon](./2-mern-infrastructure/2.2.1-react-ttt-hackathon.md)<br>
+[MERN Infrastructure Part 2](./2-mern-infrastructure/2.3-mern-infrastructure-part-2/README.md)<br>
+[MERN Infrastructure Part 3](./2-mern-infrastructure/2.4-mern-infrastructure-part-3/)<br>
+[React Movies Lab Part 1](./2-mern-infrastructure/2.3.1-react-movies-lab-part-1.md)<br>
+[React Movies Lab Part 2](./2-mern-infrastructure/2.4.1-react-movies-lab-part-2.md)<br>
+[MERN Infrastructure Part 4](./2-mern-infrastructure/2.5-mern-infrastructure-part-4/)<br>
+[MERN Infrastructure Part 5](./2-mern-infrastructure/2.6-mern-infrastructure-part-5/)<br>
+[React Movies Lab Part 3](./2-mern-infrastructure/2.6.1-react-movies-lab-part-3.md)<br>
+[React Giphy Fetch Lab](./2-mern-infrastructure/2.6.2-optional-react-giphy-fetch-lab.md)<br>
+[MERN Infrastructure Part 6](./2-mern-infrastructure/2.7-mern-infrastructure-part-6/)<br>
+[MERN Infrastructure Part 7](./2-mern-infrastructure/2.8-mern-infrastructure-part-7/)<br>
+[MERN-Stack Quick Notes Lab Lab](./2-mern-infrastructure/2.8.1-mern-quick-notes-lab.md)<br>
+[MERN Infrastructure Login Lab](./2-mern-infrastructure/2.7.1-mern-infrastructure-login-lab.md)<br>
+[useEffect & useRef](./3-mern-shopping-cart/3.1-react-effect-and-ref-hooks/)<br>
+[GA Stock Exchange Lab](./3-mern-shopping-cart/3.1.1-ga-stock-market-lab/)<br>
+[MERN-Stack Shopping Cart Part 1](./3-mern-shopping-cart/3.2.1-mern-shopping-cart-part-1/)<br>
+[MERN-Stack Shopping Cart Part 2](./3-mern-shopping-cart/3.2.2-mern-shopping-cart-part-2/)<br>
+[MERN-Stack Code-Along](./3-mern-shopping-cart/3.3-mern-stack-class-codealong/)<br> 
+[Deploy MERN App](./4-realtime-socket-io/4.3-deploy-mern-stack.md)<br> 
+[Jest](./5-react-testing-jest-enzyme/README.md)<br>
