@@ -109,11 +109,13 @@
 | **Intro to Express** | [Intro to Express](./Unit_2/2-express-framework/2.1-intro-express.md) | [Express Lab](./Unit_2/2-express-framework/2.1.1-intro-express-lab.md)  | []() |
 | **Express Routers & Controllers** | [Express Routers & Controllers](./Unit_2/2-express-framework/2.2-express-routers-controllers-full.md) | [Dev Skills Lab Part 1](./Unit_2/2-express-framework/2.2.1-dev-skills-lab-part-1.md)  |  |
 | **Express Framework** | [EJS Partial Templates](./Unit_2/2-express-framework/2.3-ejs-partial-templates.md)<br>---<br>[Express Middleware](./Unit_2/2-express-framework/2.4-express-middleware-full.md) | [Express Update To Do](./Unit_2/2-express-framework/2.5-express-update-to-do.md)<br>---<br>[Dev Skills Lab Part 2](./Unit_2/2-express-framework/2.5.1-dev-skills-lab-part-2.md)  |  |
-| **Intro to MongoDB & Mongoose** | [Atlas Hosted MongoDB](./Unit_2/3-mongodb-mongoose/3.1-atlas-hosted-mongodb.md)<br>---<br>[Intro to MongoDB](/Unit_2/3-mongodb-mongoose/3.2-mongodb-intro.md)<br>---<br>[Intro to Mongoose](./Unit_2/3-mongodb-mongoose/3.3-mongoose-intro-full.md) | [Mongoose Flights Lab Part 1](./Unit_2/3-mongodb-mongoose/3.3.1-mongoose-flights-lab-part-1.md) |  |
-| **Mongoose Embedding Related Data** | [Embedding Related Data](./Unit_2/3-mongodb-mongoose/3.4-mongoose-embedding-related-data-full.md) | [Mongoose Flight Labs Part 2](./Unit_2/3-mongodb-mongoose/3.4.1-mongoose-flights-lab-part-2.md) | [Single Model "Create" Practice](./Unit_2/3-mongodb-mongoose/3.4.2-optional-mongoose-single-model-create-practice.md) |
-| **Mongoose Referencing Related Data** | [Referencing Related Data](./Unit_2/3-mongodb-mongoose/3.5-mongoose-referencing-related-data-full.md) | [Mongoose Flight Labs Part 3](./Unit_2/3-mongodb-mongoose/3.5.1-mongoose-flights-lab-part-3.md) | []() |
-| **Regular Expressions & Promises** | [Regular Expressions](./Unit_2/4-regex-promises-apis/4.1-regular-expressions.md)<br>---<br>[Promises](./Unit_2/4-regex-promises-apis/4.2-js-promises.md) | [Promises Mongoose Lab](./Unit_2/4-regex-promises-apis/4.2.1-js-promises-mongoose-lab.md)  | []() |
-| **APIs** | [Consuming 3rd Party APIs](./Unit_2/4-regex-promises-apis/4.3-consuming-3rd-party-apis-full.md) | [Consuming APIs Lab](./Unit_2/4-regex-promises-apis/4.4-optional-consuming-apis-lab.md)  |  |
+| **Intro to MongoDB** | [Atlas Hosted MongoDB](./Unit_2/3-mongodb-mongoose/3.1-atlas-hosted-mongodb.md)<br>---<br>[Intro to MongoDB](/Unit_2/3-mongodb-mongoose/3.2-mongodb-intro.md) | [Mongoose Flights Lab Part 1](./Unit_2/3-mongodb-mongoose/3.5.1-mongoose-flights-lab-part-1.md) |  |
+| **Promises** | [Promises](./Unit_2/3-mongodb-mongoose/3.3-js-promises.md) | [Promises Mongoose Lab](./Unit_2/3-mongodb-mongoose/3.3.1-js-promises-mongoose-lab.md)  | []() |
+| **APIs** | [Consuming 3rd Party APIs](./Unit_2/3-mongodb-mongoose/3.4-consuming-3rd-party-apis-full.md) | [Consuming APIs Lab](./Unit_2/4-regex/4.4-optional-consuming-apis-lab.md)  |  |
+| **Intro to Mongoose** | [Intro to Mongoose](./Unit_2/3-mongodb-mongoose/3.5-mongoose-intro-full.md) | [Mongoose Flights Lab Part 1](./Unit_2/3-mongodb-mongoose/3.5.1-mongoose-flights-lab-part-1.md) |  |
+| **Mongoose Embedding Related Data** | [Embedding Related Data](./Unit_2/3-mongodb-mongoose/3.6-mongoose-embedding-related-data-full.md) | [Mongoose Flight Labs Part 2](./Unit_2/3-mongodb-mongoose/3.6.1-mongoose-flights-lab-part-2.md) | [Single Model "Create" Practice](./Unit_2/3-mongodb-mongoose/3.6.2-optional-mongoose-single-model-create-practice.md) |
+| **Mongoose Referencing Related Data** | [Referencing Related Data](./Unit_2/3-mongodb-mongoose/3.7-mongoose-referencing-related-data-full.md) | [Mongoose Flight Labs Part 3](./Unit_2/3-mongodb-mongoose/3.7.1-mongoose-flights-lab-part-3.md) | []() |
+| **Regular Expressions** | [Regular Expressions](./Unit_2/4-regex/4.1-regular-expressions.md) |  |  |
 | **OAuth & Express Passport** | [Google OAuth & Authorization](./Unit_2/5-authentication/5.1-oauth-authentication-full.md) | []() |  |
 | **Deployment** | [Heroku & Atlas](/Unit_2/6-heroku-atlas-deployment/) | []()  | []() |
 | **Express TDD** | [Testing Node with Mocha/Chai](/Unit_2/7-testing-node/7.1-express-tdd-master/) | [Express Testing Lab](/Unit_2/7-testing-node/7.1.1-express-testing-lab/)  | []() |
@@ -148,10 +150,11 @@
 ### [Project 2](/Unit_2/project-2/project-2.md)
 
 ### Potential Unit 2 Schedule
-| Week 4 | Day 16 | Day 17 | Day 18 | Day 19 | Day 20 |
+#### Work in Progress pending Mongoose update of curriculum
+<!-- | Week 4 | Day 16 | Day 17 | Day 18 | Day 19 | Day 20 |
 | -- | -- | -- | -- | -- | -- |
-| Lecture(s) | [Intro to Full Stack Development](/Unit_2/1-intro-full-stack/1.1-intro-fullstack-http.md)<br>---<br>[Intro to Node](/Unit_2/1-intro-full-stack/1.2-intro-to-node-full.md)<br>---<br>[Intro to Express](/Unit_2/2-express-framework/2.1-intro-express.md) | [Express Routers & Controllers](/Unit_2/2-express-framework/2.2-express-routers-controllers-full.md) | [EJS Partial Templates](/Unit_2/2-express-framework/2.3-ejs-partial-templates.md)<br>---<br>[Express Middleware](/Unit_2/2-express-framework/2.4-express-middleware-full.md) | [Regular Expressions](/Unit_2/4-regex-promises-apis/4.1-regular-expressions.md)<br>---<br>[Atlas Hosted MongoDB](/Unit_2/3-mongodb-mongoose/3.1-atlas-hosted-mongodb.md)<br>---<br>[Intro to MongoDB](/Unit_2/3-mongodb-mongoose/3.2-mongodb-intro.md) | [Intro to Mongoose](/Unit_2/3-mongodb-mongoose/3.3-mongoose-intro-full.md) |
-| Lab | [Server-Side Debugging Setup](/Unit_2/1-intro-full-stack/1.3-server-side-debugging-setup.md)<br>---<br>[Express Lab](/Unit_2/2-express-framework/2.1.1-intro-express-lab.md) | [Dev Skills Lab Part 1](/Unit_2/2-express-framework/2.2.1-dev-skills-lab-part-1.md) | [Express Update To Do](Unit_2/2-express-framework/2.5-express-update-to-do.md)<br>---<br>[Dev Skills Lab Part 2](/Unit_2/2-express-framework/2.5.1-dev-skills-lab-part-2.md) | Complete Dev Skills Lab | [Mongoose Flights Lab Part 1](/Unit_2/3-mongodb-mongoose/3.3.1-mongoose-flights-lab-part-1.md) |
+| Lecture(s) | [Intro to Full Stack Development](/Unit_2/1-intro-full-stack/1.1-intro-fullstack-http.md)<br>---<br>[Intro to Node](/Unit_2/1-intro-full-stack/1.2-intro-to-node-full.md)<br>---<br>[Intro to Express](/Unit_2/2-express-framework/2.1-intro-express.md) | [Express Routers & Controllers](/Unit_2/2-express-framework/2.2-express-routers-controllers-full.md) | [EJS Partial Templates](/Unit_2/2-express-framework/2.3-ejs-partial-templates.md)<br>---<br>[Express Middleware](/Unit_2/2-express-framework/2.4-express-middleware-full.md) | [Regular Expressions](/Unit_2/4-regex/4.1-regular-expressions.md)<br>---<br>[Atlas Hosted MongoDB](/Unit_2/3-mongodb-mongoose/3.1-atlas-hosted-mongodb.md)<br>---<br>[Intro to MongoDB](/Unit_2/3-mongodb-mongoose/3.2-mongodb-intro.md) | [Intro to Mongoose](/Unit_2/3-mongodb-mongoose/3.7-mongoose-intro-full.md) |
+| Lab | [Server-Side Debugging Setup](/Unit_2/1-intro-full-stack/1.3-server-side-debugging-setup.md)<br>---<br>[Express Lab](/Unit_2/2-express-framework/2.1.1-intro-express-lab.md) | [Dev Skills Lab Part 1](/Unit_2/2-express-framework/2.2.1-dev-skills-lab-part-1.md) | [Express Update To Do](Unit_2/2-express-framework/2.5-express-update-to-do.md)<br>---<br>[Dev Skills Lab Part 2](/Unit_2/2-express-framework/2.5.1-dev-skills-lab-part-2.md) | Complete Dev Skills Lab | [Mongoose Flights Lab Part 1](/Unit_2/3-mongodb-mongoose/3.7.1-mongoose-flights-lab-part-1.md) |
 | Homework | Lab Completion | Lab Completion | Lab Completion | Lab Completion | Lab Completion |
 | Computer Science |  | [CS Big-O Notation](/computer-science/01-cs-big-o-notation/) |  | [Recursion](/computer-science/02-cs-recursion/) |  |
 | Daily Coding Challenge | [isPalindrome](https://replit.com/@jim_clark/11-isPalindrome#challenge.js) | [hammingDistance](https://replit.com/@jim_clark/12-hammingDistance#challenge.js) | [mumble](https://replit.com/@jim_clark/13-mumble#challenge.js) | [fromPairs](https://replit.com/@jim_clark/14-fromPairs#challenge.js) | [mergeObjects](https://replit.com/@jim_clark/15-mergeObjects#challenge.js) |
@@ -159,8 +162,8 @@
 
 | Week 5 | Day 21 | Day 22 | Day 23 | Day 24 | Day 25 |
 | -- | -- | -- | -- | -- | -- |
-| Lecture(s) | [Embedding Related Data](/Unit_2/3-mongodb-mongoose/3.4-mongoose-embedding-related-data-full.md) | [Referencing Related Data](/Unit_2/3-mongodb-mongoose/3.5-mongoose-referencing-related-data-full.md) | [JS Promises](/Unit_2/4-regex-promises-apis/4.2-js-promises.md)<br>---<br>[Consuming 3rd-Party APIs](/Unit_2/4-regex-promises-apis/4.3-consuming-3rd-party-apis-full.md) | [Google OAuth & Authorization](/Unit_2/5-authentication/5.1-oauth-authentication-full.md) | [Testing Node with Mocha/Chai](/Unit_2/7-testing-node/7.1-express-tdd-master/)<br>---<br>[Heroku & Atlas](/Unit_2/6-heroku-atlas-deployment/) |
-| Lab | [Mongoose Flight Labs Part 2](/Unit_2/3-mongodb-mongoose/3.4.1-mongoose-flights-lab-part-2.md)<br>---<br>[Single Model "Create" Practice](/Unit_2/3-mongodb-mongoose/3.4.2-optional-mongoose-single-model-create-practice.md) | [Mongoose Flight Labs Part 3](/Unit_2/3-mongodb-mongoose/3.5.1-mongoose-flights-lab-part-3.md) | [Promises Mongoose Lab](/Unit_2/4-regex-promises-apis/4.2.1-js-promises-mongoose-lab.md)<br>---<br>[Consuming APIs Lab](/Unit_2/4-regex-promises-apis/4.4-optional-consuming-apis-lab.md) | [OAuth Walk-Through (from lecture above)](https://git.generalassemb.ly/SEI-Standard-Curriculum/SEIR-Course-Materials/blob/main/Unit_2/5-authentication/5.1-oauth-authentication.md#6-todays-oauth-game-plan) | [Express Testing Lab](/Unit_2/7-testing-node/7.1.1-express-testing-lab/)<br>---<br>[Project 2](/Unit_2/project-2/project-2.md)|  |
+| Lecture(s) | [Embedding Related Data](/Unit_2/3-mongodb-mongoose/3.6-mongoose-embedding-related-data-full.md) | [Referencing Related Data](/Unit_2/3-mongodb-mongoose/3.5-mongoose-referencing-related-data-full.md) | [JS Promises](/Unit_2/3-mongodb-mongoose/3.3-js-promises.md)<br>---<br>[Consuming 3rd-Party APIs](/Unit_2/3-mongodb-mongoose/3.4-consuming-3rd-party-apis-full.md) | [Google OAuth & Authorization](/Unit_2/5-authentication/5.1-oauth-authentication-full.md) | [Testing Node with Mocha/Chai](/Unit_2/7-testing-node/7.1-express-tdd-master/)<br>---<br>[Heroku & Atlas](/Unit_2/6-heroku-atlas-deployment/) |
+| Lab | [Mongoose Flight Labs Part 2](/Unit_2/3-mongodb-mongoose/3.6.1-mongoose-flights-lab-part-2.md)<br>---<br>[Single Model "Create" Practice](/Unit_2/3-mongodb-mongoose/3.6.2-optional-mongoose-single-model-create-practice.md) | [Mongoose Flight Labs Part 3](/Unit_2/3-mongodb-mongoose/3.5.1-mongoose-flights-lab-part-3.md) | [Promises Mongoose Lab](/Unit_2/3-mongodb-mongoose/3.3.1-js-promises-mongoose-lab.md)<br>---<br>[Consuming APIs Lab](/Unit_2/4-regex/4.4-optional-consuming-apis-lab.md) | [OAuth Walk-Through (from lecture above)](https://git.generalassemb.ly/SEI-Standard-Curriculum/SEIR-Course-Materials/blob/main/Unit_2/5-authentication/5.1-oauth-authentication.md#6-todays-oauth-game-plan) | [Express Testing Lab](/Unit_2/7-testing-node/7.1.1-express-testing-lab/)<br>---<br>[Project 2](/Unit_2/project-2/project-2.md)|  |
 | Homework | Lab Completion | Lab Completion | Lab Completion | Lab Completion | Project 2 |
 | Computer Science |  | [Intro to Sorts](/computer-science/03-cs-intro-to-sorting/) |  | [Basic Sorts](/computer-science/04-cs-basic-sorts/) |  |
 | Daily Coding Challenge | [findHighestPriced](https://replit.com/@jim_clark/16-findHighestPriced#challenge.js) | [mapArray](https://replit.com/@jim_clark/17-mapArray#challenge.js) | [reduceArray](https://replit.com/@jim_clark/18-reduceArray#challenge.js) | [flatten](https://replit.com/@jim_clark/19-flatten#challenge.js) | [isPrime](https://replit.com/@jim_clark/20-isPrime#challenge.js) |
@@ -169,7 +172,7 @@
 | Project Week | Day 26 | Day 27 | Day 28 | Day 29 | Day 30 |
 | -- | -- | -- | -- | -- | -- |
 | Stand-up | ✅ | ✅ | ✅ | ✅ | Presentation Day |
-| Support | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
+| Support | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | -->
 <hr>
 
 ## Unit 3 <br> Python-Django
@@ -241,74 +244,6 @@
 | Support | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
 <hr>
 
-## Unit 4 <br> Python-Django
-
-### Content
-- [Potential Unit 4 Schedule](#potential-unit-4-schedule) found below this content.
-- [Individual Unit 4 Lessons](/Unit_4/README.md)
-
-| Lesson | Topic | Lab | Homework |
-| -- | -- | -- | -- |
-| **Intro to Python** | [Intro to Python](./Unit_4/1-python/1.1-intro-python.md)<br>---<br>[Python Control Flow](./Unit_4/1-python/1.2-python-control-flow.md) | [Control Flow Lab](./Unit_4/1-python/1.2.1-control-flow-lab.md)  |  |
-| **Python Containers** | [Python Containers](./Unit_4/1-python/1.3-python-containers-full.md) | [Containers Lab](./Unit_4/1-python/1.3.1-containers-lab.md) |  |
-| **Python Functions** | [Python Functions](./Unit_4/1-python/1.4-python-functions.md-full) | [Python Functions Lab](./Unit_4/1-python/1.4.1-python-functions-lab.md) |  |
-| **Python Classes** | [Python Classes](./Unit_4/1-python/1.5-python-classes.md) | [Py Pac Poe Lab](./Unit_4/1-python/1.6-optional-py-pac-poe-lab.md) |  |
-| **SQL Databases** | [Intro to SQL](./Unit_4/2-sql-databases/2.1-intro-sql.md) | [SQL Lab](./Unit_4/2-sql-databases/2.1.1-sql-lab.md) |  |
-| **Relational Data Modeling** | [Relational Data Modeling](./Unit_4/2-sql-databases/2.2-relational-data-modeling.md) | [Relational Data Modeling Lab](./Unit_4/2-sql-databases/2.2.1-optional-data-modeling-lab.md) |  |
-| **Django** | [Intro to Django](./Unit_4/3-django/3.1-intro-django.md)<br>---<br>[Django URLs, Views, and Templates](./Unit_4/3-django/3.2-django-urls-views-templates-full.md) | [Finch Collector Lab Part 1](./Unit_4/3-django/3.2.1-finch-collector-lab-part-1.md) |  |
-| **Django Models** | [Django Models](./Unit_4/3-django/3.3-django-models.md) | [Finch Collector Lab Part 2](./Unit_4/3-django/3.3.1-finch-collector-lab-part-2.md) |  |
-| **Django Class-based Views** | [Django Class-based Views](./Unit_4/3-django/3.4-django-class-based-views.md) | [Finch Collector Lab Part 3](./Unit_4/3-django/3.4.1-finch-collector-lab-part-3.md) |  |
-| **Django 1 to Many Models** | [Django 1:N Models](./Unit_4/3-django/3.5-django-one-to-many-models-full.md) | [Finch Collector Lab Part 4](./Unit_4/3-django/3.5.1-finch-collector-lab-part-4.md) |  |
-| **Django Many to Many Models** | [Django M:N Models](./Unit_4/3-django/3.6-django-many-to-many-models-full.md) | [Finch Collector Lab Part 5](./Unit_4/3-django/3.6.1-finch-collector-lab-part-5.md) |  |
-| **Uploading Images to S3 in Django** | [Uploading Images to S3 in Django](./Unit_4/3-django/3.7-uploading-images-s3-django.md) | [Django Authentication](/Unit_4/3-django/3.8-django-authentication.md) |  |
-
-### Unit 4 Syllabus
-
-#### Python
-- Python Fundamentals
-- Control Flow
-- Containers
-- Functions
-- Classes
-  
-#### SQL
-- SQL Fundamentals
-- Relational Data Modeling
-  
-#### Django
-- Django Fundamentals
-- URLs, Views & Templates
-- Models
-- Class-based Views
-- 1:N & M:N Models
-
-#### [Project 3](/Unit_3/project-3/project-3-requirements.md)
-- Highlights
-  
-### Potential Unit 3 Schedule
-| Week 7 | Day 31 | Day 32 | Day 33 | Day 34 | Day 35 |
-| -- | -- | -- | -- | -- | -- |
-| Lecture(s) | [Intro to Python](/Unit_4/1-python/1.1-intro-python.md)<br>---<br>[Control Flow in Python](/Unit_4/1-python/1.2-python-control-flow.md) | [Python Containers](/Unit_4/1-python/1.3-python-containers-full.md) | [Python Functions](/Unit_4/1-python/1.4-python-functions-full.md)<br>---<br>[Python Classes](/Unit_4/1-python/1.5-python-classes.md) | [Intro to Relational DBs & SQL](/Unit_4/2-sql-databases/2.1-intro-sql.md)<br>---<br>[Relational Data Modeling](/Unit_4/2-sql-databases/2.2-relational-data-modeling.md) | [Intro to Django](/Unit_4/3-django/3.1-intro-django.md) |
-| Lab | [Control Flow Python Lab](/Unit_4/1-python/1.2-python-control-flow.md) | [Python Containers Lab](/Unit_4/1-python/1.3.1-containers-lab.md) | [Python Functions Lab](/Unit_4/1-python/1.4.1-python-functions-lab.md)<br>---<br>[**Optional** Py-Pac-Poe Lab](/Unit_4/1-python/1.6-optional-py-pac-poe-lab.md) | [Carmen Sandiego Lab](/Unit_4/2-sql-databases/2.1.1-sql-lab.md)<br>---<br>[**Optional** Data Modeling Lab](/Unit_4/2-sql-databases/2.2.1-optional-data-modeling-lab.md) | [Django Tutorial](https://docs.djangoproject.com/en/4.1/intro/tutorial01/) |
-| Homework | Lab Completion | Lab Completion | Lab Completion | Lab Completion | Lab Completion |
-| Computer Science |  | [Binary Trees](/computer-science/10-binary-trees-and-tries/) |  | [Graphs](/computer-science/11-graphs/) |  |
-| Daily Coding Challenge | HackerRank or LeetCode | HackerRank or LeetCode | HackerRank or LeetCode | HackerRank or LeetCode | HackerRank or LeetCode |
-
-| Week 8 | Day 36 | Day 37 | Day 38 | Day 39 | Day 40 |
-| -- | -- | -- | -- | -- | -- |
-| Lecture(s) | [Django URLs, Views, and Templates](/Unit_4/3-django/3.2-django-urls-views-templates-full.md) | [Django Models](/Unit_4/3-django/3.3-django-models.md) | [Django Class-Based Views](/Unit_4/3-django/3.4-django-class-based-views.md)<br>---<br>[Django 1:N Models](/Unit_4/3-django/3.5-django-one-to-many-models-full.md) | [Django M:N Models](/Unit_4/3-django/3.6-django-many-to-many-models-full.md) | [Uploading Images to S3 in Django](/Unit_4/3-django/3.7-uploading-images-s3-django.md)<br>---<br>[Django Authentication](/Unit_4/3-django/3.8-django-authentication.md) |
-| Lab | [Finch Collector Lab Part 1](/Unit_4/3-django/3.2.1-finch-collector-lab-part-1.md) | [Finch Collector Lab Part 2](/Unit_4/3-django/3.3.1-finch-collector-lab-part-2.md) | [Finch Collector Lab Part 3](/Unit_4/3-django/3.4.1-finch-collector-lab-part-3.md) | [Finch Collector Lab Part 4](/Unit_4/3-django/3.5.1-finch-collector-lab-part-4.md) | [Finch Collector Lab Part 5](/Unit_4/3-django/3.6.1-finch-collector-lab-part-5.md) |
-| Homework | Lab Completion | Lab Completion | Lab Completion | Lab Completion | Lab Completion |
-| Computer Science - **Optional** | [Design Patterns](/computer-science/extra-modules/design-patterns/) |  | [Distribution Sorts](/computer-science/extra-modules/distribution-sorts/) |  | [Sets](/computer-science/extra-modules/sets/) |
-| Daily Coding Challenge | HackerRank or LeetCode | HackerRank or LeetCode | HackerRank or LeetCode | HackerRank or LeetCode | HackerRank or LeetCode |
-
-
-| Project Week | Day 41 | Day 42 | Day 43 | Day 44 | Day 45 |
-| -- | -- | -- | -- | -- | -- |
-| Stand-up | ✅ | ✅ | ✅ | ✅ | Presentation Day |
-| Computer Science |  |  |  |  |  |
-| Support | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
-<hr>
 
 ## Unit 4 <br> React Fundamentals
 
