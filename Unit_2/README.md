@@ -27,7 +27,6 @@
 [Atlas Hosted MongoDB](./3-mongodb-mongoose/3.1-atlas-hosted-mongodb.md)<br>
 [Intro to MongoDB](/3-mongodb-mongoose/3.2-mongodb-intro.md)<br>
 [Promises](./3-mongodb-mongoose/3.3-js-promises.md)<br>
-[Promises Mongoose Lab](./3-mongodb-mongoose/3.3.1-js-promises-mongoose-lab.md)<br> 
 [Consuming 3rd Party APIs Full](./3-mongodb-mongoose/3.4-consuming-3rd-party-apis-full.md)<br>
 [Consuming 3rd Party APIs Part 1](./3-mongodb-mongoose/3.4-consuming-3rd-party-apis-1.md)<br>
 [Consuming 3rd Party APIs Part 2](./3-mongodb-mongoose/3.4-consuming-3rd-party-apis-2.md)<br>
@@ -40,6 +39,7 @@
 [Intro to Mongoose Part 5](./3-mongodb-mongoose/3.5-mongoose-intro-5.md)<br>
 [Intro to Mongoose Part 6](./3-mongodb-mongoose/3.5-mongoose-intro-6.md)<br>
 [Mongoose Flights Lab Part 1](./3-mongodb-mongoose/3.5.1-mongoose-flights-lab-part-1.md)<br>
+[Promises Mongoose Lab](./3-mongodb-mongoose/3.5.2-js-promises-mongoose-lab.md)<br> 
 [Mongoose Embedding Related Data Full](./3-mongodb-mongoose/3.6-mongoose-embedding-related-data-full.md)<br>
 [Mongoose Embedding Related Data Part 1](./3-mongodb-mongoose/3.6-mongoose-embedding-related-data-1.md)<br>
 [Mongoose Embedding Related Data Part 2](./3-mongodb-mongoose/3.6-mongoose-embedding-related-data-2.md)<br>
