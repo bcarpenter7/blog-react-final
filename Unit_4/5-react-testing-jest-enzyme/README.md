@@ -42,14 +42,7 @@ React Testing Library is a popular testing framework used to test React componen
 ## Configuration (10 min / 0:20)
 Jest automatically looks for files with a `test.js` suffix, or for files in a `__tests__` folder. We will use the suffix today.
 
-Let's start a React app for our testing purposes today.
-
-If you have `create-react-app` installed globally with npm, run: 
-```bash
-$ create-react-app testing-lesson
-```
-
-Otherwise run 
+run 
 ```bash
 $ npx create-react-app testing-lesson
 ```
