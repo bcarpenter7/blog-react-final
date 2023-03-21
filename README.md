@@ -105,20 +105,20 @@
 
 | Lesson | Topic | Lab | Homework |
 | -- | -- | -- | -- |
-| **Intro to Node & NPM** | [Intro to Full Stack Development](./Unit_2/1-intro-full-stack/1.1-intro-fullstack-http.md)<br>---<br>[Intro to Node](./Unit_2/1-intro-full-stack/1.2-intro-to-node-full.md) | [Server-side Debugging Setup](./Unit_2/1-intro-full-stack/1.3-server-side-debugging-setup.md) |  | 
-| **Intro to Express** | [Intro to Express](./Unit_2/2-express-framework/2.1-intro-express.md) | [Express Lab](./Unit_2/2-express-framework/2.1.1-intro-express-lab.md)  | []() |
-| **Express Routers & Controllers** | [Express Routers & Controllers](./Unit_2/2-express-framework/2.2-express-routers-controllers-full.md) | [Dev Skills Lab Part 1](./Unit_2/2-express-framework/2.2.1-dev-skills-lab-part-1.md)  |  |
-| **Express Framework** | [EJS Partial Templates](./Unit_2/2-express-framework/2.3-ejs-partial-templates.md)<br>---<br>[Express Middleware](./Unit_2/2-express-framework/2.4-express-middleware-full.md) | [Express Update To Do](./Unit_2/2-express-framework/2.5-express-update-to-do.md)<br>---<br>[Dev Skills Lab Part 2](./Unit_2/2-express-framework/2.5.1-dev-skills-lab-part-2.md)  |  |
-| **Intro to MongoDB** | [Atlas Hosted MongoDB](./Unit_2/3-mongodb-mongoose/3.1-atlas-hosted-mongodb.md)<br>---<br>[Intro to MongoDB](/Unit_2/3-mongodb-mongoose/3.2-mongodb-intro.md) | [Mongoose Flights Lab Part 1](./Unit_2/3-mongodb-mongoose/3.5.1-mongoose-flights-lab-part-1.md) |  |
-| **Promises** | [Promises](./Unit_2/3-mongodb-mongoose/3.3-js-promises.md) |   | []() |
-| **APIs** | [Consuming 3rd Party APIs](./Unit_2/3-mongodb-mongoose/3.4-consuming-3rd-party-apis-full.md) | [Consuming APIs Lab](./Unit_2/4-regex/4.4-optional-consuming-apis-lab.md)  |  |
-| **Intro to Mongoose** | [Intro to Mongoose](./Unit_2/3-mongodb-mongoose/3.5-mongoose-intro-full.md) | [Mongoose Flights Lab Part 1](./Unit_2/3-mongodb-mongoose/3.5.1-mongoose-flights-lab-part-1.md)<br>---<br>[Promises Mongoose Lab](./Unit_2/3-mongodb-mongoose/3.5.2-js-promises-mongoose-lab.md) |  |
-| **Mongoose Embedding Related Data** | [Embedding Related Data](./Unit_2/3-mongodb-mongoose/3.6-mongoose-embedding-related-data-full.md) | [Mongoose Flight Labs Part 2](./Unit_2/3-mongodb-mongoose/3.6.1-mongoose-flights-lab-part-2.md) | [Single Model "Create" Practice](./Unit_2/3-mongodb-mongoose/3.6.2-optional-mongoose-single-model-create-practice.md) |
-| **Mongoose Referencing Related Data** | [Referencing Related Data](./Unit_2/3-mongodb-mongoose/3.7-mongoose-referencing-related-data-full.md) | [Mongoose Flight Labs Part 3](./Unit_2/3-mongodb-mongoose/3.7.1-mongoose-flights-lab-part-3.md) | []() |
-| **Regular Expressions** | [Regular Expressions](./Unit_2/4-regex/4.1-regular-expressions.md) |  |  |
-| **OAuth & Express Passport** | [Google OAuth & Authorization](./Unit_2/5-authentication/5.1-oauth-authentication-full.md) | []() |  |
-| **Deployment** | [Heroku & Atlas](/Unit_2/6-heroku-atlas-deployment/) | []()  | []() |
-| **Express TDD** | [Testing Node with Mocha/Chai](/Unit_2/7-testing-node/7.1-express-tdd-master/) | [Express Testing Lab](/Unit_2/7-testing-node/7.1.1-express-testing-lab/)  | []() |
+| **Intro to Full Stack and Node** | [Intro to Full Stack Development](./Unit_2/1-intro-full-stack/1.1-intro-fullstack-http.md)<br>---<br>[Intro to Node](./Unit_2/2-node/1.2-intro-to-node-full.md) | [Server-side Debugging Setup](./Unit_2/2-node/1.3-server-side-debugging-setup.md) |  | 
+| **Intro to Express** | [Intro to Express](/Unit_2/3-express-framework/3.1-intro-express.md) | [Express Lab](./Unit_2/3-express-framework/3.1.1-intro-express-lab.md)  |  |
+| **Express Routers & Controllers** | [Express Routers & Controllers](./Unit_2/3-express-framework/3.2-express-routers-controllers-full.md) | [Dev Skills Lab Part 1](./Unit_2/3-express-framework/3.3.1-dev-skills-lab-part-1.md)  |  |
+| **Express Framework** | [EJS Partial Templates](./Unit_2/3-express-framework/3.3-ejs-partial-templates.md)<br>---<br>[Express Middleware](./Unit_2/3-express-framework/3.4-express-middleware-full.md) | [Express Update To Do](./Unit_2/3-express-framework/3.5-express-update-to-do.md)<br>---<br>[Dev Skills Lab Part 2](./Unit_2/3-express-framework/3.5.1-dev-skills-lab-part-2.md)  |  |
+| **Promises** | [Promises](./Unit_2/4-promises/4.1-js-promises.md) |  |  |
+| **APIs** | [Consuming 3rd Party APIs](./Unit_2/5-apis/5.1-consuming-3rd-party-apis-full.md) | [Consuming APIs Lab](./Unit_2/5-apis/5.2-consuming-apis-lab.md)  |  |
+| **Regular Expressions** | [Regular Expressions](./Unit_2/6-regular-expressions/6.1-regular-expressions.md) |  |  |
+| **Intro to MongoDB** | [Atlas Hosted MongoDB](./Unit_2/7-mongodb/7.1-atlas-hosted-mongodb.md)<br>---<br>[Intro to MongoDB](./Unit_2/7-mongodb/7.2-mongodb-intro.md) |  |  |
+| **Intro to Mongoose** | [Intro to Mongoose](./Unit_2/8-mongoose/8.1-mongoose-intro-full.md) | [Mongoose Flights Lab Part 1](./Unit_2/8-mongoose/8.1.2-mongoose-flights-lab-part-1.md) |  |
+| **Mongoose Embedding Related Data** | [Embedding Related Data](./Unit_2/8-mongoose/8.2-mongoose-embedding-related-data-full.md) | [Mongoose Flight Labs Part 2](./Unit_2/8-mongoose/8.2.1-mongoose-flights-lab-part-2.md) | [Single Model "Create" Practice](./Unit_2/8-mongoose/8.3-optional-mongoose-single-model-create-practice.md) |
+| **Mongoose Referencing Related Data** | [Referencing Related Data](./Unit_2/8-mongoose/8.4-mongoose-referencing-related-data-full.md) | [Mongoose Flight Labs Part 3](./Unit_2/8-mongoose/8.4.1-mongoose-flights-lab-part-3.md)<br>---<br>[Mongoose Seeding Data & Queries Lab](./Unit_2/8-mongoose/8.4.2-mongoose-seeding-data-and-queries-lab.md) |  |
+| **OAuth & Express Passport** | [Google OAuth & Authorization](./Unit_2/9-authentication/9.1-oauth-authentication-full.md) |  |  |
+| **Deployment** | [Heroku & Atlas](./Unit_2/10-heroku-atlas-deployment/README.md) |  |  |
+| **Express TDD** | [Express Testing](./Unit_2/11-testing-node/11.1-express-tdd-master/) | [Express Testing Lab](./Unit_2/11-testing-node/11.1.1-express-testing-lab/)  | []() |
 
 ### Unit 2 Syllabus
 
