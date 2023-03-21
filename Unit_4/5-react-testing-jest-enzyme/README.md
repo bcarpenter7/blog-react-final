@@ -1,10 +1,11 @@
-# Testing in React with Jest
+# Testing in React with Jest & React Testing Library
 
 ## Learning Objectives (5 min / 0:05)
-* Discuss the features of Jest and Enzyme
-* Finish setting up a development environment with create-react-app
-* Implement test driven development processes
-* Use Jest and Enzyme to test React applications
+- Understand the importance of testing in software development.
+- Explain the purpose of the React Testing Library and how it works.
+- Write tests using React Testing Library to check the functionality of a simple counter component.
+- Debug and troubleshoot tests that do not pass.
+- Apply their understanding of React Testing Library to test other React components in their projects.
 
 * What is automated testing?
 ## Quick Review (5 min / 0:10)
@@ -35,20 +36,13 @@ Smoke, functional, regression, performance, usability, security, compatibility, 
 ## What is Jest?
 Jest is an easy to configure testing framework built by Facebook for testing JavaScript code. Jest runs your tests for you automatically when you have it in watch mode. It runs your tests in node instead of the browser so that they run faster. It also contains the API we will use to actually test our components.
 
-## What is Enzyme?
-Enzyme mimics JQuery's DOM manipulation library to make testing React easier. It allows us to grab the state of the component, simulate user actions, and grab elements from the virtual DOM.
+## What is  React Testing Library?
+React Testing Library is a popular testing framework used to test React components. The library provides a set of utilities that make it easy to test React components in isolation and ensure that they render correctly and function as expected. The library is based on the philosophy of testing the behavior of components rather than their implementation details.
 
 ## Configuration (10 min / 0:20)
 Jest automatically looks for files with a `test.js` suffix, or for files in a `__tests__` folder. We will use the suffix today.
 
-Let's start a React app for our testing purposes today.
-
-If you have `create-react-app` installed globally with npm, run: 
-```bash
-$ create-react-app testing-lesson
-```
-
-Otherwise run 
+run 
 ```bash
 $ npx create-react-app testing-lesson
 ```
@@ -64,75 +58,41 @@ You can see in `App.test.js` that we only have one test right now: `renders with
 Jest comes completely configured within `create-react-app`, so we don't have to do anything else to get it working. Let's now set up Enzyme.
 
 ```bash
-$ yarn add enzyme enzyme-adapter-react-16 react-test-renderer
+$ yarn add  @testing-library/react @testing-library/jest-dom @testing-library/user-event jest
 ```
-
-Create a file `setupTests.js`. Create-react-app reads this file to see if there is any additional setup for the tests. In that file, add the following:
-
-```js
-import { configure } from 'enzyme'
-import Adapter from 'enzyme-adapter-react-16'
-
-configure({ adapter: new Adapter() })
-```
-
-We should be good to write our first tests!
 
 ## What is Test Driven Development?
 Test driven development is a development strategy where you write the tests first and then your code second. The tests should fail first, then you should write the minimum code necessary to make that test pass, then refactor to make the code cleaner. Then the cycle starts again with a new test! We will be using test driven development today. [Here](https://www.madetech.com/blog/9-benefits-of-test-driven-development) is an article about the benefits of test driven development.
 
 ## We Do: Hello World
-Today, we will be building a couple of small projects in React. Let's create a components folder to store them.
 
-`$ mkdir src/components`
-
-Then, let's create a `HelloWorld` subdirectory within the components directory to create our first tests.
-
-Let's create two files within it -- one called `HelloWorld.js` and one called `HelloWorld.test.js`. Right now, we want to build a component that just renders out a name that's fed to it via props. Let's write a test to see if our app is doing that!
+In your App.js
 
 ```js
-//HelloWorld.test.js
 
-// Import React
-import React from 'react'
-import { shallow } from 'enzyme'
-
-import HelloWorld from './HelloWorld'
-
-// We will describe a block of tests
-describe('Hello world component', () => {
-	// we will write one individual test
-  it('should render as expected', () => {
-    // Shallow rendering renders a component without rendering any of its children
-    const component = shallow(<HelloWorld name={'Your name'} />)
-    // We create an assertion within the test that checks if our component renders our name prop
-    expect(component.contains('Your name')).toBe(true)
-  })
-})
+export default function App () {
+ return(<div> Hello World </div>)
+}
 
 ```
-Right now, our test fails. When we run `yarn test` we get the following error:
 
-![](./images/second-failure.png)
-
-
-Now, using test driven development principles, we will write the minimum code for it to pass. In this example, we just need a component that renders a name in it. Let's implement that:
+In your App.test.js
 
 ```js
 import React from 'react';
+import { render } from '@testing-library/react';
+import App from './App';
 
-class HelloWorld extends React.Component {
+test('renders App component', () => {
+  const { getByText } = render(<App />);
+  const linkElement = getByText(/Hello World/i);
+  expect(linkElement).toBeInTheDocument();
+});
 
-	render() {
-		return (
-			<h1>{this.props.name}</h1>
-		)
-	}
-}
-
-export default HelloWorld;
 ```
-Now our test passes!
+
+This test renders the App component and checks if it contains an element with the text "Hello World".
+
 
 ## You Do: Writing Tests for a Counter App (30 min / 0:50)
 
@@ -148,228 +108,191 @@ $ touch src/components/Counter.{js,test.js}
 
 Copy the following code into `Counter.test.js`:
 ```js
-import React from 'react'
-import { shallow } from 'enzyme'
+import React from "react";
+import { render, screen, fireEvent } from "@testing-library/react";
+import Counter from "./Counter";
 
-import Counter from './Counter'
+test("renders initial count of zero", () => {
+  const { getByText } = render(<Counter />);
+  const countElement = getByText(/count: 0/i);
+  expect(countElement).toHaveTextContent("Count: 0");
+});
 
-describe('Counter component', () => {
-
-  let component
-  beforeEach(() => {
-    component = shallow(<Counter />)
-  })
-  
-  // add the rest of the tests here
-
-})
 ```
-Now run `$ yarn test`. All previous tests should still be passing! No need to exit out of the tests, they will rerun automatically every time you save.
-
-One by one, copy a test into the body of the testing block. Then, make that test succeed before copying in another one.
-
-Take a look at the documentation for Jest and Enzyme as well. They will give you some context for the english verb-like function names.
-
-* https://facebook.github.io/jest/docs/en/api.html
-* https://github.com/airbnb/enzyme/tree/master/docs/api
-
 
 1. 
 ```js
-  it('should have a header that says "Counter"', () => {
-    expect(component.contains(<h1>Counter</h1>)).toBe(true)
-  })
+test('renders Counetr', () => {
+  render(<Counter />);
+  const heading = screen.getByRole('heading', { name: /Counter/i });
+  expect(heading).toBeInTheDocument();
+});
 ```
 
 2.
 ```js
-  it('should have a state attribute called number initialized to zero', () => {
-    expect(component.state('number')).toEqual(0)
-  })
+ test("increments count when increment button is clicked", () => {
+  const { getByText } = render(<Counter />);
+  const countElement = getByText(/count: 0/i);
+  const incrementButton = getByText(/increment/i);
+
+  fireEvent.click(incrementButton);
+
+  expect(countElement).toHaveTextContent("Count: 1");
+});
+
 ```
 
-3.
+3. 
+
 ```js
-  it('should display the current number in an element with the className number', () => {
-    expect(component.find('.number').text()).toEqual("0")
-  })
+ test("decrements count when decrement button is clicked", () => {
+  const { getByText } = render(<Counter />);
+  const countElement = getByText(/count: 0/i);
+  const dercrementButton = getByText(/decrement/i);
+
+  fireEvent.click(decrementButton);
+
+  expect(countElement).toHaveTextContent("Count: -1");
+});
+
 ```
 
-4.
-```js
-  it('should have a button with a class plus that increases the number in state', () => {
-    component.find('.plus').simulate('click')
-    expect(component.state('number')).toEqual(1)
-  })
-```
 
-5.
-```js
-  it('should have a button with a class minus that decreases the number in state', () => {
-    component.find('.minus').simulate('click')
-    expect(component.state('number')).toEqual(-1)
-  })
-```
-
-[Solution](./react-testing-solution/src/components/Counter/Counter.js)
 
 ## Break (10 min / 1:00)
 
-## We Do: To Do List App (60 min / 2:00)
-Let's now create a To Do list app using test driven development. First let's create our files.
+## We Do: Counter Component (60 min / 2:00)
 
-We will have two components -- a `ToDos.js` component which will hold individual `Todo.js` components.
-```bash
-$ mkdir src/components/ToDos
-$ touch src/components/ToDos/ToDo{s.js,.js,s.test.js}
-```
-
-Now let's scaffold the configuration for our testing file.
-
-`ToDos.test.js`
 ```js
-import React from 'react'
-import { mount } from 'enzyme'
+```jsx
+import React, { useState } from "react";
 
-import ToDos from './ToDos'
-import ToDo from './ToDo'
+function Counter() {
+  const [count, setCount] = useState(0);
 
-describe('ToDos Component', () => {
-  const listItems = [
-    { task: 'create lesson', done: false },
-    { task: 'clean apartment', done: false }
-  ]
+  const increment = () => setCount(count + 1);
 
-  let component
-  // called before every test
-  beforeEach(() => {
-    // this time, mount instead of shallow because we will have subcomponents within our ToDos component
-    component = mount(<ToDos tasks={listItems} />)
-  })
+  const decrement = () => setCount(count - 1);
 
-  // add tests here
-
-})
-```
-This looks pretty similar to our other testing blocks, but this time in `beforeEach()` we will use `mount` instead of `shallow` since we are going to have subcomponents within our parent component.  
-
-Let's add our first test:
-```js
-  it('Should contain two todo subcomponents', () => {
-    expect(component.find(ToDo).length).toBe(2)
-  })
-```
-
-Let's write the minimum amount of code to make this test pass:
-
-`ToDos.js`
-```js
-import React, { Component } from 'react'
-
-import ToDo from './ToDo'
-
-class ToDos extends Component {
-  render () {
-    return (
-      <div>
-        {this.props.tasks.map((task, idx) => 
-          <ToDo task={task} key={idx} />
-        )}
-      </div>
-    )
-  }
-}
-```
-
-`ToDo.js`
-```js
-import React from 'react'
-
-const ToDo = ({ task }) => {
   return (
     <div>
-      <div></div>
+      <h1>Counter</h1>
+      <h2>Count: {count}</h2>
+      <button onClick={increment}>Increment</button>
+      <button onClick={decrement}>Decrement</button>
     </div>
-  )
+  );
 }
+
+export default Counter;
 ```
-Now that we made that one pass, let's add another. 
+## Break (10 min / 1:00)
+
+## We Do: Todo Component (60 min / 2:00)
+Create a Todo Component
+First, let's create a Todo component that we can test. The Todo component should have a form that allows users to add new items to the todo list, and a list that displays all the current items in the list. The component should also have buttons to mark items as completed and to delete them.
+
+### Here's the code for the Todo component:
 ```js
-  it('Should render the todo list tasks', () => {
-    component.find(ToDo).forEach((todo, idx) => {
-      expect(todo.find('.task-name').text()).toBe(listItems[idx].task)
-    })
-  })
-```
+import React, { useState } from "react";
 
-The code to pass this one is pretty minimal!
-`ToDo.js`
-```diff
-import React from 'react'
+function Todo() {
+  const [items, setItems] = useState([]);
+  const [text, setText] = useState("");
 
-const ToDo = ({ task }) => {
+  const handleChange = (event) => setText(event.target.value);
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    if (!text) return;
+
+    setItems([...items, { text, completed: false }]);
+    setText("");
+  };
+
+  const handleComplete = (index) => {
+    const newItems = [...items];
+    newItems[index].completed = !newItems[index].completed;
+    setItems(newItems);
+  };
+
+  const handleDelete = (index) => {
+    const newItems = [...items];
+    newItems.splice(index, 1);
+    setItems(newItems);
+  };
+
   return (
     <div>
-+      <div className='task-name'>{task.task}</div>
+      <form onSubmit={handleSubmit}>
+        <input type="text" value={text} onChange={handleChange} />
+        <button type="submit">Add</button>
+      </form>
+      <ul>
+        {items.map((item, index) => (
+          <li key={index}>
+            <span style={{ textDecoration: item.completed ? "line-through" : "none" }}>{item.text}</span>
+            <button onClick={() => handleComplete(index)}>Complete</button>
+            <button onClick={() => handleDelete(index)}>Delete</button>
+          </li>
+        ))}
+      </ul>
     </div>
-  )
+  );
 }
+
+export default Todo;
 ```
 
-Now let's create functionality for making a new list item.
+### Test the Todo Component
+Now that we have our Todo component, let's write some tests for it using React Testing Library. We'll start by creating a new file called `Todo.test.js` and importing the Todo component:
+
 ```js
-  it(`Should have have a state attribute for the new todo that should update 
-      when the user types in an input`, () => {
-    expect(component.state('newTodo')).toBe('')
-    component.find('input').simulate('change', {target: {value: 'hello'}})
-    expect(component.state('newTodo')).toBe('hello')
-  })
-```
-Note that we can mock events by adding targets and values to the `simulate` method! We normally access `e.target.value`, so we create a similar structure when we mock the event!
+import React from "react";
+import { render, fireEvent } from "@testing-library/react";
+import Todo from "./Todo";
 
-`ToDos.js`
-```diff
-class ToDos extends Component {
-  constructor (props) {
-    super(props)
-
-    this.state = {
-+      newTodo: '',
-    }
-  }
-
-+  handleChange = e => {
-+    this.setState({
-+      newTodo: e.target.value
-+    })
-+  }
-
-  render () {
-    return (
-      <div>
-+        <input onChange={this.handleChange}/>
-...
 ```
 
-### You Do: Finish To Do App (30 min / 2:30)
+Next, we'll write our first test. This test will check that the initial todo list is empty when the component first renders. We can use the render function from React Testing Library to render the Todo component and then use the queryByRole function to get the unordered list that should contain the todo items. We can then check that the list is empty:
 
-Write the following tests. After writing a test, implement the React code to pass that test.
-* `Should create a new todo on the click of a button and update the UI with it`
+```js
+test("renders empty todo list", () => {
+  const { queryByRole } = render(<Todo />);
+  const listElement = queryByRole("list");
+  expect(listElement.children.length).toBe(0);
+});
 
-* `Should mark todos as done on the click of a button`
+```
 
-* `Should have todos with the class checked if they are done and unchecked if they are not done`
+Next, we'll test that we can add new items to the todo list by submitting the form. We can use the fireEvent function from React Testing Library to simulate typing in the input field and then submitting the form. We can then check that the new item has been added to the list:
 
-Bonus: look at the completed application using `yarn start` and then style the application accordingly.
+```js
+test("adds new item to todo list", () => {
+  const { getByLabelText, queryByRole } = render(<Todo />);
+  const inputElement = getByLabelText(/add new todo/i);
+  const listElement = queryByRole("list");
 
-[Solution](./react-testing-solution/src/components/ToDos/)
+  fireEvent.change(inputElement, { target: { value: "Walk the dog" } });
+  fireEvent.submit(inputElement);
+
+  expect(listElement.children.length).toBe(1);
+  expect(listElement.firstChild.textContent).toBe("Walk the dog");
+});
+
+```
+
+### Challenge 20min
+
+What else could we test?
 
 ## Conclusion
 * Why is test driven development helpful?
-* What is Jest? How about Enzyme?
-* What is the difference between `shallow` and `mount`?
+* What is Jest? How about React testing library?
 
 ### Resources
-* [Solution Branch](./react-testing-solution/src/)
+
 * [Jest](http://facebook.github.io/jest/)
-* [Enzyme](https://github.com/airbnb/enzyme/tree/master/docs/api)
+
