@@ -1,4 +1,4 @@
-# Testing in React with Jest
+# Testing in React with Jest & React Testing Library
 
 ## Learning Objectives (5 min / 0:05)
 - Understand the importance of testing in software development.
