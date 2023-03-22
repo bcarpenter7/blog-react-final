@@ -200,6 +200,10 @@ We can also test the other endpoints and the final code looks like this
 const request = require('supertest');
 const app = require('../app');
 
+beforeAll(done => {
+  done()
+})
+
 describe('Test the root path', () => {
   test('It should respond with "Hello World!"', async () => {
     const response = await request(app).get('/');
@@ -232,6 +236,11 @@ describe('Test the users endpoints', () => {
   });
 });
 
+afterAll(done => {
+  // Closing the connection allows Jest to exit successfully.
+  done()
+})
+
 ```
 
 ```js
@@ -240,6 +249,8 @@ describe('Test the users endpoints', () => {
 const express = require('express');
 
 const app = express();
+
+app.use(express.json());
 
 app.get('/', (req, res) => {
   res.send('Hello World!');
