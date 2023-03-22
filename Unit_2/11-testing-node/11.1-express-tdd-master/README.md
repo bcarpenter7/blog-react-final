@@ -83,9 +83,10 @@ To start the app, add the following code to the end of the app.js file:
 ```js
 const PORT = process.env.PORT || 3000;
 
-app.listen(PORT, () => {
+server = app.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}`);
 });
+module.exports = {app, server} // this is so we can stop the server programmatically 
 ```
 This starts the app and listens on port 3000 by default. If you want to specify a different port, you can set the PORT environment variable before starting the app.
 
@@ -119,6 +120,12 @@ describe('Test the root path', () => {
     expect(response.statusCode).toBe(200);
   });
 });
+
+afterAll(done => {
+  // Closing the connection allows Jest to exit successfully.
+  server.close()
+  done()
+})
 ```
 Let's go through this code line by line:
 
@@ -187,7 +194,10 @@ describe('Test the users endpoints', () => {
     const response = await request(app)
       .post('/users')
       .send({ name: 'John Doe', email: 'john.doe@example.com' });
-    expect(response.body).toEqual({ name: 'John Doe', email: 'john
+    expect(response.body).toEqual({ name: 'John Doe', email: 'john.doe@example.com'});
+ });
+// more tests here
+})
 
 ```
 
@@ -198,11 +208,7 @@ We can also test the other endpoints and the final code looks like this
 ```js
 // app.test.js
 const request = require('supertest');
-const app = require('../app');
-
-beforeAll(done => {
-  done()
-})
+const {app, server} = require('../app');
 
 describe('Test the root path', () => {
   test('It should respond with "Hello World!"', async () => {
@@ -238,8 +244,10 @@ describe('Test the users endpoints', () => {
 
 afterAll(done => {
   // Closing the connection allows Jest to exit successfully.
+  server.close()
   done()
 })
+
 
 ```
 
@@ -274,10 +282,10 @@ app.delete('/users/:id', (req, res) => {
 
 const PORT = process.env.PORT || 3000;
 
-app.listen(PORT, () => {
+const server = app.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}`);
 });
-module.exports = app
+module.exports = { app, server }
 ```
 ### Conclusion
 
