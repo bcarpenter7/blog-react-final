@@ -1,26 +1,26 @@
 [![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
 
-# Testing Node with Mocha/Chai
+# Testing Node with Jest and Supertest
 
-## Learning Objectives
-- Describe the importance of testing your code programmatically
-- Use describe and assertion functions to do basic testing
+## By the end of this lesson, you will be able to:
+
+* Explain the importance of testing Node.js APIs with Jest and Supertest.
+* Create a new Node.js project and install the necessary dependencies.
+* Write a simple Node.js API using Express.js.
+* Use Jest and Supertest to write unit tests for a Node.js API.
+* Test multiple API endpoints and handle responses.
+* Understand the different types of tests for Node.js applications.
+
 
 ## Framing
 
-We've now created a number of applications.  Many of these apps cover a single topic, so most of the time, they are quite small.  But when you create a larger application, the codebase will become bigger and more complex every time you add some features. At some point, adding code in File A will break features in File B, and to avoid these "side-effects", or at least recognize to immediately when they happen, we need to write tests our app and run them on each change. 
+As we develop more complex applications, it becomes increasingly challenging to maintain the codebase's integrity as we add new features. To mitigate the risks of side-effects or unexpected bugs, we need to write tests for our applications and run them frequently.
 
-As programmers, we use code to solve problems. Most libraries and frameworks have testing libraries available that let us write code to evaluate the robustness, completeness and flexibility of our applications. In a production-level application, providing a high level of [test coverage](https://www.guru99.com/test-coverage-in-software-testing.html) for an application is almost always required in order to guarantee that code is bug-free and functions as intended.
+As developers, we use code to solve problems, and most libraries and frameworks provide testing libraries that enable us to evaluate the robustness, completeness, and flexibility of our applications. In production-level applications, achieving high test coverage is almost always required to ensure the code is bug-free and functions as intended.
 
-There are many types of tests that we can create for our applications: 
+There are several types of tests we can create for our applications, including unit tests, integration tests, end-to-end tests, performance tests, acceptance tests, and more. Today, we'll focus on unit tests, which are the smallest and most microscopic level of testing that evaluates individual methods and functions within a codebase.
 
-- Unit tests: the smallest, most microscopic level of testing. Evaluates individual methods and functions within a codebase. The kind we'll be writing today!
-- Integration tests: ensure that different services and modules work together. 
-- End-to-end tests: verify that application responds as expected to user interactions, such as evaluating how user input edge cases are handled. 
-- Performance tests: also known as load testing, and evaluate application's response to heavy traffic (number of requests, large amounts of data).
-- Acceptance tests: ensure that the application meets its given business requirements. 
-
-... and more! As we graduate from focusing on _how_ to build applications, we focus on learning how to build _better_ applications. The next level of sophistication we can introduce is testing coverage to ensure that our applications are robust and can maintain their integrity in the face of changes. Automated testing is also an important part of the Continuous Integration/Continuous Delivery model in DevOps. For many junior developers and engineers, their first few weeks or months at an organization might include writing tests to gain familiarity with a codebase. 
+As we progress from learning how to build applications to building better applications, we introduce testing coverage to ensure our applications are robust and maintain their integrity as we make changes. Automated testing is also a crucial part of the Continuous Integration/Continuous Delivery (CI/CD) model in DevOps. For many junior developers and engineers, writing tests to become familiar with a codebase is a common task during their first few weeks or months at an organization.
 
 ### Essential Questions
 
@@ -40,330 +40,256 @@ A development methodology of writing the tests first, then writing the code to m
 
 **❓ How is this approach different than the one we've taken so far when building our APIs?**
 
-## Intro to JavaScript Testing with Mocha & Chai
+## Intro to JavaScript Testing with Jest and Supertest
 
-To test our code in Node, we will use two primary libraries: one to run the tests and a second one to run the assertions.
+Testing is an essential part of software development, and it's crucial to have a comprehensive test suite to ensure that your code is working as intended. To test our code in Node, we will use two primary libraries: one to run the tests and a second one to help us with making http requests to apis, these libraries are Jest and Supertest. Testing your Node.js APIs with Jest and Supertest is a straightforward and efficient way to write unit and integration tests that cover all your API endpoints.
 
-Mocha will be our testing framework, but we're mostly just using it as a test runner. From the [Mocha Website](https://mochajs.org/)...
+Jest is a popular testing framework for JavaScript that provides a simple and intuitive API for writing tests. It comes with built-in support for assertions, mocking, and code coverage, making it a great choice for testing Node.js applications.
 
-> "Mocha is a feature-rich JavaScript test framework running on Node.js and the browser, making asynchronous testing simple and fun. Mocha tests run serially, allowing for flexible and accurate reporting, while mapping (associating) uncaught exceptions to the correct test cases."
+Supertest is an HTTP testing library for Node.js that allows you to test your API endpoints by sending HTTP requests and asserting the response. It provides an easy-to-use API for making requests and handling responses, making it a great choice for testing your Node.js APIs.
 
-For assertions, we will use Chai. From the [Chai website](http://chaijs.com/)...
-
-> "Chai is a BDD / TDD assertion library for Node and the browser that can be delightfully paired with any JavaScript testing framework."
-
-> Q: What the heck is an assertion? It's a way of writing a unit test that tests whether or not a test case is passing or failing by comparing the expected result with the actual result of a test.
-
-To be able to make HTTP requests inside tests, we will use [Supertest](https://github.com/visionmedia/supertest)...
-
-> "The motivation with this module is to provide a high-level abstraction for testing HTTP"
 
 ## We Do: Create Tests
 
 ### Setting up the app
 
-Clone down the starter code from [this
-repository](../7.1.1-express-testing-lab/).
-Take a moment to familiarize yourself with the Express app and get everything
-set up. 
+To follow along with this lesson, you can create a new Node.js project and install the necessary dependencies. Here are the steps to get started:
 
-1. Run ```npm install``` from the root directory.
-1. To test this app, we need to install a couple of dependencies. Let's install `mocha`, `chai` and `supertest`:
+* Create a new directory for your project: mkdir my-project
+* Navigate to the project directory: cd my-project
+* Initialize a new Node.js project: npm init -y
+* Install the necessary dependencies: npm install express jest supertest
+* We will use Express.js to create a simple API, Jest to write our tests, and Supertest to make HTTP requests and assert the response.
 
-```bash
-$ npm install mocha chai supertest --save-dev
-```
-
-> Note that we are installing these as `dev` dependencies because they will be used to test our application but are not going to be used in production. 
-
-Run ```nodemon app.js``` to start your express server. The app will be served at ```localhost:3000```. Check it out in the browser!
-
-
-### Files and Folders
-
-Now that we're configured, let's set up our file and folder structure. All the
-tests will be written inside a folder `test` inside of `/app`.
-
-```bash
-mkdir test
-```
-
-Then we will write the tests inside a file called `candies.test.js`...
-
-```bash
- $ touch test/candies.test.js
-```
-
-### Writing Our First Test
-
-Open the file `candies.test.js`. We now need to require some dependencies at the top of this file:
+### Writing the API
+Let's start by creating a simple API that we can test. Create a new file called `app.js` and add the following code:
 
 ```js
-const should = require('chai').should()
-const expect = require('chai').expect
-const supertest = require('supertest')
-const api = supertest(require('../app.js')
+const express = require('express');
+
+const app = express();
+
+app.get('/', (req, res) => {
+  res.send('Hello World!');
+});
+
+module.exports = app;
 ```
 
-For more information on the difference between `should` and `expect`, let's turn to the very readable [Chai documentation](https://www.chaijs.com/guide/styles/). 
+This creates a new Express.js app that responds with "Hello World!" when we make a GET request to the root endpoint ('/'). We can test this API by running the app and making a request to the endpoint using a tool like curl.
 
-All the tests need to be inside a `describe` function. We will use one `describe` block per route:
+To start the app, add the following code to the end of the app.js file:
 
 ```js
-describe("GET /candies", () => {
-  //tests will be written inside this function
-})
+const PORT = process.env.PORT || 3000;
+
+server = app.listen(PORT, () => {
+  console.log(`Server listening on port ${PORT}`);
+});
+module.exports = {app, server} // this is so we can stop the server programmatically 
+```
+This starts the app and listens on port 3000 by default. If you want to specify a different port, you can set the PORT environment variable before starting the app.
+
+To test the API, run the following command in your terminal:
+
+```bash
+$ node app.js
 ```
 
-First, we will write a test to make sure that a request to the index path `/candies` returns a http status 200...
+This will start the app, and you should see the message "Server listening on port 3000" in your console. Now, open a new terminal window and run the following command to make a GET request to the root endpoint:
 
-```javascript
-describe("GET /candies", () => {
-  it("should return a 200 response", done => {
-    api
-      .get("/candies")
-      .set("Accept", "application/json")
-      .expect(200, done)
-  })
-})
+```bash
+$ curl http://localhost:3000/
 ```
 
-Let's break down what's happening here.
+You should see the message "Hello World!" in your console, which means the API is working correctly.
 
-* `describe()` is a function that takes 2 arguments
-  * a string describing a group of operations that are about to happen (like
-      the title of this group of tests)
-  * a callback function that contains all of the individual tests
-* `it()` is a function that takes 2 arguments
-  * a string describing some behavior e.g. "should return an array of objects"
-  * a callback function that runs the actual test code. The callback takes an argument that you must call when the test is finished: e.g. `done`
-* Inside of `it()`, we are using an instance of `supertest` which we've assigned to the variable `api`.
-  * The first method called on `api` is `.get()` which actually performs a get request to the specified URL
-  * `.set()` sets an http header on the request. In this case we're specifying what type of data we want to receive
-  * `.expect()` tests the response. In this case we're checking to see if the status code is `200`. The second argument is the `done` function we've declared at the top of `it()`. Passing it in here tells the code we're finished with this block.
+Setting up the tests
+First, create a new directory called tests in your project directory. Inside this directory, create a new file called app.test.js. This is where we will write our tests.
 
-Now go in the command line and type `mocha`. When you do, you may get an error
-saying that the `mocha` command cannot be found.
+Open app.test.js and add the following code:
 
-This is because `mocha` is not installed globally on our machines (though it's
-possible you may have it already installed). While we could simply install mocha
-globally and run the test, we would not be using the specified version of
-`mocha` listed a dev dependency in our `package.json` and contained in
-`node_modules`.
+```js
+const request = require('supertest');
+const app = require('../app');
 
-In order to run mocha from our local `node_modules` folder, do the following:
-
-1. Run mocha directly from our `node_modules` folder to ensure you've installed it properly:
-    ```bash
-    node_modules/.bin/mocha
-    ```
-    
-2. Alias the `mocha` command to an npm script in our `package.json`:
-    ```javascript
-    {
-      ...
-      "scripts": {
-        "test": "node_modules/.bin/mocha"
-      },
-      ...
-    }
-    ```
-    > One thing to keep in mind when using NPM to run tests (really running anything with NPM scripts for that matter) is that NPM will prefer local node modules over globally installed modules. If something has not been installed properly locally this could lead to [differing behavior](https://stackoverflow.com/a/28666483) between running `mocha` and `npm test`.
-3. Run `npm test`. Now we can run it locally from our projects without having to install it globally on our machines, and manage another globally installed package.
-
->     You can also simply run `npx mocha`, which will look inside the specified dependency and execute the binary it finds. `npx` executes whatever command you put after it, first looking in your `node_modules` directory. If it doesn't exist in `node_modules` then it is installed locally.
-
-> So you can also run `npx mocha` and it will execute `node_modules/.bin/mocha` for you.
-
-You will know the test successfully ran when if get an output looking like this...
-
-![CLI Screenshot](./images/Screen_Shot_2015_08_12_at_12_17_01.png)
-
-This test is passing!
-
-> If you get an error like `ECONNREFUSED` make sure your express server is running.
-
-> If you get an error that says your server responded with a 404 instead of a 200 or if your test code hangs, try changing your PORT number to another one, like 3005!
-
-### Test Blocks
-
-Every block of code that starts with `it()` represents a test. Each test is performed in sequence, one after the other, in a queue.
-
-The `callback` represents a function that Mocha will pass to the code so that the next test will be executed only when the current is finished and the `done` function is called - this allows tests to be executed once at a time. It's almost like the resolve function of a `Promise`.
-
-Now, let's verify the content of the response by looking at the data sent back by hitting the `/candies` endpoint...
-
-```javascript
-[
-  {
-    id: 1,
-    name: 'Toffee Bar',
-    color: 'Brown, Caramel'
-  }, {
-    id: 2,
-    name: 'Pez',
-    color: 'Green'
-  }, {
-    id: 3,
-    name: 'Pop Rocks',
-    color: 'Pink'
-  }, {
-    id: 4,
-    name: 'Sour Patch Kids',
-    color: 'Blue'
-  }
-]
-```
-
-We can write a test that verifies the response is an array...
-
-```javascript
-it("should return an array", done => {
-  api
-    .get("/candies")
-    .set("Accept", "application/json")
-    .end((error, response) => {
-      expect(response.body).to.be.an('array');
-      done()
-    })
-  })
-```
-
-NB: In the first test, we were using the `.expect` method of `supertest`. Here we are using the expect function provided by `chai`.
-
-We can write another test that verifies the presence of a field in the response...
-
-```javascript
-it("should return an array of objects that have a field called 'name' ", done => {
-  api
-    .get("/candies")
-    .set("Accept", "application/json")
-    .end((error, response) => {
-        response.body.forEach(candy => {
-          expect(candy).to.have.property('name');
-        });
-      done()
-   })
-})
-```
-
-We can also send data to the server and test the behavior - in our case, we want to make sure that when we post some JSON to `/candies`, a new object is added to the array candies.
-
-Because we are going to test another route, lets add another describe block...
-
-```javascript
-describe("POST /candies", () => {
-
-})
-```
-
-For this test, we need to:
-
-1. Create a new object by sending a `POST` request
-2. Verify that a new object has been "saved" by requesting the index route
-
-For this, we will use `before` blocks. A `before` block will be executed ONCE BEFORE all the tests in the `describe` block.
-
-Add this inside the new `describe` block...
-
-```javascript
-describe("POST /candies", () => {
-  const newCandy = {
-    id: 5,
-    name: 'Lollipop',
-    color: 'Red'
-  };
-  before(done => {
-    api
-      .post('/candies')
-      .set('Accept', 'application/json')
-      .send(newCandy)
-      .end(done);
+describe('Test the root path', () => {
+  test('It should respond with "Hello World!"', async () => {
+    const response = await request(app).get('/');
+    expect(response.text).toBe('Hello World!');
+    expect(response.statusCode).toBe(200);
   });
+});
+
+afterAll(done => {
+  // Closing the connection allows Jest to exit successfully.
+  server.close()
+  done()
 })
 ```
+Let's go through this code line by line:
 
-This code will be called at the beginning of the test block. There's also another method called `beforeEach()` which runs before every test.
+* We start by importing Supertest and our Express.js app (app).
+* We use the describe function to group our tests under a common name.
+* We use the test function to write our test case. In this case, we are testing the root endpoint ('/').
+* We use the request function from Supertest to make a GET request to the endpoint.
+* We use the expect function from Jest to assert that the response body is equal to "Hello World!" and that the status code is 200.
 
-For more information on the difference between `before` and `beforeEach`: https://stackoverflow.com/questions/21418580/what-is-the-difference-between-before-and-beforeeach
+## Running the tests
+go to your package.json and find the field under `scripts` that says `test` change that to run jest
 
-Now, we can verify that calling "POST" will add an object to candies...
-
-```javascript
-  it('should add a candy object to the collection candies and return it', done => {
-    api
-      .get('/candies')
-      .set('Accept', 'application/json')
-      .end((error, response) => {
-        expect(response.body.find(candy => candy.id === newCandy.id)).to.be.an(
-          'object'
-        );
-        done();
-      });
-  });
+```js
+"test": "jest"
 ```
 
-Run `npm test` in your CLI, you should now have four passing tests!
+To run the tests, open a terminal window and run the following command:
 
-**❓❓ What other ways can we test whether this route works? How many times can you run these tests and have them pass?**
+```bash
+npm run test
+```
+This will run all the tests in the tests directory and display the results in the console. If everything is working correctly, you should see a message like this:
 
-## Break (10 min / 1:15)
+```vbnet
+Test the root path
+  ✓ It should respond with "Hello World!" (10 ms)
 
-## Practice
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+```
+Congratulations, you've just written your first test for a Node.js API using Jest and Supertest!
 
-Write your own tests now!
+## Adding more endpoints
+Let's expand on our API and add a few more endpoints to test. Open app.js and add the following code:
 
-1. Write a test that makes sure the object is returned with right fields (i.e., ```id```, ```name```, ```color```) when you call ```GET /candies/:id```.
-2. Write a test that ensures an object is deleted from the array candies when you call ```DELETE /candies/:id```.
-3. Write a test that ensures a property is updated when you call ```PUT /candies/:id```.
+```js
+app.post('/users', (req, res) => {
+  const { name, email } = req.body;
+  res.json({ name, email });
+});
 
-<!--
-   - ## Review practice (30 min / 2:05)
-   - 
-   - <details>
-   -   <summary>
-   -   Code for 1
-   -   </summary>
-   - 
-   -   ```js
-   - describe('GET /candies/:id', function() {
-   -   it('should return an object with id, name, color', done => {
-   -     api.get('/candies/2')
-   -     .end((err, response) => {
-   -       expect(response.body).to.have.property('name')
-   -       expect(response.body).to.have.property('color')
-   -       expect(response.body).to.have.property('id')
-   -       done()
-   -     })
-   -   })
-   - })
-   -   ```
-   - </details>
-   - 
-   - <details>
-   -   <summary>
-   -   Code for 2
-   -   </summary>
-   - </details>
-   - 
-   - <details>
-   -   <summary>
-   -   Code for 3
-   -   </summary>
-   - </details>
-   -->
+app.put('/users/:id', (req, res) => {
+  const { id } = req.params;
+  const { name, email } = req.body;
+  res.json({ id, name, email });
+});
 
-## Conclusion
+app.delete('/users/:id', (req, res) => {
+  const { id } = req.params;
+  res.json({ id });
+});
+```
 
-<!--
-   - > Review the answers to the tests specs above
-   -->
+This adds three new endpoints:
 
-We've covered the principles of testing in JavaScript, but Chai offers a lot of different expectations syntaxes. Check the [Chai Documentation](http://chaijs.com/api/)
+- `/users` - accepts a POST request with a JSON body containing a name and an email property, and responds with the same data.
+- `/users/:id` - accepts a PUT request with a JSON body containing a name and an email property, and responds with the updated data and the id parameter from the URL.
+- `/users/:id` - accepts a DELETE request and responds with the id parameter from the URL.
 
-- How does Mocha work with Chai to write tests in your JavaScript application?
-- Describe how to configure your app to use Mocha and Chai.
+Writing more tests
+Now that we have more endpoints, let's write tests for them. Open app.test.js and add the following code:
 
+```js
+describe('Test the users endpoints', () => {
+  test('It should create a new user', async () => {
+    const response = await request(app)
+      .post('/users')
+      .send({ name: 'John Doe', email: 'john.doe@example.com' });
+    expect(response.body).toEqual({ name: 'John Doe', email: 'john.doe@example.com'});
+ });
+// more tests here
+})
+
+```
+
+This test creating a new user lets run npm run test and see if our tests pass.
+
+We can also test the other endpoints and the final code looks like this
+
+```js
+// app.test.js
+const request = require('supertest');
+const {app, server} = require('../app');
+
+describe('Test the root path', () => {
+  test('It should respond with "Hello World!"', async () => {
+    const response = await request(app).get('/');
+    expect(response.text).toBe('Hello World!');
+    expect(response.statusCode).toBe(200);
+  });
+});
+
+describe('Test the users endpoints', () => {
+  test('It should create a new user', async () => {
+    const response = await request(app)
+      .post('/users')
+      .send({ name: 'John Doe', email: 'john.doe@example.com' });
+    expect(response.body).toEqual({ name: 'John Doe', email: 'john.doe@example.com' });
+    expect(response.statusCode).toBe(200);
+  });
+
+  test('It should update a user', async () => {
+    const response = await request(app)
+      .put('/users/123')
+      .send({ name: 'Jane Doe', email: 'jane.doe@example.com' });
+    expect(response.body).toEqual({ id: '123', name: 'Jane Doe', email: 'jane.doe@example.com' });
+    expect(response.statusCode).toBe(200);
+  });
+
+  test('It should delete a user', async () => {
+    const response = await request(app).delete('/users/123');
+    expect(response.body).toEqual({ id: '123' });
+    expect(response.statusCode).toBe(200);
+  });
+});
+
+afterAll(done => {
+  // Closing the connection allows Jest to exit successfully.
+  server.close()
+  done()
+})
+
+
+```
+
+```js
+// app.js
+
+const express = require('express');
+
+const app = express();
+
+app.use(express.json());
+
+app.get('/', (req, res) => {
+  res.send('Hello World!');
+});
+
+app.post('/users', (req, res) => {
+  const { name, email } = req.body;
+  res.json({ name, email });
+});
+
+app.put('/users/:id', (req, res) => {
+  const { id } = req.params;
+  const { name, email } = req.body;
+  res.json({ id, name, email });
+});
+
+app.delete('/users/:id', (req, res) => {
+  const { id } = req.params;
+  res.json({ id });
+});
+
+const PORT = process.env.PORT || 3000;
+
+const server = app.listen(PORT, () => {
+  console.log(`Server listening on port ${PORT}`);
+});
+module.exports = { app, server }
+```
+### Conclusion
+
+Testing Node.js APIs with Jest and Supertest is essential for ensuring the robustness and reliability of your web applications. With the right tools and knowledge, writing unit tests for your API endpoints becomes straightforward and efficient. By following the steps outlined in this lesson, you'll be well on your way to creating a comprehensive test suite that covers all your API endpoints and helps you identify bugs and side-effects before they become a problem.
 
 ## BONUS: Testing Glossary
 
