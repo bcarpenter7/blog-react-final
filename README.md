@@ -114,7 +114,7 @@
 | **Regular Expressions** | [Regular Expressions](./Unit_2/6-regular-expressions/6.1-regular-expressions.md) |  |  |
 | **Intro to MongoDB** | [Atlas Hosted MongoDB](./Unit_2/7-mongodb/7.1-atlas-hosted-mongodb.md)<br>---<br>[Intro to MongoDB](./Unit_2/7-mongodb/7.2-mongodb-intro.md) |  |  |
 | **Intro to Mongoose** | [Intro to Mongoose](./Unit_2/8-mongoose/8.1-mongoose-intro-full.md) | [Mongoose Flights Lab Part 1](./Unit_2/8-mongoose/8.1.2-mongoose-flights-lab-part-1.md) |  |
-| **Mongoose Embedding Related Data** | [Embedding Related Data](./Unit_2/8-mongoose/8.2-mongoose-embedding-related-data-full.md) | [Mongoose Flight Labs Part 2](./Unit_2/8-mongoose/8.2.1-mongoose-flights-lab-part-2.md) | [Single Model "Create" Practice](./Unit_2/8-mongoose/8.3-optional-mongoose-single-model-create-practice.md) |
+| **Mongoose Embedding Related Data** | [Embedding Related Data](./Unit_2/8-mongoose/8.2-mongoose-embedding-related-data-full.md) | [Mongoose Flight Labs Part 2](./Unit_2/8-mongoose/8.2.1-mongoose-flights-lab-part-2.md)<br>---<br>[Single Model "Create" Practice](./Unit_2/8-mongoose/8.3-optional-mongoose-single-model-create-practice.md) |  |
 | **Mongoose Referencing Related Data** | [Referencing Related Data](./Unit_2/8-mongoose/8.4-mongoose-referencing-related-data-full.md) | [Mongoose Flight Labs Part 3](./Unit_2/8-mongoose/8.4.1-mongoose-flights-lab-part-3.md)<br>---<br>[Mongoose Seeding Data & Queries Lab](./Unit_2/8-mongoose/8.4.2-mongoose-seeding-data-and-queries-lab.md) |  |
 | **OAuth & Express Passport** | [Google OAuth & Authorization](./Unit_2/9-authentication/9.1-oauth-authentication-full.md) |  |  |
 | **Deployment** | [Heroku & Atlas](./Unit_2/10-heroku-atlas-deployment/README.md) |  |  |
