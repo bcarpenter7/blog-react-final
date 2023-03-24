@@ -23,7 +23,7 @@ when you create a larger application, the codebase will become bigger and more c
 * What tools did we use to test Express apps?
 
 <details><summary>Answer</summary>
-Mocha, Chai, SuperTest</details>
+Jest, SuperTest</details>
 
 
 * What types of testing are there?
@@ -53,9 +53,9 @@ We can run `$ yarn test` right now and see what happens.
 
 We get some feedback from the app that our tests are all passing!
 
-You can see in `App.test.js` that we only have one test right now: `renders without crashing`. We are going to be using Enzyme on top of Jest, so our tests will look different today.
+You can see in `App.test.js` that we only have one test right now.
 
-Jest comes completely configured within `create-react-app`, so we don't have to do anything else to get it working. Let's now set up Enzyme.
+Lets install our packages. 
 
 ```bash
 $ yarn add  @testing-library/react @testing-library/jest-dom @testing-library/user-event jest
