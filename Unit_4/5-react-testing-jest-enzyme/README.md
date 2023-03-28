@@ -165,7 +165,6 @@ test('renders Counetr', () => {
 ## We Do: Counter Component (60 min / 2:00)
 
 ```js
-```jsx
 import React, { useState } from "react";
 
 function Counter() {
@@ -187,6 +186,7 @@ function Counter() {
 
 export default Counter;
 ```
+
 ## Break (10 min / 1:00)
 
 ## We Do: Todo Component (60 min / 2:00)
