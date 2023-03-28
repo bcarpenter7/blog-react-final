@@ -122,7 +122,7 @@ test("renders initial count of zero", () => {
 
 1. 
 ```js
-test('renders Counetr', () => {
+test('renders Counter', () => {
   render(<Counter />);
   const heading = screen.getByRole('heading', { name: /Counter/i });
   expect(heading).toBeInTheDocument();
