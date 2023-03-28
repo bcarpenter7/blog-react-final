@@ -102,7 +102,7 @@ We want to build a counter app. When we press a button, we want a number stored 
 
 Let's create a folder and some files for our counter app.
 ```bash
-$ mkdir src/components/Counter
+$ mkdir src/components
 $ touch src/components/Counter.{js,test.js}
 ```
 
