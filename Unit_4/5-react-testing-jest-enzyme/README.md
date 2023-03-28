@@ -228,7 +228,7 @@ function Todo() {
     <div>
       <form onSubmit={handleSubmit}>
         <input type="text" value={text} onChange={handleChange} />
-        <button type="submit">Add</button>
+        <button type="submit">Add New Todo</button>
       </form>
       <ul>
         {items.map((item, index) => (
