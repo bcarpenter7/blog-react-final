@@ -227,8 +227,8 @@ function Todo() {
   return (
     <div>
       <form onSubmit={handleSubmit}>
-        <input type="text" value={text} onChange={handleChange} />
-        <button type="submit">Add New Todo</button>
+        <label>Add New Todo<input type="text" value={text} onChange={handleChange} /></label>
+        <button type="submit">Add</button>
       </form>
       <ul>
         {items.map((item, index) => (
@@ -279,7 +279,7 @@ test("adds new item to todo list", () => {
   fireEvent.submit(inputElement);
 
   expect(listElement.children.length).toBe(1);
-  expect(listElement.firstChild.textContent).toBe("Walk the dog");
+  expect(listElement.firstChild.textContent).toContain("Walk the dog");
 });
 
 ```
