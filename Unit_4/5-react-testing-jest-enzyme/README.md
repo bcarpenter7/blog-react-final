@@ -149,7 +149,7 @@ test('renders Counetr', () => {
  test("decrements count when decrement button is clicked", () => {
   const { getByText } = render(<Counter />);
   const countElement = getByText(/count: 0/i);
-  const dercrementButton = getByText(/decrement/i);
+  const decrementButton = getByText(/decrement/i);
 
   fireEvent.click(decrementButton);
 
@@ -162,7 +162,7 @@ test('renders Counetr', () => {
 
 ## Break (10 min / 1:00)
 
-## We Do: Counter Component (60 min / 2:00)
+## We Do: Counter Component (5 min / 1:05)
 
 ```js
 import React, { useState } from "react";
@@ -187,9 +187,9 @@ function Counter() {
 export default Counter;
 ```
 
-## Break (10 min / 1:00)
+## Break (10 min / 1:15)
 
-## We Do: Todo Component (60 min / 2:00)
+## We Do: Todo Component (5 min / 1:20)
 Create a Todo Component
 First, let's create a Todo component that we can test. The Todo component should have a form that allows users to add new items to the todo list, and a list that displays all the current items in the list. The component should also have buttons to mark items as completed and to delete them.
 
