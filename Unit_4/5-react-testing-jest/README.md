@@ -23,7 +23,7 @@ when you create a larger application, the codebase will become bigger and more c
 * What tools did we use to test Express apps?
 
 <details><summary>Answer</summary>
-Mocha, Chai, SuperTest</details>
+Jest, SuperTest</details>
 
 
 * What types of testing are there?
@@ -53,9 +53,9 @@ We can run `$ yarn test` right now and see what happens.
 
 We get some feedback from the app that our tests are all passing!
 
-You can see in `App.test.js` that we only have one test right now: `renders without crashing`. We are going to be using Enzyme on top of Jest, so our tests will look different today.
+You can see in `App.test.js` that we only have one test right now.
 
-Jest comes completely configured within `create-react-app`, so we don't have to do anything else to get it working. Let's now set up Enzyme.
+Lets install our packages. 
 
 ```bash
 $ yarn add  @testing-library/react @testing-library/jest-dom @testing-library/user-event jest
@@ -102,7 +102,7 @@ We want to build a counter app. When we press a button, we want a number stored 
 
 Let's create a folder and some files for our counter app.
 ```bash
-$ mkdir src/components/Counter
+$ mkdir src/components
 $ touch src/components/Counter.{js,test.js}
 ```
 
@@ -122,7 +122,7 @@ test("renders initial count of zero", () => {
 
 1. 
 ```js
-test('renders Counetr', () => {
+test('renders Counter', () => {
   render(<Counter />);
   const heading = screen.getByRole('heading', { name: /Counter/i });
   expect(heading).toBeInTheDocument();
@@ -149,7 +149,7 @@ test('renders Counetr', () => {
  test("decrements count when decrement button is clicked", () => {
   const { getByText } = render(<Counter />);
   const countElement = getByText(/count: 0/i);
-  const dercrementButton = getByText(/decrement/i);
+  const decrementButton = getByText(/decrement/i);
 
   fireEvent.click(decrementButton);
 
@@ -162,10 +162,9 @@ test('renders Counetr', () => {
 
 ## Break (10 min / 1:00)
 
-## We Do: Counter Component (60 min / 2:00)
+## We Do: Counter Component (5 min / 1:05)
 
 ```js
-```jsx
 import React, { useState } from "react";
 
 function Counter() {
@@ -187,9 +186,10 @@ function Counter() {
 
 export default Counter;
 ```
-## Break (10 min / 1:00)
 
-## We Do: Todo Component (60 min / 2:00)
+## Break (10 min / 1:15)
+
+## We Do: Todo Component (5 min / 1:20)
 Create a Todo Component
 First, let's create a Todo component that we can test. The Todo component should have a form that allows users to add new items to the todo list, and a list that displays all the current items in the list. The component should also have buttons to mark items as completed and to delete them.
 
@@ -227,7 +227,7 @@ function Todo() {
   return (
     <div>
       <form onSubmit={handleSubmit}>
-        <input type="text" value={text} onChange={handleChange} />
+        <label>Add New Todo<input type="text" value={text} onChange={handleChange} /></label>
         <button type="submit">Add</button>
       </form>
       <ul>
@@ -279,7 +279,7 @@ test("adds new item to todo list", () => {
   fireEvent.submit(inputElement);
 
   expect(listElement.children.length).toBe(1);
-  expect(listElement.firstChild.textContent).toBe("Walk the dog");
+  expect(listElement.firstChild.textContent).toContain("Walk the dog");
 });
 
 ```

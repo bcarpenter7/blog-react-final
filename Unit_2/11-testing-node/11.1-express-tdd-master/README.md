@@ -73,7 +73,6 @@ app.get('/', (req, res) => {
   res.send('Hello World!');
 });
 
-module.exports = app;
 ```
 
 This creates a new Express.js app that responds with "Hello World!" when we make a GET request to the root endpoint ('/'). We can test this API by running the app and making a request to the endpoint using a tool like curl.
@@ -111,7 +110,7 @@ Open app.test.js and add the following code:
 
 ```js
 const request = require('supertest');
-const app = require('../app');
+const {app, server} = require('../app');
 
 describe('Test the root path', () => {
   test('It should respond with "Hello World!"', async () => {
@@ -160,6 +159,14 @@ Congratulations, you've just written your first test for a Node.js API using Jes
 
 ## Adding more endpoints
 Let's expand on our API and add a few more endpoints to test. Open app.js and add the following code:
+first add our bodyparser middleware to get access to `req.body`
+
+```js
+app.use(express.json());
+// do this before all routes
+```
+
+then add our endpoints:
 
 ```js
 app.post('/users', (req, res) => {
