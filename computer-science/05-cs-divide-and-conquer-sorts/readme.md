@@ -7,6 +7,7 @@ This lesson covers two sorting algorithms that use the "divide-and-conquer" meth
 
 There are three components to this lesson:
 1. [myGA module: Divide-and-Conquer Sorting Algorithms](https://my.generalassemb.ly/activities/882)
+    -   If the above link does not take you to the correct module, you can find the lesson in your myGA dashboard.
 2. [In-Class Exercise: Implementing Merge Sort](exercises/MergeSort.js)
 3. [In-Class Exercise: Implementing Quick Sort](exercises/QuickSort.js)
 

@@ -7,6 +7,7 @@ This lesson is an introduction to the concept of sorting in computer science, in
 
 There are two components to this lesson:
 1. [myGA module: Intro to Sorting Algorithms](https://my.generalassemb.ly/activities/818)
+    -   If the above link does not take you to the correct module, you can find the lesson in your myGA dashboard.
 2. [In-Class Exercise: My First Sort](exercises/MyFirstSort.md)
 
 ## Learning Objectives

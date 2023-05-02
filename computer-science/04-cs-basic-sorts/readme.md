@@ -7,6 +7,7 @@ This lesson covers two foundational sorting algorithms: bubble sort and insertio
 
 There are three components to this lesson:
 1. [myGA module: Basic Sorting Algorithms](https://my.generalassemb.ly/activities/778)
+    -   If the above link does not take you to the correct module, you can find the lesson in your myGA dashboard.
 2. [In-Class Exercise: Implementing Bubble Sort](exercises/BubbleSort.js)
 3. [In-Class Exercise: Implementing Insertion Sort](exercises/InsertionSort.js)
 

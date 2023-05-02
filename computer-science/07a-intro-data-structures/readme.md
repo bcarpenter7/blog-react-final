@@ -36,9 +36,9 @@ Because many topics build on each other, you should plan to teach the lessons in
 | Tier | Lesson name | myGA module(s) name | In-class exercise(s) | 
 |---|---|---|---|
 | 1 | Intro to Data Structures | [Introduction to Data Structures](https://my.generalassemb.ly/activities/878?from=dashboard) | none |
-| 1 | [Linked Lists](linked-lists) | Linked Lists | Implementing a Linked List |
-| 2 | [Stacks and Queues](stacks-and-queues) | Stacks and Queues | Bracket Matching |
-| 2 | [Hash Tables](hash-tables) | Introduction to Hash Tables; Hash Tables Deep Dive | Implementing a Hash Table |
-| 3 | [Sets](sets) | Sets | Implementing a Set | 
-| 2 | [Binary Trees and Tries](binary-trees-and-tries) | Binary Trees and Tries; Balancing a Binary Tree | Implementing a Binary Tree; Implementing an AVL Tree |
-| 2 | [Graphs](graphs) | Graphs | Implementing a Graph |
+| 1 | [Linked Lists](../07b-linked-lists/) | Linked Lists | Implementing a Linked List |
+| 2 | [Stacks and Queues](../08-stacks-and-queues/) | Stacks and Queues | Bracket Matching |
+| 2 | [Hash Tables](../09-hash-tables/) | Introduction to Hash Tables; Hash Tables Deep Dive | Implementing a Hash Table |
+| 3 | [Sets](../extra-modules/sets/) | Sets | Implementing a Set | 
+| 2 | [Binary Trees and Tries](../10-binary-trees-and-tries/) | Binary Trees and Tries; Balancing a Binary Tree | Implementing a Binary Tree; Implementing an AVL Tree |
+| 2 | [Graphs](../11-graphs/) | Graphs | Implementing a Graph |
