@@ -6,7 +6,7 @@ This lab is an opportunity to get more familiar with testing.
 
 ## Setup
 
-Fork and Clone this repository
+Fork and Clone [this](https://git.generalassemb.ly/SEI-Standard-Curriculum/SEIR-Course-Materials/tree/main/Unit_1/10-testing/10.1.1-testing-lab) repository
 
 Open a terminal and navigate into the root directory of this repository
 
