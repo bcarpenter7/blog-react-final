@@ -30,10 +30,6 @@ Who We Are
     - One-on-one help during TA hours
     - Will give you feedback on your homework and score if it is complete or incomplete
 
-## Student Handbook
-
-The [student handbook](https://git.generalassemb.ly/Software-Engineering-Immersive-Remote/SEIR-Calcifer/wiki/Student-Handbook) is always accessible on the [class wiki](https://git.generalassemb.ly/Software-Engineering-Immersive-Remote/SEIR-Calcifer/wiki) in our class Github Enterprise repository.
-
 # Communication Tools
 
 ### Slack
@@ -75,3 +71,8 @@ Our video conferencing tool!
 - Don't forget to mute!
 - You can share your screen with us / anyone.
 - Grid or speaker view.
+
+
+## Student Handbook
+
+The [student handbook](https://git.generalassemb.ly/Software-Engineering-Immersive-Remote/SEIR-Calcifer/wiki/Student-Handbook) is always accessible on the [class wiki](https://git.generalassemb.ly/Software-Engineering-Immersive-Remote/SEIR-Calcifer/wiki) in our class Github Enterprise repository.
