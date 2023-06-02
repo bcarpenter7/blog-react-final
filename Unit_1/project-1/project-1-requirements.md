@@ -159,12 +159,3 @@ You will have a maximum of 10 minutes to present your project following these gu
 - Write **DRY (Don't Repeat Yourself)** code. Check for repeating code and refactor into functions that accept arguments.
 
 ---
-
-## Project Feedback + Evaluation
-
-- Your instructors will be using the [Project 1 Code Review](./project-1-code-review.pdf) form to determine whether or not the project passes all of the minimum requirements.
-- Your instructors will endeavor to deliver your code review by EOD Monday following Friday's presentation.
-- If your instructors determine that your project does not meet the above requirements (denoted using checkboxes), you may request to address the deficiencies identified. However, be aware that **there is only a single opportunity to resubmit a project or project assessment during the course**.
-- If there is a specific section of code that you would like an instructor to provide additional feedback, please ask!
-
----
