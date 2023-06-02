@@ -20,7 +20,7 @@ Lastly, in addition to presenting your projects, you will be required to complet
 
 ## Planning & Presentation Requirements
 
-### Planning - Due ____________:
+### Planning - Due: Today, June 2nd.
 
 - You will share:
 
@@ -30,7 +30,7 @@ Lastly, in addition to presenting your projects, you will be required to complet
 
 	☐ Pseudocode for the overall game play.
 
-### Presentation - ____________:
+### Presentation - Friday, June 9:
 
 You will have a maximum of 10 minutes to present your project following these guidelines:
 
