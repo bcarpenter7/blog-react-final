@@ -32,6 +32,8 @@ Lastly, in addition to presenting your projects, you will be required to complet
 
 ### Presentation - Friday, June 9:
 
+Sign-up on ![This sign-up sheet](https://docs.google.com/spreadsheets/d/1P-dEpLJf6ht8ojK1SqHAW49stcTG99cvlJAgn_zxvoo/edit?usp=sharing) -- you will be presenting in the order in which you sign up on this sheet.  
+
 You will have a maximum of 10 minutes to present your project following these guidelines:
 
 
