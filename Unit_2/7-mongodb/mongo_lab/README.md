@@ -30,7 +30,13 @@ The orders should have a
 
 ### How to submit this part of the homework:
 
-Write/copy-paste your mongo shell commands into the given `answer.js` file
+Create a new repo in your GitHub named Mongo-Hamburgers 
+
+Create a file named `answer.js`
+
+Copy over the text in the given `answer.js` file to the one in your repo
+
+Write/copy-paste your mongo shell commands into your `answer.js` file
 
 example:
 
