@@ -47,15 +47,7 @@ db.burger.find({meat:{$ne:'beef'}})
 
 ### Get Started
 
-- start `mongo` server
-  - in terminal type `brew services start mongodb-community@6.0`
-  - **Note** - to stop : `brew services stop mongodb-community@6.0`
-
-- start a  `mongo shell`
-  - when mongo is running, open a new tab in terminal and type
-  - `mongosh`
-  - your prompt should now be a `>`
-  - **Note** - to stop : type `exit`
+- Start up your mongo shell the same way we did during lecture (using the npx command along with the connection string from Atlas)
 
 
 - `show dbs` to show your databases
