@@ -24,7 +24,7 @@ The orders should have a
 
 > [Mongo Documentation](https://docs.mongodb.com/manual/)
 
-> [Mongo Cheatsheet](../Mongo_Cheatsheet.md)
+> [Mongo Cheatsheet](https://git.generalassemb.ly/Software-Engineering-Immersive-Remote/SEIR-Calcifer/wiki/Mongo-Cheatsheet)
 
 ## Activity
 
