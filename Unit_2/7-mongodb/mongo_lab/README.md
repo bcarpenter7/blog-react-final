@@ -117,4 +117,3 @@ Fetched 1 record(s) in 2ms
 
 ### Follow the rest of the prompts in `answers.js`
 
-### Continue to the hotels part of tonight's homework!
