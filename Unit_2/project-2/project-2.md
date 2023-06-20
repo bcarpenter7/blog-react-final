@@ -1,185 +1,154 @@
-<img src="https://i.imgur.com/QgojyYY.png" width="400">
+![](/ga_cog.png)
 
-# Project 2<br>Node/Express/MongoDB<br>Full-stack CRUD Application
+<!--- Edit for each cohort
+    Format: What to edit (line #)
 
-## Overview
+    Class times (20)
+    Attendance check times (22)
+    Link to related models notes (49)
+    Today's date (87)
+    Due date and time (106)
+    Google Sheets link (108)
 
-This second project will be your first adventure into **building a full-stack 
-application.** You'll be **building a Node/Express/MongoDB app** from the ground up yourself.
 
-This is exciting and by the end of this unit we will have given you the all of the tools needed to build your app.
+-->
 
-You get to decide what you want to build - as long as it meets the technical requirements outlined below.
+# Project #2: Building Your First Full-Stack Application
 
-**You will be working individually for this project.** You'll be designing and coding the app yourself. However, you will have access to up to [insert number] fifteen-minute one-on-one sessions with your instructors.
+## Attendance
 
-Additionally as part of the project's requirements, you'll be required to take and pass a Project Assessment.
+There are no full day classes during project weeks, but we do expect you to be working on your project daily and be available during the usual class times (9AM - 5PM Eastern) for any meetings and check-ins with instructors as needed.
 
----
-
-## Planning & Presentation Requirements
-
-### Planning - Due by ________:
-
-- A **[Trello](https://trello.com/) board** with:
-    
-    ☐ **User Stories**, each moving from left to right in the following 
-      three lists in your board:<br>
-      	- **Ice Box**<br>
-      	- **Current/MVP**<br>
-      	- **Completed**<br>
-      <br>**User Stories** must follow the following template:<br>**_As a \<user role\>, I want \<feature\>, because \<reason\>._**<br>The _reason_ is optional if it's blatantly obvious.
-      <br><br>Prioritize your user stories within the Ice Box with your "wish 
-      list" stories at the bottom.
-      <br><br>Then move the stories that make up the MVP to the Current/MVP list (in the order that you want to implement them) leaving behind the "real" optional/ice box features.
-      <br><br>When all of the completed stories have been moved to the Completed list, move the highest-priority Ice Box story to the Current/MVP list and implement it, etc.
-    
-    ☐ A **Wireframes** list containing wireframes for the app's main pages of functionality, e.g. Landing Page, Posts Index Page, Favorite Posts Page, Add Post Page, etc.
-    
-    ☐ An **ERD** list containing an ERD identifying the attributes of each Data Entity (one for each Model and embedded schema). The ERD also needs to diagram relationships between the Entities (1:1, 1:M or M:M). Here's a [YouTube video to show you how](https://www.youtube.com/watch?v=QpdhBUYk7Kk).
-
-### Project Presentations - __________:
-
-You will have a maximum of 10 minutes to present your project following these guidelines:
-
-1. **Introduce the Project:**
-
-	☐ Intro your project by paraphrasing the README.
-	
-2. **Demonstrate the Project:**
-
-	☐ Launch the deployed app by clicking the link in the README.
-	
-	☐ Log out and back in to demonstrate that OAuth is working.
-	
-	☐ Demonstrate the features of the app, including full-CRUD data operations.
-	
-3. **Show/discuss your code:**
-
-	☐ Show the "main" Mongoose model.
-	
-	☐ Show your favorite EJS template.
-	
-	☐ Show the controller for the main model.
-
-4. **Share the experience:**
-
-	☐ What was your biggest challenge?
-	
-	☐ What are your key learnings/takeaways?
-	
-5. **Q & A + Feedback**
-
----
+There are **daily attendance checks on weekdays at 9:00AM EST and 2:00PM EST**. A thread will be posted in the classroom channel at those times and you must respond to it within 2 hours or you will be marked absent. _Again, failure to make an attendance check will result in an absence_.
 
 ## Technical Requirements
 
-### Your App Must:
+For this project, you will be making a full CRUD app using the technologies outlined below. When thinking of an app idea, try to frame the project in terms of trying to solve a "problem" and think about the purpose of the app, who would use it, etc. The problem doesn't have to be anything intense and can be something small and simple! For example:
 
-☐ **Have at least 2 data entities (data resources) in addition to the `User` Model** - one entity that represents the main functional idea for your app and another with a **One:Many** or **Many:Many** relationship with that main entity (embedded or referenced).
+    >**Problem:** I have a huge enamel pin collection and want to organize it all in one place<br>
+    >**General App Idea/Purpose:** An app that allows me to catalogue all my pins by category <br>
+    >**Who Would Use It:** Pin collectors
 
-☐ **Use OAuth authentication**.
+### &#x1F534; Mandatory to pass:
 
-☐ Implement basic **authorization** that restricts access to features that need a logged in user in order to work (typically CUD data operations) by "protecting" those routes from anonymous users using the `ensureLoggedIn` middleware from the OAuth lesson.  In addition, ensure that editing and deletion of a data resource can only be done by the user that created that data (this is done in the controller - refer to the Guide to User-Centric CRUD).
+#### MVP - Minimum Viable Product
 
-☐ Have **full-CRUD data operations** somewhere within the app's features. For example, you can have functionality that **C**reates & **U**pdates a _post_ and satisfy **D**elete functionality by implementing the ability to delete _comments_.
+* A working full-stack application, built by you, using **Node.js, Mongoose, Express and EJS**
+* Adhere to the **MVC** file structure: Models, Views, Controllers
+* At least one model with all 7 **RESTful routes** and full **CRUD**.
+* :heavy_exclamation_mark: A git repository **not inside the class repo**.  
+* At **least one** GitHub commit per day.
+* **Be deployed online** and accessible to the public via **Heroku**. (**NOT REQUIRED!!**)
+* **A ``README.md`` file** with a link to your hosted app, explanations of the technologies used, the approach was taken, unsolved problems, user stories, and notes to yourself so you can come back to your project later in the course and be able to pick up your train of thought, etc.
 
-☐ Be styled such that the app looks and feels similar to apps we use on a daily basis - in other words, **it should have a consistent and polished user interface.**
 
-☐ Be **deployed online** (Heroku).
+### &#x1F535; Stretch Goals (Not Mandatory):
+#### Recommended Features
 
-### Optionally, Your App May:
+* Add additional relationships (models can be related in a one-to-many relationship, for example).
+    - [Optional notes on having two models and relating them](https://git.generalassemb.ly/Software-Engineering-Immersive-Remote/SEIR-Ollivanders/tree/master/unit_2/19_crud_app/markdowns/lecture)
+* Include **sign up/log in** functionality, with encrypted passwords & an authorization flow.
+* Use EJS Partials.
+* Include portfolio-quality styling.
+* Use a CSS framework like Skeleton or Bootstrap.
+* Incorporate **Google Maps**.
+* Inside Your `README.md`:
+    * Include User Stories.
+    * Include **wireframes** that you designed during the planning process.
 
-☐ Consume a third-party API.  If you choose to implement this option, it's likely that the data from the API will be a key data resource in your app, therefore it's important to consider how to implement whatever CRUD data operations will apply.  For example, how will data from the API find its way into your database?  Be sure to discuss with an instructor when planning your app's features.
+## Setting up for deployment
 
-☐ Expose its own API where it returns data resources as JSON.
+This time, because you'll be creating a full-stack app with a server, we cannot just deploy to github pages. Github pages only hosts _static_ projects (i.e. projects without a server). Thus, we have to learn a new way to deploy to something called Heroku, which _does_ host full-stack apps like the ones you'll be building. Additionally, you will have to use a cloud-based version of Mongo, called Atlas.
 
----
+**This deployment is more complex than the github pages deployment, so please use the one you did this morning for this project.**
 
-## Necessary Deliverables
+- [Fly.io](https://fly.io/docs/languages-and-frameworks/node/)
+ - Please note: You may continue to use the same connection string for Atlas we've been using in class.
 
-☐ **A working full-stack app that meets or exceeds the above technical requirements, built by you, and hosted on Heroku**.
+❗ Please **DEPLOY EARLY**, and **DEPLOY OFTEN!** Your app working locally does _not_ guarantee that it will work when deployed the same exact way, especially on Heroku, so whenever you have something working correctly -- please _deploy deploy deploy_ and double check! **Do not save deployment for the very last day!**.
 
-- **A ``README.md`` file** with these sections (here's a [basic template](project-readme-starter.md)):
+## Technical Demonstration
 
-  ☐ **App Title:** Contains a description of what the app does and optional background info.
-  
-  ☐ **Screenshot(s):** A screenshot of your app's landing page and any other screenshots of interest.
-  
-  ☐ **Technologies Used**: List of the technologies used.
-    
-  ☐ **Getting Started**: Include a link to the deployed app and your Trello board with the project's planning.
-  
-  ☐ **Next Steps**: Planned future enhancements (icebox items).
-  
-  > Note: Don't underestimate the value of a well crafted `README.md`. The `README.md` introduces your project to prospective employers and forms their first impression of your work!
+All projects will be presented to the class. Your presentation should be:
 
-☐ **Daily commits (the more the better) dating back to the very beginning of the project**. Commit messages should be in the present tense, e.g., "Style landing page" instead of "Styled landing page". **Do not "start over" with a new repo.**
+* **Approximately 5-10 minutes in length**.
+* Shows off all features of the app.
+* Explains the technical details.
+* Explains the technical challenges.
+* Explains which improvements you might make in the future.
+* Talk about one new thing you learned during this project (can be something technical, or even something more open ended like time management, etc.).
 
----
+You will be sharing your app and your code. Be prepared to answer questions from the instructors and other students.
 
-## Getting Started
+## Meetings with instructors
+_Your instructor will contact you to setup a meeting time to approve your project._
 
-- **Discuss your app idea with an instructor to get their feedback before you dive too deep into user stories and wireframes.**
-- Because your app's functionality revolves around the logged in user, **implement authentication and basic navigation first!**
-- **Prioritize and implement the user stories one at a time** by following the [Guide to Add a Feature to a Web App](guide-to-add-feature-to-web-app.md).
-- **Follow the guidance and concepts in the** [Guide to User-Centric CRUD](guide-to-user-centric-crud.md).
-- **Remember to keep things small and focus on the MVP** – feature creep can doom a project!
+**Today Mar 13 - Mandatory**<br>
+You will meet with an instructor to get your app idea approved.
 
----
+_How to prepare for project approval_
 
-## Project Idea Guidance
+- Pick a project idea.
+- Write user stories:
+    -  What should people be able to do on your website?
+- Draw wireframes:
+    - At least one wireframe of how your site will look.
+    - One wireframe for each view.
+- Make a schedule for yourself of what you want to accomplish
+    - First day most details.
+    - Second day less details broader strokes of what you want to accomplish.
+    - Further:  try to pick 'milestones' (check with the project markdown and determine what your project's specific MVPs will look like) and prioritize features by MVPs and stretch goals).
+    - This takes practice so be ready to adjust your schedule.
+    **Note: You will have to make changes and adjust/adapt as you build**
 
-Lots of the web applications you interact with on a daily basis can provide inspiration for this project as most are full-stack CRUD apps.  That is, they manipulate and display data.
+## How to Submit Your Project
+Your project is due on Monday March 20 at 9AM EST. You will present your project and show your code to classmates and instructors.
 
-#### DO NOT Choose Non-CRUD Applications Such As:
+:heavy_check_mark: Add your project to [this google sheet](https://docs.google.com/spreadsheets/d/10n5WO3dpQPkrKqBd5lUwoTbjmn6EPDTJFwc8IcgRhfk/edit?usp=sharing).
 
-- Games
-- Portfolio, or presentational pages
-- Marketing or content-oriented websites
+  - _NOTE:_ This will be the order you present in!
 
-#### Good Examples
+## Where to go for help during project week
 
-Some of the best apps are apps that track or manage things of **personal interest to you**:
-  
-- Music lesson tracking
-- Soccer team tracker
-- Rock climbing planner
+1. Seek out help online.
+1. Seek out help with your classmates. Make sure you post in the sos channel so the instructors can keep track of who is asking for help!
+1. Seek out help with our class TA.
+1. After all other avenues have been exhausted, seek help from your assigned instructor. Please refer to [How to Ask a Question](https://git.generalassemb.ly/Software-Engineering-Immersive-Remote/SEIR-Ollivanders/wiki/How-To-Ask-A-Question) before you reach out.
 
-So much of the Internet is CRUD apps!
+**TA Hours** (all normal times EST, unless otherwise stated from Issac) 
 
-- Social media:
-  - Twitter
-  - Instagram
-  - Reddit
-- Marketplaces: 
-  - Craigslist
-  - Etsy
-- Organizational or Business apps:
-  - Home Inventory planner
-  - Personal planner
-  - Customer management
-  - Payroll/Accounting
+## Suggested Ways to Get Started
 
-Many simple apps can have their functionality enhanced by implementing the ability of users to comment on, and/or like/favorite items. 
+- **Wireframe** Make a drawing of what your app will look like in all of its stages (what does it look like as soon as you log on to the site? What does it look like once data is retrieved?).
 
-Another piece of advice:  If you choose to develop an app that has the concept of a shopping cart (eCommerce app), do not attempt to implement the actual payment functionality.  Plus, here's a hint in regards to the data model: a "cart" is simply an "order" that has yet to be paid - in other words, you would only need an `Order` model vs. both `Order` & `Cart` models.
+- **Break the project down into different components** (data, presentation, views, style, DOM manipulation) and brainstorm each component individually.
 
-#### Actual Recent Student Projects
+- **Commit early, commit often.** Don’t be afraid to break something because you can always go back in time to a previous version.
 
-- [Insert Updated Sample projects here](https://www.heroku.com)
-- []()
-- []()
+- **Consult documentation resources** (MDN, jQuery, etc.) at home to better understand what you’ll be getting into.
 
----
+### Think about...
 
-## Project Feedback + Evaluation
+- **Creativity**
+    Did you add a personal spin or creative element into your project submission? Did you deliver something of value to the end user?
 
-- Your instructors will be using the [Project 2 Code Review](./project-2-code-review.pdf) form to determine whether or not the project passes all of the minimum requirements.
-- Your instructors will endeavor to deliver your code review to you ASAP following presentations.
-- If your instructors determine that your project would pass with minor fixes, you will be required to address the minor deficiencies by 9 am the following day. Please be sure to inform your local instructor when the fixes are complete. FYI, "minor fixes" are minor items that can be fixed very quickly, like code formatting, correcting the README, etc.
-- If your instructors determine that the project does not meet the minimum requirements you may request to address the deficiencies identified and resubmit the project. However, be aware that **there is only a single opportunity to resubmit a project or project assessment during the course**.
-- Immediately after your presentation, your instructor and/or outcomes may provide you with feedback that will benefit your project and perhaps the projects of other students as well.
-- If there is a specific section of code that you would like an instructor to provide additional feedback, please ask!
+- **Code Quality**
+    Did you follow code style guidance and best practices covered in class, such as spacing, indentation, modularity, and semantic naming? Did you comment your code as your instructors have in class?
 
----
+- **Problem Solving**
+    Are you able to defend why you implemented your solution in a certain way? Can you demonstrate that you thought through alternative implementations?
+
+## Past Student Examples
+
+- [Music App](https://music-app-inc.herokuapp.com/)
+- [Itenerary App](https://floating-dawn-74848.herokuapp.com/itenerary/)
+- [Date Log](https://murmuring-woodland-92079.herokuapp.com/dates)
+
+## Useful Resources
+
+* **[Heroku](http://www.heroku.com)**
+* **[Writing Good User Stories](https://www.mountaingoatsoftware.com/agile/user-stories)**
+* **[Presenting Information Architecture](http://webstyleguide.com/wsg3/3-information-architecture/4-presenting-information.html)**
+* **[Mongo Documentation](https://docs.mongodb.com/manual/)**
+* **[Mongoose Documentation](http://mongoosejs.com/docs/guide.html)**
+* **[Mongo Cheatsheet](https://git.generalassemb.ly/Software-Engineering-Immersive-Remote/SEIR-Belcher/wiki/Mongo-Cheatsheet)**
