@@ -141,7 +141,6 @@ Your project is due on Friday June 30th at 9AM EST. You will present your projec
 ## Past Student Examples
 
 - [Music App](https://music-app-inc.herokuapp.com/)
-- [Itenerary App](https://floating-dawn-74848.herokuapp.com/itenerary/)
 - [Date Log](https://murmuring-woodland-92079.herokuapp.com/dates)
 
 ## Useful Resources
