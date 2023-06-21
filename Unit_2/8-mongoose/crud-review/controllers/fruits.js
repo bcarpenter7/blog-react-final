@@ -39,7 +39,14 @@ function newPage(req, res){
 }
 
 async function editPage(req, res){
-
+  try {
+    const fruit = await Fruit.findById(req.params.id)
+    res.render('fruits/edit', {
+      fruit
+    })
+  } catch {
+    console.log('error')
+  }
 }
 
 //============================= ACTIONS FUNCTIONS =========================//
@@ -55,10 +62,20 @@ async function createFruit(req, res){
 }
 
 async function updateFruit(req, res){
-
+  try {
+    await Fruit.findByIdAndUpdate(req.params.id, req.body)
+    res.redirect('/fruits/' + req.params.id)
+  } catch {
+    console.log('error')
+  }
 }
 
 async function deleteFruit(req, res){
-
+  try{
+    await Fruit.findByIdAndRemove(req.params.id)
+    res.redirect('/fruits')
+  } catch{
+    console.log('error')
+  }
 }
 
