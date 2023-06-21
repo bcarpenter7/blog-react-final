@@ -83,7 +83,7 @@ You will be sharing your app and your code. Be prepared to answer questions from
 ## Meetings with instructors
 _Your instructor will contact you to setup a meeting time to approve your project._
 
-**Today Mar 13 - Mandatory**<br>
+**Today June 22 - Mandatory**<br>
 You will meet with an instructor to get your app idea approved.
 
 _How to prepare for project approval_
@@ -102,9 +102,9 @@ _How to prepare for project approval_
     **Note: You will have to make changes and adjust/adapt as you build**
 
 ## How to Submit Your Project
-Your project is due on Monday March 20 at 9AM EST. You will present your project and show your code to classmates and instructors.
+Your project is due on Friday June 30th at 9AM EST. You will present your project and show your code to classmates and instructors.
 
-:heavy_check_mark: Add your project to [this google sheet](https://docs.google.com/spreadsheets/d/10n5WO3dpQPkrKqBd5lUwoTbjmn6EPDTJFwc8IcgRhfk/edit?usp=sharing).
+:heavy_check_mark: Add your project to [this google sheet](https://docs.google.com/spreadsheets/d/10zaWrGrCQvuNhOMu2MGJKwx9mDhxjCBL7sy93yy7BzM/edit?usp=sharing).
 
   - _NOTE:_ This will be the order you present in!
 
@@ -113,9 +113,9 @@ Your project is due on Monday March 20 at 9AM EST. You will present your project
 1. Seek out help online.
 1. Seek out help with your classmates. Make sure you post in the sos channel so the instructors can keep track of who is asking for help!
 1. Seek out help with our class TA.
-1. After all other avenues have been exhausted, seek help from your assigned instructor. Please refer to [How to Ask a Question](https://git.generalassemb.ly/Software-Engineering-Immersive-Remote/SEIR-Ollivanders/wiki/How-To-Ask-A-Question) before you reach out.
+1. After all other avenues have been exhausted, seek help from your assigned instructor. Please refer to [How to Ask a Question](https://git.generalassemb.ly/Software-Engineering-Immersive-Remote/SEIR-Calcifer/wiki/How-To-Ask-A-Question) before you reach out.
 
-**TA Hours** (all normal times EST, unless otherwise stated from Issac) 
+**TA Hours** (all normal times EST, unless otherwise stated from Anna) 
 
 ## Suggested Ways to Get Started
 
