@@ -46,7 +46,7 @@ For this project, you will be making a full CRUD app using the technologies outl
 #### Recommended Features
 
 * Add additional relationships (models can be related in a one-to-many relationship, for example).
-    - [Optional notes on having two models and relating them](https://git.generalassemb.ly/Software-Engineering-Immersive-Remote/SEIR-Ollivanders/tree/master/unit_2/19_crud_app/markdowns/lecture)
+    - [Optional lecture on having two models and relating them](https://hub.generalassemb.ly/learn/course/full-stack-development-200338-22-may-2023-16-august-2023/mongodb-mongoosejs-odm/mongodb-mongoose?page=6)
 * Include **sign up/log in** functionality, with encrypted passwords & an authorization flow.
 * Use EJS Partials.
 * Include portfolio-quality styling.
@@ -58,7 +58,7 @@ For this project, you will be making a full CRUD app using the technologies outl
 
 ## Setting up for deployment
 
-This time, because you'll be creating a full-stack app with a server, we cannot just deploy to github pages. Github pages only hosts _static_ projects (i.e. projects without a server). Thus, we have to learn a new way to deploy to something called Heroku, which _does_ host full-stack apps like the ones you'll be building. Additionally, you will have to use a cloud-based version of Mongo, called Atlas.
+This time, because you'll be creating a full-stack app with a server, we cannot just deploy to github pages. Github pages only hosts _static_ projects (i.e. projects without a server). Thus, we have to learn a new way to deploy to something called Fly.io, which _does_ host full-stack apps like the ones you'll be building. Additionally, you will have to use a cloud-based version of Mongo, called Atlas.
 
 **This deployment is more complex than the github pages deployment, so please use the one you did this morning for this project.**
 
@@ -83,8 +83,8 @@ You will be sharing your app and your code. Be prepared to answer questions from
 ## Meetings with instructors
 _Your instructor will contact you to setup a meeting time to approve your project._
 
-**Today Mar 13 - Mandatory**<br>
-You will meet with an instructor to get your app idea approved.
+**Today June 22 - Mandatory**<br>
+You will meet with an instructor to get your app idea approved.  Reach out to them to set up a meeting once you have your idea finalized, you must have your project approved by 5pm ET on this day.
 
 _How to prepare for project approval_
 
@@ -102,9 +102,9 @@ _How to prepare for project approval_
     **Note: You will have to make changes and adjust/adapt as you build**
 
 ## How to Submit Your Project
-Your project is due on Monday March 20 at 9AM EST. You will present your project and show your code to classmates and instructors.
+Your project is due on Friday June 30th at 9AM EST. You will present your project and show your code to classmates and instructors.
 
-:heavy_check_mark: Add your project to [this google sheet](https://docs.google.com/spreadsheets/d/10n5WO3dpQPkrKqBd5lUwoTbjmn6EPDTJFwc8IcgRhfk/edit?usp=sharing).
+:heavy_check_mark: Add your project to [this google sheet](https://docs.google.com/spreadsheets/d/10zaWrGrCQvuNhOMu2MGJKwx9mDhxjCBL7sy93yy7BzM/edit?usp=sharing).
 
   - _NOTE:_ This will be the order you present in!
 
@@ -113,9 +113,9 @@ Your project is due on Monday March 20 at 9AM EST. You will present your project
 1. Seek out help online.
 1. Seek out help with your classmates. Make sure you post in the sos channel so the instructors can keep track of who is asking for help!
 1. Seek out help with our class TA.
-1. After all other avenues have been exhausted, seek help from your assigned instructor. Please refer to [How to Ask a Question](https://git.generalassemb.ly/Software-Engineering-Immersive-Remote/SEIR-Ollivanders/wiki/How-To-Ask-A-Question) before you reach out.
+1. After all other avenues have been exhausted, seek help from your assigned instructor. Please refer to [How to Ask a Question](https://git.generalassemb.ly/Software-Engineering-Immersive-Remote/SEIR-Calcifer/wiki/How-To-Ask-A-Question) before you reach out.
 
-**TA Hours** (all normal times EST, unless otherwise stated from Issac) 
+**TA Hours** (all normal times EST, unless otherwise stated from Anna) 
 
 ## Suggested Ways to Get Started
 
@@ -141,14 +141,13 @@ Your project is due on Monday March 20 at 9AM EST. You will present your project
 ## Past Student Examples
 
 - [Music App](https://music-app-inc.herokuapp.com/)
-- [Itenerary App](https://floating-dawn-74848.herokuapp.com/itenerary/)
 - [Date Log](https://murmuring-woodland-92079.herokuapp.com/dates)
 
 ## Useful Resources
 
-* **[Heroku](http://www.heroku.com)**
+* **[Fly.io](https://fly.io/docs/languages-and-frameworks/node/)**
 * **[Writing Good User Stories](https://www.mountaingoatsoftware.com/agile/user-stories)**
 * **[Presenting Information Architecture](http://webstyleguide.com/wsg3/3-information-architecture/4-presenting-information.html)**
 * **[Mongo Documentation](https://docs.mongodb.com/manual/)**
 * **[Mongoose Documentation](http://mongoosejs.com/docs/guide.html)**
-* **[Mongo Cheatsheet](https://git.generalassemb.ly/Software-Engineering-Immersive-Remote/SEIR-Belcher/wiki/Mongo-Cheatsheet)**
+* **[Mongo Cheatsheet](https://git.generalassemb.ly/Software-Engineering-Immersive-Remote/SEIR-Calcifer/wiki/Mongo-Cheatsheet)**
