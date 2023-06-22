@@ -38,7 +38,7 @@ For this project, you will be making a full CRUD app using the technologies outl
 * At least one model with all 7 **RESTful routes** and full **CRUD**.
 * :heavy_exclamation_mark: A git repository **not inside the class repo**.  
 * At **least one** GitHub commit per day.
-* **Be deployed online** and accessible to the public via **Heroku**. (**NOT REQUIRED!!**)
+* **Be deployed online** and accessible to the public via **Fly.io**.
 * **A ``README.md`` file** with a link to your hosted app, explanations of the technologies used, the approach was taken, unsolved problems, user stories, and notes to yourself so you can come back to your project later in the course and be able to pick up your train of thought, etc.
 
 
@@ -58,7 +58,7 @@ For this project, you will be making a full CRUD app using the technologies outl
 
 ## Setting up for deployment
 
-This time, because you'll be creating a full-stack app with a server, we cannot just deploy to github pages. Github pages only hosts _static_ projects (i.e. projects without a server). Thus, we have to learn a new way to deploy to something called Fly.io, which _does_ host full-stack apps like the ones you'll be building. Additionally, you will have to use a cloud-based version of Mongo, called Atlas.
+This time, because you'll be creating a full-stack app with a server, we cannot just deploy to github pages. Github pages only hosts _static_ projects (i.e. projects without a server). Thus, we have to learn a new way to deploy to something called Fly.io, which _does_ host full-stack apps like the ones you'll be building.
 
 **This deployment is more complex than the github pages deployment, so please use the one you did this morning for this project.**
 
