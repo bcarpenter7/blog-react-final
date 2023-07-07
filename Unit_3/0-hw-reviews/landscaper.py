@@ -75,7 +75,7 @@ def showStatus():
 def cutGrass():
     player["bankAccount"] += player["currentTool"]["wage"]
 
-    print(" Workin' hard or hardly workin'! You earned " + player["currentTool"]["wage"] + " today using " + player["currentTool"]["name"])
+    print(" Workin' hard or hardly workin'! You earned " + str(player["currentTool"]["wage"]) + " today using " + player["currentTool"]["name"])
 
     checkWin()
     # ~~~~~~~
@@ -109,7 +109,7 @@ def askForAction():
 
   else:
       print("No more tools left, keeping working until you reach $1,000!")
-      playerChoice = input("You HAVE TO cut grass! (type 'cutgrass')").lower()
+      playerChoice = input("You HAVE TO cut grass! (type 'cut grass')").lower()
 
   if (playerChoice == "cut grass"):
       cutGrass()
