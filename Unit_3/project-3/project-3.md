@@ -46,12 +46,8 @@ For this project, you will be making a full CRUD Django application using the te
 #### Recommended Features
 
 * Add additional relationships (models can be related in a one-to-many relationship, for example).
-    - [Optional lecture on having two models and relating them](https://hub.generalassemb.ly/learn/course/full-stack-development-200338-22-may-2023-16-august-2023/mongodb-mongoosejs-odm/mongodb-mongoose?page=6)
 * Include **sign up/log in** functionality, with encrypted passwords & an authorization flow.
-* Use EJS Partials.
 * Include portfolio-quality styling.
-* Use a CSS framework like Skeleton or Bootstrap.
-* Incorporate **Google Maps**.
 * Inside Your `README.md`:
     * Include User Stories.
     * Include **wireframes** that you designed during the planning process.
