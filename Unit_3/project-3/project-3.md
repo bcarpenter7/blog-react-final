@@ -13,7 +13,7 @@
 
 -->
 
-# Project #2: Building Your First Full-Stack Application
+# Project #3: Building Your A Django Application
 
 ## Attendance
 
@@ -23,7 +23,7 @@ There are **daily attendance checks on weekdays at 9:00AM EST and 2:00PM EST**. 
 
 ## Technical Requirements
 
-For this project, you will be making a full CRUD app using the technologies outlined below. When thinking of an app idea, try to frame the project in terms of trying to solve a "problem" and think about the purpose of the app, who would use it, etc. The problem doesn't have to be anything intense and can be something small and simple! For example:
+For this project, you will be making a full CRUD Django application using the technologies outlined below. When thinking of an app idea, try to frame the project in terms of trying to solve a "problem" and think about the purpose of the app, who would use it, etc. The problem doesn't have to be anything intense and can be something small and simple! For example:
 
     >**Problem:** I have a huge enamel pin collection and want to organize it all in one place<br>
     >**General App Idea/Purpose:** An app that allows me to catalogue all my pins by category <br>
@@ -33,9 +33,9 @@ For this project, you will be making a full CRUD app using the technologies outl
 
 #### MVP - Minimum Viable Product
 
-* A working full-stack application, built by you, using **Node.js, Mongoose, Express and EJS**
-* Adhere to the **MVC** file structure: Models, Views, Controllers
-* At least one model with all 7 **RESTful routes** and full **CRUD**.
+* A working full-stack application, built by you, using **Django and PostgreSQL**
+* Adhere to the Django-specific **MVT** file structure: Models, Views, Templates
+* At least one model 
 * :heavy_exclamation_mark: A git repository **not inside the class repo**.  
 * At **least one** GitHub commit per day.
 * **Be deployed online** and accessible to the public via **Fly.io**.
