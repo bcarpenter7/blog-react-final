@@ -59,6 +59,8 @@ This time, because you'll be creating a full-stack app with a server, we cannot 
 **This deployment is more complex than the github pages deployment, so please use the one you did this morning for this project.**
 
 - [Fly.io](https://fly.io/docs/languages-and-frameworks/node/)
+- [Specific Django Fly.io Notes](https://fly.io/docs/django/getting-started/)
+- [Setting Up Postgresql For Fly.io](https://fly.io/docs/postgres/)
  - Please note: You should start working with your local DB and when you deploy your app you will have to set up a database on fly.io which will NOT have the data you've been working with locally.
 
 ❗ Please **DEPLOY EARLY**, and **DEPLOY OFTEN!** Your app working locally does _not_ guarantee that it will work when deployed the same exact way, especially on Heroku, so whenever you have something working correctly -- please _deploy deploy deploy_ and double check! **Do not save deployment for the very last day!**.
