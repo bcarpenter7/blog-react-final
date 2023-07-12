@@ -151,6 +151,6 @@ Your project is due on Wednesday July 19th at 9AM EST. You will present your pro
 
 ## Past Examples
 
-* [Plants](https://agile-bastion-78512.herokuapp.com/api/plants)
+* [Fleur](https://agile-bastion-78512.herokuapp.com/api/plants)
 * [LanBuddy](https://lanbuddy.herokuapp.com/)
 * [WeatherApp](https://evening-reef-65787.herokuapp.com/)
