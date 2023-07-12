@@ -134,10 +134,6 @@ Your project is due on Wednesday July 19th at 9AM EST. You will present your pro
 - **Problem Solving**
     Are you able to defend why you implemented your solution in a certain way? Can you demonstrate that you thought through alternative implementations?
 
-## Past Student Examples
-
-- 
-- 
 
 ## Useful Resources
 
