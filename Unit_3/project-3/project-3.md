@@ -149,8 +149,10 @@ Your project is due on Wednesday July 19th at 9AM EST. You will present your pro
 * **[Writing Good User Stories](https://www.mountaingoatsoftware.com/agile/user-stories)**
 * **[Presenting Information Architecture](http://webstyleguide.com/wsg3/3-information-architecture/4-presenting-information.html)**
 
-## Past Examples
+## Past Examples*
 
 * [Fleur](https://agile-bastion-78512.herokuapp.com/api/plants)
 * [LanBuddy](https://lanbuddy.herokuapp.com/)
 * [WeatherApp](https://evening-reef-65787.herokuapp.com/)
+
+*Note, these projects use React.js for the frontend, which we will introduce in Unit 4
