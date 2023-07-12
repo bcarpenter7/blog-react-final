@@ -76,7 +76,13 @@ All projects will be presented to the class. Your presentation should be:
 * Explains which improvements you might make in the future.
 * Talk about one new thing you learned during this project (can be something technical, or even something more open ended like time management, etc.).
 
-You will be sharing your app and your code. Be prepared to answer questions from the instructors and other students.
+You will be sharing your app and your code. Be prepared to answer questions from the instructors and other students.\
+
+#### Questions to Answer During Presentation
+* What went well working as a group?
+* Were there any issues that arose during the project (and how did you solve them)?
+* How did your group split up the work?
+* What did you learn that you can apply to your next group-coding experience?
 
 ## Meetings with instructors
 _Your instructor will contact you to setup a meeting time to approve your project._
