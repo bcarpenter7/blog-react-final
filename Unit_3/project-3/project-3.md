@@ -13,7 +13,7 @@
 
 -->
 
-# Project #2: Building Your First Full-Stack Application
+# Project #3: Building Your A Django Application
 
 ## Attendance
 
@@ -23,7 +23,7 @@ There are **daily attendance checks on weekdays at 9:00AM EST and 2:00PM EST**. 
 
 ## Technical Requirements
 
-For this project, you will be making a full CRUD app using the technologies outlined below. When thinking of an app idea, try to frame the project in terms of trying to solve a "problem" and think about the purpose of the app, who would use it, etc. The problem doesn't have to be anything intense and can be something small and simple! For example:
+For this project, you will be making a full CRUD Django application using the technologies outlined below. When thinking of an app idea, try to frame the project in terms of trying to solve a "problem" and think about the purpose of the app, who would use it, etc. The problem doesn't have to be anything intense and can be something small and simple! For example:
 
     >**Problem:** I have a huge enamel pin collection and want to organize it all in one place<br>
     >**General App Idea/Purpose:** An app that allows me to catalogue all my pins by category <br>
@@ -33,9 +33,9 @@ For this project, you will be making a full CRUD app using the technologies outl
 
 #### MVP - Minimum Viable Product
 
-* A working full-stack application, built by you, using **Node.js, Mongoose, Express and EJS**
-* Adhere to the **MVC** file structure: Models, Views, Controllers
-* At least one model with all 7 **RESTful routes** and full **CRUD**.
+* A working full-stack application, built by you, using **Django and PostgreSQL**
+* Adhere to the Django-specific **MVT** file structure: Models, Views, Templates
+* At least one model 
 * :heavy_exclamation_mark: A git repository **not inside the class repo**.  
 * At **least one** GitHub commit per day.
 * **Be deployed online** and accessible to the public via **Fly.io**.
@@ -46,12 +46,8 @@ For this project, you will be making a full CRUD app using the technologies outl
 #### Recommended Features
 
 * Add additional relationships (models can be related in a one-to-many relationship, for example).
-    - [Optional lecture on having two models and relating them](https://hub.generalassemb.ly/learn/course/full-stack-development-200338-22-may-2023-16-august-2023/mongodb-mongoosejs-odm/mongodb-mongoose?page=6)
 * Include **sign up/log in** functionality, with encrypted passwords & an authorization flow.
-* Use EJS Partials.
 * Include portfolio-quality styling.
-* Use a CSS framework like Skeleton or Bootstrap.
-* Incorporate **Google Maps**.
 * Inside Your `README.md`:
     * Include User Stories.
     * Include **wireframes** that you designed during the planning process.
@@ -63,7 +59,9 @@ This time, because you'll be creating a full-stack app with a server, we cannot 
 **This deployment is more complex than the github pages deployment, so please use the one you did this morning for this project.**
 
 - [Fly.io](https://fly.io/docs/languages-and-frameworks/node/)
- - Please note: You may continue to use the same connection string for Atlas we've been using in class.
+- [Specific Django Fly.io Notes](https://fly.io/docs/django/getting-started/)
+- [Setting Up Postgresql For Fly.io](https://fly.io/docs/postgres/)
+ - Please note: You should start working with your local DB and when you deploy your app you will have to set up a database on fly.io which will NOT have the data you've been working with locally.
 
 ❗ Please **DEPLOY EARLY**, and **DEPLOY OFTEN!** Your app working locally does _not_ guarantee that it will work when deployed the same exact way, especially on Heroku, so whenever you have something working correctly -- please _deploy deploy deploy_ and double check! **Do not save deployment for the very last day!**.
 
@@ -78,12 +76,18 @@ All projects will be presented to the class. Your presentation should be:
 * Explains which improvements you might make in the future.
 * Talk about one new thing you learned during this project (can be something technical, or even something more open ended like time management, etc.).
 
-You will be sharing your app and your code. Be prepared to answer questions from the instructors and other students.
+You will be sharing your app and your code. Be prepared to answer questions from the instructors and other students.\
+
+#### Questions to Answer During Presentation
+* What went well working as a group?
+* Were there any issues that arose during the project (and how did you solve them)?
+* How did your group split up the work?
+* What did you learn that you can apply to your next group-coding experience?
 
 ## Meetings with instructors
 _Your instructor will contact you to setup a meeting time to approve your project._
 
-**Today June 22 - Mandatory**<br>
+**Today July 12 - Mandatory**<br>
 You will meet with an instructor to get your app idea approved.  Reach out to them to set up a meeting once you have your idea finalized, you must have your project approved by 5pm ET on this day.
 
 _How to prepare for project approval_
@@ -102,9 +106,9 @@ _How to prepare for project approval_
     **Note: You will have to make changes and adjust/adapt as you build**
 
 ## How to Submit Your Project
-Your project is due on Friday June 30th at 9AM EST. You will present your project and show your code to classmates and instructors.
+Your project is due on Wednesday July 19th at 9AM EST. You will present your project and show your code to classmates and instructors.
 
-:heavy_check_mark: Add your project to [this google sheet](https://docs.google.com/spreadsheets/d/10zaWrGrCQvuNhOMu2MGJKwx9mDhxjCBL7sy93yy7BzM/edit?usp=sharing).
+:heavy_check_mark: Add your project to [this google sheet](https://docs.google.com/spreadsheets/d/1Dpz3IJYsrniBo3pDS88ieKn_6phN0JloIP51imaKj2M/edit?usp=sharing).
 
   - _NOTE:_ This will be the order you present in!
 
@@ -125,7 +129,7 @@ Your project is due on Friday June 30th at 9AM EST. You will present your projec
 
 - **Commit early, commit often.** Don’t be afraid to break something because you can always go back in time to a previous version.
 
-- **Consult documentation resources** (MDN, jQuery, etc.) at home to better understand what you’ll be getting into.
+- **Consult documentation resources** at home to better understand what you’ll be getting into.
 
 ### Think about...
 
@@ -138,16 +142,17 @@ Your project is due on Friday June 30th at 9AM EST. You will present your projec
 - **Problem Solving**
     Are you able to defend why you implemented your solution in a certain way? Can you demonstrate that you thought through alternative implementations?
 
-## Past Student Examples
-
-- [Music App](https://music-app-inc.herokuapp.com/)
-- [Date Log](https://murmuring-woodland-92079.herokuapp.com/dates)
 
 ## Useful Resources
 
 * **[Fly.io](https://fly.io/docs/languages-and-frameworks/node/)**
 * **[Writing Good User Stories](https://www.mountaingoatsoftware.com/agile/user-stories)**
 * **[Presenting Information Architecture](http://webstyleguide.com/wsg3/3-information-architecture/4-presenting-information.html)**
-* **[Mongo Documentation](https://docs.mongodb.com/manual/)**
-* **[Mongoose Documentation](http://mongoosejs.com/docs/guide.html)**
-* **[Mongo Cheatsheet](https://git.generalassemb.ly/Software-Engineering-Immersive-Remote/SEIR-Calcifer/wiki/Mongo-Cheatsheet)**
+
+## Past Examples*
+
+* [Fleur](https://agile-bastion-78512.herokuapp.com/api/plants)
+* [LanBuddy](https://lanbuddy.herokuapp.com/)
+* [WeatherApp](https://evening-reef-65787.herokuapp.com/)
+
+*Note, these projects use React.js for the frontend, which we will introduce in Unit 4
