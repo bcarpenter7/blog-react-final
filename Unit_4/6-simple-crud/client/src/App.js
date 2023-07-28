@@ -55,7 +55,7 @@ function App() {
         return (
           <>
             <Person person={person} />
-            <Edit handleEdit={handleEdit} />
+            <Edit person={person} handleEdit={handleEdit} />
             <button onClick={() => { handleDelete(person) }}>X</button>
           </>
         )
