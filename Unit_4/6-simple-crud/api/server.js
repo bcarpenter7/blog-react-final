@@ -1,38 +1,39 @@
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose')
-const People = require('./models/people.js')
+const Post = require('./models/post.js')
 const cors = require('cors')
 require('dotenv').config()
 
 app.use(express.json()); //use .json(), not .urlencoded()
 app.use(cors())
 
-app.post('/people', (req, res)=>{
-    People.create(req.body)
-    .then((createdPerson)=>{
-        res.json(createdPerson)
+app.post('/post', (req, res)=>{
+    Post.create(req.body)
+    .then((createdPost)=>{
+        res.json(createdPost)
     })
 });
 
-app.get('/people', (req, res)=>{
-    People.find({})
-    .then((foundPeople) => {
-        res.json(foundPeople)
+app.get('/post', (req, res)=>{
+    Post.find({})
+    .then((foundPost) => {
+        res.json(foundPost)
     })
 });
 
-app.delete('/people/:id', (req, res)=>{
-    People.findByIdAndRemove(req.params.id)
-    .then((deletedPerson)=> {
-        res.json(deletedPerson)
-    })
-});
+/// FIX THIS LATER DELETE PERSON
+// app.delete('/post/:id', (req, res)=>{
+//     Post.findByIdAndRemove(req.params.id)
+//     .then((deletedPost)=> {
+//         res.json(deletedPost)
+//     })
+// });
 
-app.put('/people/:id', (req, res)=>{
-    People.findByIdAndUpdate(req.params.id, req.body, {new: true})
-    .then((updatedPerson)=>res.json(updatedPerson))
-});
+// app.put('/post/:id', (req, res)=>{
+//     Post.findByIdAndUpdate(req.params.id, req.body, {new: true})
+//     .then((updatedPost)=>res.json(updatedPost))
+// });
 
 app.listen(3000, ()=>{
     console.log('listening...');
