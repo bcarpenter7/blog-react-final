@@ -9,7 +9,6 @@ export default function Post(props) {
             <h3>Content: {props.post.content}</h3>
              <img src={img} /> 
             <h2>{props.post.img}</h2>
-
         </>
     )
 }
