@@ -3,20 +3,36 @@ import axios from 'axios'
 import Post from './components/Post'
 import Add from './components/Add'
 import Edit from './components/Edit'
+import PostForm from './components/PostForm'
+import { Routes, Route } from 'react-router-dom'
+import NavBar from './components/NavBar/NavBar'
 
-function App() {
-  const [post, setPost] = useState([])
 
-  const getPost = () => {
-    axios.get('http://localhost:3000/post')
-      .then((response) => setPost(response.data), (err) => console.log(err))
-      .catch((error) => console.log(error))
+
+
+export default function App() {
+  const [posts, setPosts] = useState([])
+
+  // const getPosts = () => {
+  //   axios.get('http://localhost:3000/posts')
+  //     .then((response) => setPosts(response.data), (err) => console.log(err))
+  //     .catch((error) => console.log(error))
+  // }
+
+  async function getPosts(){
+    try {
+      const res = await axios.get('http://localhost:3000/api/posts')
+      setPosts(res.data)
+      console.log(res.data)
+    } catch (err){
+      console.error(err)
+    }
   }
 
   const handleCreate = (createdPost) => {
-    axios.post('http://localhost:3000/post', createdPost)
+    axios.post('http://localhost:3000/api/posts', createdPost)
       .then((response) => {
-        setPost([...post, response.data])
+        setPosts([...posts, response.data])
       })
   }
 
@@ -44,24 +60,28 @@ function App() {
 
 
   useEffect(() => {
-    getPost()
+    getPosts()
   }, [])
 
   return (
     <>
-      <h1>All People</h1>
-      <Add handleCreate={handleCreate} />
-      {post.map((post) => {
-        return (
-          <>
-            <Post post={post} />
-            {/* <Edit post={post} handleEdit={handleEdit} /> */}
-            {/* <button onClick={() => { handleDelete(post) }}>X</button> */}
-          </>
-        )
-      })}
+      <NavBar />
+      <h1>All Posts</h1>
+      <Routes>
+          <Route path="/" element={
+            <Post posts={posts}/>
+          }>
+
+          </Route>
+
+         
+         
+      </Routes>
+
+      
+      
+
+   
     </>
   );
 }
-
-export default App;
