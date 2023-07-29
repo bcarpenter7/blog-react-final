@@ -8,18 +8,18 @@ require('dotenv').config()
 app.use(express.json()); //use .json(), not .urlencoded()
 app.use(cors())
 
-app.post('/post', (req, res)=>{
+app.post('/admin', (req, res) => {
     Post.create(req.body)
-    .then((createdPost)=>{
-        res.json(createdPost)
-    })
+        .then((createdPost) => {
+            res.json(createdPost)
+        })
 });
 
-app.get('/post', (req, res)=>{
+app.get('/post', (req, res) => {
     Post.find({})
-    .then((foundPost) => {
-        res.json(foundPost)
-    })
+        .then((foundPost) => {
+            res.json(foundPost)
+        })
 });
 
 /// FIX THIS LATER DELETE PERSON
@@ -35,11 +35,11 @@ app.get('/post', (req, res)=>{
 //     .then((updatedPost)=>res.json(updatedPost))
 // });
 
-app.listen(3000, ()=>{
+app.listen(3000, () => {
     console.log('listening...');
 });
 
 mongoose.connect(process.env.DB_URL)
-mongoose.connection.once('open', ()=>{
+mongoose.connection.once('open', () => {
     console.log('connected to mongod...');
 });

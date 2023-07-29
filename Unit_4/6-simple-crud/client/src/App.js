@@ -1,8 +1,10 @@
 import { useState, useEffect } from 'react'
 import axios from 'axios'
+import { Routes, Route } from 'react-router-dom';
 import Post from './components/Post'
 import Add from './components/Add'
 import Edit from './components/Edit'
+import About from './components/About';
 
 function App() {
   const [post, setPost] = useState([])
@@ -14,7 +16,7 @@ function App() {
   }
 
   const handleCreate = (createdPost) => {
-    axios.post('http://localhost:3000/post', createdPost)
+    axios.post('http://localhost:3000/admin', createdPost)
       .then((response) => {
         setPost([...post, response.data])
       })
@@ -50,10 +52,13 @@ function App() {
   return (
     <>
       <h1>All People</h1>
-      <Add handleCreate={handleCreate} />
+
       {post.map((post) => {
         return (
           <>
+            <Routes>
+              <Route path="/about" element={<About />} />
+            </Routes>
             <Post post={post} />
             {/* <Edit post={post} handleEdit={handleEdit} /> */}
             {/* <button onClick={() => { handleDelete(post) }}>X</button> */}
