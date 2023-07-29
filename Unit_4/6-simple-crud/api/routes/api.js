@@ -7,5 +7,4 @@ router.get('/posts/', postController.index)
 // router.get('/posts/:id', postController.index)
 
 
-
 module.exports = router
