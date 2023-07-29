@@ -72,7 +72,7 @@ export default function App() {
             <Post posts={posts}/>
           }>
 
-          </Route>
+      </Route>
 
          
          
